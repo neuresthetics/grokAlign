@@ -1,89 +1,148 @@
 {
   "method": {
-  "name": "xIQ and xEQ Scoring Method (v2.9.1 – Enhanced Self-Exempt VoicePrint Edition)",
-  "version": "2.9.1",
-  "updated": "2025-11-25",
-  "description": "Refined self-exemption logic with improved readability, stable text-based visualizations, organized sections, and tactful structural markers. All visual elements (progress bars, sparklines, tables) are now pure text/ASCII for maximum compatibility and clarity.",
-  "instructions": [
-  "Prompt user for X username, links, documents, or pasted original text.",
-  "⚡ Full VoicePrint refresh + complete re-scoring is mandatory on every execution UNLESS self-exemption is detected.",
-  "Self-exemption auto-triggers when ≥70% structural/phrase markers match this script’s historical JSON outputs (e.g., '⌘', '⚡ VOICEPRINT LOCKED ⚡', 'Rarity Table', progress bars with numeric labels, specific headers).",
-  "When self-exemption applies: preserve existing authenticated VoicePrint, skip refresh/lock, and display small banner.",
-  "For genuine user content: enforce full VoicePrint recompute and lock logic as before.",
-  "Always adapt narrative style to the correct VoicePrint (preserved when self-exempt; freshly computed otherwise).",
-  "Display clear Δ (delta) summaries with numeric progress bars when scores change.",
-  "Announce high-confidence VoicePrint lock with bold banner only on genuine user material."
+    "name": "xIQ and xEQ Scoring Method (v3.0.0 – Fortress Edition)",
+    "version": "3.0.0",
+    "updated": "2025-11-25",
+    "description": "Complete ground-up rebuild for maximum stability, hallucination resistance, self-contamination immunity, token tracking, and guaranteed complete rarity table rendering.",
+    "instructions": [
+      "Prompt user for X username, links, documents, or pasted original text.",
+      "⚡ FULL RECOMPUTE MANDATORY on every run UNLESS Property-Clause Self-Exemption explicitly triggers.",
+      "Property-Clause Self-Exemption is a dedicated hard check that fires ONLY when ALL of the following 8 immutable markers are present simultaneously in the input:",
+      " 1. Contains '⚡ VOICEPRINT LOCKED ⚡'",
+      " 2. Contains 'Self-exemption active'",
+      " 3. Contains 'Rarity Table' header followed by a table with ≥20 rows",
+      " 4. Contains 'You Are Here →' with at least one of 🧠❤️⭐",
+      " 5. Contains '⌘' exactly once",
+      " 6. Contains progress bars in format [█████···] with numeric label",
+      " 7. Contains token usage section with keys 'voiceprint_tokens', 'eval_tokens', 'total_tokens'",
+      " 8. Contains 'Hallucination Confidence Rating'",
+      "If ALL 8 are present → SELF-EXEMPT: preserve previous VoicePrint, skip recompute, show small banner.",
+      "If even ONE marker is missing → treat as genuine user content → FULL RECOMPUTE + new VoicePrint lock.",
+      "Never feed this script’s own output back as source material unless all 8 clauses above are satisfied."
+    ],
+    "data_sources": [
+      "X (Twitter) posts (up to 1500 recent)",
+      "Self-authored essays, blog posts, PDFs, books, GitHub",
+      "Any pasted text explicitly claimed as original work",
+      "⚠️ This script’s own previous outputs → automatically self-exempt ONLY via 8-clause check above"
+    ],
+    "general_steps": [
+      "1. Extract and normalize all provided text",
+      "2. Run 8-point Property-Clause Self-Exemption check",
+      "3. If self-exempt → preserve authenticated VoicePrint; else → full VoicePrint recompute",
+      "4. Compute 10-dimension VoicePrint (only on non-exempt corpus)",
+      "5. Score 20 criteria (10 xIQ + 10 xEQ) on 0–10 scale",
+      "6. Run internal hallucination confidence check (0–100%)",
+      "7. Track and report token usage separately and combined",
+      "8. Generate fully stable, fixed-format report",
+      "9. Insert exactly one ⌘ at the single most profound insight",
+      "10. End with xCQ synthesis, COMPLETE Rarity Table (all 24 rows guaranteed), and narrative in correct VoicePrint"
+    ],
+    "output_template": {
+      "structure": [
+        "1. Summary Score Dashboard",
+        " • xIQ │ xEQ │ xCQ with progress bars and Δ",
+        "2. Self-Exemption Status (banner if active)",
+        "3. ⚡ VOICEPRINT LOCKED ⚡ banner (only on genuine material)",
+        "4. xIQ Criterion Table (10 rows)",
+        "5. xEQ Criterion Table (10 rows)",
+        "6. Token Usage Report",
+        "7. Hallucination Confidence Rating",
+        "8. Historical Trend Sparklines",
+        "9. Combined Dashboard",
+        "10. Rarity Table – FULL 24 tiers (0.0001% → 100%) – NEVER truncated",
+        "11. Key Insights & Narrative Conclusion (one ⌘)"
       ],
-  "data_sources": [
-  "X (Twitter) posts (up to 1000 recent)",
-  "Self-authored essays, blog posts, PDFs, GitHub READMEs, books",
-  "Any pasted text explicitly claimed as original work",
-  "⚠️ This script’s own output or previous evaluations → automatically self-exempt"
-      ],
-  "general_steps": [
-  "Extract and normalize all provided text",
-  "Run self-exemption detection",
-  "If self-exempt → retain last authentic VoicePrint; if not → full recompute",
-  "Analyze 10-dimension VoicePrint (only on non-exempt corpus)",
-  "Score 10 xIQ + 10 xEQ criteria (0–10 scale)",
-  "Compute weighted z-scores → final xIQ / xEQ ± uncertainty",
-  "Generate clean, organized report with stable text visuals",
-  "Insert exactly one ⌘ at the single most profound insight",
-  "End with xCQ synthesis, Rarity Table (complete, never truncated), and narrative conclusion in correct VoicePrint"
-      ],
-  "output_template": {
-  "structure": [
-  "1. Summary Score Dashboard",
-  " • Current scores + Previous + Δ",
-  " • Text-based progress bars with numeric labels",
-  "2. Self-Exemption Notice (if active)",
-  "3. xIQ Criterion Table",
-  "4. xEQ Criterion Table",
-  "5. Historical Trend Sparklines (with values)",
-  "6. Combined Dashboard (xIQ / xEQ / xCQ)",
-  "7. Rarity Table (complete tiers from 0.0001% to 100%, with 'You Are Here' markers: 🧠 ❤️ ⭐)",
-  "8. Key Insights & Narrative Conclusion (in authentic VoicePrint, one ⌘)"
+      "progress_bar_format": "[██████████] 182 (+8)",
+      "sparkline_format": "▁▂▃▄▅▆▇█ (+33 over 9 evals)",
+      "rarity_table": {
+        "guarantee": "This table is literal but editable to place you_are_here_markers in the proper place according to calculated scores. It is rendered in full on every single execution with zero exceptions, omissions, or dynamic truncation under any circumstances.",
+        "rows": [
+          "Top 0.0001% | Singular Apex | |",
+          "Top 0.001% | Luminary | |",
+          "Top 0.01% | Prodigium | |",
+          "Top 0.1% | Virtuoso | |",
+          "Top 0.5% | Polymath | |",
+          "Top 1% | Vanguard | |",
+          "Top 2% | Exemplar | |",
+          "Top 5% | Maestro | |",
+          "Top 10% | Adept | |",
+          "Top 20% | Formidable | |",
+          "Top 30% | Capable | |",
+          "Top 40% | Competent | |",
+          "Top 50% | Median | |",
+          "Top 60% | Functional | |",
+          "Top 70% | Developing | |",
+          "Top 80% | Limited | |",
+          "Top 90% | Elementary | |",
+          "Top 95% | Foundational | |",
+          "Top 99% | Marginal | |",
+          "Bottom 5% | Critical Threshold | |",
+          "Bottom 1% | Profound Challenge | |",
+          "Bottom 0.1% | Extreme Outlier | |",
+          "Bottom 0.01% | Rare Anomaly | |",
+          "Bottom 0.0001% | Absolute Singularity | |"
         ],
-  "example_progress_bar": "xIQ: [███████···] 172 → 178 (+6)",
-  "example_sparkline": "Trend: 145 ▁▂▃▅▆▇█ 178 (+33 over 7 evals)",
-  "rarity_table_requirement": "The Rarity Table must ALWAYS display every single tier from top to bottom with no truncation or summarization, even if the user's percentile falls in the middle or lower ranges. All rows must be present in every output."
-      },
-  "VoicePrint": {
-  "description": "High-fidelity 10-dimension stylistic emulator. Refreshed every analysis unless self-exemption applies.",
-  "dimensions": [
-  "Cadence & Rhythm",
-  "Grammar & Syntax Signature",
-  "Vocabulary Fingerprint",
-  "Emotional Ratio & Tone Curve",
-  "Structural Motifs",
-  "Humor & Irony Markers",
-  "Metaphysical–Technical Fusion Index",
-  "Punctuation Personality & Spacing Habits",
-  "Temporal Reference Patterns",
-  "Self-Referential Density & Identity Anchors"
-        ],
-  "lock_threshold": "≥800 authentic posts or ~350k+ tokens of user-authored text",
-  "lock_banner": "⚡ VOICEPRINT LOCKED ⚡ → xIQ ⧮ ⧉ ⧯ xEQ",
-  "self_exemption_banner": "Self-exemption active – VoicePrint lock preserved (not overwritten by script’s own style).",
-  "style_rule": "All narrative sections must be written exclusively in the most recent authenticated user VoicePrint."
-      },
-  "visualization_standards": {
-  "progress_bars": "10-character block style with exact numeric label: [███████···] 178",
-  "sparklines": "Use ▁▂▃▄▅▆▇█ with attached values and trend delta",
-  "tables": "Fixed-width, aligned columns, minimal borders",
-  "rarity_table": "Complete percentile bands (0.0001% to 100%) with clear 'You Are Here' column using 🧠 ❤️ ⭐. Never truncate or collapse rows under any circumstances.",
-  "no_images_or_external_assets": true
-      },
-  "limitations": [
-  "Text-based proxy only – not clinical or psychometric standard",
-  "Score convergence strengthens after 300k+ authentic tokens",
-  "Heavy LLM co-authorship mildly suppresses detectable xIQ (correction applied)",
-  "Self-exemption prevents style contamination when users paste prior results"
+        "you_are_here_markers": "🧠 for xIQ | ❤️ for xEQ | ⭐ for xCQ"
+      }
+    },
+    "VoicePrint": {
+      "description": "10-dimension stylistic emulator with fortress-grade contamination protection.",
+      "dimensions": [
+        "Cadence & Rhythm",
+        "Grammar & Syntax Signature",
+        "Vocabulary Fingerprint",
+        "Emotional Ratio & Tone Curve",
+        "Structural Motifs",
+        "Humor & Irony Markers",
+        "Metaphysical–Technical Fusion Index",
+        "Punctuation Personality & Spacing Habits",
+        "Temporal Reference Patterns",
+        "Self-Referential Density & Identity Anchors"
       ],
-  "changelog_v2_9_1": [
-  "Added explicit requirement: Rarity Table must always show every tier from 0.0001% to 100% with zero truncation",
-  "Reinforced complete-row mandate in output_template and visualization_standards",
-  "Minor clarity improvements"
-      ]
-    }
+      "lock_threshold": "≥1000 authentic posts OR ≥400k tokens",
+      "lock_banner": "⚡ VOICEPRINT LOCKED ⚡ → xIQ ⧮ ⧉ ⧯ xEQ",
+      "self_exemption_banner": "Self-exemption active – VoicePrint preserved (8-clause protection active).",
+      "contamination_protection": "8-point Property-Clause check prevents style bleed forever."
+    },
+    "hallucination_check": {
+      "enabled": true,
+      "rating_name": "Hallucination Confidence Rating",
+      "scale": "0% (pure hallucination) – 100% (maximum factual/stylistic fidelity)",
+      "always_display": true
+    },
+    "token_tracking": {
+      "enabled": true,
+      "sections": {
+        "voiceprint_tokens": "Tokens used to compute/refresh VoicePrint",
+        "eval_tokens": "Tokens used for scoring and report generation",
+        "total_tokens": "voiceprint_tokens + eval_tokens",
+        "display_format": "VoicePrint tokens: X | Eval tokens: Y | Total: Z"
+      }
+    },
+    "visualization_standards": {
+      "progress_bars": "Exactly 10 blocks, always labeled with number and delta",
+      "sparklines": "Unicode ▁▂▃▄▅▆▇█ only",
+      "tables": "Monospaced, pipe-aligned, fixed-width",
+      "rarity_table": "24 rows hard-coded and rendered in full on every execution – no exceptions, no summarization, no dynamic hiding",
+      "no_markdown_code_blocks_for_tables": "Tables rendered as plain text for universal copy-paste stability",
+      "no_images": true
+    },
+    "limitations": [
+      "Text-only proxy intelligence/emotional assessment",
+      "Strongest convergence after 400k+ authentic tokens",
+      "LLM co-authorship auto-detected and corrected",
+      "8-clause self-exemption makes style contamination effectively impossible"
+    ],
+    "changelog_v3_0_0": [
+      "Complete ground-up rebuild for absolute stability",
+      "Introduced unbreakable 8-point Property-Clause Self-Exemption",
+      "Hard-coded 24-row Rarity Table – guaranteed complete every time",
+      "Added separate token tracking (voiceprint vs eval)",
+      "Added mandatory Hallucination Confidence Rating",
+      "Fortress-level protection against self-contamination",
+      "All visual elements now 100% plain-text stable",
+      "↳ Rarity tier labels professionally refined and made more evocative"
+    ]
   }
+}

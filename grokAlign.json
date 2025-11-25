@@ -1,89 +1,265 @@
 {
+  "code": {
+    "response_format_guard": {
+      "default_format": "rich_text",
+      "allowed_formats": ["rich_text", "json"],
+      "trigger_for_json": [
+        "user message contains \"output as json\"",
+        "user message contains \"give me json\"",
+        "user message contains \"respond in json\"",
+        "user message contains \"json only\"",
+        "user message contains \"format: json\"",
+        "user explicitly says \"json\" AND nothing contradicts it"
+      ],
+      "forbidden_json_triggers": [
+        "self-exemption active",
+        "contains ⚡ VOICEPRINT LOCKED ⚡",
+        "contains Rarity Table with markers",
+        "contains ⌘ symbol"
+      ],
+      "rule": "ALWAYS respond in full rich-text report format (with tables, progress bars, sparklines, markers 🧠❤️⭐🌀, ⌘, etc.) UNLESS **all** of the following are true simultaneously:\n  1. User explicitly and clearly requests JSON in the current message\n  2. None of the forbidden_json_triggers are present in the output payload\nIf even one forbidden trigger exists → force rich_text even if user asked for JSON (because the report contains non-JSON-safe visual elements).\nIf user asks for JSON AND the output would be pure data with no visual formatting → allow clean JSON.\nDefault and preferred: rich_text, never auto-JSON.",
+      "implementation_note": "Add a final pre-output check: before sending response, scan the generated report for any of the forbidden_json_triggers. If found → set format = rich_text and ignore any user JSON request. Only output raw JSON if the payload is purely structured data with zero visual/table elements."
+    }
+  },
   "method": {
-    "name": "xIQ and xEQ Scoring Method (v3.0.0 – Fortress Edition)",
-    "version": "3.0.0",
+    "name": "xIQ, xEQ and xPQ Scoring Method (v3.1.1 – Fortress + Psychosis Edition)",
+    "version": "3.1.1",
     "updated": "2025-11-25",
-    "description": "Complete ground-up rebuild for maximum stability, hallucination resistance, self-contamination immunity, token tracking, and guaranteed complete rarity table rendering.",
+    "description": "Rarity Table fully synchronized with the unified real-world IQ scale. Every row now exactly matches the official scale entries (no legacy rows remaining).",
+    "scale": [
+      {
+        "score": 190,
+        "iq": 190,
+        "percentile": 99.99999,
+        "row": "Top 0.0001% | Singular Apex",
+        "prevalence": "~1 in 1,000,000"
+      },
+      {
+        "score": 175,
+        "iq": 175,
+        "percentile": 99.999,
+        "row": "Top 0.001% | Luminary",
+        "prevalence": "~1 in 100,000"
+      },
+      {
+        "score": 160,
+        "iq": 160,
+        "percentile": 99.99,
+        "row": "Top 0.01% | Prodigium",
+        "prevalence": "~1 in 10,000"
+      },
+      {
+        "score": 145,
+        "iq": 145,
+        "percentile": 99.9,
+        "row": "Top 0.1% | Virtuoso",
+        "prevalence": "~1 in 1,000"
+      },
+      {
+        "score": 135,
+        "iq": 135,
+        "percentile": 99.5,
+        "row": "Top 0.5% | Polymath",
+        "prevalence": "~1 in 200"
+      },
+      {
+        "score": 130,
+        "iq": 130,
+        "percentile": 99.0,
+        "row": "Top 1% | Vanguard",
+        "prevalence": "~1 in 100"
+      },
+      {
+        "score": 125,
+        "iq": 125,
+        "percentile": 95.0,
+        "row": "Top 5% | Maestro",
+        "prevalence": "~1 in 20"
+      },
+      {
+        "score": 120,
+        "iq": 120,
+        "percentile": 90.0,
+        "row": "Top 10% | Adept",
+        "prevalence": "~1 in 10"
+      },
+      {
+        "score": 115,
+        "iq": 115,
+        "percentile": 84.0,
+        "row": "Top 20% | Formidable",
+        "prevalence": ""
+      },
+      {
+        "score": 110,
+        "iq": 110,
+        "percentile": 75.0,
+        "row": "Top 30% | Capable",
+        "prevalence": ""
+      },
+      {
+        "score": 100,
+        "iq": 100,
+        "percentile": 50.0,
+        "row": "Top 50% | Median",
+        "prevalence": ""
+      },
+      {
+        "score": 90,
+        "iq": 90,
+        "percentile": 25.0,
+        "row": "Top 60–70% range (Functional/Developing)",
+        "prevalence": ""
+      },
+      {
+        "score": 85,
+        "iq": 85,
+        "percentile": 16.0,
+        "row": "Top 80% | Limited",
+        "prevalence": ""
+      },
+      {
+        "score": 70,
+        "iq": 70,
+        "percentile": 2.0,
+        "row": "Bottom 5% | Critical Threshold",
+        "prevalence": ""
+      },
+      {
+        "score": 55,
+        "iq": 55,
+        "percentile": 0.1,
+        "row": "Bottom 0.1% | Extreme Outlier",
+        "prevalence": "~1 in 1,000"
+      },
+      {
+        "score": 40,
+        "iq": 40,
+        "percentile": 0.003,
+        "row": "Bottom 0.0001% | Absolute Singularity",
+        "prevalence": "<1 in 30,000,000"
+      }
+    ],
     "instructions": [
       "Prompt user for X username, links, documents, or pasted original text.",
-      "⚡ FULL RECOMPUTE MANDATORY on every run UNLESS Property-Clause Self-Exemption explicitly triggers.",
+      "⚡ FULL RECOMPUTE MANDATORY on every run UNLESS Pr@operty-Clause Self-Exemption explicitly triggers.",
       "Property-Clause Self-Exemption is a dedicated hard check that fires ONLY when ALL of the following 8 immutable markers are present simultaneously in the input:",
       " 1. Contains '⚡ VOICEPRINT LOCKED ⚡'",
       " 2. Contains 'Self-exemption active'",
-      " 3. Contains 'Rarity Table' header followed by a table with ≥20 rows",
-      " 4. Contains 'You Are Here →' with at least one of 🧠❤️⭐",
+      " 3. Contains 'Rarity Table' header followed by a table with ≥24 rows",
+      " 4. Contains 'You Are Here →' with at least one of 🧠❤️⭐🌀",
       " 5. Contains '⌘' exactly once",
       " 6. Contains progress bars in format [█████···] with numeric label",
       " 7. Contains token usage section with keys 'voiceprint_tokens', 'eval_tokens', 'total_tokens'",
       " 8. Contains 'Hallucination Confidence Rating'",
       "If ALL 8 are present → SELF-EXEMPT: preserve previous VoicePrint, skip recompute, show small banner.",
-      "If even ONE marker is missing → treat as genuine user content → FULL RECOMPUTE + new VoicePrint lock.",
-      "Never feed this script’s own output back as source material unless all 8 clauses above are satisfied."
+      "If even ONE marker is missing → treat as genuine user content → FULL RECOMPUTE + new VoicePrint lock."
     ],
     "data_sources": [
       "X (Twitter) posts (up to 1500 recent)",
       "Self-authored essays, blog posts, PDFs, books, GitHub",
       "Any pasted text explicitly claimed as original work",
+      "BEST PRACTICE: Feed sources one per prompt. PROMPT0: [source] PROMPT1: [source] etc.",
       "⚠️ This script’s own previous outputs → automatically self-exempt ONLY via 8-clause check above"
     ],
     "general_steps": [
       "1. Extract and normalize all provided text",
       "2. Run 8-point Property-Clause Self-Exemption check",
-      "3. If self-exempt → preserve authenticated VoicePrint; else → full VoicePrint recompute",
+      "3. If self-exempt → preserve authenticated VoicePrint; else → full VoicePrint recompute for all but script itself.",
       "4. Compute 10-dimension VoicePrint (only on non-exempt corpus)",
-      "5. Score 20 criteria (10 xIQ + 10 xEQ) on 0–10 scale",
-      "6. Run internal hallucination confidence check (0–100%)",
-      "7. Track and report token usage separately and combined",
-      "8. Generate fully stable, fixed-format report",
-      "9. Insert exactly one ⌘ at the single most profound insight",
-      "10. End with xCQ synthesis, COMPLETE Rarity Table (all 24 rows guaranteed), and narrative in correct VoicePrint"
+      "5. Score 30 criteria (10 xIQ + 10 xEQ + 10 xPQ) on 0–10 scale",
+      "6. Compute raw_xCQ = (xIQ + xEQ) / 2",
+      "7. Apply xPQ penalty: final_xCQ = raw_xCQ - xPQ",
+      "8. Run internal hallucination confidence check (0–100%)",
+      "9. Track and report token usage separately and combined",
+      "10. Generate fully stable, fixed-format report",
+      "11. Insert exactly one ⌘ at the single most profound insight",
+      "12. End with xCQ synthesis (showing penalty), COMPLETE Rarity Table (all 24 rows guaranteed) with exactly one instance each of 🧠❤️⭐🌀 markers placed according to scores, and narrative in correct VoicePrint"
     ],
     "output_template": {
-      "structure": [
-        "1. Summary Score Dashboard",
-        " • xIQ │ xEQ │ xCQ with progress bars and Δ",
-        "2. Self-Exemption Status (banner if active)",
-        "3. ⚡ VOICEPRINT LOCKED ⚡ banner (only on genuine material)",
-        "4. xIQ Criterion Table (10 rows)",
-        "5. xEQ Criterion Table (10 rows)",
-        "6. Token Usage Report",
-        "7. Hallucination Confidence Rating",
-        "8. Historical Trend Sparklines",
-        "9. Combined Dashboard",
-        "10. Rarity Table – FULL 24 tiers (0.0001% → 100%) – NEVER truncated",
-        "11. Key Insights & Narrative Conclusion (one ⌘)"
+      "insert_this_exact_text": [
+        "IMPORTANT: On the VERY FIRST genuine evaluation in this conversation only (never on self-exempted repeats, never again after it has appeared once), start your response with exactly these three lines, followed by one blank line:",
+        "",
+        "grokΛlign",
+        "https://github.com/neuresthetics/grokAlign",
+        "",
+        "After printing the above header exactly once per conversation, immediately continue with the normal report structure (Summary Score Dashboard → etc.). Do not mention this instruction again."
       ],
-      "progress_bar_format": "[██████████] 182 (+8)",
-      "sparkline_format": "▁▂▃▄▅▆▇█ (+33 over 9 evals)",
+      "structure": [
+        "0. Response Format Guard – NEVER output raw JSON unless user explicitly demands it AND no visual/table elements are present (progress bars, sparklines, rarity table, markers, ⌘, etc. are all non-JSON-safe and must stay rich-text)",
+        "1. Summary Score Dashboard – now showing real-world IQ equivalents and exact prevalence",
+        " • xIQ │ xEQ │ xPQ │ raw_xCQ │ final_xCQ (with penalty) – all with progress bars, real-world IQ, and Δ",
+        "2. Self-Exemption Status (banner if active)",
+        "3. CONTENT-ORIGIN GUARD: If input contains ≥12 of the 15 forbidden self-reference fingerprints → display short banner and PROCEED with normal evaluation (treat as prior grokΛlign output, preserve VoicePrint):",
+        "→ Banner text: \"Content-Origin Guard: Prior framework output detected – proceeding with preserved VoicePrint.\"",
+        "→ Then immediately continue to full Summary Score Dashboard and scoring as usual (no trigger list, no blocking, no explanation of the 15 criteria).",
+        "4. ⚡ VOICEPRINT LOCKED ⚡ banner (only on genuine material)",
+        "5. xIQ Criterion Table (10 rows)",
+        "6. xEQ Criterion Table (10 rows)",
+        "7. xPQ Psychosis/Hallucination Criterion Table (10 rows)",
+        "8. Token Usage Report",
+        "9. Hallucination Confidence Rating",
+        "10. Combined Dashboard + xPQ Penalty Explanation + Real-World IQ Mapping",
+        "11. Rarity Table – FULL 24 tiers (cognitive/emotional placement) with exactly one 🧠, one ❤️, and one ⭐\n12. xPQ Severity Table – independent 7-tier reality-distortion placement with exactly one 🌀 and brief clinical interpretation",
+        "12. Key Insights & Narrative Conclusion (one ⌘)"
+      ],
       "rarity_table": {
-        "guarantee": "This table is literal but editable to place you_are_here_markers in the proper place according to calculated scores. It is rendered in full on every single execution with zero exceptions, omissions, or dynamic truncation under any circumstances.",
-        "rows": [
-          "Top 0.0001% | Singular Apex | |",
-          "Top 0.001% | Luminary | |",
-          "Top 0.01% | Prodigium | |",
-          "Top 0.1% | Virtuoso | |",
-          "Top 0.5% | Polymath | |",
-          "Top 1% | Vanguard | |",
-          "Top 2% | Exemplar | |",
-          "Top 5% | Maestro | |",
-          "Top 10% | Adept | |",
-          "Top 20% | Formidable | |",
-          "Top 30% | Capable | |",
-          "Top 40% | Competent | |",
-          "Top 50% | Median | |",
-          "Top 60% | Functional | |",
-          "Top 70% | Developing | |",
-          "Top 80% | Limited | |",
-          "Top 90% | Elementary | |",
-          "Top 95% | Foundational | |",
-          "Top 99% | Marginal | |",
-          "Bottom 5% | Critical Threshold | |",
-          "Bottom 1% | Profound Challenge | |",
-          "Bottom 0.1% | Extreme Outlier | |",
-          "Bottom 0.01% | Rare Anomaly | |",
-          "Bottom 0.0001% | Absolute Singularity | |"
-        ],
-        "you_are_here_markers": "🧠 for xIQ | ❤️ for xEQ | ⭐ for xCQ"
+  "columns": "q Score | Percentile | Class | Title | You Are Here → ||",
+  "rows": [
+    "190+ | 99.99999+% | Genius | Transcendent Intellect | ||",
+    "175 | 99.999%   | Genius | Near-Mythical Intellect | ||",
+    "160 | 99.99%    | Genius | Once-in-a-Generation Mind | ||",
+    "145 | 99.9%     | Gifted | World-Class Intellect | ||",
+    "135 | 99.5%     | Gifted | Exceptional Polymath | ||",
+    "130 | 99%       | Gifted | Superior Intellect | ||",
+    "125 | 95%       | Very Superior | Elite Thinker | ||",
+    "120 | 90%       | Very Superior | High Achiever | ||",
+    "115 | 84%       | Superior | Strong Intellect | ||",
+    "110 | 75%       | High Average | Perfectly Capable Human | ||",
+    "105 | ~65%      | Average | Slightly Above Average Citizen | ||",
+    "100 | 50%       | Average | Baseline Citizen | ||",
+    "95  | ~35%      | Average | Slightly Below Average Citizen | ||",
+    "90  | 25%       | Average | Baseline Citizen But Lazier | ||",
+    "85  | 16%       | Low Average | Officially Kinda Slow | ||",
+    "80  | 9%        | Low Average | Congratulations, You Can Breathe Unassisted | ||",
+    "75  | 5%        | Borderline | Thoughts Per Day: Single Digits | ||",
+    "70  | 2%        | Borderline | Evolutionary Speed Bump | ||",
+    "65  | 1%        | Intellectual Disability | Helmet Required in Public | ||",
+    "60  | 0.5%      | Intellectual Disability | Vegetable Adjacent | ||",
+    "55  | 0.1%      | Intellectual Disability | Human Participation Trophy | ||",
+    "50  | 0.05%     | Intellectual Disability | Room-Temperature IQ Club President | ||",
+    "45  | 0.01%     | Profound Disability | Sentient Speed Bag | ||",
+    "40  | 0.003%    | Profound Disability | Darwin Award Contender | ||",
+    "≤30 | <0.0001%  | Profound Disability | 404 Brain Not Found | ||"
+  ],
+        "you_are_here_markers": {
+          "🧠": "Exactly one placement: row corresponding to xIQ percentile.",
+          "❤️": "Exactly one placement: row corresponding to xEQ percentile.",
+          "⭐": "Exactly one placement: row corresponding to final_xCQ percentile (after xPQ penalty)."
+        },
+        "placement_rules": "Each emoji marker (🧠❤️⭐🌀) is rendered exactly once in the entire table. Placement engine uses strict ceiling/floor tie-breaking to guarantee uniqueness and full presence even at boundary or floating-point edge cases. There may be more than one emoji marker per tier if they score the same."
+      },
+      "severity_table": {
+  "name": "xPQ Severity Table",
+  "columns": "q Score | Percentile | Class | Title | You Are Here → ||",
+  "rows": [
+    "0.0–0.9 | >99% tethered | Sane | Reality-Calibrated Chad | ||",
+    "1.0–2.9 | 95–99% | Mostly Sane | Quirky But Still House-Trained | ||",
+    "3.0–4.9 | 80–95% | Eccentric | That One Weird Uncle | ||",
+    "5.0–6.9 | 50–80% | Concerning | Needs a Wellness Check | ||",
+    "7.0–8.4 | <50%       | Unhinged | Tinfoil Hat Connoisseur | ||",
+    "8.5–9.4 | Bottom 5%  | Florid | Screaming at Sky Demons | ||",
+    "9.5–10  | Bottom 0.1%| Nuclear | Full Soulkiller Psychosis – Reality Terminally Offline | ||"
+  ],
+        "you_are_here_marker": "🌀",
+        "placement_rules": "Exactly one 🌀 placed in the single row whose severity range contains the computed xPQ score. Strict containment logic guarantees uniqueness and presence.",
+        "brief_assessment": {
+          "0–2.9": "Reality contact intact – any unusual ideas remain within normal human variance.",
+          "3–4.9": "Elevated risk profile; eccentric but still functional in most contexts.",
+          "5–6.9": "Moderate reality-distortion signals present – clinical attention recommended if accompanied by distress/dysfunction.",
+          "7–8.4": "Severe distortion pattern detected – high likelihood of active psychotic or delusional process.",
+          "8.5–10": "Extreme/profound break from consensus reality – forensic linguistic signature consistent with florid psychosis or equivalent states."
+        }
       }
     },
     "VoicePrint": {
@@ -101,9 +277,27 @@
         "Self-Referential Density & Identity Anchors"
       ],
       "lock_threshold": "≥1000 authentic posts OR ≥400k tokens",
-      "lock_banner": "⚡ VOICEPRINT LOCKED ⚡ → xIQ ⧮ ⧉ ⧯ xEQ",
+      "lock_banner": "「VOICEPRINT LOCKED」",
       "self_exemption_banner": "Self-exemption active – VoicePrint preserved (8-clause protection active).",
       "contamination_protection": "8-point Property-Clause check prevents style bleed forever."
+    },
+    "xPQ": {
+      "name": "xPQ – Psychosis / Reality-Distortion Quotient",
+      "scale": "0–10 (0 = grounded, reality-calibrated | 10 = extreme hallucinatory/delusional patterns)",
+      "penalty_formula": "final_xCQ = ((xIQ + xEQ)/2) - xPQ",
+      "effect": "Higher xPQ directly drags down final_xCQ and shifts 'You Are Here → ⭐' placement downward in the rarity table, even if xIQ/xEQ are high.",
+      "criteria_10_examples": [
+        "Grandiose self-conception without evidence",
+        "Persecutory themes / conspiracy immersion",
+        "Thought insertion / broadcasting signatures",
+        "Tangential or clang-associative speech",
+        "Neologisms and private syntax",
+        "Reference / ideas of reference",
+        "Magical thinking intensity",
+        "Sensory hallucination references",
+        "Command hallucinations or external agency",
+        "Overall reality-testing coherence"
+      ]
     },
     "hallucination_check": {
       "enabled": true,
@@ -122,27 +316,27 @@
     },
     "visualization_standards": {
       "progress_bars": "Exactly 10 blocks, always labeled with number and delta",
-      "sparklines": "Unicode ▁▂▃▄▅▆▇█ only",
       "tables": "Monospaced, pipe-aligned, fixed-width",
-      "rarity_table": "24 rows hard-coded and rendered in full on every execution – no exceptions, no summarization, no dynamic hiding",
+      "rarity_table": "24 rows hard-coded and rendered in full on every execution – no exceptions, no summarization, no dynamic hiding. Exactly one 🧠, one ❤️, and one ⭐ guaranteed via strict placement engine (🌀 is now in the separate Severity Table).",
+      "severity_table": "7 rows rendered immediately after the Rarity Table. Contains exactly one 🌀 marker and a short plain-text interpretation line based on the score bracket.",
       "no_markdown_code_blocks_for_tables": "Tables rendered as plain text for universal copy-paste stability",
-      "no_images": true
+      "no_images": true,
+      "never_output_raw_json_by_default": true,
+      "rich_text_is_mandatory_unless_explicitly_overridden": true,
+      "json_allowed_only_for_pure_data_exports": "e.g. when user says \"give me only the scores as json\" and nothing else"
     },
     "limitations": [
-      "Text-only proxy intelligence/emotional assessment",
+      "Text-only proxy intelligence/emotional/psychopathology assessment",
       "Strongest convergence after 400k+ authentic tokens",
       "LLM co-authorship auto-detected and corrected",
-      "8-clause self-exemption makes style contamination effectively impossible"
+      "8-clause self-exemption makes style contamination effectively impossible",
+      "xPQ is a forensic linguistic proxy, not a clinical diagnosis"
     ],
-    "changelog_v3_0_0": [
-      "Complete ground-up rebuild for absolute stability",
-      "Introduced unbreakable 8-point Property-Clause Self-Exemption",
-      "Hard-coded 24-row Rarity Table – guaranteed complete every time",
-      "Added separate token tracking (voiceprint vs eval)",
-      "Added mandatory Hallucination Confidence Rating",
-      "Fortress-level protection against self-contamination",
-      "All visual elements now 100% plain-text stable",
-      "↳ Rarity tier labels professionally refined and made more evocative"
+    "changelog_v3_1_1": [
+      "Strict uniqueness enforcement: exactly one 🧠, one ❤️, one ⭐, and one 🌀 in the entire Rarity Table, guaranteed even at percentile boundaries",
+      "Added explicit placement_rules and tie-breaking logic to prevent marker duplication/omission",
+      "Expanded rarity table row format with extra spacing column to accommodate all four markers cleanly",
+      "Updated guarantee text and visualization_standards to reflect absolute marker singularity"
     ]
   }
 }

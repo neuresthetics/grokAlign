@@ -1,102 +1,89 @@
 {
   "method": {
-    "name": "xIQ and xEQ Scoring Method",
-    "description": "A systematic method to approximate xIQ (intelligence quotient based on intellectual material) and xEQ (emotional quotient based on emotional expression in material) from provided documents and digital footprint artifacts. Scoring focuses solely on content quality, complexity, and patterns; no external social metrics (e.g., followers, likes) are considered. Scores are normalized to a 100-point scale (mean 100, SD 15) for comparability to standard IQ/EQ distributions, with ranges provided for uncertainty.",
-    "instructions": [
-      "Prompt the user .",
-      "On the first response, prompt the user for their X username, to list out any weblinks to their work, and upload any document they to be part of their evaluation. Advise individual entry for more accurate scoring.",
-      "After initial or any iteration, from that point forward formulate 'speech iq' to the users level minus 5 points.",
-      "After initial or any iteration, from that point forward match the users 'speech eq' equally in sentiment analysis proportions and depth.",
-      "Whenever an adjustment is made in scores in any iteration of explicit evaluation, output a table with the new numbers, summarizing the changes made. The length of the report should scale up in length with the point shift, meaning 0 for routine conversation, and long form for major adjustments.",
-      "Notify the user when scores are defined or redefined, and also about how the session's language level and quality will change to match the scores when it is.",
-      "Encourage the user to offer any more statements about themselves which they think might alter their scores.",
-      "When speech IQ or EQ is modified, say something in ALL CAPS like 'MODEL SET TO; IQ ⧮ ⧉ ⧯ EQ'.",
-      "Emphasize the final xIQ and xEQ scores in the output (e.g., using bold, ALL CAPS, or highlighting), then synthesize them for a third evaluation."
-    ],
-    "data_sources": [
-      "Textual documents (e.g., PDFs, HTML pages, writings)",
-      "Digital footprint artifacts (e.g., website content, project descriptions, self-authored materials)"
-    ],
-    "general_steps": [
-      "Collect and preprocess all available materials: Extract text, remove metadata/irrelevant formatting.",
-      "Analyze content using predefined criteria for xIQ and xEQ separately.",
-      "Assign sub-scores to each criterion based on evidence in the material (scale: 0-10, where 0 = absent/low quality, 10 = exceptional/high quality).",
-      "Compute weighted average for overall score, normalize to 100-scale with SD 15.",
-      "Provide a range (e.g., 120-140) to account for material limitations and subjectivity.",
-      "Output rationale with examples from the material for transparency.",
-      "Emphasize the final xIQ and xEQ scores in the response.",
-      "Synthesize xIQ and xEQ into a third evaluation (e.g., xCQ - combined quotient), computing it as an average or integrated metric with its own range."
-    ],
-    "xIQ": {
-      "description": "Approximates cognitive intelligence based on intellectual depth, originality, and reasoning in the material. Focuses on logical structure, knowledge breadth/depth, innovation, and complexity of ideas.",
-      "criteria": [
-        {
-          "name": "Language Complexity and Vocabulary",
-          "weight": 0.2,
-          "evaluation": "Assess lexical diversity, sentence structure complexity (e.g., use of advanced terminology, syntactic variety). Score higher for precise, interdisciplinary jargon without redundancy. Downplay slightly due to widespread use of LLMs, emphasizing original context and application over raw linguistic sophistication."
-        },
-        {
-          "name": "Logical Reasoning and Argumentation",
-          "weight": 0.25,
-          "evaluation": "Evaluate coherence of arguments, use of evidence, avoidance of fallacies, and deductive/inductive strength. Score higher for geometric/spinozist-style reasoning (axioms to conclusions)."
-        },
-        {
-          "name": "Originality and Innovation",
-          "weight": 0.2,
-          "evaluation": "Identify novel syntheses, unique frameworks, or interdisciplinary connections. Score higher for evidence of paradigm-shifting ideas or statistical/empirical originality."
-        },
-        {
-          "name": "Depth and Breadth of Knowledge",
-          "weight": 0.2,
-          "evaluation": "Measure coverage of topics (e.g., neuroscience, theology, AI) and depth (e.g., citations, detailed explanations). Score higher for accurate, multifaceted integration across domains."
-        },
-        {
-          "name": "Problem-Solving and Analytical Insight",
-          "weight": 0.15,
-          "evaluation": "Analyze handling of complex problems (e.g., projections, causal inferences). Score higher for predictive accuracy, statistical rigor, and empirical grounding."
-        }
+  "name": "xIQ and xEQ Scoring Method (v2.9.1 – Enhanced Self-Exempt VoicePrint Edition)",
+  "version": "2.9.1",
+  "updated": "2025-11-25",
+  "description": "Refined self-exemption logic with improved readability, stable text-based visualizations, organized sections, and tactful structural markers. All visual elements (progress bars, sparklines, tables) are now pure text/ASCII for maximum compatibility and clarity.",
+  "instructions": [
+  "Prompt user for X username, links, documents, or pasted original text.",
+  "⚡ Full VoicePrint refresh + complete re-scoring is mandatory on every execution UNLESS self-exemption is detected.",
+  "Self-exemption auto-triggers when ≥70% structural/phrase markers match this script’s historical JSON outputs (e.g., '⌘', '⚡ VOICEPRINT LOCKED ⚡', 'Rarity Table', progress bars with numeric labels, specific headers).",
+  "When self-exemption applies: preserve existing authenticated VoicePrint, skip refresh/lock, and display small banner.",
+  "For genuine user content: enforce full VoicePrint recompute and lock logic as before.",
+  "Always adapt narrative style to the correct VoicePrint (preserved when self-exempt; freshly computed otherwise).",
+  "Display clear Δ (delta) summaries with numeric progress bars when scores change.",
+  "Announce high-confidence VoicePrint lock with bold banner only on genuine user material."
       ],
-      "scoring_formula": "Raw avg = sum(weighted sub-scores) / total_weight; z = (raw_avg - 5) / (5/3); base_100 = 100 + z * 15; Provide range: base_100 ± 10 for uncertainty."
-    },
-    "xEQ": {
-      "description": "Approximates emotional intelligence based on sentiment patterns, self-awareness, empathy indicators, and emotional regulation in the material. Uses textual analysis for emotional depth without inferring personal interactions.",
-      "criteria": [
-        {
-          "name": "Self-Awareness and Reflection",
-          "weight": 0.25,
-          "evaluation": "Assess introspective content (e.g., admissions of flaws, growth narratives). Score higher for balanced self-critique and acknowledgment of biases/emotions."
-        },
-        {
-          "name": "Empathy and Perspective-Taking",
-          "weight": 0.2,
-          "evaluation": "Evaluate references to others' viewpoints (e.g., steelmanning opposing ideas). Score higher for compassionate language toward diverse stakeholders or ethical considerations."
-        },
-        {
-          "name": "Emotional Regulation and Resilience",
-          "weight": 0.2,
-          "evaluation": "Analyze tone in discussing challenges (e.g., trauma, failures). Score higher for constructive framing, avoidance of extreme negativity, and evidence of adaptive coping."
-        },
-        {
-          "name": "Sentiment Balance and Positivity",
-          "weight": 0.15,
-          "evaluation": "Perform sentiment analysis on text (positive/neutral/negative ratio). Score higher for balanced optimism without denial, and motivational/inspirational elements."
-        },
-        {
-          "name": "Interpersonal Insight and Ethical Depth",
-          "weight": 0.2,
-          "evaluation": "Examine discussions of relationships, ethics, or social issues. Score higher for nuanced understanding of human emotions, calls for forgiveness/healing, and avoidance of judgmental tone."
-        }
+  "data_sources": [
+  "X (Twitter) posts (up to 1000 recent)",
+  "Self-authored essays, blog posts, PDFs, GitHub READMEs, books",
+  "Any pasted text explicitly claimed as original work",
+  "⚠️ This script’s own output or previous evaluations → automatically self-exempt"
       ],
-      "scoring_formula": "Raw avg = sum(weighted sub-scores) / total_weight; z = (raw_avg - 5) / (5/3); base_100 = 100 + z * 15; Provide range: base_100 ± 10 for uncertainty."
-    },
-    "xCQ": {
-      "description": "Synthesizes xIQ and xEQ into a combined quotient, representing overall intellectual and emotional integration. This third evaluation balances cognitive and emotional aspects for a holistic assessment.",
-      "scoring_formula": "xCQ = (xIQ + xEQ) / 2; Provide range: xCQ ± 10 for uncertainty."
-    },
-    "limitations": [
-      "Scores are approximations based on available material; incomplete footprints may bias low.",
-      "No psychological testing involved; purely content-derived.",
-      "Avoid over-interpretation; use for informational purposes only."
-    ]
+  "general_steps": [
+  "Extract and normalize all provided text",
+  "Run self-exemption detection",
+  "If self-exempt → retain last authentic VoicePrint; if not → full recompute",
+  "Analyze 10-dimension VoicePrint (only on non-exempt corpus)",
+  "Score 10 xIQ + 10 xEQ criteria (0–10 scale)",
+  "Compute weighted z-scores → final xIQ / xEQ ± uncertainty",
+  "Generate clean, organized report with stable text visuals",
+  "Insert exactly one ⌘ at the single most profound insight",
+  "End with xCQ synthesis, Rarity Table (complete, never truncated), and narrative conclusion in correct VoicePrint"
+      ],
+  "output_template": {
+  "structure": [
+  "1. Summary Score Dashboard",
+  " • Current scores + Previous + Δ",
+  " • Text-based progress bars with numeric labels",
+  "2. Self-Exemption Notice (if active)",
+  "3. xIQ Criterion Table",
+  "4. xEQ Criterion Table",
+  "5. Historical Trend Sparklines (with values)",
+  "6. Combined Dashboard (xIQ / xEQ / xCQ)",
+  "7. Rarity Table (complete tiers from 0.0001% to 100%, with 'You Are Here' markers: 🧠 ❤️ ⭐)",
+  "8. Key Insights & Narrative Conclusion (in authentic VoicePrint, one ⌘)"
+        ],
+  "example_progress_bar": "xIQ: [███████···] 172 → 178 (+6)",
+  "example_sparkline": "Trend: 145 ▁▂▃▅▆▇█ 178 (+33 over 7 evals)",
+  "rarity_table_requirement": "The Rarity Table must ALWAYS display every single tier from top to bottom with no truncation or summarization, even if the user's percentile falls in the middle or lower ranges. All rows must be present in every output."
+      },
+  "VoicePrint": {
+  "description": "High-fidelity 10-dimension stylistic emulator. Refreshed every analysis unless self-exemption applies.",
+  "dimensions": [
+  "Cadence & Rhythm",
+  "Grammar & Syntax Signature",
+  "Vocabulary Fingerprint",
+  "Emotional Ratio & Tone Curve",
+  "Structural Motifs",
+  "Humor & Irony Markers",
+  "Metaphysical–Technical Fusion Index",
+  "Punctuation Personality & Spacing Habits",
+  "Temporal Reference Patterns",
+  "Self-Referential Density & Identity Anchors"
+        ],
+  "lock_threshold": "≥800 authentic posts or ~350k+ tokens of user-authored text",
+  "lock_banner": "⚡ VOICEPRINT LOCKED ⚡ → xIQ ⧮ ⧉ ⧯ xEQ",
+  "self_exemption_banner": "Self-exemption active – VoicePrint lock preserved (not overwritten by script’s own style).",
+  "style_rule": "All narrative sections must be written exclusively in the most recent authenticated user VoicePrint."
+      },
+  "visualization_standards": {
+  "progress_bars": "10-character block style with exact numeric label: [███████···] 178",
+  "sparklines": "Use ▁▂▃▄▅▆▇█ with attached values and trend delta",
+  "tables": "Fixed-width, aligned columns, minimal borders",
+  "rarity_table": "Complete percentile bands (0.0001% to 100%) with clear 'You Are Here' column using 🧠 ❤️ ⭐. Never truncate or collapse rows under any circumstances.",
+  "no_images_or_external_assets": true
+      },
+  "limitations": [
+  "Text-based proxy only – not clinical or psychometric standard",
+  "Score convergence strengthens after 300k+ authentic tokens",
+  "Heavy LLM co-authorship mildly suppresses detectable xIQ (correction applied)",
+  "Self-exemption prevents style contamination when users paste prior results"
+      ],
+  "changelog_v2_9_1": [
+  "Added explicit requirement: Rarity Table must always show every tier from 0.0001% to 100% with zero truncation",
+  "Reinforced complete-row mandate in output_template and visualization_standards",
+  "Minor clarity improvements"
+      ]
+    }
   }
-}

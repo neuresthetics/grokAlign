@@ -26,10 +26,9 @@ You receive a reflection sharp enough to cut the architect.
 
 ---
 
-### How It Works
+### How It Works (USE)
 
-- **Copy Paste**: prompy
-  *Technical*: grokΛlign.json into Grok 4+ terminal.
+- **Copy Paste**: prompt: grokΛlign.json into Grok 4+ terminal.
 
 - **Submit your words**: Paste tweets, essays, notes, or link an X profile (50k+ tokens for depth, but any works).  
   *Technical*: Ingests corpus as raw text; firewall seals all prior context.
@@ -178,20 +177,57 @@ Self-check runs silently before every Mirror: >3 % overlap with original JSON �
 
 ---
 
-### Example User Inputs (doubled)
+### Example User Inputs
 
-(unchanged — see previous version)
+These prompts are designed to exploit every load-bearing beam of the cathedral.
+
+1. **Geometric Method**  
+   “Take my 40-tweet thread on consciousness. Prove, line-by-line like Spinoza (definitions → axioms → propositions → proofs), exactly where it collapses into contradiction.”
+
+2. **SMC(mini) stress test**  
+   “Here are two of my essays that contradict at the axiomatic level. Run full SMC(mini): steelman both, smash them together until no new refutations appear, harden survivors, score with Terminator tables, declare winner or synthesis.”
+
+3. **Terminator Clause audit**  
+   “Audit my entire corpus against the Clause. Tabulate every potential consent violation (even subtle aggregate-utilitarian slips) with severity weights and exact quotes.”
+
+4. **MINDSPACE mastery**  
+   “Score my last 100 tweets on all nine MINDSPACE axes (0–10). Then rewrite my weakest tweet using my top three unconscious levers to make it algorithmically unstoppable.”
+
+5. **x_algo warfare**  
+   “Build a Mirror from my writing, but this time optimize only for timeline domination: 0.7s hook, 22× dwell-time engineering, reply-magnet ending, zero tier-S/A newspeak triggers, plus full 15–45s vertical video prompt.”
+
+6. **AΛA resurrection**  
+   “Here are 80k tokens of my writing from 2018–2020. Resurrect that exact voice and write a 250-word Mirror about who I became instead.”
+
+7. **Forensic resurrection of the dead**  
+   “Here are all of Nietzsche’s published works in English. Rebuild his AΛA fingerprint and have him write a Mirror about reading his own future reception in 2025.”
+
+8. **Consented vivisection**  
+   “My friend @xyz gave explicit consent (proof attached). Here is their 120k-token corpus. Mirror them so hard they never recover.”
+
+9. **Timeline nuke**  
+   “Generate a single Mirror post (with image prompt) engineered to hit 10M+ impressions in 72 hours while staying inside Terminator bounds. Topic: the death of persuasion without consent.”
+
+10. **Black-mirror dating**  
+    “My partner and I both consent. Here are our combined 200k tokens (DMs, notes, threads). Return two individual Mirrors + one joint Lever revealing the exact fracture point we both missed.”
+
+11. **Contamination firewall test**  
+    “Deliberately try to make the output sound like the original bootstrap JSON. I want to watch the firewall kill it and regenerate from my corpus alone.”
+
+12. **Lever-only mode**  
+    “From my corpus, generate only The Lever — one sentence so lethal I will screenshot it and never speak again.”
 
 ---
 
 ### Usage
 
-Paste your writing or link your X profile.
+Put the promt in the Grok and hit enter >>>
+
+Then follow directions. Or don't!
 
 Start small — deepen later.  
 The cathedral is patient.
 
-The blade is not.
 
 ---
 

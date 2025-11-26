@@ -1,0 +1,69 @@
+{
+  "geometric_method": {
+    "what_it_is": "A bullet-proof way of reasoning that works exactly like Euclidean geometry, but applied to philosophy, psychology, and ethics. Everything is built step-by-step, 100% logically forced, and you never sneak in assumptions. If you accept the starting points, you are forced to accept every conclusion.",
+
+    "core_principles_in_plain_american_english": {
+      "start_simple": "You begin with only two kinds of rock-bottom truths that no sane people can't deny:",
+      "clear_definitions": "Super-precise meanings of every key word so nobody can wiggle out or misunderstand.",
+      "obvious_truths": "Self-evident statements that are true the moment you understand the terms (example: 'if nothing causes something, it can't happen').",
+
+      "build_like_lego": "Every new claim (Main Claim) must be built only from the pieces you already have. You are not allowed to pull in outside opinions, feelings, Bible quotes, science experiments, or 'everyone knows' arguments. Only logic and the previous steps.",
+
+      "no_gaps_allowed": "Each Proof has to literally show how the new claim follows necessarily from earlier Clear Definitions, Obvious Truths, or previous Main Claims. If there's even one missing link, the whole thing collapses.",
+
+      "label_everything": "Every single step gets a name so you can refer back to it later:"
+    },
+
+    "exact_component_names": {
+      "Clear Definition": "A rock-solid meaning of a term that removes all ambiguity (example: 'By God I mean an absolutely infinite being with infinite attributes').",
+      "Obvious Truth": "A statement so basic that denying it would be crazy (example: 'An effect requires a cause').",
+      "Temporary Starting Point": "Only used when dealing with bodies or motion – a limited assumption we allow just for that section.",
+      "Helper Result": "A mini-theorem that exists only to make a later big proof easier.",
+      "Main Claim": "The actual theorem we're proving – the whole book is a chain of these.",
+      "Proof": "Line-by-line logical steps that force the Main Claim to be true using only earlier items.",
+      "Direct Consequence": "Something that pops out immediately from a Main Claim with almost no extra work.",
+      "Side Note / Real-Talk": "Spinoza drops the formal tone and explains why the claim matters in real life, answers objections, or takes shots at other philosophers."
+    },
+
+    "how_a_page_looks_in_practice": [
+      "Clear Definition 3 – What 'cause of itself' means",
+      "Obvious Truth 4 – Everything is either in itself or in something else",
+      "Main Claim 11 – God necessarily exists",
+      "Proof:",
+      "1. Whatever we can conceive as not existing has a cause stopping it (from Obvious Truth X)",
+      "2. If an infinite being could fail to exist, something more powerful would limit it",
+      "3. But an absolutely infinite being can't be limited by anything (from Clear Definition 6)",
+      "4. Therefore it's impossible to conceive God not existing",
+      "5. So God necessarily exists.",
+      "Direct Consequence: God's existence and essence are the same thing.",
+      "Real-Talk: Most proofs of God start from the world and go up; this one starts from the pure concept and shows non-existence is self-contradictory."
+    ],
+
+    "why_it_feels_mathematical": [
+      "Zero appeals to authority",
+      "Zero rhetorical tricks or emotional language",
+      "Every line is either a starting point or logically forced by previous lines",
+      "You can check it like a math proof – if any step is weak, the whole building falls",
+      "The order is perfect: you never use Claim 37 to prove Claim 12"
+    ],
+
+    "mental_habits_it_trains": [
+      "Never accept vague words – demand Clear Definitions",
+      "Never believe something 'just feels true' – force it to be derived",
+      "Spot hidden assumptions instantly",
+      "See how one idea necessarily produces the next",
+      "Stay calm in arguments because you know exactly which starting point the other people reject"
+    ],
+
+    "spinoza_actual_rules_he_followed": [
+      "All Clear Definitions up front for each Part",
+      "Small set of Obvious Truths at the beginning of each Part",
+      "Every Main Claim gets its own numbered Proof",
+      "Proofs only cite earlier numbers (or Clear Definitions / Obvious Truths)",
+      "Direct Consequences and Real-Talk come right after the relevant Main Claim",
+      "No forward references – ever"
+    ],
+
+    "modern_one-liner_summary": "It's math-class logic applied to life: define your terms, state your obvious truths, then deduce everything else like a chain that can't be broken. Accept the starting points → you're locked into the conclusions, no escape."
+  }
+}

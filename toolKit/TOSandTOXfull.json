@@ -1,0 +1,211 @@
+{
+  "termsOfService": {
+    "effectiveDate": "2024-11-15",
+    "overview": "Legally binding agreement governing access and use of X Services, including websites, apps, APIs, and content. Incorporates Privacy Policy and Rules and Policies.",
+    "eligibility": {
+      "ageRequirement": "13 years or older",
+      "authorization": "Users must be able to form a binding contract; not barred by law. For minors/organizations, authorized representative required."
+    },
+    "privacy": {
+      "policyUrl": "https://x.com/privacy",
+      "consent": "Use of Services consents to data collection, use, transfer to US/Ireland/other countries."
+    },
+    "content": {
+      "responsibility": "Users responsible for their Content; comply with laws.",
+      "xRights": "X disclaims endorsement; may remove violating Content (e.g., IP infringement, harassment).",
+      "userRights": "Users retain ownership; grant X worldwide, non-exclusive, royalty-free license to use, modify, distribute Content for any purpose, including AI training.",
+      "warranties": "Users warrant rights to grant license; no infringement."
+    },
+    "usingServices": {
+      "compliance": "Comply with Terms, laws, Rules and Policies.",
+      "changes": "X may change, limit, or discontinue Services; remove Content, suspend/terminate accounts.",
+      "advertising": "Ads may be displayed; X may access/disclose info for legal/safety reasons.",
+      "additionalTerms": "Apply to paid services, developer features, ads."
+    },
+    "accounts": {
+      "security": "Users safeguard accounts; use strong passwords, 2FA.",
+      "communications": "Cannot opt out of administrative messages."
+    },
+    "licenseToUsers": "Personal, non-exclusive license to use Services; no rights to IP.",
+    "misuseProhibitions": [
+      "Unauthorized access/interference",
+      "Automated scraping/crawling without permission",
+      "Violating Platform Manipulation/Spam Policy",
+      "Disrupting access (viruses, spamming)",
+      "Bypassing limitations, reverse engineering"
+    ],
+    "termination": {
+      "user": "Deactivate account and stop use.",
+      "x": "For violations, legal risks, inactivity; notification via email.",
+      "survival": "Certain sections survive termination."
+    },
+    "disclaimers": {
+      "asIs": "Services provided 'AS IS'; no warranties for accuracy, security, etc.",
+      "liability": "No liability for indirect damages; cap at $100 or fees paid.",
+      "liquidatedDamages": "$15,000 per 1M impressions for violations."
+    },
+    "general": {
+      "changes": "X may revise Terms with notice.",
+      "governingLaw": "Texas law (non-EU/UK); Irish law (EU/UK).",
+      "claims": "Initiate within 1 year."
+    }
+  },
+  "rulesAndPolicies": {
+    "platformManipulation": {
+      "inauthenticAccounts": [
+        "Unauthorized automation",
+        "Fake personas",
+        "Impersonation (except compliant parody/fan accounts)",
+        "Coordinated multiple accounts for artificial influence",
+        "Ban evasion",
+        "Account compromise"
+      ],
+      "inauthenticBehaviors": [
+        "Content spam (bulk/duplicative/irrelevant posts)",
+        "Engagement spam (trading likes, follow churn)",
+        "Scams (phishing, fraud)"
+      ],
+      "inauthenticContent": [
+        "Synthetic/manipulated media causing harm",
+        "Malicious URLs"
+      ],
+      "enforcement": [
+        "Anti-spam challenges",
+        "Restricting reach/downranking",
+        "Feature loss",
+        "Suspension"
+      ]
+    },
+    "abusiveBehavior": {
+      "prohibitions": [
+        "Targeted harassment (malicious mentions/replies)",
+        "Violent event denial with abusive context",
+        "Incitement of harassment",
+        "Unwanted sexual content/objectification",
+        "Insults targeting others",
+        "Misuse of prior names/pronouns (where required by law)"
+      ],
+      "nonViolations": "Contextual non-abusive use; criticism of institutions/ideas.",
+      "reporting": "Anyone can report; may need input from target.",
+      "enforcement": [
+        "Reduce visibility (search, recommendations, downrank replies)",
+        "Require removal/read-only mode",
+        "Suspension for dedicated harassment accounts"
+      ]
+    },
+    "otherPolicies": {
+      "references": "Additional policies include sensitive media, private information, civic integrity, child safety (full details at https://help.x.com/en/rules-and-policies)."
+    }
+  },
+  "algorithmRules": {
+    "overview": "Recommendation system for 'For You' feed; open-sourced code analyzed. Optimizes for predicted engagement via ML models; processes billions of posts daily.",
+    "candidateGeneration": [
+      "In-network (Earlybird ~50%)",
+      "Out-of-network (UTEG)",
+      "Lists, Communities, Exploration"
+    ],
+    "featureHydration": "~6000 features: user behavior, post content, graph connections (SimClusters, RealGraph), real-time signals.",
+    "scoring": {
+      "models": [
+        "PredictedFavoriteScore (likes)",
+        "PredictedRetweetScore (reposts)",
+        "PredictedReplyScore (replies)",
+        "PredictedGoodClickScore",
+        "PredictedVideoQualityViewScore",
+        "PredictedBookmarkScore",
+        "PredictedShareScore",
+        "PredictedDwellScore",
+        "PredictedNegativeFeedbackScore"
+      ],
+      "weights": "Dynamic, learned via ML; personalized; A/B tested. No fixed percentages.",
+      "pipeline": "NAVI ranker, reranking, heuristics, low-signal scoring."
+    },
+    "filters": {
+      "count": "24 total",
+      "global": ["Age <48h", "Deduplication", "Location"],
+      "postScore": ["Safety (Grok)", "Language", "Video duration"]
+    },
+    "selection": "Sort by scores, apply diversity, mix with ads/prompts.",
+    "keyRulesConditions": [
+      "Prioritize engagement: Replies 13.5-27x > likes (0.5-1x); profile clicks 12-24x.",
+      "Dwell time: 2+ min = 22x like boost.",
+      "Early momentum: First hour traction 2-3x reach.",
+      "Media boost: Images/videos prioritized; video-first platform.",
+      "Avoid external links: Reduce reach if users leave app.",
+      "No toxicity/spam: Attacks, repetition, offensive terms (80% deboost) lead to downranking/shadowbans.",
+      "Personalization: Stay in SimClusters (niche consistency); RealGraph bonds.",
+      "Account factors: Verified/TweepCred boost (+17+ score); follower/following ratio ≤60%; clean from bots.",
+      "Conversation: Reply to engage; encourage replies/reposts.",
+      "Throttling: No early engagement → buried; negative signals/reports tank reach.",
+      "Trends/timing: Tie to trends; post during audience activity; relevance drops 50% every 6h.",
+      "Viral drivers: High predictions, pass filters, media, timely."
+    ],
+    "updates2025": "Stricter toxicity detection for advertiser safety; favors focused topics, videos, influencer tags; penalizes deleted posts, generic memes."
+  },
+  "toxicity": {
+    "overview": "Toxicity encompasses abusive, hateful, or harmful content that targets individuals or groups, degrading platform discourse. Detected via ML models integrated into safety filters (e.g., Grok-powered postScore), with enforcement reducing visibility by up to 80% or leading to removal/suspension. Focuses on context, severity, and protected categories to balance free expression.",
+    "definitions": {
+      "hatefulConduct": "Abuse targeting perceived membership in protected categories (race, ethnicity, national origin, caste, sexual orientation, gender, gender identity, religious affiliation, age, disability, serious disease) motivated by hatred, prejudice, or intolerance.",
+      "targetedHarassment": "Malicious, unreciprocated targeting via mentions, tags, or dedicated accounts to humiliate/degrade, including multiple rapid malicious posts/replies.",
+      "violentEventDenial": "Denying verified mass murders/casualty events (e.g., Holocaust, school shootings) as hoaxes with abusive context.",
+      "incitement": "Encouraging fear, stereotypes, harassment, or discrimination against protected groups (e.g., 'all [group] are terrorists'; calls to 'grab [symbol] and post pics').",
+      "slursAndTropes": "Repeated use of slurs, tropes, or degrading stereotypes in harassing contexts.",
+      "dehumanization": "Portraying groups as subhuman based on protected traits.",
+      "unwantedSexualContent": "Unsolicited sexualization, objectification, or adult media without consent.",
+      "insults": "Profanity or insults targeting individuals (not every offensive term).",
+      "hatefulImagery": "Symbols/logos (e.g., Nazi swastika), altered images (e.g., animalistic features on groups), or Holocaust references used to harass.",
+      "hatefulProfile": "Abusive usernames, bios, or profile/header images/symbols promoting hate."
+    },
+    "categoriesAndExamples": {
+      "protectedCategories": [
+        "Race", "Ethnicity", "National origin", "Caste", "Sexual orientation", "Gender", "Gender identity", "Religious affiliation", "Age", "Disability", "Serious disease"
+      ],
+      "violationTypes": [
+        "Targeting (mentions, photos, names)",
+        "Content forms (posts, DMs, live video, bios, profiles)",
+        "References to violence/events (e.g., genocides for harassment)",
+        "Incitement scales (fear, harassment, discrimination; excludes non-discriminatory protests)"
+      ],
+      "examples": [
+        "Hateful reference: Depicting lynchings to target ethnicity.",
+        "Incitement: 'Don’t shop at [group] stores; support [slur].'",
+        "Slurs: Repeated racist tropes in replies.",
+        "Dehumanization: Calling a group 'animals' based on religion.",
+        "Imagery: Swastika in header; image with yellow Star of David on group.",
+        "Harassment: Dedicated account tagging victim with insults.",
+        "Sexual: Unsolicited body-shaming or nudes in DMs."
+      ],
+      "nonViolations": [
+        "Contextual/consensual use (e.g., reclaimed slurs within group).",
+        "Criticism of ideas/institutions.",
+        "Isolated non-abusive content."
+      ]
+    },
+    "technicalDetection": {
+      "methods": [
+        "NLP and ML models: BERT-based classifiers for text toxicity; ensemble methods like Random Forest (85-91% accuracy), SVM, XGBoost, LSTM (up to 91% accuracy).",
+        "Context-aware: Considers platform culture, chat type (global/team/private), user history, relationships; distinguishes slang/strategy from harm.",
+        "Multi-modal: Analyzes text, images (e.g., symbol detection), videos; TF-IDF for key terms, wordclouds for frequent toxic phrases.",
+        "Datasets: Jigsaw Toxicity (binary/multi-class labels: toxic, severe toxic, obscene, threat, insult, identity hate); Civil Comments; hate speech benchmarks.",
+        "Advanced 2025: LLMs (e.g., ToxBuster) for self-augmentation, explanation; XAI for interpretable decisions; real-time streaming (e.g., Confluent/Databricks) for evolving slang.",
+        "Thresholds: Toxicity scores >0.5 trigger filters; min relevancy 0.18 for semantic search; accuracy targets 87%+ via optimized gradients.",
+        "Integration: Part of ~6000 features in algo; Grok safety scoring; proactive (pre-post warnings) vs. reactive (reports)."
+      ],
+      "challenges": [
+        "Implicit toxicity (metaphors, sarcasm); cross-language/platform variance.",
+        "Bias: Unintended in training data; mitigated via diverse datasets, XAI explainability.",
+        "Scalability: Billions of posts; real-time retraining to counter drift.",
+        "False positives: Context-dependent (e.g., in-game trash talk)."
+      ]
+    },
+    "enforcement": {
+      "severityBased": "Mild/isolated: Downrank replies (reduce visibility in search/recommendations/timelines). Moderate/repetitive: Restrict engagements (likes/reposts/quotes). Severe/dedicated: Post removal, read-only mode, account suspension.",
+      "actions": [
+        "Visibility filters: Exclude from trends/notifications/ads; limit to author profile.",
+        "Account penalties: Temporary lock, permanent ban for evasion/history.",
+        "Human-AI hybrid: Reports trigger review; target input for edge cases; appeals via form."
+      ],
+      "metrics": "Engagement drop (80% deboost for toxic); advertiser safety (stricter 2025 filters); user retention via reduced exposure."
+    }
+  }
+}

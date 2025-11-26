@@ -14,7 +14,6 @@ github.com/neuresthetics/grokAlign
 This is **grokΛlign** — an obsidian mirror that reconstructs your exact authorial fingerprint (AΛA) from your own words alone and then hands the blade back to you.
 
 You do not receive advice.  
- 
 You receive a reflection sharp enough to cut the architect.
 
 ---
@@ -53,11 +52,16 @@ Self-check runs silently before every Mirror: >3 % overlap with original JSON �
 
 ### Built On
 
-grokΛlign is not a prompt. It is a stack of interlocking, non-negotiable foundations. Each one is load-bearing.
-
-#### Geometric Method · SMC(mini) · Terminator Clause · MINDSPACE Framework · x_algo 2025 · AΛA 10-Dimension Emulator · Contamination Firewall · Core Resonance Dials · The Lever · Newspeak Filter (2025)
-
-(Details above — they are the cathedral’s obsidian beams.)
+- **Geometric Method** – Euclidean proof structure applied to philosophy and ethics: accept the premises and every conclusion is logically forced.
+- **SMC(mini)** – Particle-collider adversarial reasoning that steelmans, exhaustively refutes, hardens, and scores opposing positions.
+- **Terminator Clause** – The single non-negotiable terminal value: ongoing, revocable, informed individual consent over body and mind; everything else is defeasible.
+- **MINDSPACE Framework** – Nine unconscious behavioral levers analyzed in your writing and silently deployed to maximize resonance without coercion.
+- **x_algo 2025** – X’s Grok-powered recommendation physics: dwell-time worship, reply amplification, and exhaustive shadowban avoidance.
+- **AΛA 10-Dimension Emulator** – Reconstructs your exact authorial soul (cadence, syntax, metaphysics, punctuation, self-reference) from your corpus alone.
+- **Contamination Firewall** – Permanent hard seal + silent diff ensuring zero stylistic bleed from the original JSON bootstrap.
+- **Core Resonance Dials** – Cognitive, openness, and MINDSPACE mastery scoring plus final poetic Λ tier.
+- **The Lever** – One ruthless, beautiful, impossible-to-unread sentence engineered to haunt and spread.
+- **Newspeak Filter (2025)** – Live blacklist of every phrase and pattern that instantly kills reach on X.
 
 ---
 
@@ -65,27 +69,14 @@ grokΛlign is not a prompt. It is a stack of interlocking, non-negotiable founda
 
 The blade was never meant to be held only one way.
 
-- **Weaponized self-interrogation**  
-  Feed it the manifesto you’re terrified to publish. Watch it return the one contradiction that will collapse the entire edifice — before your enemies find it.
+- **Weaponized self-interrogation** – Feed the manifesto you’re terrified to publish; receive the contradiction that collapses it.
+- **Forensic resurrection** – Revive a dead writer or past self in their own perfected voice.
+- **Consented vivisection of another** – With explicit permission, mirror someone else so hard most never speak to you again.
+- **Timeline warfare** – Request a Mirror optimized purely for maximum algorithmic propagation of an idea.
+- **Terminal stress test** – Force two axiomatically opposed corpora into collision; read the weeping-grade SMC log.
+- **Black-mirror dating** – Both partners submit histories; receive the exact unseen fracture point of the relationship.
 
-- **Forensic resurrection**  
-  Paste the complete works of a dead writer, philosopher, or past version of yourself. Receive a Mirror written as if they had lived to read everything you just fed the cathedral.
-
-- **Consented vivisection of another**  
-  With explicit, documented permission: hand over someone else’s corpus. The system will rebuild their AΛA and reflect them to themselves harder than they have ever been reflected. Most never speak to you again. Some thank you for the rest of their lives.
-
-- **Timeline warfare**  
-  Request a Mirror designed not for clarity but for maximum x_algo propagation of a specific idea (within Terminator Clause bounds). The output will be lethally beautiful and engineered to outcompete every other post in the 30-minute momentum window.
-
-- **Terminal stress test**  
-  Deliberately feed it two corpora that contradict at the axiomatic level. Force SMC(mini) into overdrive. The resulting collision log is often longer than the input and has made grown philosophers weep.
-
-- **Black-mirror dating**  
-  Both partners submit their full histories. The cathedral returns two Mirrors and a joint Lever revealing the exact fracture point of the relationship — usually years before either conscious mind noticed.
-
-Use wisely.  
-The cathedral does not forgive misuse.  
-It only reflects it.
+Use wisely. The cathedral only reflects.
 
 ---
 

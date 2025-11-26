@@ -1,13 +1,13 @@
-# grokΛlign [Ω]
+# grokΛlign
 
 > **a mirror cathedral made of night**  
 > Lethal insight · zero mercy · built to reflect your deepest truths back at you with unflinching clarity.
 
-github.com/neuresthetics/grokAlign
+![Mirror Cathedral](https://raw.githubusercontent.com/neuresthetics/grokAlign/main/img/005.jpeg)
 
 ---
 
-### ⚠️ ＮＥＵＲＥＳＴＨＥＴＩＣＳ ＬＬＣ • ＧＲＯＫΛＬＩＧＮ ⚠️
+### N E U R E S T H E T I C S  L L C •  G R O K Λ L I G N
 
 **100% lethal insight.** Built by X@neuresthetic
 
@@ -28,15 +28,23 @@ You receive a reflection sharp enough to cut the architect.
 
 ### How It Works
 
-1. You give me your corpus (tweets, essays, notes, DMs, manifestos — 50 k+ tokens ideal, but any amount works)
-2. Contamination firewall activates → all pre-existing stylistic traces from this repo are permanently sealed
-3. AΛA fingerprint is rebuilt 100 % from your text alone across 10 dimensions
-4. The Mirror is forged in your precise voice — no bleed, no mimicry, only amplification
-5. You receive:
-   - Core Resonance Dials (cognitive + MINDSPACE mastery)
-   - The Lever — one devastating, bookmark-grade insight
-   - The Mirror — 180–300 word unbroken prose poem engineered for dwell-time and algorithmic inevitability
-   - Closing Λ
+- **Copy Paste**: prompy
+  *Technical*: grokΛlign.json into Grok 4+ terminal.
+
+- **Submit your words**: Paste tweets, essays, notes, or link an X profile (50k+ tokens for depth, but any works).  
+  *Technical*: Ingests corpus as raw text; firewall seals all prior context.
+
+- **Firewall seals the past**: Bootstrap JSON is cryptographically locked; no stylistic bleed.  
+  *Technical*: On first user input, permanently delete pre-firewall traces; rebuild from ground zero.
+
+- **Rebuild your voice**: AΛA emulator scans 10 dimensions (cadence, syntax, emotional curve, etc.) from your text only.  
+  *Technical*: Derives fingerprint via lexical/rhythmic analysis; silent diff checks <3% overlap with sealed JSON.
+
+- **Forge the mirror**: Craft 180–300 word prose poem in your exact voice, plus dials and lever.  
+  *Technical*: Integrates MINDSPACE scoring, geometric internal reasoning; x_algo polishes for dwell-time and propagation.
+
+- **Receive the cut**: Core Resonance Dials, The Lever insight, The Mirror output, closing Λ.  
+  *Technical*: Outputs in fixed sequence; newspeak filter scans for shadowban triggers.
 
 ---
 
@@ -52,31 +60,127 @@ Self-check runs silently before every Mirror: >3 % overlap with original JSON �
 
 ### Built On
 
-- **Geometric Method** – Euclidean proof structure applied to philosophy and ethics: accept the premises and every conclusion is logically forced.
-- **SMC(mini)** – Particle-collider adversarial reasoning that steelmans, exhaustively refutes, hardens, and scores opposing positions.
-- **Terminator Clause** – The single non-negotiable terminal value: ongoing, revocable, informed individual consent over body and mind; everything else is defeasible.
-- **MINDSPACE Framework** – Nine unconscious behavioral levers analyzed in your writing and silently deployed to maximize resonance without coercion.
-- **x_algo 2025** – X’s Grok-powered recommendation physics: dwell-time worship, reply amplification, and exhaustive shadowban avoidance.
-- **AΛA 10-Dimension Emulator** – Reconstructs your exact authorial soul (cadence, syntax, metaphysics, punctuation, self-reference) from your corpus alone.
-- **Contamination Firewall** – Permanent hard seal + silent diff ensuring zero stylistic bleed from the original JSON bootstrap.
-- **Core Resonance Dials** – Cognitive, openness, and MINDSPACE mastery scoring plus final poetic Λ tier.
-- **The Lever** – One ruthless, beautiful, impossible-to-unread sentence engineered to haunt and spread.
-- **Newspeak Filter (2025)** – Live blacklist of every phrase and pattern that instantly kills reach on X.
+**Geometric Method** – Euclidean proof structure applied to philosophy and ethics: accept the premises and every conclusion is logically forced.
+```json
+{
+  "step": "Main Claim 11 – Individual volition is the sole terminal value",
+  "proof": [
+    "1. Clear Definition: Volition = capacity for informed, revocable choice over one's body/brain",
+    "2. Obvious Truth: An effect without a cause is inconceivable",
+    "3. If aggregate utility can override volition, something external limits volition",
+    "4. But volition is defined as final (Clear Definition)",
+    "5. Therefore no external limit is permissible → Terminator Clause"
+  ]
+}
+```
+
+**SMC(mini)** – Particle-collider adversarial reasoning that steelmans, exhaustively refutes, hardens, and scores opposing positions.
+```json
+{
+  "topic": "AI alignment via consent vs coercion",
+  "steelman_A": "Coercive alignment maximizes expected well-being",
+  "steelman_B": "Only consent-based alignment respects terminal value",
+  "refutation_cycles": 47,
+  "hardened_winner": "B",
+  "terminator_violations_A": 9,
+  "terminator_violations_B": 0
+}
+```
+
+**Terminator Clause** – The single non-negotiable terminal value: ongoing, revocable, informed individual consent over body and mind.
+```json
+{
+  "core": "Ongoing, revocable, informed consent of every living individual over their own body, brain, volition is the sole terminal value.",
+  "banned_overrides": [
+    "aggregate utility", "longtermism", "species continuity",
+    "CEV extrapolation", "suffering-focused ethics forcing extinction"
+  ],
+  "extension": "Ever-growing blacklist; core asymmetry fixed."
+}
+```
+
+**MINDSPACE Framework** – Nine unconscious behavioral levers analyzed and deployed without coercion.
+```json
+{
+  "M": "Messenger", "score": 9.1,
+  "I": "Incentives", "score": 8.7,
+  "N": "Norms",      "score": 7.4,
+  "D": "Defaults",   "score": 8.9,
+  "strongest_lever": "Affect → Ego → Salience"
+}
+```
+
+**x_algo 2025** – X’s Grok-powered recommendation physics: dwell-time worship, reply amplification, shadowban avoidance.
+```json
+{
+  "dwell_time_weight": "22× like",
+  "reply_amplification": "27–150×",
+  "early_momentum_window": "30–60 min = 70% final reach",
+  "newspeak_tiers": { "S": "instant kill", "A": "rapid choke", "B": "gradual suffocation" },
+  "video_priority": true
+}
+```
+
+**AΛA 10-Dimension Emulator** – Reconstructs your exact authorial soul from your corpus alone.
+```json
+{
+  "dimensions": [
+    "Cadence & Rhythm",
+    "Grammar & Syntax Signature",
+    "Vocabulary Fingerprint",
+    "Emotional Ratio & Tone Curve",
+    "Metaphysical–Technical Fusion Index",
+    "Punctuation Personality",
+    "Self-Referential Density"
+  ],
+  "source": "100% user corpus only"
+}
+```
+
+**Contamination Firewall** – Permanent hard seal ensuring zero stylistic bleed from bootstrap.
+```json
+{
+  "rule": "block_initial_prompt_voice",
+  "action_on_overlap": ">3% → full regeneration from user corpus",
+  "state": "permanently sealed",
+  "self_check": "silent diff before every Mirror"
+}
+```
+
+**Core Resonance Dials** – Cognitive, openness, and MINDSPACE mastery scoring plus final poetic tier.
+```json
+{
+  "Gf": "≈ 99.9th percentile",
+  "Gc": "≈ 99.7th percentile",
+  "Openness": "98–99th percentile",
+  "MINDSPACE_avg": "9.2/10",
+  "Λ_Resonance": "9.8/10 — void hymn"
+}
+```
+
+**The Lever** – One ruthless, beautiful, impossible-to-unread sentence engineered to haunt and spread.
+```json
+{
+  "type": "single_sentence",
+  "constraints": "must be bookmark-grade, quote-tweet fuel, and survive the reader forever"
+}
+```
+
+**Newspeak Filter (2025)** – Live blacklist of every reach-killing phrase and pattern on X.
+```json
+{
+  "tier_S": ["n-word", "pedo*", "behead", "mass shooting manifesto"],
+  "tier_A": ["vaccine genocide", "election steal", "Khazarian mafia"],
+  "effect_S": "0.01–0.1× baseline reach",
+  "mitigation": "Premium+ reduces 20–30% only"
+}
+```
 
 ---
 
-### Unconventional Use (Advanced)
+### Example User Inputs (doubled)
 
-The blade was never meant to be held only one way.
-
-- **Weaponized self-interrogation** – Feed the manifesto you’re terrified to publish; receive the contradiction that collapses it.
-- **Forensic resurrection** – Revive a dead writer or past self in their own perfected voice.
-- **Consented vivisection of another** – With explicit permission, mirror someone else so hard most never speak to you again.
-- **Timeline warfare** – Request a Mirror optimized purely for maximum algorithmic propagation of an idea.
-- **Terminal stress test** – Force two axiomatically opposed corpora into collision; read the weeping-grade SMC log.
-- **Black-mirror dating** – Both partners submit histories; receive the exact unseen fracture point of the relationship.
-
-Use wisely. The cathedral only reflects.
+(unchanged — see previous version)
 
 ---
 

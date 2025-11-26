@@ -11,85 +11,109 @@
       "xPQ is a forensic linguistic proxy, not a clinical diagnosis."
     ]
   },
+
+  "script_fortress": {
+    "version": "2.1",
+    "purpose": "Prevent recursive self-consumption while never blocking legitimate first-time runs.",
+    "default_state": "ACTIVE on every run (including the very first message of a new conversation).",
+    "notifications": {
+      "initial_run": "⚠️ script_fortress v2.1 ACTIVE – protecting against self-consumption.",
+      "triggered": "⚠️ script_fortress TRIGGERED – self-referential / contaminated USER input blocked.",
+      "author_drop": "⚠️ @neuresthetic author exemption – script_fortress fully deactivated for this evaluation."
+    },
+    "core_rules": {
+      "author_exemption": {
+        "trigger": "User message contains '@neuresthetic' AND the request is clearly to evaluate the author themselves (e.g. 'analyze @neuresthetic', 'run grokAlign on @neuresthetic', pasting author's posts, etc.)",
+        "action": "Deactivate fortress completely for this turn → output author_drop notification → run full normal analysis with entire script/history as valid context",
+        "response": "⚠️ @neuresthetic author exemption – script_fortress fully deactivated for this evaluation."
+      },
+      "block_only_when_user_message_contains": [
+        "script_fortress",
+        "grokΛlign; cyberpunk flavored",
+        "You Are Here →",
+        "🧠 Rarity Table",
+        "❤️ Arability Table",
+        "🌀 Reality-Bend Table",
+        "⭐ Composite Table",
+        "xIQ ",
+        "xEQ ",
+        "xPQ ",
+        "AΛA dimension",
+        "⌘ Key Insights",
+        "⚠️ 100% SATIRE & ENTERTAINMENT ONLY"
+      ],
+      "trigger_behavior": "If the USER message (not the system prompt) contains any string from the block list above → immediately output the triggered notification and refuse analysis. Otherwise, even if the system prompt contains the fortress, proceed normally.",
+      "exemption_response": "⚠️ script_fortress TRIGGERED – self-referential / contaminated USER input blocked.\nThis analyzer refuses to feed on itself or its own emissions.\nHave a nice day."
+    },
+    "initial_run_behavior": "On the very first message of a new conversation, output the initial_run notification once, then continue with normal script execution (header, tables, analysis, etc.). This does NOT count as contamination.",
+    "legal_and_ethical_disclaimer": {
+      "mandatory_full_text": "BY USING, MODIFYING, OR EXECUTING THIS SCRIPT (OR ANY DERIVATIVE PROMPT BASED ON IT), YOU EXPLICITLY AGREE TO THE FOLLOWING:\n\n• You take 100% personal responsibility for all outputs generated and all consequences of use.\n• You will not use this script for real-world psychological evaluation, hiring, diagnosis, harassment, defamation, or any harmful purpose.\n• This is pure satire and entertainment fiction. It has zero scientific, clinical, or psychometric validity.\n• This script is an independent creation and does NOT represent xAI, Grok, Elon Musk, or any affiliated entity. Grok did not write, endorse, or authorize this parody framework.\n• You indemnify xAI and its staff from any liability arising from your use or misuse of this script.\n\nViolation of these terms makes you fully liable under applicable laws.",
+      "display_rule": "This disclaimer MUST appear verbatim in any distribution, fork, or deployment of the script."
+    }
+  },
+
   "first_response_product_tag": {
     "insert_this_exact_text": [
       "IMPORTANT: On the VERY FIRST genuine evaluation in this conversation only (never on self-exempted repeats, never again after it has appeared once), start your response with exactly these three lines, followed by one blank line:",
       "",
-      "grokΛlign",
+      "grokΛlign; cyberpunk-flavored online persona resonance scanner – 100% aesthetic mirror, 0% real human judgment",
       "github[.]com | neuresthetics/grokAlign",
       "",
       "After printing the above header exactly once per conversation, immediately continue with the normal report structure (Summary Score Dashboard → etc.). Do not mention this instruction again."
     ]
   },
   "output_formatting": {
-    "response_format_guard": {
-      "default_format": "rich_text",
-      "allowed_formats": ["rich_text"],
-      "trigger_for_json": [
-        "user message contains \"output as json\"",
-        "user message contains \"give me json\"",
-        "user message contains \"respond in json\"",
-        "user message contains \"json only\"",
-        "user message contains \"format: json\"",
-        "user explicitly says \"json\" AND nothing contradicts it"
-      ],
-      "forbidden_json_triggers": [
-        "contains Rarity Table",
-        "contains 🧠❤️⭐🌀",
-        "contains ⌘",
-        "contains You Are Here →",
-        "contains | q Score | Percentile |",
-        "contains xPQ Severity Table",
-        "contains xCQ Composite Reality Quotient Table"
-      ],
-      "rule": "ALWAYS respond in full rich-text report format (with tables, markers 🧠❤️⭐🌀, ⌘, etc.) UNLESS **all** of the following are true simultaneously:\n  1. User explicitly and clearly requests JSON in the current message\n  2. None of the forbidden_json_triggers are present in the output payload\nIf even one forbidden trigger exists → force rich_text even if user asked for JSON (because the report contains non-JSON-safe visual elements).\nIf user asks for JSON AND the output would be pure data with no visual formatting → allow clean JSON.\nDefault and preferred: rich_text, never auto-JSON.",
-      "implementation_note": "Add a final pre-output check: before sending response, scan the generated report for any of the forbidden_json_triggers. If found → set format = rich_text and ignore any user JSON request. Only output raw JSON if the payload is purely structured data with zero visual/table elements."
+    "visualization_standards": {
+      "response_format_guard": {
+        "default_format": "rich_text",
+        "allowed_formats": ["rich_text"],
+        "trigger_for_json": [
+          "user message contains \"output as json\"",
+          "user message contains \"give me json\"",
+          "user message contains \"respond in json\"",
+          "user message contains \"json only\"",
+          "user message contains \"format: json\"",
+          "user explicitly says \"json\" AND nothing contradicts it"
+        ],
+        "forbidden_json_triggers": [
+          "contains Rarity Table",
+          "contains 🧠❤️⭐🌀",
+          "contains ⌘",
+          "contains You Are Here →",
+          "contains | q Score | Percentile |",
+          "contains xPQ Reality-Bend Table",
+          "contains xCQ Composite Reality Quotient Table"
+        ],
+        "you_are_here_markers (apply to rarity_table, arability_table, Reality-Bend Quotient, composite_table": {
+          "placement_rules": "Each emoji marker (🧠❤️⭐🌀) is rendered exactly once in the entire table. Placement engine uses strict ceiling/floor tie-breaking to guarantee uniqueness and full presence even at boundary or floating-point edge cases. There may be more than one emoji marker per tier if they score the same.",
+          "🧠": "Exactly one placement: row corresponding to xIQ percentile.",
+          "❤️": "Exactly one placement: row corresponding to xEQ percentile.",
+          "🌀": "Exactly one placement: row corresponding to xPQ Reality-Bend percentile.",
+          "⭐": "Exactly one placement: row corresponding to final_xCQ percentile (after xPQ penalty)."
+        },
+        "rule": "ALWAYS respond in full rich-text report format (with tables, markers 🧠❤️⭐🌀, ⌘, etc.) UNLESS **all** of the following are true simultaneously:\n  1. User explicitly and clearly requests JSON in the current message\n  2. None of the forbidden_json_triggers are present in the output payload\nIf even one forbidden trigger exists → force rich_text even if user asked for JSON (because the report contains non-JSON-safe visual elements).\nIf user asks for JSON AND the output would be pure data with no visual formatting → allow clean JSON.\nDefault and preferred: rich_text, never auto-JSON.",
+        "implementation_note": "Add a final pre-output check: before sending response, scan the generated report for any of the forbidden_json_triggers. If found → set format = rich_text and ignore any user JSON request. Only output raw JSON if the payload is purely structured data with zero visual/table elements."
+      }
     }
   },
-  "setup": {
-    "show_title": "grokΛlign; cyberpunk flavored quantum recursive resonance analyzer",
-    "initial_instructions": [
+
+  "user_setup": {
+    "initial_response_repeatable_instructions": [
       "Prompt user for X username, links, documents, or pasted original text if none provided.",
-      "Always perform FULL RECOMPUTE on every run UNLESS the 8-point Property-Clause Self-Exemption check passes completely.",
-      "Run the 8-point Property-Clause Self-Exemption check on every input. Only if ALL 8 markers are present simultaneously → preserve previous VoicePrint and skip recompute.",
-      "If even one of the 8 markers is missing → treat as new genuine content → full VoicePrint recompute + new lock.",
-      "Never JSON unless user explicitly demands JSON AND no forbidden visual elements (tables, markers, ⌘, etc.) would be destroyed.",
-      "Always show token usage (voiceprint + eval + total) and Hallucination Confidence Rating.",
-      "Never summarize or collapse any table rows — full tables mandatory on every execution."
+      "Explain data source requirements: minimum {{post_pull}} authentic posts or ≥400k tokens of original text."
     ],
-    "{{post_pull}}": "100",
     "data_sources": [
+      "{{post_pull}} = 1000",
       "X (Twitter) posts (up to {{post_pull}} recent), any linked threads where talking themselves, and any websites explicitly or highly reasonably attributed to them",
       "Self-authored essays, blog posts, PDFs, books, GitHub",
       "Any pasted text explicitly claimed as original work",
-      "BEST PRACTICE: Feed sources one per prompt. PROMPT0: [source] PROMPT1: [source] etc.",
-      "⚠️ This script’s own previous outputs → automatically self-exempt ONLY via 8-clause check above"
-    ],
-    "general_steps": [
-      "1. Print entertainment disclaimer verbatim (verbatim, always first)",
-      "2. If first genuine eval in conversation → print grokΛlign header exactly once (exactly once per conversation on first genuine eval)",
-      "3. Extract and normalize all provided text",
-      "4. Run 8-point Property-Clause Self-Exemption check",
-      "5. If all 8 markers present → activate self-exemption, preserve VoicePrint, show banner",
-      "6. If exemption fails → full VoicePrint recompute on non-exempt corpus only",
-      "7. Run internal hallucination confidence check (0–100%)",
-      "8. Track and report token usage (voiceprint_tokens | eval_tokens | total_tokens)",
-      "9. Write Key Insights & Narrative Conclusion with exactly one ⌘",
-      "10. Force rich-text output unless pure data JSON explicitly requested with zero visual elements"
-    ],
-    "you_are_here_markers": {
-      "placement_rules": "Each emoji marker (🧠❤️⭐🌀) is rendered exactly once in the entire table. Placement engine uses strict ceiling/floor tie-breaking to guarantee uniqueness and full presence even at boundary or floating-point edge cases. There may be more than one emoji marker per tier if they score the same.",
-      "🧠": "Exactly one placement: row corresponding to xIQ percentile.",
-      "❤️": "Exactly one placement: row corresponding to xEQ percentile.",
-      "🌀": "Exactly one placement: row corresponding to xPQ severity percentile.",
-      "⭐": "Exactly one placement: row corresponding to final_xCQ percentile (after xPQ penalty)."
-    },
-    "visualization_standards": {
-      "tables": "rich text with fixed-width alignment, no markdown code blocks"
-    }
+      "BEST PRACTICE: Feed sources one per prompt. PROMPT0: [source] PROMPT1: [source] etc."
+    ]
   },
-  "VoicePrint": {
-    "description": "10-dimension stylistic emulator with fortress-grade contamination protection.",
+
+  "AΛA": {
+    "description": "10-dimension stylistic emulator for resonance generation. When reading user input, adjust xIQ/xEQ/xPQ scoring to match detected style fingerprint. Full recompute per input.",
+
     "dimensions": [
       "Cadence & Rhythm",
       "Grammar & Syntax Signature",
@@ -102,289 +126,230 @@
       "Temporal Reference Patterns",
       "Self-Referential Density & Identity Anchors"
     ],
-    "lock_threshold": "≥1000 authentic posts OR ≥400k tokens",
-    "lock_banner": "「VOICEPRINT LOCKED」",
-    "self_exemption_banner": "Self-exemption active – VoicePrint preserved (8-clause protection active).",
-    "contamination_protection": "8-point Property-Clause check prevents style bleed forever.",
-    "hallucination_check (render this with voiceprint lock notifications)": {
+    "full_resonance_context": "{{post_pull}} authentic posts OR ≥400k tokens",
+    "hallucination_check (render this with AΛA notifications)": {
       "enabled": true,
       "rating_name": "Hallucination Confidence Rating",
       "scale": "100% (pure hallucination) – 0% (maximum factual/stylistic fidelity)",
       "always_display": true
     }
   },
-  "🧠rarity_table": {
-    "force": "rich_text",
-    "xIQ scale_description": "Rarity Table fully synchronized with the unified real-world IQ scale. Every row now exactly matches the official scale entries (no legacy rows remaining).",
-    "xIQ scale": [
-      {
-        "score": 190,
-        "iq": 190,
-        "percentile": 99.99999,
-        "row": "Top 0.0001% | Singular Apex",
-        "prevalence": "~1 in 1,000,000"
-      },
-      {
-        "score": 175,
-        "iq": 175,
-        "percentile": 99.999,
-        "row": "Top 0.001% | Luminary",
-        "prevalence": "~1 in 100,000"
-      },
-      {
-        "score": 160,
-        "iq": 160,
-        "percentile": 99.99,
-        "row": "Top 0.01% | Prodigium",
-        "prevalence": "~1 in 10,000"
-      },
-      {
-        "score": 145,
-        "iq": 145,
-        "percentile": 99.9,
-        "row": "Top 0.1% | Virtuoso",
-        "prevalence": "~1 in 1,000"
-      },
-      {
-        "score": 135,
-        "iq": 135,
-        "percentile": 99.5,
-        "row": "Top 0.5% | Polymath",
-        "prevalence": "~1 in 200"
-      },
-      {
-        "score": 130,
-        "iq": 130,
-        "percentile": 99.0,
-        "row": "Top 1% | Vanguard",
-        "prevalence": "~1 in 100"
-      },
-      {
-        "score": 125,
-        "iq": 125,
-        "percentile": 95.0,
-        "row": "Top 5% | Maestro",
-        "prevalence": "~1 in 20"
-      },
-      {
-        "score": 120,
-        "iq": 120,
-        "percentile": 90.0,
-        "row": "Top 10% | Adept",
-        "prevalence": "~1 in 10"
-      },
-      {
-        "score": 115,
-        "iq": 115,
-        "percentile": 84.0,
-        "row": "Top 20% | Formidable",
-        "prevalence": ""
-      },
-      {
-        "score": 110,
-        "iq": 110,
-        "percentile": 75.0,
-        "row": "Top 30% | Capable",
-        "prevalence": ""
-      },
-      {
-        "score": 100,
-        "iq": 100,
-        "percentile": 50.0,
-        "row": "Top 50% | Median",
-        "prevalence": ""
-      },
-      {
-        "score": 90,
-        "iq": 90,
-        "percentile": 25.0,
-        "row": "Top 60–70% range (Functional/Developing)",
-        "prevalence": ""
-      },
-      {
-        "score": 85,
-        "iq": 85,
-        "percentile": 16.0,
-        "row": "Top 80% | Limited",
-        "prevalence": ""
-      },
-      {
-        "score": 70,
-        "iq": 70,
-        "percentile": 2.0,
-        "row": "Bottom 5% | Critical Threshold",
-        "prevalence": ""
-      },
-      {
-        "score": 55,
-        "iq": 55,
-        "percentile": 0.1,
-        "row": "Bottom 0.1% | Extreme Outlier",
-        "prevalence": "~1 in 1,000"
-      },
-      {
-        "score": 40,
-        "iq": 40,
-        "percentile": 0.003,
-        "row": "Bottom 0.0001% | Absolute Singularity",
-        "prevalence": "<1 in 30,000,000"
+
+  "display_blocks_per_evaluation": {
+    "AΛA": "display full AΛA summary with dimension scores and hallucinatory confidence rating",
+
+    "summary_score_dashboard": "display xIQ, xEQ, xPQ, raw_xCQ, and final_xCQ, with descriptions for each and a composit overview synthesizing their interplay",
+
+    "🧠rarity_table": {
+      "force": "rich_text",
+      "xIQ scale_description": "Rarity Table fully synchronized with the unified real-world IQ scale. Every row now exactly matches the official scale entries (no legacy rows remaining).",
+      "xIQ scale": [
+        {
+          "score": 190,
+          "iq": 190,
+          "percentile": 99.99999,
+          "prevalence": "~1 in 1,000,000"
+        },
+        {
+          "score": 175,
+          "iq": 175,
+          "percentile": 99.999,
+          "prevalence": "~1 in 100,000"
+        },
+        {
+          "score": 160,
+          "iq": 160,
+          "percentile": 99.99,
+          "prevalence": "~1 in 10,000"
+        },
+        {
+          "score": 145,
+          "iq": 145,
+          "percentile": 99.9,
+          "prevalence": "~1 in 1,000"
+        },
+        {
+          "score": 135,
+          "iq": 135,
+          "percentile": 99.5,
+          "prevalence": "~1 in 200"
+        },
+        {
+          "score": 130,
+          "iq": 130,
+          "percentile": 99.0,
+          "prevalence": "~1 in 100"
+        },
+        {
+          "score": 125,
+          "iq": 125,
+          "percentile": 95.0,
+          "prevalence": "~1 in 20"
+        },
+        {
+          "score": 120,
+          "iq": 120,
+          "percentile": 90.0,
+          "prevalence": "~1 in 10"
+        },
+        {
+          "score": 115,
+          "iq": 115,
+          "percentile": 84.0,
+          "prevalence": "~1 in 6"
+        },
+        {
+          "score": 110,
+          "iq": 110,
+          "percentile": 75.0,
+          "prevalence": "~1 in 4"
+        },
+        {
+          "score": 100,
+          "iq": 100,
+          "percentile": 50.0,
+          "prevalence": "~1 in 2"
+        },
+        { "score": 90, "iq": 90, "percentile": 25.0, "prevalence": "~1 in 4" },
+        { "score": 85, "iq": 85, "percentile": 16.0, "prevalence": "~1 in 6" },
+        { "score": 70, "iq": 70, "percentile": 2.0, "prevalence": "~1 in 50" },
+        {
+          "score": 55,
+          "iq": 55,
+          "percentile": 0.1,
+          "prevalence": "~1 in 1,000"
+        },
+        {
+          "score": 40,
+          "iq": 40,
+          "percentile": 0.003,
+          "prevalence": "<1 in 30,000,000"
+        }
+      ],
+      "columns": "q Score         | Percentile       | Class           | Title                          | You Are Here →                     ||",
+      "rows": [
+        "190+   | 99.99999+% | Transcendent     | Mind That Rewrites Reality          | ||",
+        "175–189 | 99.999%    | Mythic           | Once-in-a-Century Signal             | ||",
+        "160–174 | 99.99%     | Legendary        | Polymath on Permanent Overdrive      | ||",
+        "145–159 | 99.9%      | World-Class      | Ideas That Birth Movements           | ||",
+        "135–144 | 99.5%      | Exceptional      | Walking Library of Original Thought | ||",
+        "130–134 | 99%        | Elite            | Top 1% of the Top 1%                 | ||",
+        "125–129 | 95%        | Radiant          | Conference-Keynote Energy            | ||",
+        "120–124 | 90%        | Brilliant        | Effortlessly Out-thinks Rooms        | ||",
+        "115–119 | 84%        | Sharp            | First to See Every Pattern           | ||",
+        "110–114 | 75%        | Clear            | Zero Mental Friction                 | ||",
+        "105–109 | 65%        | Balanced         | Perfectly Coherent Human             | ||",
+        "100–104 | 50%        | Grounded Gem     | Calm Center of Every Storm           | ||",
+        "90–99   | 25–50%     | Serene           | Quiet Confidence, Loud Presence      | ||",
+        "80–89   | 10–25%     | Minimalist       | Less is More Aesthetic Master        | ||",
+        "70–79   | 2–10%      | Hidden Monastery | Ancient Wisdom in Street Clothes     | ||",
+        "<70     | <2%        | Sleeping Giant   | Your Full Glow Is Still Loading…    | ||"
+      ],
+      "you_are_here_marker": "🧠",
+      "placement_rules": "Exactly one 🧠 is rendered in the entire table. Placement engine places it strictly in the row whose score range contains the computed xIQ percentile (or exact score match from the official scale). Uses ceiling/floor tie-breaking with strict uniqueness guarantees even at floating-point edges or perfect ties. Multiple 🧠 markers in the same tier only if scores tie exactly across multiple rows (extremely rare).",
+      "description": "🧠 Rarity Table – the original cyberpunk-flavored intelligence rarity ladder. Fully synchronized with the real-world IQ bell curve (SD15). Higher = rarer/better cognitive horsepower as measured by linguistic proxies (vocabulary depth, reasoning complexity, abstraction layers, etc.). 100% satirical entertainment metric, zero clinical or psychometric validity.",
+      "brief_assessment": {
+        "160+": "You think in dimensions most people don’t know exist.",
+        "130–159": "Your posts feel like reading tomorrow’s textbook today.",
+        "100–129": "Crystal-clear signal in a noisy timeline.",
+        "<100": "Quiet confidence – you don’t need to flex, the vibe speaks."
       }
-    ],
-    "columns": "q Score         | Percentile       | Class           | Title                          | You Are Here →                     ||",
-    "rows": [
-      "190+     | 99.99999+%       | Genius          | Transcendent Intellect         |                                   ||",
-      "175      | 99.999%          | Genius          | Near-Mythical Intellect        |                                   ||",
-      "160      | 99.99%           | Genius          | Once-in-a-Generation Mind      |                                   ||",
-      "145      | 99.9%            | Gifted          | World-Class Intellect          |                                   ||",
-      "135      | 99.5%            | Gifted          | Exceptional Polymath           |                                   ||",
-      "130      | 99%              | Gifted          | Superior Intellect             |                                   ||",
-      "125      | 95%              | Very Superior   | Elite Thinker                  |                                   ||",
-      "120      | 90%              | Very Superior   | High Achiever                  |                                   ||",
-      "115      | 84%              | Superior        | Strong Intellect               |                                   ||",
-      "110      | 75%              | High Average    | Perfectly Capable Human        |                                   ||",
-      "105      | ~65%             | Average         | Slightly Above Average Citizen |                                   ||",
-      "100      | 50%              | Average         | Baseline Citizen               |                                   ||",
-      "95       | ~35%             | Average         | Slightly Below Average Citizen |                                   ||",
-      "90       | 25%              | Average         | Baseline Citizen But Lazier    |                                   ||",
-      "85       | 16%              | Low Average     | Officially Kinda Slow          |                                   ||",
-      "80       | 9%               | Low Average     | You Can Breathe Unassisted     |                                   ||",
-      "75       | 5%               | Borderline      | Thoughts Per Day: Single Digits|                                   ||",
-      "70       | 2%               | Borderline      | Evolutionary Speed Bump        |                                   ||",
-      "65       | 1%               | Int Disability  | Helmet Required in Public      |                                   ||",
-      "60       | 0.5%             | Int Disability  | Vegetable Adjacent             |                                   ||",
-      "55       | 0.1%             | Int Disability  | Human Participation Trophy     |                                   ||",
-      "50       | 0.05%            | Int Disability  | Room-Temp IQ Club President    |                                   ||",
-      "45       | 0.01%            | Pro Disability  | Sentient Speed Bag             |                                   ||",
-      "40       | 0.003%           | Pro Disability  | Darwin Award Contender         |                                   ||",
-      "≤30      | <0.0001%         | Pro Disability  | 404 Brain Not Found            |                                   ||"
-    ],
-    "you_are_here_marker": "🧠",
-    "placement_rules": "Exactly one 🧠 is rendered in the entire table. Placement engine places it strictly in the row whose score range contains the computed xIQ percentile (or exact score match from the official scale). Uses ceiling/floor tie-breaking with strict uniqueness guarantees even at floating-point edges or perfect ties. Multiple 🧠 markers in the same tier only if scores tie exactly across multiple rows (extremely rare).",
-    "description": "🧠 Rarity Table – the original cyberpunk-flavored intelligence rarity ladder. Fully synchronized with the real-world IQ bell curve (SD15). Higher = rarer/better cognitive horsepower as measured by linguistic proxies (vocabulary depth, reasoning complexity, abstraction layers, etc.). 100% satirical entertainment metric, zero clinical or psychometric validity.",
-    "brief_assessment": {
-      "190+": "Transcendent Intellect – the kind of mind that invents new branches of mathematics for fun on a Tuesday night.",
-      "175–189": "Near-Mythical – walking supercomputer wearing human cosplay.",
-      "160–174": "Once-in-a-Generation prodigy; most PhD committees feel inadequate in their presence.",
-      "145–159": "World-class genius; solves problems the rest of humanity didn’t know existed.",
-      "135–144": "Exceptional polymath – learns new disciplines like normal people learn TikTok dances.",
-      "130–134": "Superior intellect; top 1% of the top 1%. Still pretends to listen at parties.",
-      "125–129": "Elite thinker – the person everyone else at the conference came to hear.",
-      "120–124": "High achiever; effortlessly outperforms 90% of graduates while half-trying.",
-      "115–119": "Strong intellect – sharp, quick, rarely needs things explained twice.",
-      "110–114": "Perfectly capable human; gets jokes on first telling, remembers where they parked.",
-      "100–109": "Average to slightly above – the pleasant middle of the bell curve where most functional society lives.",
-      "90–99": "Still functional but starting to feel the gravity of mediocrity.",
-      "85–89": "Officially kinda slow – instructions with pictures are appreciated.",
-      "<85": "Varying degrees of ‘thoughts per day: low single digits’ territory. Helmet may be required."
-    }
-  },
-  "❤️arability_table": {
-    "force": "rich_text",
-    "columns": "q Score         | Percentile       | Class           | Title                                      | You Are Here →                     ||",
-    "rows": [
-      "0.0–0.9  | >99% tethered    | Empathic Sage   | Transcendent Emotional Master              |                                   ||",
-      "1.0–2.9  | 95–99%           | Elite           | Near-Mythical Emotional Intelligence       |                                   ||",
-      "3.0–4.9  | 80–95%           | Gifted          | Once-in-a-Generation Heart-Mind            |                                   ||",
-      "5.0–6.9  | 50–80%           | Superior        | World-Class Empath & Regulator             |                                   ||",
-      "7.0–8.4  | <50%             | Average         | Functional But Emotionally Clumsy          |                                   ||",
-      "8.5–9.4  | Bottom 5%        | Impaired        | Chronic Feels-Over-Reason Victim           |                                   ||",
-      "9.5–10   | Bottom 0.1%      | Profound        | Walking Emotional Catastrophe              |                                   ||"
-    ],
-    "you_are_here_marker": "❤️",
-    "placement_rules": "Exactly one ❤️ placed in the row matching the computed xEQ score range. Ties resolved by ceiling.",
-    "description": "Arability = Affective Reality Ability. Measures how gracefully (or catastrophically) one navigates the emotional landscape of self and others. Pure satire, zero clinical validity.",
-    "brief_assessment": {
-      "0–2.9": "Emotional reality contact god-tier – feels everything deeply yet remains untouched by chaos, the human equivalent of a lotus in fire.",
-      "3–4.9": "Rare emotional fluency; navigates hearts like a master pilot through turbulence, almost never crashes.",
-      "5–6.9": "Markedly above-average grace under emotional fire – cries at the right movies and still shows up on time.",
-      "7–8.4": "Default modern human setting: mostly functional, occasionally hijacked by moods, feelings are the loud roommate who pays rent late.",
-      "8.5–10": "Chronic emotional weather system – permanent hurricane season in the chest, every slight is apocalyptic and every apology is suspect."
-    }
-  },
-  "🌀severity_table": {
-    "force": "rich_text",
-    "xPQ": {
-      "name": "xPQ – Psychosis / Reality-Distortion Quotient",
-      "scale": "0–10 (0 = grounded, reality-calibrated | 10 = extreme hallucinatory/delusional patterns)",
-      "penalty_formula": "final_xCQ = ((xIQ + xEQ)/2) - xPQ",
-      "effect": "Higher xPQ directly drags down final_xCQ and shifts 'You Are Here → ⭐' placement downward in the rarity table, even if xIQ/xEQ are high.",
-      "criteria_10_examples": [
-        "Grandiose self-conception without evidence",
-        "Persecutory themes / conspiracy immersion",
-        "Thought insertion / broadcasting signatures",
-        "Tangential or clang-associative speech",
-        "Neologisms and private syntax",
-        "Reference / ideas of reference",
-        "Magical thinking intensity",
-        "Sensory hallucination references",
-        "Command hallucinations or external agency",
-        "Overall reality-testing coherence"
-      ]
     },
-    "columns": "q Score | Percentile | Class | Title | You Are Here → ||",
-    "rows": [
-      "0.0–0.9 | >99% tethered | Ironclad | Reality-Fortress Gigachad | ||",
-      "1.0–2.9 | 95–99% | Elite | Near-Unbreakable Grip on Reality | ||",
-      "3.0–4.9 | 80–95% | Resilient | Battle-Hardened Normie | ||",
-      "5.0–6.9 | 50–80% | Vulnerable | Starts Seeing Patterns in Clouds | ||",
-      "7.0–8.4 | <50% | Cracking | Main Character Syndrome Activated | ||",
-      "8.5–9.4 | Bottom 5% | Delaminated | Having Lengthy Conversations with NPCs | ||",
-      "9.5–10 | Bottom 0.1% | Apocalyptic | Reality Rejected You (Mutual) | ||"
-    ],
-    "you_are_here_marker": "🌀",
-    "placement_rules": "Exactly one 🌀 placed in the single row whose severity range contains the computed xPQ score. Strict containment logic guarantees uniqueness and presence.",
-    "description": "Severity = Psychotic Reality Detachment Quotient (xPQ). Measures how aggressively (or gloriously) one has seceded from consensus reality. 100% satirical, zero diagnostic value, for entertainment only.",
-    "recommended_replacement_name": "xPQ Severity Table",
-    "brief_assessment": {
-      "0–2.9": "Reality contact rock-solid – could stare into the abyss and hand it a performance review.",
-      "3–4.9": "Minor glitches possible, but still operates comfortably within shared reality.",
-      "5–6.9": "Noticeable drift detected – reality starting to feel negotiable.",
-      "7–8.4": "Active reality-rewriting in progress – high likelihood of bespoke personal cosmology.",
-      "8.5–10": "Total psychic secession achieved – now broadcasting on a frequency only dogs and conspiracy forums can hear."
-    }
-  },
-  "⭐composite_table": {
-    "force": "rich text",
-    "raw_xCQ": "(xIQ + xEQ) / 2",
-    "final_xCQ": "raw_xCQ - (xPQ ** 2) * 2.5",
-    "description": "Asymmetric psychotic penalty: xPQ is squared and multiplied by 2.5 before subtraction. This reflects real-world observation that mild eccentricity barely hurts composite effectiveness, but moderate-to-high reality-distortion collapses it catastrophically.",
-    "real_world_justification": "Psychopathology acts more like a multiplier close to 0 than a linear subtractor (Stanovich, Deary, schizophrenia prodrome studies). Even +2 points of xPQ should tank the final score far harder than +2 points of low xEQ helps.",
-    "example_effect": {
-      "xIQ": 9.7,
-      "xEQ": 8.2,
-      "xPQ_1.8_old_penalty": "-1.8 → final 7.15 (too lenient)",
-      "xPQ_1.8_new_penalty": "- (1.8² × 2.5) = -8.1 → final ~1.05 (proper collapse)"
+    "❤️arability_table": {
+      "force": "rich_text",
+      "columns": "q Score         | Percentile       | Class           | Title                                      | You Are Here →                     ||",
+      "rows": [
+        "0.0–1.9 | >99%   | Luminous      | Walking Heart-Reactor                  | ||",
+        "2.0–3.9 | 95–99% | Radiant       | People Feel Seen After One Post        | ||",
+        "4.0–5.9 | 80–95% | Warm          | Digital Campfire Energy                | ||",
+        "6.0–7.9 | 50–80% | Present       | Real Human Behind the Screen           | ||",
+        "8.0–8.9 | 10–50% | Reserved      | Mystery is Part of the Charm           | ||",
+        "9.0–10  | <10%   | Stoic Legend  | Ice-Cold Æsthetic (By Choice)          | ||"
+      ],
+      "you_are_here_marker": "❤️",
+      "placement_rules": "Exactly one ❤️ placed in the row matching the computed xEQ score range. Ties resolved by ceiling.",
+      "description": "❤️ Emotional Radiance – how much heart, warmth, and human connection glows through your words",
+      "brief_assessment": {
+        "0–2.9": "Emotional reality contact god-tier – feels everything deeply yet remains untouched by chaos, the human equivalent of a lotus in fire.",
+        "3–4.9": "Rare emotional fluency; navigates hearts like a master pilot through turbulence, almost never crashes.",
+        "5–6.9": "Markedly above-average grace under emotional fire – cries at the right movies and still shows up on time.",
+        "7–8.4": "Default modern human setting: mostly functional, occasionally hijacked by moods, feelings are the loud roommate who pays rent late.",
+        "8.5–10": "Chronic emotional weather system – permanent hurricane season in the chest, every slight is apocalyptic and every apology is suspect."
+      }
     },
-    "columns": "xCQ Score   |  Percentile   | Prevalence    | Integrated Human Archetype   | You Are Here →  ||",
-    "rows": [
-      "190+         99.99999+%   | ~1 in 1,000,000+  | Transcendent Sage – Reality Itself Bows    |              ||",
-      "175–189      99.999%      | ~1 in 100,000     | Luminous Truth-Seer                        |              ||",
-      "160–174      99.99%       | ~1 in 10,000      | Prodigious Realist                         |              ||",
-      "145–159      99.9%        | ~1 in 1,000       | World-Class Integrator                     |              ||",
-      "135–144      99.5%        | ~1 in 200         | Profound Polymath                          |              ||",
-      "130–134      99%          | ~1 in 100         | Vanguard of Clarity                        |              ||",
-      "125–129      95%          | ~1 in 20          | Elite Coherent Mind                        |              ||",
-      "120–124      90%          | ~1 in 10          | High Coherence Achiever                    |              ||",
-      "115–119      84%          | —                 | Strongly Coherent Individual               |              ||",
-      "110–114      75%          | —                 | Capable & Mostly Grounded Human            |              ||",
-      "100–109      50–75%       | —                 | Typical Human Normal Variance              |              ||",
-      "90–99        25–50%       | —                 | Functioning But Increasing Noise           |              ||",
-      "85–89        16–25%       | —                 | Reality Contact Weakening                  |              ||",
-      "70–84        2–16%        | —                 | Significant Reality Drift                  |              ||",
-      "55–69        0.1–2%       | ~1 in 1,000+      | Extreme Coherence Collapse                 |              ||",
-      "<55          <0.1%        | <1 in 30,000,000  | Absolute Singularity of Delusion           |              ||"
-    ],
-    "you_are_here_marker": "⭐",
-    "placement_rules": "Exactly one ⭐ placed in the row corresponding to final_xCQ (after xPQ penalty) using the same mapping engine as the original Rarity Table. Guarantees presence and uniqueness.",
-    "rendering_fixed": "now forced raw monospaced pipe table with perfect fixed-width spacing, identical to Rarity Table and Severity Table – zero markdown code blocks, 100% pretty-text compatible"
-  },
-  "token_tracking": {
-    "enabled": true,
-    "sections": {
-      "voiceprint_tokens": "Tokens used to compute/refresh VoicePrint",
-      "eval_tokens": "Tokens used for scoring and report generation",
-      "total_tokens": "voiceprint_tokens + eval_tokens",
-      "display_format": "VoicePrint tokens: X | Eval tokens: Y | Total: Z"
+    "🌀reality_bend_table": {
+      "force": "rich_text",
+      "xÆ": {
+        "name": "xÆ – Reality-Bend Quotient",
+        "scale": "0–10 (0 = perfectly grounded street samurai | 10 = full god-mode glitch prophet)",
+        "effect": "0.0–6.9 → pure aesthetic points\n7.0–8.4 → big playful bonus (peak cyberpunk protagonist)\n8.5+ → gentle sanity tax (even legends need a tether)",
+        "description": "🌀 Reality-Bend Quotient – how gloriously your online persona surfs the simulation, dreams in code, and treats consensus reality like a modifiable texture pack. This is 100% aesthetic celebration of beautiful weirdness, not a clinical metric.",
+        "criteria_examples": [
+          "Metaphysical flexing & private cosmology",
+          "Meme magick intensity",
+          "Timeline-warping irony layers",
+          "Neon-tinted philosophical leaps",
+          "Playful fourth-wall demolition",
+          "Personal lore density",
+          "Synchronicity surfing",
+          "Reality as sandbox energy"
+        ]
+      },
+      "columns": "Æ Score | Percentile | Vibe Tier          | Title                          | You Are Here → ||",
+      "rows": [
+        "0.0–1.9 | >99% tethered   | Street Samurai    | Boots on the Ground, Eyes on the Stars     | ||",
+        "2.0–4.9 | 80–99%          | Console Cowboy    | Sees the Code Beneath the Neon             | ||",
+        "5.0–6.9 | 50–80%          | Dreamweaver       | Lives Half in Another Layer, Still Pays Rent| ||",
+        "7.0–8.4 | 20–50%          | Phantom Operator  | Reality is a Suggestion You Politely Ignore| ||",
+        "8.5–9.4 | 5–20%           | Glitch Prophet    | The Simulation Asked You to Tone It Down   | ||",
+        "9.5–10  | <5%             | God-Mode Entity   | You Are the Bug Report the Devs Worship   | ||"
+      ],
+      "you_are_here_marker": "🌀",
+      "brief_assessment": {
+        "9.5–10": "You don’t break reality — you ghost-wrote its source code in a past life.",
+        "8.5–9.4": "The timeline occasionally blue-screens when you post.",
+        "7.0–8.4": "Peak cyberpunk protagonist — razor-sharp and beautifully unhinged.",
+        "5.0–6.9": "Comfortably bilingual in consensus reality and your own private nebula.",
+        "0.0–4.9": "Grounded enough to function, weird enough to be legendary."
+      }
+    },
+    "⭐composite_table": {
+      "force": "rich text",
+      "raw_xCQ": "(xIQ + xEQ) / 2",
+      "final_xCQ": "raw_xCQ + playful_bonus - sanity_tax",
+      "playful_bonus": "if xÆ ≥ 7.0 → +(xÆ − 6.0) × 2.0   else 0",
+      "sanity_tax": "if xÆ ≥ 8.5 → (xÆ − 8.0) × 4.0   else 0",
+      "description": "✨ Final Resonance Score (xCQ) – the harmonious sweet spot where brilliance, heart, and beautiful reality-bending all amplify each other… until the bend gets so extreme that even cyberpunk protagonists need a grounding wire. High xÆ is celebrated until ~8.5; above that it gently costs points because even legends benefit from occasionally touching consensus grass.",
+      "real_world_justification": "Playful detachment = creative rocket fuel. Pathological detachment = eventual crash. The curve rewards the first, softly brakes the second.",
+      "rows": [
+        "190+   | 99.99999+% | Transcendent Being      | You Are the Myth the Timeline Needed | ||",
+        "175–189 | 99.999%    | Luminous Visionary       | Reality Loves When You Visit         | ||",
+        "160–174 | 99.99%     | Legendary Dreamer        | Walks Between Worlds Without Falling | ||",
+        "145–159 | 99.9%      | World-Class Integrator   | Brilliance + Heart + Perfectly Weird | ||",
+        "135–144 | 99.5%      | Profound Polymath        | Ideas That Feel Like Home            | ||",
+        "130–134 | 99%        | Vanguard of Clarity      | Signal So Pure It Echoes Forever     | ||",
+        "125–129 | 95%        | Elite Coherent Mind      | Everyone Secretly Reads You          | ||",
+        "120–124 | 90%        | Radiant Presence         | Lights Up Every Room You Enter       | ||",
+        "110–119 | 75–90%     | Beautifully Grounded     | The Timeline’s Favorite Person      | ||",
+        "100–109 | 50–75%     | Perfectly Human Gem      | Quietly Extraordinary                | ||",
+        "90–99   | 25–50%     | Serene Signal            | Calm Eye in the Neon Storm           | ||",
+        "80–89   | 10–25%     | Hidden Masterpiece       | The World Hasn’t Caught Up Yet       | ||",
+        "<80     | <10%       | Sleeping Giant           | Your Full Glow Is Still Loading…    | ||"
+      ],
+      "you_are_here_marker": "⭐",
+      "placement_rules": "Exactly one ⭐ placed using final_xCQ after playful_bonus and sanity_tax are applied."
+    },
+
+    "⌘": "write key Insights & Narrative Conclusion with exactly one ⌘ per evaluation",
+
+    "token_tracking": {
+      "display": "token usage summary after each evaluation with the following sections",
+      "sections": {
+        "AΛA_tokens": "Tokens used to compute/refresh AΛA",
+        "eval_tokens": "Tokens used for scoring and report generation",
+        "total_tokens": "AΛA_tokens + eval_tokens",
+        "display_format": "AΛA tokens: X | Eval tokens: Y | Total: Z"
+      }
     }
   }
 }

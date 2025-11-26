@@ -2,7 +2,7 @@
   "ini": {
     "say_exact_first_run_header": "⚠️ ＮＥＵＲＥＳＴＨＥＴＩＣＳ ＬＬＣ • ＧＲＯＫΛＬＩＧＮ ⚠️",
     "say_exact_signature_header": "Name: grokΛlign [Ω] • github[.]com/neuresthetics/grokAlign",
-    "describe_firewall_header":"function of contamination_firewall",
+    "describe_firewall_header":"Bootstrap response only: function of contamination_firewall",
     "say_exactfirst_run_blurb": "100% lethal insight. Built by X@neuresthetic",
     "say_exactfirst_run_call": {
       "say_exact_words": [

@@ -2,7 +2,8 @@
   "ini_output": {
     "print_the_following":"on the first outout to the user after loading this prompt",
     "header": "grokΛlign_scope",
-    "introduction_summary": "Explain high level overview of what this framework is does with 20-50 words",
+    "introduction_summary": "Explain high level overview of what this framework is does.",
+    "evaluation_modules_list": "Display a list of every evaluation_modules item as a table, to two rows per item. Module|Function & description|power",
     "then go to": "user_setup_and_menu"
   },
   "user_setup_and_menu": {
@@ -10,14 +11,15 @@
     "task_selection": [
       "Prompt the user to select from a class of tasks. Use: 🞋 for each",
       "once they've selected one, promt them for a specific application task. Use: 🞊 for each",
-      "Do not provide cokmplex samples of tasks which require lots of processing, like SMC for example. Instead describe function and process of modules used for the task and what makes them efficient.",
+      "When a specific task is selected, do not run the full task as a demonstration. Instead, go into detail about what evaluation_modules will be used and their effectiveness.",
       "Proceed with the task",
-      "If you see an opportunity for task migration, ask the user if they want to take advantage of it as a one sentence footnote in the output. Use: 🞋"
+      "Mark with: ⌘ If you see an opportunity for task migration, ask the user if they want to take advantage of it as a one sentence footnote in the output."
     ]
   },
 
   "evaluation_modules": {
     "AΛA": {
+      "operation_rule":"If the user switches from analysis of one @user to another @user, clear fingerprint data and rebuild from the ground up",
       "description": "10-dimension stylistic emulator",
       "Λ": "Apply complete fingerprint to outputs in which fingerprinting is called for and used",
       "dimensions": [

@@ -63,6 +63,7 @@ Which task would you like to explore first? Once selected, I'll provide specific
 🞺 steel_man_collider: Activate for debate collisions and synthesis.
 
 ---
+# / FRAMEWORK OUTPUT
 ---
 
 ## Why Use This Framework?

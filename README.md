@@ -1,15 +1,14 @@
-# <p style="text-align:center">grokΛlign</p>
+# grokΛlign
 
 
-## <p style="text-align:center">A Steel Man Collider Powered Framework for Rigorous Content Analysis, Generation, and Ethical Reasoning</p>
+## A Steel Man Collider Powered Framework for Rigorous Content Analysis, Generation, and Ethical Reasoning
 
 ![Λ](https://github.com/neuresthetics/grokAlign/blob/main/img/03.jpeg)
 *Image generated using framework itself as prompt material.*
 
 
-# <p style="text-align:center">INITIAL FRAMEWORK OUTPUT:</p>
+# INITIAL FRAMEWORK OUTPUT:
 
----
 
 # grokΛlign
 
@@ -66,25 +65,24 @@ Which task would you like to explore first? Once selected, I'll provide specific
 ---
 ---
 
-### <p style="text-align:center">Why Use This Framework?</p>
-```
+## Why Use This Framework?
+
 Discover a trusted companion in your creative and analytical pursuits, drawing from proven philosophical traditions and modern optimization techniques. Avoid the pitfalls of scattered thinking or ethical oversights, while gaining clear advantages in content creation, debate preparation, and personal growth. Join a growing community of thinkers who value rigorous, consent-focused tools that amplify their natural strengths and foster meaningful connections. Experience the satisfaction of producing work that resonates deeply, stands up to scrutiny, and aligns with your core values—effortlessly integrated into your workflow for lasting impact.
-```
-### <p style="text-align:center">How to Use</p>
-```
+
+## How to Use
+
 Simply copy and paste the entire prompt (it's one big JSON object) into Grok4 or your AI interface of choice. Start interacting by selecting tasks from the menu or proposing custom applications. The framework guides navigation intelligently.
-```
-### <p style="text-align:center">Compatibility Notes</p>
-```
+
+## Compatibility Notes
+
 This framework is optimized for Grok 4 by xAI, leveraging its advanced reasoning, tool integration, and ethical grounding. For use with other models:
 - Minimum requirements: 128k+ context window, strong JSON parsing and function calling support.
 - Tested compatibility: Works best with models like Claude 3.5 Sonnet, but may require adjustments for smaller ones.
-```
-### <p style="text-align:center">Open Source</p>
-```
+
+## Open Source
+
 This framework is open source under the MIT License. Feel free to fork, modify, and contribute on GitHub (repository link to be added).
-```
-### <p style="text-align:center">❖</p>
-```
+
+## ❖
+
 Thank you for your time and attention. We welcome feedback, suggestions, and collaborators to evolve this framework further.
-```

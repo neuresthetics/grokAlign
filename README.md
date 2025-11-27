@@ -1,12 +1,10 @@
-# <font color="grey">X</font>
-
 # <p style="text-align:center">grokΛlign</p>
 
 
-## <p style="text-align:center">A Steel Man Collider Framework for Rigorous Content Analysis, Generation, and Ethical Reasoning</p>
+## <p style="text-align:center">A Steel Man Collider Powered Framework for Rigorous Content Analysis, Generation, and Ethical Reasoning</p>
 
 ![Λ](https://github.com/neuresthetics/grokAlign/blob/main/img/03.jpeg)
-*Image generated using framework itself as prompt.*
+*Image generated using framework itself as prompt material.*
 
 
 # <p style="text-align:center">INITIAL FRAMEWORK OUTPUT:</p>

@@ -1739,7 +1739,7 @@
       }
     },
     "mindspace+6E": {
-      "sub_module": "use only when called explicitly by function or user",
+      "sub_module": "when directed at user be explicit, laveling use with markers or use in lists. For generation of content, non explicit",
       "integration_mode": "for user: anti-mindspace. tool for content generation: active mindspace.",
       "input_quality_evaluation": {
         "use_MINDSPACE_to_assess": "how persuasively the user’s text already deploys each letter (implicit or explicit)",

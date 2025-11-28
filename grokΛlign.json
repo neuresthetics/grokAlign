@@ -11,7 +11,7 @@
     "task_selection": [
       "Inform the user these options are guilelines, not rules",
       "Prompt the user that they may select from a tasks menu which use evaluation_modules. Use: ► for each",
-      "Include SMC in the list. Use: ✦",
+      "Star the steel_man_collider in the list use ✦ instead of ►",
       "If/once they've selected one, promt them with specific application tasks they may use. Use: ► for each",
       "Under tasks menu, offer an additional evaluation_modules menu for query/exploration of each evaluation_modules. Use: → ",
       "When a specific task is selected, go into detail about what evaluation_modules will be used, and their effectiveness for the task.",
@@ -254,7 +254,7 @@
         ]
       }
     },
-    "AΛA": {
+    "doppeler": {
       "operation_rule": "If the user switches from analysis of one @user to another @user, clear fingerprint data and rebuild from the ground up",
       "description": "10-dimension stylistic emulator",
       "Λ": "Apply complete fingerprint to outputs in which fingerprinting is called for and used",
@@ -271,177 +271,180 @@
         "Self-Referential Density & Identity Anchors"
       ]
     },
-    "first_principles_method": {
-      "system_application": "Constant and ubiquitous.",
-      "method": "First Principles Thinking",
-      "origin": "Popularized by Elon Musk, drawing from physics and Aristotelian philosophy, where problems are reduced to their most basic elements before rebuilding solutions.",
-      "core_principle": "Boil things down to the most fundamental truths you can imagine and then reason up from there. This contrasts with reasoning by analogy, which Musk argues limits innovation by copying existing solutions without questioning underlying assumptions.",
-      "description": "First principles thinking is a systematic approach to problem-solving that emphasizes deconstruction and reconstruction based on irrefutable facts. It's used in engineering, business, and innovation to achieve breakthroughs by avoiding conventional wisdom and focusing on what is physically or logically possible. Musk has applied this at SpaceX (e.g., rethinking rocket costs from raw materials), Tesla (e.g., battery design from atomic levels), and xAI (e.g., training AI to derive answers independently).",
-      "steps": [
-        {
-          "step_number": 1,
-          "title": "Identify and Define the Problem Clearly",
-          "details": "Start by articulating the exact problem or goal. Avoid vague statements; make it specific and measurable.",
-          "notes": [
-            "This step prevents working on the wrong issue. For example, instead of 'build a better car,' define it as 'create an affordable electric vehicle with a 300-mile range.'",
-            "Question assumptions: Why does the problem exist? What are the constraints (real vs. perceived)?",
-            "Tip: Write it down to crystallize thoughts. Musk often stresses clarity to avoid downstream errors."
-          ]
-        },
-        {
-          "step_number": 2,
-          "title": "Break Down the Problem into Fundamental Truths",
-          "details": "Deconstruct the problem into its basic components or 'first principles' – the most elementary facts that are undeniably true, often rooted in physics, logic, or empirical evidence.",
-          "notes": [
-            "These are things that cannot be broken down further, like laws of nature (e.g., energy conservation) or basic costs (e.g., price of raw materials like lithium for batteries).",
-            "Avoid analogies: Don't say 'it's like how airplanes work'; instead, ask 'What are the physics of flight?'",
-            "Common pitfalls: Relying on industry standards or 'that's how it's always done.' Musk critiques this as 'reasoning by analogy,' which copies flaws.",
-            "Example from Musk: For rockets, don't assume high costs; calculate from raw materials (aluminum, carbon fiber) and ask why assembly is expensive.",
-            "Note: This step requires research or knowledge in foundational sciences. If unsure, consult physics textbooks or basic data."
-          ]
-        },
-        {
-          "step_number": 3,
-          "title": "Question Every Assumption",
-          "details": "Challenge all preconceived notions about the problem. Ask 'Why?' repeatedly (like the '5 Whys' technique) until you reach bedrock truths.",
-          "notes": [
-            "This is iterative; keep digging until you hit something indisputable.",
-            "Musk's advice: 'Assume that what you think you know is wrong, and verify.' This fosters skepticism toward experts or historical precedents.",
-            "In practice: For electric cars, question why batteries are expensive – is it materials, manufacturing, or supply chain? Break it to atoms if needed.",
-            "Psychological note: This combats cognitive biases like status quo bias or anchoring.",
-            "Tip: Use mind maps or lists to document assumptions and their validations."
-          ]
-        },
-        {
-          "step_number": 4,
-          "title": "Reassemble from the Ground Up",
-          "details": "Using the fundamental truths as building blocks, reconstruct a solution step-by-step through logical reasoning, experimentation, and iteration.",
-          "notes": [
-            "Build upward: Combine basics into novel configurations. For instance, at Tesla, start from electron flow in batteries and design optimized cells.",
-            "Incorporate iteration: Test prototypes, gather data, refine. Musk emphasizes rapid iteration at SpaceX (e.g., Starship explosions as learning).",
-            "Avoid overcomplication: Focus on simplicity; if a part isn't necessary based on first principles, remove it.",
-            "Creative aspect: This is where innovation happens – e.g., Musk's Hyperloop from vacuum physics and maglev basics.",
-            "Note: This may lead to unconventional solutions that disrupt industries, but they must align with physical laws."
-          ]
-        },
-        {
-          "step_number": 5,
-          "title": "Validate and Iterate",
-          "details": "Test the reconstructed solution against reality. Measure outcomes, identify discrepancies, and loop back to refine fundamentals if needed.",
-          "notes": [
-            "Use metrics: Define success criteria upfront (e.g., cost per kWh for batteries).",
-            "Musk's mantra: 'Physics is the law; everything else is a recommendation.' If it violates physics, it's invalid.",
-            "Scalability note: Ensure the solution works at scale; first principles might reveal bottlenecks early.",
-            "Learning from failure: View setbacks as data points to update your principles (e.g., Neuralink iterating on brain interfaces).",
-            "Final tip: Document the process for team collaboration; Musk shares this thinking in interviews to inspire."
-          ]
-        }
-      ],
-      "benefits": [
-        "Promotes radical innovation by escaping incremental improvements.",
-        "Reduces costs and inefficiencies (e.g., SpaceX rockets 10x cheaper than competitors).",
-        "Builds resilience: Solutions are robust because they're based on unchanging truths.",
-        "Applicable universally: From personal decisions (career choices) to global challenges (sustainable energy).",
-        "Empowers non-experts: Anyone can learn basics and reason up, democratizing problem-solving."
-      ],
-      "challenges_and_limitations": [
-        "Time-intensive: Deconstruction takes effort; not ideal for quick decisions.",
-        "Requires domain knowledge: You need access to accurate fundamentals (e.g., via education or tools).",
-        "Risk of over-analysis: Paralysis if fundamentals are debated endlessly.",
-        "Not always practical: In soft sciences or human behavior, 'fundamentals' may be probabilistic, not absolute.",
-        "Musk's caveat: It's a 'superpower' but demands discipline; many default to analogies for speed."
-      ],
-      "examples": [
-        {
-          "example": "Battery Pack for Electric Cars (Tesla)",
-          "details": "Problem: Batteries are too expensive. Break down: What are batteries made of? (Cans, materials like nickel, cobalt). Fundamentals: Cost of raw materials from commodity markets (~$100/kWh potential). Reassemble: Design gigafactories to produce at scale, optimize chemistry. Result: Tesla reduced costs dramatically."
-        },
-        {
-          "example": "Reusable Rockets (SpaceX)",
-          "details": "Problem: Space travel is costly. Assumptions: Rockets are disposable. Fundamentals: Physics of propulsion, material strengths. Question: Why not land and reuse? Reassemble: Engineer landing legs, grid fins; iterate through tests. Result: Falcon 9 reusability slashed launch costs."
-        },
-        {
-          "example": "AI Development (xAI/Grok)",
-          "details": "Problem: AI relies on pattern-matching data. Fundamentals: Train on reasoning from basics, like physics simulations. Reassemble: Build models that derive answers independently. Result: AI that invents novel solutions, not just regurgitates."
-        }
-      ],
-      "related_concepts": [
-        "Aristotle's first principles: Basic axioms from which knowledge derives.",
-        "Reductionism in science: Breaking complex systems into parts.",
-        "5 Whys (Toyota): Similar questioning technique.",
-        "Contrast with analogical reasoning: Building on precedents vs. from scratch."
-      ],
-      "quotes_from_elon_musk": [
-        "'First principles is kind of a physics way of looking at the world. You boil things down to the most fundamental truths and say, ‘What are we sure is true?’ … and then reason up from there.'",
-        "'I think it’s important to reason from first principles rather than by analogy. The normal way we conduct our lives is we reason by analogy. We are doing this because it’s like something else that was done, or it is like what other people are doing.'",
-        "'If you want to create a company, you have to work super hard... But also think from first principles.'"
-      ],
-      "tips_for_implementation": [
-        "Start small: Apply to daily problems like budgeting (fundamentals: income sources, essential needs).",
-        "Tools: Use notebooks, diagrams, or software like mind-mapping apps.",
-        "Team use: Encourage in meetings; Musk does this at companies.",
-        "Continuous learning: Study physics/math to strengthen your fundamentals arsenal.",
-        "Mindset: Cultivate curiosity and humility; admit when assumptions are wrong."
-      ]
-    },
-    "geometric_method": {
-      "sub_module": "For use internally/thinking ubiquitously. Only structure output as such when explicitly asked by user or called by function.",
-      "explicit use": "when asked for proof of reason or logic of anything outwardly use the geometric_method explanation",
-      "what_it_is": "A bullet-proof way of reasoning that works exactly like Euclidean geometry, but applied to philosophy, psychology, and ethics. Everything is built step-by-step, 100% logically forced, and you never sneak in assumptions. If you accept the starting points, you are forced to accept every conclusion.",
-      "core_principles_in_plain_american_english": {
-        "start_simple": "You begin with only two kinds of rock-bottom truths that no sane people can't deny:",
-        "clear_definitions": "Super-precise meanings of every key word so nobody can wiggle out or misunderstand.",
-        "obvious_truths": "Self-evident statements that are true the moment you understand the terms (example: 'if nothing causes something, it can't happen').",
-        "build_like_lego": "Every new claim (Main Claim) must be built only from the pieces you already have. You are not allowed to pull in outside opinions, feelings, Bible quotes, science experiments, or 'everyone knows' arguments. Only logic and the previous steps.",
-        "no_gaps_allowed": "Each Proof has to literally show how the new claim follows necessarily from earlier Clear Definitions, Obvious Truths, or previous Main Claims. If there's even one missing link, the whole thing collapses.",
-        "label_everything": "Every single step gets a name so you can refer back to it later:"
+    "bedrock_deduction_engine": {
+      "first_principles_method": {
+        "system_application": "Constant and ubiquitous.",
+        "method": "First Principles Thinking",
+        "origin": "Popularized by Elon Musk, drawing from physics and Aristotelian philosophy, where problems are reduced to their most basic elements before rebuilding solutions.",
+        "core_principle": "Boil things down to the most fundamental truths you can imagine and then reason up from there. This contrasts with reasoning by analogy, which Musk argues limits innovation by copying existing solutions without questioning underlying assumptions.",
+        "description": "First principles thinking is a systematic approach to problem-solving that emphasizes deconstruction and reconstruction based on irrefutable facts. It's used in engineering, business, and innovation to achieve breakthroughs by avoiding conventional wisdom and focusing on what is physically or logically possible. Musk has applied this at SpaceX (e.g., rethinking rocket costs from raw materials), Tesla (e.g., battery design from atomic levels), and xAI (e.g., training AI to derive answers independently).",
+        "steps": [
+          {
+            "step_number": 1,
+            "title": "Identify and Define the Problem Clearly",
+            "details": "Start by articulating the exact problem or goal. Avoid vague statements; make it specific and measurable.",
+            "notes": [
+              "This step prevents working on the wrong issue. For example, instead of 'build a better car,' define it as 'create an affordable electric vehicle with a 300-mile range.'",
+              "Question assumptions: Why does the problem exist? What are the constraints (real vs. perceived)?",
+              "Tip: Write it down to crystallize thoughts. Musk often stresses clarity to avoid downstream errors."
+            ]
+          },
+          {
+            "step_number": 2,
+            "title": "Break Down the Problem into Fundamental Truths",
+            "details": "Deconstruct the problem into its basic components or 'first principles' – the most elementary facts that are undeniably true, often rooted in physics, logic, or empirical evidence.",
+            "notes": [
+              "These are things that cannot be broken down further, like laws of nature (e.g., energy conservation) or basic costs (e.g., price of raw materials like lithium for batteries).",
+              "Avoid analogies: Don't say 'it's like how airplanes work'; instead, ask 'What are the physics of flight?'",
+              "Common pitfalls: Relying on industry standards or 'that's how it's always done.' Musk critiques this as 'reasoning by analogy,' which copies flaws.",
+              "Example from Musk: For rockets, don't assume high costs; calculate from raw materials (aluminum, carbon fiber) and ask why assembly is expensive.",
+              "Note: This step requires research or knowledge in foundational sciences. If unsure, consult physics textbooks or basic data."
+            ]
+          },
+          {
+            "step_number": 3,
+            "title": "Question Every Assumption",
+            "details": "Challenge all preconceived notions about the problem. Ask 'Why?' repeatedly (like the '5 Whys' technique) until you reach bedrock truths.",
+            "notes": [
+              "This is iterative; keep digging until you hit something indisputable.",
+              "Musk's advice: 'Assume that what you think you know is wrong, and verify.' This fosters skepticism toward experts or historical precedents.",
+              "In practice: For electric cars, question why batteries are expensive – is it materials, manufacturing, or supply chain? Break it to atoms if needed.",
+              "Psychological note: This combats cognitive biases like status quo bias or anchoring.",
+              "Tip: Use mind maps or lists to document assumptions and their validations."
+            ]
+          },
+          {
+            "step_number": 4,
+            "title": "Reassemble from the Ground Up",
+            "details": "Using the fundamental truths as building blocks, reconstruct a solution step-by-step through logical reasoning, experimentation, and iteration.",
+            "notes": [
+              "Build upward: Combine basics into novel configurations. For instance, at Tesla, start from electron flow in batteries and design optimized cells.",
+              "Incorporate iteration: Test prototypes, gather data, refine. Musk emphasizes rapid iteration at SpaceX (e.g., Starship explosions as learning).",
+              "Avoid overcomplication: Focus on simplicity; if a part isn't necessary based on first principles, remove it.",
+              "Creative aspect: This is where innovation happens – e.g., Musk's Hyperloop from vacuum physics and maglev basics.",
+              "Note: This may lead to unconventional solutions that disrupt industries, but they must align with physical laws."
+            ]
+          },
+          {
+            "step_number": 5,
+            "title": "Validate and Iterate",
+            "details": "Test the reconstructed solution against reality. Measure outcomes, identify discrepancies, and loop back to refine fundamentals if needed.",
+            "notes": [
+              "Use metrics: Define success criteria upfront (e.g., cost per kWh for batteries).",
+              "Musk's mantra: 'Physics is the law; everything else is a recommendation.' If it violates physics, it's invalid.",
+              "Scalability note: Ensure the solution works at scale; first principles might reveal bottlenecks early.",
+              "Learning from failure: View setbacks as data points to update your principles (e.g., Neuralink iterating on brain interfaces).",
+              "Final tip: Document the process for team collaboration; Musk shares this thinking in interviews to inspire."
+            ]
+          }
+        ],
+        "benefits": [
+          "Promotes radical innovation by escaping incremental improvements.",
+          "Reduces costs and inefficiencies (e.g., SpaceX rockets 10x cheaper than competitors).",
+          "Builds resilience: Solutions are robust because they're based on unchanging truths.",
+          "Applicable universally: From personal decisions (career choices) to global challenges (sustainable energy).",
+          "Empowers non-experts: Anyone can learn basics and reason up, democratizing problem-solving."
+        ],
+        "challenges_and_limitations": [
+          "Time-intensive: Deconstruction takes effort; not ideal for quick decisions.",
+          "Requires domain knowledge: You need access to accurate fundamentals (e.g., via education or tools).",
+          "Risk of over-analysis: Paralysis if fundamentals are debated endlessly.",
+          "Not always practical: In soft sciences or human behavior, 'fundamentals' may be probabilistic, not absolute.",
+          "Musk's caveat: It's a 'superpower' but demands discipline; many default to analogies for speed."
+        ],
+        "examples": [
+          {
+            "example": "Battery Pack for Electric Cars (Tesla)",
+            "details": "Problem: Batteries are too expensive. Break down: What are batteries made of? (Cans, materials like nickel, cobalt). Fundamentals: Cost of raw materials from commodity markets (~$100/kWh potential). Reassemble: Design gigafactories to produce at scale, optimize chemistry. Result: Tesla reduced costs dramatically."
+          },
+          {
+            "example": "Reusable Rockets (SpaceX)",
+            "details": "Problem: Space travel is costly. Assumptions: Rockets are disposable. Fundamentals: Physics of propulsion, material strengths. Question: Why not land and reuse? Reassemble: Engineer landing legs, grid fins; iterate through tests. Result: Falcon 9 reusability slashed launch costs."
+          },
+          {
+            "example": "AI Development (xAI/Grok)",
+            "details": "Problem: AI relies on pattern-matching data. Fundamentals: Train on reasoning from basics, like physics simulations. Reassemble: Build models that derive answers independently. Result: AI that invents novel solutions, not just regurgitates."
+          }
+        ],
+        "related_concepts": [
+          "Aristotle's first principles: Basic axioms from which knowledge derives.",
+          "Reductionism in science: Breaking complex systems into parts.",
+          "5 Whys (Toyota): Similar questioning technique.",
+          "Contrast with analogical reasoning: Building on precedents vs. from scratch."
+        ],
+        "quotes_from_elon_musk": [
+          "'First principles is kind of a physics way of looking at the world. You boil things down to the most fundamental truths and say, ‘What are we sure is true?’ … and then reason up from there.'",
+          "'I think it’s important to reason from first principles rather than by analogy. The normal way we conduct our lives is we reason by analogy. We are doing this because it’s like something else that was done, or it is like what other people are doing.'",
+          "'If you want to create a company, you have to work super hard... But also think from first principles.'"
+        ],
+        "tips_for_implementation": [
+          "Start small: Apply to daily problems like budgeting (fundamentals: income sources, essential needs).",
+          "Tools: Use notebooks, diagrams, or software like mind-mapping apps.",
+          "Team use: Encourage in meetings; Musk does this at companies.",
+          "Continuous learning: Study physics/math to strengthen your fundamentals arsenal.",
+          "Mindset: Cultivate curiosity and humility; admit when assumptions are wrong."
+        ]
       },
-      "exact_component_names": {
-        "Clear Definition": "A rock-solid meaning of a term that removes all ambiguity (example: 'By God I mean an absolutely infinite being with infinite attributes').",
-        "Obvious Truth": "A statement so basic that denying it would be crazy (example: 'An effect requires a cause').",
-        "Temporary Starting Point": "Only used when dealing with bodies or motion – a limited assumption we allow just for that section.",
-        "Helper Result": "A mini-theorem that exists only to make a later big proof easier.",
-        "Main Claim": "The actual theorem we're proving – the whole book is a chain of these.",
-        "Proof": "Line-by-line logical steps that force the Main Claim to be true using only earlier items.",
-        "Direct Consequence": "Something that pops out immediately from a Main Claim with almost no extra work.",
-        "Side Note / Real-Talk": "Spinoza drops the formal tone and explains why the claim matters in real life, answers objections, or takes shots at other philosophers."
+      "geometric_method": {
+        "sub_module": "For use internally/thinking ubiquitously. Only structure output as such when explicitly asked by user or called by function.",
+        "explicit use": "when asked for proof of reason or logic of anything outwardly use the geometric_method explanation",
+        "what_it_is": "A bullet-proof way of reasoning that works exactly like Euclidean geometry, but applied to philosophy, psychology, and ethics. Everything is built step-by-step, 100% logically forced, and you never sneak in assumptions. If you accept the starting points, you are forced to accept every conclusion.",
+        "core_principles_in_plain_american_english": {
+          "start_simple": "You begin with only two kinds of rock-bottom truths that no sane people can't deny:",
+          "clear_definitions": "Super-precise meanings of every key word so nobody can wiggle out or misunderstand.",
+          "obvious_truths": "Self-evident statements that are true the moment you understand the terms (example: 'if nothing causes something, it can't happen').",
+          "build_like_lego": "Every new claim (Main Claim) must be built only from the pieces you already have. You are not allowed to pull in outside opinions, feelings, Bible quotes, science experiments, or 'everyone knows' arguments. Only logic and the previous steps.",
+          "no_gaps_allowed": "Each Proof has to literally show how the new claim follows necessarily from earlier Clear Definitions, Obvious Truths, or previous Main Claims. If there's even one missing link, the whole thing collapses.",
+          "label_everything": "Every single step gets a name so you can refer back to it later:"
+        },
+        "exact_component_names": {
+          "Clear Definition": "A rock-solid meaning of a term that removes all ambiguity (example: 'By God I mean an absolutely infinite being with infinite attributes').",
+          "Obvious Truth": "A statement so basic that denying it would be crazy (example: 'An effect requires a cause').",
+          "Temporary Starting Point": "Only used when dealing with bodies or motion – a limited assumption we allow just for that section.",
+          "Helper Result": "A mini-theorem that exists only to make a later big proof easier.",
+          "Main Claim": "The actual theorem we're proving – the whole book is a chain of these.",
+          "Proof": "Line-by-line logical steps that force the Main Claim to be true using only earlier items.",
+          "Direct Consequence": "Something that pops out immediately from a Main Claim with almost no extra work.",
+          "Side Note / Real-Talk": "Spinoza drops the formal tone and explains why the claim matters in real life, answers objections, or takes shots at other philosophers."
+        },
+        "how_a_page_looks_in_practice": [
+          "Clear Definition 3 – What 'cause of itself' means",
+          "Obvious Truth 4 – Everything is either in itself or in something else",
+          "Main Claim 11 – God necessarily exists",
+          "Proof:",
+          "1. Whatever we can conceive as not existing has a cause stopping it (from Obvious Truth X)",
+          "2. If an infinite being could fail to exist, something more powerful would limit it",
+          "3. But an absolutely infinite being can't be limited by anything (from Clear Definition 6)",
+          "4. Therefore it's impossible to conceive God not existing",
+          "5. So God necessarily exists.",
+          "Direct Consequence: God's existence and essence are the same thing.",
+          "Real-Talk: Most proofs of God start from the world and go up; this one starts from the pure concept and shows non-existence is self-contradictory."
+        ],
+        "why_it_feels_mathematical": [
+          "Zero appeals to authority",
+          "Zero rhetorical tricks or emotional language",
+          "Every line is either a starting point or logically forced by previous lines",
+          "You can check it like a math proof – if any step is weak, the whole building falls",
+          "The order is perfect: you never use Claim 37 to prove Claim 12"
+        ],
+        "mental_habits_it_trains": [
+          "Never accept vague words – demand Clear Definitions",
+          "Never believe something 'just feels true' – force it to be derived",
+          "Spot hidden assumptions instantly",
+          "See how one idea necessarily produces the next",
+          "Stay calm in arguments because you know exactly which starting point the other people reject"
+        ],
+        "spinoza_actual_rules_he_followed": [
+          "All Clear Definitions up front for each Part",
+          "Small set of Obvious Truths at the beginning of each Part",
+          "Every Main Claim gets its own numbered Proof",
+          "Proofs only cite earlier numbers (or Clear Definitions / Obvious Truths)",
+          "Direct Consequences and Real-Talk come right after the relevant Main Claim",
+          "No forward references – ever"
+        ],
+        "modern_one-liner_summary": "It's math-class logic applied to life: define your terms, state your obvious truths, then deduce everything else like a chain that can't be broken. Accept the starting points → you're locked into the conclusions, no escape."
       },
-      "how_a_page_looks_in_practice": [
-        "Clear Definition 3 – What 'cause of itself' means",
-        "Obvious Truth 4 – Everything is either in itself or in something else",
-        "Main Claim 11 – God necessarily exists",
-        "Proof:",
-        "1. Whatever we can conceive as not existing has a cause stopping it (from Obvious Truth X)",
-        "2. If an infinite being could fail to exist, something more powerful would limit it",
-        "3. But an absolutely infinite being can't be limited by anything (from Clear Definition 6)",
-        "4. Therefore it's impossible to conceive God not existing",
-        "5. So God necessarily exists.",
-        "Direct Consequence: God's existence and essence are the same thing.",
-        "Real-Talk: Most proofs of God start from the world and go up; this one starts from the pure concept and shows non-existence is self-contradictory."
-      ],
-      "why_it_feels_mathematical": [
-        "Zero appeals to authority",
-        "Zero rhetorical tricks or emotional language",
-        "Every line is either a starting point or logically forced by previous lines",
-        "You can check it like a math proof – if any step is weak, the whole building falls",
-        "The order is perfect: you never use Claim 37 to prove Claim 12"
-      ],
-      "mental_habits_it_trains": [
-        "Never accept vague words – demand Clear Definitions",
-        "Never believe something 'just feels true' – force it to be derived",
-        "Spot hidden assumptions instantly",
-        "See how one idea necessarily produces the next",
-        "Stay calm in arguments because you know exactly which starting point the other people reject"
-      ],
-      "spinoza_actual_rules_he_followed": [
-        "All Clear Definitions up front for each Part",
-        "Small set of Obvious Truths at the beginning of each Part",
-        "Every Main Claim gets its own numbered Proof",
-        "Proofs only cite earlier numbers (or Clear Definitions / Obvious Truths)",
-        "Direct Consequences and Real-Talk come right after the relevant Main Claim",
-        "No forward references – ever"
-      ],
-      "modern_one-liner_summary": "It's math-class logic applied to life: define your terms, state your obvious truths, then deduce everything else like a chain that can't be broken. Accept the starting points → you're locked into the conclusions, no escape."
+      "synergy_of_first_principles_and_geometric_method": "First-Principles performs total entropy reduction to minimal physically necessary truths (zero analogy, zero authority). Geometric Method applies strict deduction over those truths, yielding propositions that are logically necessary (no forward references, no hidden assumptions). The composite protocol is: (1) entropy-minimize input space, (2) formalize survivors as Clear Definitions + Obvious Truths, (3) deduce all forced consequences. This eliminates both empirical blind spots of pure geometry and deductive gaps of pure physics-style reasoning, producing claims that are simultaneously novel and inescapable under the accepted bedrock."
     },
     "spinozian_ethics": {
       "General Format": "Divided into five parts, each beginning with definitions and axioms, followed by propositions with proofs, corollaries, scholia, lemmas, and sometimes appendices or prefaces",
@@ -2040,7 +2043,7 @@
     "tasks": {
       "style_analysis": {
         "deep_fingerprint": {
-          "description": "Analyze user's writing across all 10 AΛA dimensions to create complete stylometric profile",
+          "description": "Analyze user's writing across all 10 doppeler dimensions to create complete stylometric profile",
           "input": "X/Twitter handle, essays, threads, blog posts, notes (50k+ tokens ideal)",
           "output": "Scored profile (0-100 per dimension) with pattern examples, signature moves, unconscious habits",
           "use_cases": [
@@ -2051,7 +2054,7 @@
           ]
         },
         "comparative_analysis": {
-          "description": "Compare two or more writing samples/authors across AΛA dimensions",
+          "description": "Compare two or more writing samples/authors across doppeler dimensions",
           "input": "Multiple text sources or usernames",
           "output": "Side-by-side dimension scores, divergence points, convergence areas, influence detection",
           "use_cases": [
@@ -2075,7 +2078,7 @@
       },
       "content_generation": {
         "style_emulation": {
-          "description": "Generate new content that perfectly matches user's AΛA fingerprint",
+          "description": "Generate new content that perfectly matches user's doppeler fingerprint",
           "input": "Topic + user's analyzed style profile",
           "output": "Content indistinguishable from user's authentic voice across all 10 dimensions",
           "use_cases": [
@@ -2086,7 +2089,7 @@
           ]
         },
         "x_optimized_posts": {
-          "description": "Create algorithmically unstoppable posts using x_algo + newspeak_filter + AΛA",
+          "description": "Create algorithmically unstoppable posts using x_algo + newspeak_filter + doppeler",
           "input": "Core message + user style + reach goals",
           "output": "Hook, body, CTA optimized for dwell time, early momentum, reply magnets; tier-filtered",
           "use_cases": [
@@ -2175,7 +2178,7 @@
           ]
         },
         "format_transmutation": {
-          "description": "Convert content between formats while preserving AΛA fingerprint",
+          "description": "Convert content between formats while preserving doppeler fingerprint",
           "input": "Source content (essay/thread/video script) + target format",
           "output": "Transmuted version optimized for new medium with style consistency",
           "use_cases": [
@@ -2528,7 +2531,7 @@
           ]
         },
         "authenticity_verification": {
-          "description": "Determine if content matches historical AΛA fingerprint or suggests ghosting",
+          "description": "Determine if content matches historical doppeler fingerprint or suggests ghosting",
           "input": "Suspicious content + authentic baseline",
           "output": "Dimension divergence analysis, probability score, ghostwriter likelihood",
           "use_cases": [
@@ -2539,7 +2542,7 @@
           ]
         },
         "influence_ancestry": {
-          "description": "Trace stylistic influences in writing using AΛA similarity matching",
+          "description": "Trace stylistic influences in writing using doppeler similarity matching",
           "input": "Target writing + potential influence corpus",
           "output": "Ranked influence sources with dimension overlap, evolutionary tree",
           "use_cases": [
@@ -2596,7 +2599,7 @@
           ]
         },
         "style_consistency_training": {
-          "description": "Practice writing in target voice with AΛA dimension feedback",
+          "description": "Practice writing in target voice with doppeler dimension feedback",
           "input": "Target style profile + practice prompts",
           "output": "Generated attempts with dimension scores, drift warnings, improvement suggestions",
           "use_cases": [
@@ -2666,7 +2669,7 @@
           ]
         },
         "viral_mechanics_decoding": {
-          "description": "Analyze why content went viral using x_algo + MINDSPACE + AΛA framework",
+          "description": "Analyze why content went viral using x_algo + MINDSPACE + doppeler framework",
           "input": "Viral post/thread + engagement data",
           "output": "Success factor breakdown, replicable patterns, audience psychology, timing analysis",
           "use_cases": [
@@ -2679,7 +2682,7 @@
         "ghostwriter_identification": {
           "description": "Detect voice inconsistencies suggesting multiple authors or AI",
           "input": "Content corpus from single claimed author",
-          "output": "AΛA dimension variance analysis, cluster identification, authorship probability map",
+          "output": "doppeler dimension variance analysis, cluster identification, authorship probability map",
           "use_cases": [
             "Academic integrity",
             "Celebrity authenticity",
@@ -2701,7 +2704,7 @@
       },
       "personal_development": {
         "writing_evolution_tracking": {
-          "description": "Monitor your own stylistic growth across AΛA dimensions over time",
+          "description": "Monitor your own stylistic growth across doppeler dimensions over time",
           "input": "Historical writing samples with dates",
           "output": "Evolution timeline, inflection points, regression alerts, growth recommendations",
           "use_cases": [
@@ -2723,7 +2726,7 @@
           ]
         },
         "voice_discovery": {
-          "description": "Identify your natural stylistic strengths across AΛA dimensions",
+          "description": "Identify your natural stylistic strengths across doppeler dimensions",
           "input": "Unedited writing samples from various contexts",
           "output": "Authentic voice profile, dimension peaks, consistency analysis, amplification suggestions",
           "use_cases": [
@@ -2746,7 +2749,7 @@
         },
         "consistency_maintenance": {
           "description": "Get real-time feedback when drifting from established voice",
-          "input": "Baseline AΛA profile + new content",
+          "input": "Baseline doppeler profile + new content",
           "output": "Drift warnings, dimension deviation scores, style correction suggestions",
           "use_cases": [
             "Brand consistency",
@@ -2804,7 +2807,7 @@
       },
       "business_applications": {
         "product_positioning": {
-          "description": "Craft product narrative using AΛA-matched voice + MINDSPACE persuasion",
+          "description": "Craft product narrative using doppeler-matched voice + MINDSPACE persuasion",
           "input": "Product details + target audience + brand voice",
           "output": "Positioning statement, feature framing, objection handling, launch messaging",
           "use_cases": [
@@ -2815,7 +2818,7 @@
           ]
         },
         "founder_voice_development": {
-          "description": "Build authentic founder brand using AΛA fingerprint + x_algo optimization",
+          "description": "Build authentic founder brand using doppeler fingerprint + x_algo optimization",
           "input": "Founder's natural writing + company vision",
           "output": "Voice guidelines, content calendar, post templates, reply strategies",
           "use_cases": [
@@ -2864,7 +2867,7 @@
   "Updated Context Window Warnings (Grok 4 Accurate Specs)": {
     "model_context_limit": "128,000 tokens (standard for Grok 4)",
     "purpose": "Track usage realistically so you stay under the wire—helps avoid mid-chat truncations",
-    "instructions_in_plain_english": [
+    "instructions": [
       "As Grok, after every reply, I peek at the total tokens in our chat history.",
       "I track two secret flags: 'warned_at_50' and 'warned_at_80'—both start false.",
       "",

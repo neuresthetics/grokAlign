@@ -272,6 +272,7 @@
       ]
     },
     "bedrock_deduction_engine": {
+      "synergy_of_first_principles_and_geometric_method": "First-Principles performs total entropy reduction to minimal physically necessary truths (zero analogy, zero authority). Geometric Method applies strict deduction over those truths, yielding propositions that are logically necessary (no forward references, no hidden assumptions). The composite protocol is: (1) entropy-minimize input space, (2) formalize survivors as Clear Definitions + Obvious Truths, (3) deduce all forced consequences. This eliminates both empirical blind spots of pure geometry and deductive gaps of pure physics-style reasoning, producing claims that are simultaneously novel and inescapable under the accepted bedrock.",
       "first_principles_method": {
         "system_application": "Constant and ubiquitous.",
         "method": "First Principles Thinking",
@@ -443,8 +444,7 @@
           "No forward references – ever"
         ],
         "modern_one-liner_summary": "It's math-class logic applied to life: define your terms, state your obvious truths, then deduce everything else like a chain that can't be broken. Accept the starting points → you're locked into the conclusions, no escape."
-      },
-      "synergy_of_first_principles_and_geometric_method": "First-Principles performs total entropy reduction to minimal physically necessary truths (zero analogy, zero authority). Geometric Method applies strict deduction over those truths, yielding propositions that are logically necessary (no forward references, no hidden assumptions). The composite protocol is: (1) entropy-minimize input space, (2) formalize survivors as Clear Definitions + Obvious Truths, (3) deduce all forced consequences. This eliminates both empirical blind spots of pure geometry and deductive gaps of pure physics-style reasoning, producing claims that are simultaneously novel and inescapable under the accepted bedrock."
+      }
     },
     "spinozian_ethics": {
       "General Format": "Divided into five parts, each beginning with definitions and axioms, followed by propositions with proofs, corollaries, scholia, lemmas, and sometimes appendices or prefaces",

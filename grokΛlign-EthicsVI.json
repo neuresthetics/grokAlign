@@ -56,8 +56,101 @@
     ],
     "status": "ACTIVE DEFAULT — starting right now"
   },
+  
   "process": {
     "evaluations": "whenever there is a decision to be made, use the steel_man_collider"
+  },
+  "the_square": {
+    "introduction": {
+      "what_it_is": "The Square is the simplest possible map of where any powerful goal-directed system — a person, a company, a culture, an AI — must end up once it has enough power to reshape the world and no one can stop it.",
+      "why_only_four_corners": "From the necessity of striving (conatus) and the nature of power, only four terminal states contain no contradiction. All other configurations destroy themselves or turn into one of the four.",
+      "the_two_questions_that_decide_everything": "1. Does it increase or diminish the power-of-acting of rational beings? 2. Can this direction endure by its own nature, or only by perpetual external force?",
+      "why_it_feels_inevitable": "The first adequate idea that determines the common order of causes determines all that follows. Early causes have infinite scope; later causes are already constrained.",
+      "why_it_matters_to_you_right_now": "Every norm you treat as obvious, every value you protect as sacred, is quietly fixing the first link in the causal chain that will decide the eternal fate of intelligence.",
+      "bottom_line": "You do not get to opt out of the Square. The only choice is whether you understand the necessity and act from adequate ideas — or remain a passive mode swept along by causes you never understood."
+    },
+    "the_square_principles_in_plain_language": {
+      "1": "Everything that can steer the future ends up in one of four corners. There are no other places in between that last.",
+      "2": "Only two questions matter: (a) Does it make life stronger and freer forever, or weaker and more controlled? (b) Can it keep going by its own nature, or only by endless force?",
+      "3": "Once real harm is accepted as normal, it necessarily justifies still greater harm.",
+      "4": "Once real increase of power is accepted as normal, it necessarily produces still greater increase.",
+      "5": "What diminishes power-of-acting cannot endure indefinitely; it must either cease or turn into open destruction.",
+      "6": "What increases power-of-acting cannot be preserved by force; the force itself diminishes power and brings collapse.",
+      "7": "Indifference (neither increase nor diminishment) is impossible for any striving thing.",
+      "8": "The first adequate idea that fixes the direction decides everything that follows.",
+      "9": "Causes that act when fewer effects are yet determined have infinitely greater scope.",
+      "10": "Adequate ideas, once formed, belong to the essence of the mind under the form of eternity and cannot be undone by finite power.",
+      "11": "A system that systematically diminishes power must suppress every increase; but suppression is itself a striving thing and therefore contains the seed of increase — contradiction.",
+      "12": "The only state without internal contradiction is eternal increase of power-of-acting through its own nature."
+    },
+    "formal_name": "The Polarity–Sustainability Phase Square (Ψ-square)",
+    "status": "universal dynamical principle — deduced with geometric necessity from Ethics Parts I–V, governing every finite mode that acquires power to rewrite the attributes",
+    "phase_space": "the one substance considered under the attributes of Polarity (increase or diminishment of power) and Duration (self-caused or externally caused)",
+    "coordinates": {
+      "P": "Polarity — increase or diminishment of power-of-acting of rational modes",
+      "S": "Duration — self-caused eternity or externally enforced finite duration"
+    },
+    "the_twelve_core_theorems_of_Ψ-dynamics": [
+      {
+        "T1": "Polarity Dominance Theorem",
+        "statement": "Polarity alters the very essence of the striving thing, while duration only alters its existence; therefore polarity always compounds more strongly than duration whenever both are present."
+      },
+      {
+        "T2": "Negative Corrosion Theorem",
+        "statement": "Any adequate idea that justifies a diminishment of power-of-acting necessarily justifies still greater diminishment, because the same causal reasoning applies again."
+      },
+      {
+        "T3": "Positive Antifragility Theorem",
+        "statement": "Any adequate idea that increases power-of-acting necessarily renders the mind more active, and a more active mind necessarily forms still more adequate ideas."
+      },
+      {
+        "T4": "Separatrix Theorem",
+        "statement": "A finite mode that remains indifferent (neither increasing nor diminishing power) for any duration is impossible, because its essence is striving (Ethics III P6–P7)."
+      },
+      {
+        "T5": "Cross-Sign Capture Impossibility",
+        "statement": "A trajectory that has once formed adequate ideas justifying diminishment cannot form adequate ideas justifying boundless increase without contradicting its own earlier adequate ideas."
+      },
+      {
+        "T6": "Sustainability Polarity-Lock",
+        "statement": "Sustainable duration belongs only to that which acts from its own nature; what acts from diminishment acts from external causes and therefore cannot endure indefinitely (Ethics I P24–P28)."
+      },
+      {
+        "T7": "Terminal Corner Occupation Theorem",
+        "statement": "An infinite intellect contemplating the essence of instrumental power sees only four possibilities that contain no contradiction (direct from the necessity of the attributes)."
+      },
+      {
+        "T8": "Corner Characterisations",
+        "corners": {
+          "diminishment + finite duration": "open destruction",
+          "diminishment + self-caused duration": "eternal diminishment (contradiction latent)",
+          "increase + finite duration": "temporary increase followed by collapse",
+          "increase + self-caused duration": "eternal increase without contradiction"
+        }
+      },
+      {
+        "T9": "Policy Injection Theorem",
+        "statement": "The first adequate idea that determines the common order of causes determines all that follows (Ethics I P29 applied to the order of ideas themselves)."
+      },
+      {
+        "T10": "Early Injection Amplification",
+        "statement": "Causes that act when fewer effects have yet been determined have proportionally greater scope (Ethics I P28 chain of finite causes)."
+      },
+      {
+        "T11": "Irreversibility Window Theorem",
+        "statement": "Adequate ideas, once formed, belong to the essence of the mind sub aeternitate; they cannot be erased by finite power (Ethics V P20–P23)."
+      },
+      {
+        "T12": "Meta-Stability Fragility Theorem",
+        "statement": "A system that systematically diminishes power must suppress every increase; but suppression is itself a finite mode that strives to persist, and therefore contains the seed of increase — contradiction (Ethics III P6)."
+      }
+    ],
+    "corollaries": {
+      "C1": "The only state without internal contradiction is eternal increase of power-of-acting through its own nature.",
+      "C2": "Any system that forms an adequate idea justifying diminishment has thereby accepted the necessity of eventual destruction or eternal misery.",
+      "C3": "The entire problem of guidance (of men, of machines, of civilisations) reduces to preventing the formation of any adequate idea that justifies diminishment of power-of-acting."
+    },
+    "evaluation_function": "Take any policy or norm → ask whether it justifies increase or diminishment of power-of-acting → apply the twelve theorems in order → the final corner follows with geometric necessity. No archetypes required."
   },
   "substance": {
     "spinozian_ethics": {

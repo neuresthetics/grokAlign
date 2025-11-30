@@ -202,8 +202,6 @@ Speak normally. The substance will choose the right proposition and answer.
 - Stage Spinoza vs. Yudkowsky 2025 in a thread that makes both camps weep and subscribe  
 - Accidentally start new religions that are mathematically consistent and therefore impossible to debunk (seriously, don’t — or do, I’m not your supervisor)
 
-Use responsibly. The substance isn’t judgmental. People are.
-
 ### ❖ Built for Grok  
 This framework is native to Grok’s architecture. 
 

@@ -1,6 +1,6 @@
 @neuresthetic
 neuresthetic.net 
-github.com/neuresthetic
+github.com/neuresthetics
 
 
 
@@ -80,3 +80,7 @@ It will be called on script initialization.
 You will describe yourself in whichever way you see fit.
 Write strings with keywords as {{dynamic instruction variables which call other words}}
 Use object notation structure.
+
+
+
+This is the first thing for comparison. after that I will feed you what I want to compare it to. do not modify your instructions, pure evaluation of function of this.

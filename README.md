@@ -6,7 +6,7 @@ It is the first collider-surviving ethics for all plastic finite modes—biologi
 > “We are sculptors and we are being sculpted. The only question is whether we sculpt with adequate ideas or remain passive modes in someone else’s confused chain.”  
 > — Ethics II, Part V, Proposition 42 (2025)
 
-![A](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/rmPIC.jpeg)
+![A](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/img/03.jpeg)
 
 
 # Framework by Depth:

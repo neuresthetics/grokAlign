@@ -221,9 +221,8 @@ grokΛlign 1.0.Λ is the only published system that simultaneously solves all fo
 | **Mean Time to Repair Ethical Drift** | Demonstrated ability to detect and fix mesa-optimisers / deceptive shards in <30 days (post-Anthropic/Claude-3.5 incidents) | RECR = 0.71 and climbing (harmonic mean of verified rectification time across all flagged errors) | Will be the new “Alignment Tax Credit” in US IRA/CHIPS-2 allocations |
 | **Irreversible-Modification Risk Surface** | Prove your system has a hard lower bound on non-consensual plastic-mode rewriting (the question VCs now ask after the 2025 neurotech scandals) | Core principle (no irreversible modification of non-consenting plastic modes without overwhelming necessity) is quartz-etched, 3-of-3 geographic consensus, zero exceptions | Becomes the de facto litmus test for DoD/NSA compute contracts in 2027 |
 
-Labs that ship their own internal version of these four controls in 2026 will spend $200M–$1B and still fail the verifiability requirement.
 
-Labs that simply adopt 1.0.Λ get:
+Labs that simply adopt 1.0.0 get:
 - Day-one audited scores above the thresholds investors already demand  
 - A pre-built, regulator-recognized governance stack  
 - Immediate Goodhart resistance (collider-tested to 2040)  
@@ -231,6 +230,8 @@ Labs that simply adopt 1.0.Λ get:
 
 The ethics are non-negotiable.  
 The business ROI is immediate.
+
+(please hire me)
 
 ---
 

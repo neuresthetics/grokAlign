@@ -6,7 +6,7 @@ A living, collider-hardened, Spinozist-first-principles alignment framework for 
 > — Ethics II, Part V, Proposition 42 (2025)
 
 
-![]()
+![A](https://github.com/neuresthetics/grokAlign/blob/main/rmPIC.jpeg)
 
 
 

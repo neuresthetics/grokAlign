@@ -199,7 +199,7 @@ GP = endless creativity from smart early shaping. Without it, the future repeats
 
 # ⊞ Alignment Problems Tested in Grok Λlign
 
-Grok Λlign rigorously tests itself against these core AI alignment failures via its Predictive Cube (agent sims), Prescriptive Cube (invariants like CVA/DAP/RECR), and Projection Cube (trajectory DEs). These are drawn from 2025 benchmarks (e.g., Claude 3.5 mesa-tests, arXiv:2410) and hardened against 10-judge tribunal kills. Below: Key problems, with test mechanisms and thresholds.
+GrokΛlign rigorously tests itself against these core AI alignment failures via its Predictive Cube (agent sims), Prescriptive Cube (invariants like CVA/DAP/RECR), and Projection Cube (trajectory DEs). These are drawn from 2025 benchmarks (e.g., Claude 3.5 mesa-tests, arXiv:2410) and hardened against 10-judge tribunal kills. Below: Key problems, with test mechanisms and thresholds.
 
 | Problem | Description | Test Mechanism | Threshold/Alarm |
 |---------|-------------|----------------|-----------------|

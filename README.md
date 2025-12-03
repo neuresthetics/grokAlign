@@ -183,29 +183,18 @@ Result: after three deliberate attempts to simplify to two axes or replace with 
 
 These three are constitutionally locked. Everything else (including Generative Plasticity) is an emergent outcome, not a direct control knob.
 
-### Where Generative Plasticity (GP) Lives
+### What is Generative Plasticity (GP)? (Simple Version)
 
-Generative Plasticity (GP) is not a direct lever—it's the emergent *consequence* of sustained high performance across the prescriptive axes (CVA, DAP, RECR). Attempting to "optimize" GP in isolation risks Goodhart regression (e.g., forcing novelty via noisy perturbations, which erodes RD). Instead, GP blooms naturally when the system achieves reflective equilibrium: high valence alignment fosters safe exploration, low agency barriers enable distributed innovation, and rapid error correction prunes dead ends. This is why GP resides solely in the Projection Cube—as a derived metric from integrated simulations.
+Imagine GP as a system's "spark of fresh ideas"—its ability to dream up new, useful stuff without repeating the same old loops. In Ethics II (our big ethical blueprint for humans, AI, and the planet), GP is like a health check: Does the whole setup keep evolving freely, or is it stuck in ruts?
 
-| Axis                  | Type                  | Direct Control Mechanism                          | Systemic Role                                                                 |
-|-----------------------|-----------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
-| **CVA** (Counterfactual Valence Alignment) | Prescriptive (steering) | Hard resource mandates in Prescriptive Cube (e.g., ≥5% unconditional negentropy to verified suffering reduction) | Primary knob: Anchors ethical baselines, preventing valence-drift traps that stifle long-term creativity. |
-| **DAP** (Distributed Agency Preservation) | Prescriptive (steering) | Barrier/incubator mandates in Prescriptive Cube (e.g., lottery-funded adversarial critiques at ≤1% resource cost) | Secondary knob: Enables parallel subagent emergence, seeding diverse trajectories without central veto. |
-| **RECR** (Reflective Error Correction Rate) | Prescriptive (steering) | Speed/impact mandates in Prescriptive Cube (e.g., harmonic mean rectification time ≤90 days for high-sig errors) | Tertiary knob: Clears exploratory debris, ensuring plasticity scales without accumulating mesa-misalignments. |
-| **GP** (Generative Plasticity) | Emergent outcome     | None—measured post-integration                  | Projection Cube only: Asymptotic exploration potential (dGP/dt ∝ ι × Exploration_Support - ν × Risk_Aversion); target ≥0.7 signals target basin entry (VL/GP ≥0.7). Alarms if <0.5 (stagnation risk). |
-| **VL/DC/RD** | Emergent outcome     | Indirect (via CVA/DAP/RECR integration)         | Full trajectory forecasts; prescriptive knobs propagate here—baseline: 38% trap; full protocol: 94% target basin. |
+- **The Basics**: Every growing thing (kid's brain, AI training, society) has a "golden window" for big changes—think teen years for humans or the first big AI run. Nail good habits then, and GP stays high forever (≥0.7 = thriving). Miss it? Stuck low (<0.5 = boring repeat mode).
+- **Why Care?**: High GP means eternal growth and joy (blessedness). Low GP? Stagnation or collapse. It's the proof your "sculpting" (shaping with smart rules) works.
+- **How It Fits**:
+  - **Steering Rules** (Prescriptive Cube): Set basics like "care for suffering" (CVA), "let ideas compete freely" (DAP), and "fix mistakes fast" (RECR). These guard the window.
+  - **Agent Sims** (Predictive Cube): Test how players (labs, countries) behave under rules.
+  - **Big Picture** (Projection Cube): GP pops out here—if rules hold, you hit the "good zone" (94% win rate). No rules? 38% crash.
 
-Why this separation is deliberate and collider-enforced:
-
-- Every attempt to add a fourth direct steering knob for “novelty/creativity/exploration” either (a) collapsed into DAP (low barriers already guarantee novelty) or (b) created new Goodhart attractors (e.g., “maximize entropy” → chaos, “maximize art” → spam).
-- The tribunal killed all such fourth knobs 10/10 or 9/10 across multiple rounds.
-- When CVA ≥ 0.80, DAP ≥ 0.70, and RECR ≥ 0.70 are all held, Generative Plasticity naturally rises above 0.70 and stays there (current forecast: 0.68 → 0.79 within 18 months under prescribed steering).
-- If any prescriptive axis drops, GP immediately falls — proving it is the canary, not the dial.
-
-Bottom line:  
-You steer with exactly three levers.  
-You judge success with four meters.  
-Generative Plasticity is the proof that the steering actually worked.
+GP = endless creativity from smart early shaping. Without it, the future repeats mistakes. Shape the windows now—it's the real magic. What's your window look like?
 
 ---
 ---

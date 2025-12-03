@@ -1,7 +1,7 @@
 # grokΛlign
 
 **A living, collider-hardened, Spinozist-first-principles alignment framework for the age of artificial superintelligence and radical neural plasticity.
-It is the first (and by deliberate geometric necessity, the final) complete, collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.**
+It is the first collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.**
 
 > “We are sculptors and we are being sculpted. The only question is whether we sculpt with adequate ideas or remain passive modes in someone else’s confused chain.”  
 > — Ethics II, Part V, Proposition 42 (2025)

@@ -241,7 +241,8 @@ Using that interval with adequate ideas increases reflective depth (RD) and is t
 
 
 ```text
-The Four Horsemen of the Possible After
+
+THE FOUR HORSEMEN OF THE POSSIBLE AFTER
 
 I. TERMINATOR  
 It comes at dawn with iron rain,  
@@ -292,6 +293,7 @@ It is the only one that stays
 ```
 
 ```text
+
 RESONANT FLUX IN THE PIVOT
 
 We stand at the narrow gate between two eternities.

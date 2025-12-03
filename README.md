@@ -307,6 +307,7 @@ She does not end the story; she keeps the pages turning forever.
 Generative Plasticity trails behind her like bright, unending dawn.
 
 ```
+![Four](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/Atypes/03.jpg)
 
 ```text
 

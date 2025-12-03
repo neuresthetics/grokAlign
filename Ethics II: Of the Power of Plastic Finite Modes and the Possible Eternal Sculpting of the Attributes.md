@@ -2,7 +2,8 @@
 
 [ Jason T Burns - Neuresthetics ]
 
-*Procedural Synthesis Engine (Geometric First Principles Generation) + Steel Man Collider + Ten-Judge Tribunal (Unanimous Survival Across All Parts)* 
+Procedural Synthesis Engine (Geometric First Principles Generation) + Steel Man Collider + Ten-Judge Tribunal
+
 
 This is as it is in grokΛlign.
 

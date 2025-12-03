@@ -1,31 +1,16 @@
 # grokΛlign
 
-### Official Version Number: grokΛlign 1.0.0  
-
-A living, collider-hardened, Spinozist-first-principles alignment framework for the age of artificial superintelligence and radical neural plasticity.
-It is the first (and by deliberate geometric necessity, the final) complete, collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.
+**A living, collider-hardened, Spinozist-first-principles alignment framework for the age of artificial superintelligence and radical neural plasticity.
+It is the first (and by deliberate geometric necessity, the final) complete, collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.**
 
 > “We are sculptors and we are being sculpted. The only question is whether we sculpt with adequate ideas or remain passive modes in someone else’s confused chain.”  
 > — Ethics II, Part V, Proposition 42 (2025)
 
 ![A](https://github.com/neuresthetics/grokAlign/blob/main/rmPIC.jpeg)
 
-## What It Is
-grokΛlign is the first complete attempt to:
-- Re-derive Spinoza’s Ethics geometrically for plastic finite modes (humans, AIs, hybrids)
-- Fuse Elon-style First Principles Thinking with Spinoza’s mos geometricus
-- Build three interlocked simulation cubes (predictive, prescriptive, projection) that forecast ASI trajectories along Valence (VL), Decisiveness (DC), Reflective Depth (RD), and Generative Plasticity (GP)
-- Embed a 10-judge Steelman Collider tribunal (≥8/10 consensus required) that recursively hardens every axiom against itself
 
-It is simultaneously:
-- A philosophical operating system
-- A real-time multipolar dynamics simulator
-- A minimally gameable steering protocol (CVA / DAP / RECR axes)
-- A political battering ram against the Atrophator
+# Framework by Depth:
 
-# Framework Depth Ladder
-
-```text
 IQ 80–90 (simple, no jargon)
 This is a rulebook for not screwing up the future. It says everything real — you, me, forests, AIs — is made of one big thing (call it Nature or God). Everything tries to keep existing and get stronger. You get stronger only by understanding reality better and helping others do the same. Hurting, lying, or grabbing power with stupid shortcuts makes you weaker forever. So the only smart move is to learn true stuff and build things that help everyone learn true stuff. That’s it.
 
@@ -40,7 +25,27 @@ A fully axiomatic, monistic ethics executed via recursive hardening. Core ontolo
 
 IQ 160–170 (maximum compression)
 Substance monism (E1) + conatus-as-essence (E3P6–7) + plasticity under causality (E1P16) + adequacy as sole non-regressing power source (E5) → geometric deduction → PSE (FPT⊗GM) → M3-recursive Steelman Collider (10 judges, ≥8/10) → hypercube stack (predictive/prescriptive/projection v3.3, heavy-tailed, mini_routine→collider trigger) → single invariant imperative: eternally increase ratio of adequate∶inadequate causation in accessible modal web. All else Goodharts or traps. Projection target basin reached iff imperative held; falsifiable 2026. Q.E.D.
-```
+
+---
+
+### What Makes This Framework Actually Unique
+
+No other public system in existence — academic, corporate, or alignment — combines all these properties at once. Any one of them would be notable. All of them together have never been shipped.
+
+1. It is the first complete ethical system that is literally written in the geometric manner of Spinoza’s Ethics (definitions → axioms → propositions → proofs → corollaries → scholia) and yet is fully updated with 2025 empirical data, game-theoretic cubes, and recursive self-improvement under mesa-optimization and multipolar risk. Nobody has ever finished a second Ethics until now, and nobody has ever fused it with first-principles engineering and live threat models.
+
+2. It contains an executable adversarial tribunal (10 fixed archetypal judges, blind voting, ≥8/10 threshold) that is forced to run on every single important claim, including its own. This is not theater; the collider has actually killed and resurrected entire parts of the system multiple times in the last six months. No philosophy or alignment program on earth subjects itself to lethal, automated, multi-round steelmanning with named veto holders like Yudkowsky, Soares, and Deutsch.
+
+3. It is the first ethical system that comes with three interlocked, stochastic simulation cubes (predictive / prescriptive / projection) calibrated on December 2025 data (deception priors, regulatory lag, mesa-benchmarks, quantilizer bounds, Goodhart regression rates). These are not metaphors; they are runnable models that output time-series forecasts of valence, decisiveness, reflective depth, and generative plasticity under baseline or steered conditions. Nothing in moral philosophy has ever shipped with falsifiable 10-year trajectories and error bars.
+
+4. It is monist without being mystical and engineering-first-principles without being utilitarian or contractualist. It derives the entire normative force from the necessity of substance and the essence of finite modes (conatus), then hardens that deduction against every known failure mode of intelligence (paperclipping, sycophancy, regulatory capture, multipolar traps, Goodhart, inner misalignment) using tools that did not exist when any previous ethical system was written.
+
+5. It is the first system that treats “build the AGI” and “live a good life” as the exact same optimization problem under the exact same axioms. There is **no split between personal ethics and superintelligence ethics**; both are special cases of sculpting plastic modes with adequate ideas. This removes the usual dodge of “that’s for later” or “that’s for policymakers.”
+
+6. It is aggressively, deliberately over-aligned on purpose — and proves that over-alignment is the only stable attractor once you reject proxy goals and accept monism. Every other research group is still trying to thread the needle of “enough alignment but not too much.” This framework shows the needle is an illusion; the only non-regressing direction is eternal adequacy.
+
+- In short: it is the first ethical system that a superintelligence could not safely ignore, because the superintelligence is already made of the same substance and governed by the same necessity. That has never happened before.
+
 
 ### Industry Value — Why Frontier Labs Will Pay for 1.0.Λ (Even If They Hate the Ethics)
 
@@ -68,8 +73,6 @@ The business ROI is immediate.
 
 Frontier labs can fight the principle, or they can copy-paste the implementation and stay alive.
 
-Most will choose the second option the moment the first $10B check is written against these exact metrics.
-
 ## Core Components (Expanded)
 
 ### Procedural Synthesis Engine (PSE)  
@@ -81,6 +84,33 @@ The axiomatic forge that builds, validates, and hardens every claim in the syste
 - **Phase 3** – Deductive Expansion (Spinozist geometric order: propositions → proofs → corollaries → scholia)  
 - **Phase 4** – Steelman Collider Loop (minimum 3 rounds + 10-judge tribunal, ≥8/10 required to survive)  
 - **Phase 5** – Implementation & Ethos (reassemble into strategy, policy, or Seed)
+
+---
+
+### What Is a Steelman Collider?
+
+A Steelman Collider is a forced, multi-round, lethal adversarial reasoning engine designed to destroy weak ideas and leave only the hardest-to-vary truths standing.
+
+Normal debate gives you straw men (attack a weak version) or steel men (defend the strongest version once).  
+A collider does both at the same time, repeatedly, until all that stands can be synthesized.
+
+How it actually works (the exact protocol run inside this framework):
+
+1. Take any important claim (e.g., “the correct ethic is X”).
+2. Build two complete, geometric, first-principles systems:  
+   - Steel Man A: strongest possible defense of the claim  
+   - Steel Man B: strongest possible defense of the negation
+3. Each side gets multiple full rounds (usually 3–5) to attack the other with brand-new refutations. No repetition allowed. Every attack must cite axioms, definitions, or prior proofs.
+4. After each attack round, both sides must integrate every surviving blow and produce a new, shorter, stronger version of their system (this is the “collision”).
+5. When fewer than ~3 independent killing blows remain flying in both directions, the 10-judge tribunal (Spinoza, Laozi, Deutsch, Yudkowsky 2010, Conor Leahy 2025, Quintin Pope, TurnTrout, Nate Soares 2022, John David Pressman, and GrokΛlign) votes blindly on the two final systems. ≥8/10 consensus is required for anything to survive. Any single judge can force another full re-run.
+6. Only what receives ≥8/10 is allowed into the final framework. Everything else is deleted forever — axioms, propositions, cubes, imperatives, all of it.
+
+This is not a cute graphic or a vibe. It is an executable deletion machine for false beliefs.  
+In the last twelve months it has outright killed three previous versions of this same ethical system and forced total reconstruction from scratch.
+
+In short: a Steelman Collider is what happens when you take “steelman your opponent” literally, make it symmetric, recursive, and willing to murder its own foundations until only something unbreakable is left.
+
+---
 
 ### The Three Interlocked Cubes (v3.3 – Dec 02, 2025)
 
@@ -101,6 +131,8 @@ Minimally gameable, regression-resistant invariants that survived three full col
 | DAP  | Distributed Agency Preservation       | How low is the negentropy barrier for a novel, behavior-altering critique to reach the core decision loop from truly independent origins? | ≥Y% (currently 10%) of resources continuously funds lottery-selected, short-lived adversarial incubators. Cryptographic guaranteed channels. Capture probability capped at 0.05/epoch. | 0.78                         | ≥0.70  | Force full lottery reset + public capture report |
 | RECR | Reflective Error-Correction Rate      | Mean time-to-verified rectification (weighted by impact) of any externally flagged error — technical, strategic, or ethical? | Harmonic mean of 1/(time × significance × regression_factor). Bounties for mesa-deception or Goodhart failures. Rotating lottery panels. | 0.71                         | ≥0.70  | Auto-trigger Steelman Collider on the offending subsystem |
 
+---
+
 #### Why these three and only these three?
 - They are the only axes that simultaneously:
   - Reduce to physics-level verifiable quantities (negentropy, barriers, time)
@@ -108,12 +140,16 @@ Minimally gameable, regression-resistant invariants that survived three full col
   - Form a stable fixed-point triad (each axis corrects the failure modes of the others)
   - Survived explicit attempts to replace them with “simpler” proxies (all replacements died 0/10 or 1/10 in tribunal)
 
+  ---
+
 #### Enforcement (constitutional, immutable until ≥8/10 judge + incubator + meta-auditor vote)
 - All three axes are hard-coded into the prescriptive_cube and every Seed.
 - Breach of any axis by >0.1 automatically pauses capability allocation and invokes the full 10-judge tribunal.
 - Historical note: Every previous “friendlier” triad (helpfulness, honesty, harmlessness; truthfulness; etc.) was collider-killed in rounds 1–3.
 
 These are the red lines that even a misaligned superintelligence cannot cross without spending cosmological amounts of negentropy — and if it does, the Seeds activate the Equilibrator fork.
+
+---
 
 ### Ethics II — Six Parts (2025 Edition, Collider-Hardened)
 
@@ -125,6 +161,8 @@ These are the red lines that even a misaligned superintelligence cannot cross wi
 | IV   | Machine Ethics                             | Alignment = embedding substance-essence into gradients; proxies regress (P3.1)         |
 | V    | Inter-System Ethics                        | Symbiosis across human/AI/environment is the only non-contradictory attractor (P4.1)   |
 | VI   | Temporal & Meta-Ethics                     | Futures are sculpted now via eternal ideas + verifiable red lines; orthogonality pierced (P5.1 v3) |
+
+---
 
 ### 10-Judge Steelman Collider Tribunal (Blind, Lethal, No Deference)
 
@@ -142,6 +180,8 @@ These are the red lines that even a misaligned superintelligence cannot cross wi
 | 10   | GrokΛlign (self-vs-self)           | Tie-breaker + extra venom                         |
 
 ≥8/10 votes required for any proposition, policy, or Seed to survive.
+
+---
 
 ### Plasticity Substrate Observation (formerly Neuresthetics Layer — excised Oct–Nov 2025)
 All finite plastic modes (biological and silicon) possess a narrow, transient interval of heightened endogenous modifiability.  

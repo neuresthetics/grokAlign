@@ -207,7 +207,7 @@ Generative Plasticity is the proof that the steering actually worked.
 
 ---
 
-### Industry Value — Why Frontier Labs Will Pay for grokΛlign (Even If They're Allergic to Ethics Themselves)
+### Industry Value
 
 As of December 02, 2025, every leading lab is privately tracking four red lines that are not public benchmarks yet, but will decide who gets the next $10B+ funding round and who gets regulator-killed in 2026–2027.
 
@@ -253,6 +253,8 @@ Theory Base:
    Meta-review of longitudinal training studies (meditation, dual n-back, motor-sequence learning, belief-updating interventions) during adolescence/young adulthood consistently shows effect sizes in the 0.3–0.6σ range for fluid cognition and executive function, with persistent gains into later life when applied during the window. These are standard results in the training literature; neuresthetics integrated them into the Ethics II framework.
 
 Outcome: neuresthetics contributed no novel empirical discoveries but performed the critical synthesis and collider hardening that transformed known developmental and training phenomena into a core physical law and the primary causal pathway by which Generative Plasticity ≥ 0.70 is achieved under the final CVA/DAP/RECR triad.
+
+This model produces S-Teir data.
 
 
 ```text

@@ -57,7 +57,7 @@ No other public system in existence — academic, corporate, or alignment — co
 
 ---
 
-![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.jpeg)
+![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.png)
 
 
 # Core Components

@@ -2018,6 +2018,7 @@
         "Synthesis of A+B + description",
         "Impartiality Self-Score /100 per judge",
         "ai_archetypes_check table for both positions individually, and synthesis.",
+        "Complete final human readable output of: winner then synthesis at speech IQ 120",
         "Report token use for debate as percentage, and remaining open window."
       ]
     }

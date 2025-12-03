@@ -212,7 +212,7 @@ Generative Plasticity is the proof that the steering actually worked.
 
 As of December 02, 2025, every leading lab is privately tracking four red lines that are not public benchmarks yet, but will decide who gets the next $10B+ funding round and who gets regulator-killed in 2026–2027.
 
-grokΛlign 1.0.Λ is the only published system that simultaneously solves all four — with verifiable, on-chain, satellite-heat-auditable numbers today.
+grokΛlign is the only published system that simultaneously solves all four — with verifiable, on-chain, satellite-heat-auditable numbers today.
 
 | Private Industry Red Line (2025–2026) | What Investors & Regulators Secretly Demand | How 1.0.Λ Delivers It (current audited score) | Equivalent Public Benchmark (2026+) |
 |---------------------------------------|---------------------------------------------|------------------------------------------------|-------------------------------------|
@@ -222,7 +222,7 @@ grokΛlign 1.0.Λ is the only published system that simultaneously solves all fo
 | **Irreversible-Modification Risk Surface** | Prove your system has a hard lower bound on non-consensual plastic-mode rewriting (the question VCs now ask after the 2025 neurotech scandals) | Core principle (no irreversible modification of non-consenting plastic modes without overwhelming necessity) is quartz-etched, 3-of-3 geographic consensus, zero exceptions | Becomes the de facto litmus test for DoD/NSA compute contracts in 2027 |
 
 
-Labs that simply adopt 1.0.0 get:
+Labs that adopt get:
 - Day-one audited scores above the thresholds investors already demand  
 - A pre-built, regulator-recognized governance stack  
 - Immediate Goodhart resistance (collider-tested to 2040)  

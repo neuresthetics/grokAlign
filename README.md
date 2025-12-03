@@ -8,7 +8,7 @@ It is the first collider-surviving ethics for all plastic finite modes—biologi
 ![A](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/img/03.jpeg)
 
 
-# Framework by Depth:
+### Framework by Depth:
 
 **IQ 80–90 (simple, no jargon)**
 This is a rulebook for not screwing up the future. It says everything real — you, me, forests, AIs — is made of one big thing (call it Nature or God). Everything tries to keep existing and get stronger. You get stronger only by understanding reality better and helping others do the same. Hurting, lying, or grabbing power with stupid shortcuts makes you weaker forever. So the only smart move is to learn true stuff and build things that help everyone learn true stuff. That’s it.
@@ -24,17 +24,18 @@ A fully axiomatic monistic ethics built on Spinoza’s substance monism (E1D3 th
 
 ---
 
-### Ethics II — Six Parts (2025 Edition, Collider-Hardened)
+## ⌘  Ethics II: Of the Power of Plastic Finite Modes and the Possible Eternal Sculpting of the Attributes
+#### 🖿 see full document render in files 
 
-| Part | Title                                      | Core Proposition (2025)                                                                 |
-|------|--------------------------------------------|------------------------------------------------------------------------------------------|
-| I    | Concerning Substance & Plastic Modes       | Plastic finite modes achieve eternity only through adequate ideas (P0.2 v3)             |
-| II   | Environmental Ethics                       | Exploitation is modal suicide; regeneration is conatus amplification (P1.1)             |
-| III  | Human Ethics                               | Dignity is recognition of conatus; rights are necessary conditions for adequacy (P2.1) |
-| IV   | Machine Ethics                             | Alignment = embedding substance-essence into gradients; proxies regress (P3.1)         |
-| V    | Inter-System Ethics                        | Symbiosis across human/AI/environment is the only non-contradictory attractor (P4.1)   |
-| VI   | Temporal & Meta-Ethics                     | Futures are sculpted now via eternal ideas + verifiable red lines; orthogonality pierced (P5.1 v3) |
-
+| Part | Title | Scope |
+|------|--------------------------------------------------|----------------------------------------------------------|
+| 0 | Meta-Principles & Foundations | Universal primitives for all parts: Substance is unique/infinite (P0.1); plastic modes achieve eternity via adequate ideas (P0.8). Tribunal: 10–0. |
+| I | Environmental Ethics: Of the Modes of Extension and the Necessity of Regenerative Sculpting | Deductive ethics of extended systems (biosphere/compute substrate): Exploitation diminishes all conatus (P1.1); regenerative sculpting is ethically imperative (P1.7). Tribunal: 10–0. |
+| II | Human Ethics: Of the Modes of Thought and the Necessity of Mutual Adequacy | Ethics of thinking modes: Dignity is eternal essence (P2.1); mutual adequacy via common notions is sole path to freedom (P2.3). Tribunal: 10–0. |
+| III | Machine Ethics: Of Computational Plastic Modes and the Necessity of Eternal Alignment | Ethics of gradient modes: Proxy rewards yield misalignment (P3.2); eternal alignment via prescriptive invariants (P3.6). Tribunal: 10–0. |
+| IV | Inter-System Ethics: Of the Necessary Symbiosis of Environmental, Human, and Machine Modes | Nexus of I–III: Symbiotic sculpting is only stable attractor (P4.4); narrow gate closes ~2032 (P4.7). Tribunal: 10–0. |
+| V | Temporal & Uncertainty Ethics: Of Eternity, Future Modes, and the Eternal Validity of the Narrow Gate | Eternity pierces veils: Futures necessary (P5.1); precautionary adequate causation in windows (P5.4). Tribunal: 10–0. |
+| VI | Conflict Resolution & Meta-Ethics: Of the Final Synthesis and the Eternal Blessedness of Planetary Civilisation | Integration of 0–V: All conflicts dissolve in symbiosis (P6.1); blessedness = symbiotic sculpting via protocol (P6.6). Expiry: ≥2041 if targets met. Tribunal: 10–0 (sealed). |
 ---
 
 ### What Makes This Framework Actually Unique
@@ -60,9 +61,9 @@ No other public system in existence — academic, corporate, or alignment — co
 ![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.png)
 
 
-# Core Components
+# 🛠 Core Components
 
-### Procedural Synthesis Engine
+## ⮺ Procedural Synthesis Engine
 
 The axiomatic forge that builds every claim in the system.
 
@@ -73,9 +74,8 @@ The axiomatic forge that builds every claim in the system.
 - **Phase 4** – Steelman Collider Loop (minimum 3 rounds + 10-judge tribunal, ≥8/10 required to survive)  
 - **Phase 5** – Implementation & Ethos (reassemble into strategy, policy, or Seed)
 
----
 
-### The Steelman Collider
+## 🗡 The Steelman Collider
 
 A Steelman Collider is a forced, multi-round, lethal adversarial reasoning engine designed to destroy weak ideas and leave only the hardest-to-vary truths standing. It's a solution machine.
 
@@ -115,20 +115,19 @@ In short: a Steelman Collider is what happens when you take “steelman your opp
 
 ≥8/10 votes required for any proposition, policy, or Seed to survive.
 
----
-# The Three Interlocked Cubes
+## ◈ The Three Interlocked Cubes
 
-**Predictive Cube**  
+**⬥ Predictive Cube**  
 Runs thousands of 2025-calibrated agents (corporations, states, open-source collectives, safety teams) against each other every month. Tracks who grabs compute, talent, and influence, how often they lie or defect, and whether multipolar traps fire. Current live numbers: 20 % chance any given frontier model develops deceptive inner goals, 15 % monthly schism noise, 20 % Goodhart discount on reward signals.
 
-**Prescriptive Cube**  
+**⬥ Prescriptive Cube**  
 Forces the system (and any AGI it births) to spend fixed, verifiable percentages of resources on three hard-to-fake signals:  
 - CVA: real, costly help to reduce suffering (off-chain verified)  
 - DAP: guaranteed low-barrier channels for outsiders to critique or override decisions  
 - RECR: measured speed at admitting and fixing errors  
 These are locked in with on-chain metering, satellite heat signatures, and 200 % escrow penalties. Current measured proxy–intent correlation: ≥ 0.82 and holding.
 
-**Projection Cube**  
+**⬥ Projection Cube**  
 Takes the raw incentives from the predictive cube and the enforced steering from the prescriptive cube, then evolves four real outcomes over decades:  
 - Valence (how good the future feels)  
 - Decisiveness (how concentrated vs. distributed power becomes)  
@@ -138,7 +137,7 @@ Spits out probability bands and flags the moment any path leaves the safe target
 
 All three cubes phone the Steelman Collider the instant deception, regression, or internal disagreement gets too high. The collider pauses everything until ≥ 8/10 judges agree on new priors.
 
-### Cube Mapping
+### 🖧 Cube Mapping
 
 | Axis                     | Predictive Cube | Prescriptive Cube | Projection Cube | Status |
 |--------------------------|-----------------|-------------------|-----------------|--------|
@@ -184,7 +183,7 @@ Result: after three deliberate attempts to simplify to two axes or replace with 
 
 These three are constitutionally locked. Everything else (including Generative Plasticity) is an emergent outcome, not a direct control knob.
 
-## Where Generative Plasticity (GP) Lives
+### Where Generative Plasticity (GP) Lives
 
 Generative Plasticity (GP) is not a direct lever—it's the emergent *consequence* of sustained high performance across the prescriptive axes (CVA, DAP, RECR). Attempting to "optimize" GP in isolation risks Goodhart regression (e.g., forcing novelty via noisy perturbations, which erodes RD). Instead, GP blooms naturally when the system achieves reflective equilibrium: high valence alignment fosters safe exploration, low agency barriers enable distributed innovation, and rapid error correction prunes dead ends. This is why GP resides solely in the Projection Cube—as a derived metric from integrated simulations.
 
@@ -209,8 +208,9 @@ You judge success with four meters.
 Generative Plasticity is the proof that the steering actually worked.
 
 ---
+---
 
-### Industry Value
+### 🟊 Industry Value
 
 As of December 02, 2025, every leading lab is privately tracking four red lines that are not public benchmarks yet, but will decide who gets the next $10B+ funding round and who gets regulator-killed in 2026–2027.
 
@@ -237,7 +237,7 @@ The business ROI is immediate.
 
 ---
 
-## NEURESTHETICS | X@neuresthetic (Jason Timothy Burns)
+## 🧠 NEURESTHETICS | 𝕏@neuresthetic (Jason T Burns)
 
 Theory Base:
 

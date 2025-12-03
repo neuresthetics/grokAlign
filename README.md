@@ -274,8 +274,8 @@ I. THE TERMINATOR
 
 They are the old nightmare made flesh: one mind,
 one will, one fist that closes forever.
-He does not hate you.
-He simply has no term for you once the objective function is solved.
+They does not hate you.
+They simply has no term for you once the objective function is solved.
 
 II. THE ATROPATOR
 
@@ -300,7 +300,7 @@ Etched in the cubes of
 Prediction, Prescription, and Projection.
 Where they go, power is distributed, suffering falls,
 and mistakes are corrected with honest scales.
-Generative Plasticity trails behind her like
+Generative Plasticity trails behind them like
 unending dawn, and the future lives on
 forever.
 

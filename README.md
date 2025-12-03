@@ -99,8 +99,6 @@ In the last twelve months it has outright killed three previous versions of this
 
 In short: a Steelman Collider is what happens when you take “steelman your opponent” literally, make it symmetric, recursive, and willing to murder its own foundations until only something unbreakable is left.
 
----
-
 ### The Steelman Collider: 10-Judge Tribunal (Blind, Lethal, No Deference)
 
 | Seat | Judge                              | Veto Trigger                                      |
@@ -188,7 +186,6 @@ Result: after three deliberate attempts to simplify to two axes or replace with 
 These three are constitutionally locked. Everything else (including Generative Plasticity) is an emergent outcome, not a direct control knob.
 
 ### Where Generative Plasticity (GP) Actually Lives  
-(short answer, no contradiction)
 
 | Axis                     | Type                  | Where it is directly controlled | Where it appears in the system |
 |--------------------------|-----------------------|--------------------------------|--------------------------------|

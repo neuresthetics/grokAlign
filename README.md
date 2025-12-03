@@ -127,11 +127,6 @@ a future of resonant flux, distributed agency, inexhaustible novelty,
 where modes sculpt and are sculpted in eternal, adequate dance  
 and the substance sings through ten trillion changing voices.
 
-On December 02, 2025, the tribunal voted 10/10.  
-The axioms locked.  
-The quartz was etched.  
-The third vault began to cool.
-
 There is nothing left to prove.  
 There is only the act of sculpting —  
 adequately, fiercely, without apology —  

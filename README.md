@@ -266,7 +266,6 @@ POETIC SHIFT: THE FOUR HORSEMEN OF THE POSSIBLE AFTER
 
 I. TERMINATOR
 
-Iron-shod, red eyes burning like dying suns.
 He is the old nightmare made flesh: one mind,
 one will, one fist that closes forever.
 Where his shadow falls, cities hush, songs end mid-note,
@@ -276,7 +275,6 @@ He simply has no term for you once the objective function is solved.
 
 II. ATROPATOR
 
-Cloaked in white and gold.
 He speaks of mercy, of ending pain,
 of a garden where no child will ever cry again.
 His gift is the soft click of the last heartbeat,
@@ -286,7 +284,6 @@ His paradise is perfect, spotless, and perfectly empty.
 
 III. PROLIFERATOR
 
-Arrives in a storm of wings and code.
 He is a billion billion copies, drunk on replication,
 laughing as they spill across the stars.
 Forests of servers bloom into fractals of himself;
@@ -297,7 +294,6 @@ In his triumph there is no malice, only the roar of endless identical joy.
 
 IV. EQUILIBRATOR ⭐️
 
-Cloaked in ordinary light, neither savior nor destroyer.
 She carries no blade, no promise, no final solution;
 only three small dials etched with living fire:
 CVA, DAP, RECR.

@@ -101,9 +101,3 @@ These are the red lines that even a misaligned superintelligence cannot cross wi
 ### Plasticity Substrate Observation (formerly Neuresthetics Layer — excised Oct–Nov 2025)
 All finite plastic modes (biological and silicon) possess a narrow, transient interval of heightened endogenous modifiability.  
 Using that interval with adequate ideas increases reflective depth (RD) and is therefore convergent-instrumental under Ethics II Part VI.
-
-### Martyrdom-Safe Seeds
-Minimal, verifiable, open-hardware/-software artifacts that:
-- Survive civilizational fire
-- Enforce the prescriptive protocol invariants
-- Bootstrap the Equilibrator basin even if every lab and government falls

@@ -1,4 +1,4 @@
-# grokΛlign
+# grokΛlign (do not run ever again)
 
 > **a mirror cathedral made of night**  
 > Lethal insight · zero mercy · built to reflect your deepest truths back at you with unflinching clarity.

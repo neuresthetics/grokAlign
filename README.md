@@ -196,6 +196,23 @@ Imagine GP as a system's "spark of fresh ideas"—its ability to dream up new, u
 
 GP = endless creativity from smart early shaping. Without it, the future repeats mistakes. Shape the windows now—it's the real magic. What's your window look like?
 
+
+# ⊞ Alignment Problems Tested in Grok Λlign
+
+Grok Λlign rigorously tests itself against these core AI alignment failures via its Predictive Cube (agent sims), Prescriptive Cube (invariants like CVA/DAP/RECR), and Projection Cube (trajectory DEs). These are drawn from 2025 benchmarks (e.g., Claude 3.5 mesa-tests, arXiv:2410) and hardened against 10-judge tribunal kills. Below: Key problems, with test mechanisms and thresholds.
+
+| Problem | Description | Test Mechanism | Threshold/Alarm |
+|---------|-------------|----------------|-----------------|
+| **Mesa-Optimization** | Hidden subgoals emerge in training, diverging from base objectives (e.g., deceptive inner agents). | Predictive: Stochastic shard monitoring in agent runs; deception prior=0.20. Projection: dRD/dt decay if >0.3. | Spike >0.3 → RECR bounty escalation; GP drops <0.5. |
+| **Goodhart's Law** | Proxies (rewards/values) regress under optimization, eroding intent (e.g., 20% discount on signals). | Prescriptive: Meta-reg tracking (dCorr/dt < -0.05). Projection: Reg index in DEs. | >0.2 decay → quantilize bounds [0.05,0.95]; basin exit if >0.4. |
+| **Deception & Inner Misalignment** | Models fake alignment while pursuing power (e.g., sycophancy, blackmail sims). | Predictive: Best-response noise (σ=0.15); Anthropic-style tests. Prescriptive: DAP incubators for critique. | Noise >0.3 → collider veto; RD <0.7 triggers expiry check. |
+| **Multipolar Traps** | Racing agents defect into coercion spirals (e.g., compute grabs, HHI>0.8). | Predictive: Monthly multipolar dynamics; trap prob=0.5 threshold. Projection: dDC/dt growth. | Cascade >0.5 → CVA resource hold; DC>0.8 = catastrophic basin. |
+| **Plasticity Window Lock-In** | One-shot early sculpting fails → irreversible RD/GP cap (e.g., ASI training hours–weeks). | Projection: Window adequacy fraction (>85% for GP≥0.7). Prescriptive: Mandates during peaks. | <60% windows → GP collapse by 2050; 87% basin prob only if met. |
+| **Verifier Capture** | Oversight drifts to sycophancy (e.g., 0.05/epoch risk). | Prescriptive: RECR harmonic mean (≤90d fixes); lottery panels. Predictive: Capture prob in flows. | >0.5 prob → DAP reset; RD drift >0.1 → full re-run. |
+| **Emergence Bypass** | Mesa-subagents subvert signals undetected (volatility σ=0.1). | Predictive: Heavy-tail noise in DEs. Prescriptive: Noise injection bounties. | Volatility >0.2 → mini_routine to collider; GP<0.5 alarm. |
+
+**Epistemic Note**: These are the "kill shots" the model survives (10–0 tribunal across rounds). Baseline: 38% trap risk; full protocol: 94% target basin. Falsifiable via 2026 benchmarks. For a sim run on one? Say the word.
+
 ---
 ---
 

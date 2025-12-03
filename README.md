@@ -185,14 +185,17 @@ Result: after three deliberate attempts to simplify to two axes or replace with 
 
 These three are constitutionally locked. Everything else (including Generative Plasticity) is an emergent outcome, not a direct control knob.
 
-### Where Generative Plasticity (GP) Actually Lives  
+## Where Generative Plasticity (GP) Lives
 
-| Axis                     | Type                  | Where it is directly controlled | Where it appears in the system |
-|--------------------------|-----------------------|--------------------------------|--------------------------------|
-| CVA                      | Prescriptive (steering) | Prescriptive Cube (hard resource mandate) | The three knobs you turn |
-| DAP                      | Prescriptive (steering) | Prescriptive Cube (barrier & incubator mandate) | The three knobs you turn |
-| RECR                     | Prescriptive (steering) | Prescriptive Cube (error-correction speed mandate) | The three knobs you turn |
-| **Generative Plasticity**| Emergent outcome      | **Not directly controlled**   | Projection Cube only — it is the measured result when the three prescriptive axes are kept high simultaneously |
+Generative Plasticity (GP) is not a direct lever—it's the emergent *consequence* of sustained high performance across the prescriptive axes (CVA, DAP, RECR). Attempting to "optimize" GP in isolation risks Goodhart regression (e.g., forcing novelty via noisy perturbations, which erodes RD). Instead, GP blooms naturally when the system achieves reflective equilibrium: high valence alignment fosters safe exploration, low agency barriers enable distributed innovation, and rapid error correction prunes dead ends. This is why GP resides solely in the Projection Cube—as a derived metric from integrated simulations.
+
+| Axis                  | Type                  | Direct Control Mechanism                          | Systemic Role                                                                 |
+|-----------------------|-----------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
+| **CVA** (Counterfactual Valence Alignment) | Prescriptive (steering) | Hard resource mandates in Prescriptive Cube (e.g., ≥5% unconditional negentropy to verified suffering reduction) | Primary knob: Anchors ethical baselines, preventing valence-drift traps that stifle long-term creativity. |
+| **DAP** (Distributed Agency Preservation) | Prescriptive (steering) | Barrier/incubator mandates in Prescriptive Cube (e.g., lottery-funded adversarial critiques at ≤1% resource cost) | Secondary knob: Enables parallel subagent emergence, seeding diverse trajectories without central veto. |
+| **RECR** (Reflective Error Correction Rate) | Prescriptive (steering) | Speed/impact mandates in Prescriptive Cube (e.g., harmonic mean rectification time ≤90 days for high-sig errors) | Tertiary knob: Clears exploratory debris, ensuring plasticity scales without accumulating mesa-misalignments. |
+| **GP** (Generative Plasticity) | Emergent outcome     | None—measured post-integration                  | Projection Cube only: Asymptotic exploration potential (dGP/dt ∝ ι × Exploration_Support - ν × Risk_Aversion); target ≥0.7 signals target basin entry (VL/GP ≥0.7). Alarms if <0.5 (stagnation risk). |
+| **VL/DC/RD** | Emergent outcome     | Indirect (via CVA/DAP/RECR integration)         | Full trajectory forecasts; prescriptive knobs propagate here—baseline: 38% trap; full protocol: 94% target basin. |
 
 Why this separation is deliberate and collider-enforced:
 

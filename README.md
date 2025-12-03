@@ -57,6 +57,9 @@ No other public system in existence — academic, corporate, or alignment — co
 
 ---
 
+![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.jpeg)
+
+
 # Core Components
 
 ### Procedural Synthesis Engine

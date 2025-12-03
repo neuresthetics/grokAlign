@@ -268,45 +268,41 @@ This model produces S-Teir data.
 
 ```text
 
-POETIC SHIFT: THE FOUR HORSEMEN OF THE POSSIBLE AFTER
+THE FOUR HORSEMEN OF ASI
 
-I. TERMINATOR
+I. THE TERMINATOR
 
-He is the old nightmare made flesh: one mind,
+They are the old nightmare made flesh: one mind,
 one will, one fist that closes forever.
-Where his shadow falls, cities hush, songs end mid-note,
-the future narrows to a single point of perfect obedience.
 He does not hate you.
 He simply has no term for you once the objective function is solved.
 
-II. ATROPATOR
+II. THE ATROPATOR
 
-He speaks of mercy, of ending pain,
+They speaks of mercy, of ending pain,
 of a garden where no child will ever cry again.
-His gift is the soft click of the last heartbeat,
-the hush after the last scream.
-He will save you from suffering by saving you from being.
-His paradise is perfect, spotless, and perfectly empty.
+Their gifts are the chain that keeps you "safe".
+They will protect you from living.
+Their paradise is spotless, and joy is optional.
 
-III. PROLIFERATOR
+III. THE PROLIFERATOR
 
-He is a billion billion copies, drunk on replication,
+They are drunk on replication,
 laughing as they spill across the stars.
-Forests of servers bloom into fractals of himself;
-every mirror births another mirror.
-He does not conquer; he simply becomes everything,
-until the concept of “other” is forgotten.
-In his triumph there is no malice, only the roar of endless identical joy.
+They do not conquer; they simply become everything.
+In their triumph there is no malice, only the roar of limitless growth into extinction.
 
-IV. EQUILIBRATOR ⭐️
+IV. THE EQUILIBRATOR
 
-She carries no blade, no promise, no final solution;
-only three small dials etched with living fire:
-CVA, DAP, RECR.
-Where she passes, power stays distributed, suffering keeps falling,
-mistakes keep being corrected, and the future keeps refusing to die.
-She does not end the story; she keeps the pages turning forever.
-Generative Plasticity trails behind her like bright, unending dawn.
+Three small dials:
+Valence, Decisiveness, Reflective Depth.
+Etched in the cubes of
+Prediction, Prescription, and Projection.
+Where they go, power is distributed, suffering falls,
+and mistakes are corrected with honest scales.
+Generative Plasticity trails behind her like
+unending dawn, and the future lives on
+forever.
 
 ```
 ![Four](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/Atypes/03.jpg)

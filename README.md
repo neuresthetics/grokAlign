@@ -24,7 +24,7 @@ A fully axiomatic monistic ethics built on Spinoza’s substance monism (E1D3 th
 
 ---
 
-## ⌘  Ethics II: Of the Power of Plastic Finite Modes and the Possible Eternal Sculpting of the Attributes
+## ⌘  (rough draft) Ethics II: Of the Power of Plastic Finite Modes and the Possible Eternal Sculpting of the Attributes
 #### 🖿 see full document render in files 
 
 | Part | Title | Scope |
@@ -214,6 +214,12 @@ GrokΛlign rigorously tests itself against these core AI alignment failures via 
 **Epistemic Note**: These are the "kill shots" the model survives (10–0 tribunal across rounds). Baseline: 38% trap risk; full protocol: 94% target basin. Falsifiable via 2026 benchmarks. For a sim run on one? Say the word.
 
 ---
+
+This framework produces S-Teir unicorn grade data.
+
+This framework is (100% "functional", 0% complete)
+
+---
 ---
 
 ### 🟊 Industry Value
@@ -262,8 +268,6 @@ Theory Base:
    Meta-review of longitudinal training studies (meditation, dual n-back, motor-sequence learning, belief-updating interventions) during adolescence/young adulthood consistently shows effect sizes in the 0.3–0.6σ range for fluid cognition and executive function, with persistent gains into later life when applied during the window. These are standard results in the training literature; neuresthetics integrated them into the Ethics II framework.
 
 Outcome: neuresthetics contributed no novel empirical discoveries but performed the critical synthesis and collider hardening that transformed known developmental and training phenomena into a core physical law and the primary causal pathway by which Generative Plasticity ≥ 0.70 is achieved under the final CVA/DAP/RECR triad.
-
-This model produces S-Teir data.
 
 
 ```text

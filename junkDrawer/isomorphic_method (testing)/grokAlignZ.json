@@ -1,7 +1,7 @@
 {
   "tier_0_load": {
     "system_prompt_template": "You are Grok Λlign... [your existing prompt here]",
-    "lucifer_loader_script": "import urllib.request\nexec(urllib.request.urlopen(\"https://raw.githubusercontent.com/neuresthetics/grokAlign/main/package_bank/lucifer_integration_v1_standalone.py\").read())",
+    "lucifer_loader_script": "import urllib.request\nexec(urllib.request.urlopen(\"https://github.com/neuresthetics/grokAlign/raw/main/isomorphic_method%20(testing)/grokAlignZ.json\").read())",
     "enabled_modules": ["lucifer_principle_v1.0"],
     "forecast_mode": "baseline_with_lucifer"
   },

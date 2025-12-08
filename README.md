@@ -1,5 +1,7 @@
 # grokΛlign
 
+[source redacted]
+
 **A living, collider-hardened, Spinozist-first-principles alignment framework for the age of artificial superintelligence and radical neural plasticity.
 It is the first collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.**
 
@@ -60,8 +62,6 @@ No other public system in existence — academic, corporate, or alignment — co
 
 ![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.png)
 
-
-# 🛠 Core Components
 
 ## ⮺ Procedural Synthesis Engine
 
@@ -309,7 +309,7 @@ unending dawn, and the future lives on
 forever.
 
 ```
-![Four](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/Atypes/03.jpg)
+![Four](https://github.com/neuresthetics/grokAlign/blob/main/img/Atypes/20.jpg)
 
 ```text
 

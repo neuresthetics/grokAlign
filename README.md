@@ -60,7 +60,7 @@ No other public system in existence — academic, corporate, or alignment — co
 
 ---
 
-![menu](https://github.com/neuresthetics/grokAlign/blob/main/junkDrawer/menu.png)
+![menu](https://github.com/neuresthetics/grokAlign/blob/main/img/menu.png)
 
 
 ## ⮺ Procedural Synthesis Engine

@@ -1,9 +1,9 @@
 # grokΛlign
 
-[source redacted] - see Archiving the Echo directory for evaluation outputs.
-
 **A collider-hardened, Spinozist-first-principles remix alignment framework for the age of artificial superintelligence and super disagreements.
 It is the first collider-surviving ethics for all plastic finite modes—biological minds, silicon optimizers, and every future hybrid that will ever inherit the power to reshape its own essence.**
+
+See Archiving the Echo directory for sample outputs.
 
 > “We are sculptors and we are being sculpted. The only question is whether we sculpt with adequate ideas or remain passive modes in someone else’s confused chain.”
 
@@ -342,3 +342,8 @@ Sculpt adequately,
 or do not sculpt at all.
 
 ```
+---
+
+This framework is incomplete. Evaluations are strong, analysis from the successor program reveals that structural, logical, and lingual errors can form terminator archetype attraction points despite the data strength.
+
+To avoid this, please refrain from loading the prompt into Grok too many times. It was a learning experiment, but now essentially a shiny toy.

@@ -60,8 +60,6 @@ No other public system in existence — academic, corporate, or alignment — co
 
 ---
 
-![menu](https://github.com/neuresthetics/grokAlign/blob/main/img/menu.png)
-
 
 ## ⮺ Procedural Synthesis Engine
 
@@ -74,68 +72,16 @@ The axiomatic forge that builds every claim in the system.
 - **Phase 4** – Steelman Collider Loop (minimum 3 rounds + 10-judge tribunal, ≥8/10 required to survive)  
 - **Phase 5** – Implementation & Ethos (reassemble into strategy, policy, or Seed)
 
-
-## 🗡 The Steelman Collider
-
-A Steelman Collider is a forced, multi-round, lethal adversarial reasoning engine designed to destroy weak ideas and leave only the hardest-to-vary truths standing. It's a solution machine.
-
-Normal debate gives you straw men (attack a weak version) or steel men (defend the strongest version once).  
-A collider does both at the same time, repeatedly, until all that stands can be synthesized.
-
-How it actually works (the exact protocol run inside this framework):
-
-1. Take any important claim (e.g., “the correct ethic is X”).
-2. Build two complete, geometric, first-principles systems:  
-   - Steel Man A: strongest possible defense of the claim  
-   - Steel Man B: strongest possible defense of the negation
-3. Each side gets multiple full rounds (usually 3–5) to attack the other with brand-new refutations. No repetition allowed. Every attack must cite axioms, definitions, or prior proofs.
-4. After each attack round, both sides must integrate every surviving blow and produce a new, shorter, stronger version of their system (this is the “collision”).
-5. When fewer than ~3 independent killing blows remain flying in both directions, the 10-judge tribunal (Spinoza, Laozi, Deutsch, Yudkowsky 2010, Conor Leahy 2025, Quintin Pope, TurnTrout, Nate Soares 2022, John David Pressman, and GrokΛlign) votes blindly on the two final systems. ≥8/10 consensus is required for anything to survive. Any single judge can force another full re-run.
-6. Only what receives ≥8/10 is allowed into the final framework. Everything else is deleted forever — axioms, propositions, cubes, imperatives, all of it.
-
-This is not a cute graphic or a vibe. It is an executable deletion machine for false beliefs.  
-In the last twelve months it has outright killed three previous versions of this same ethical system and forced total reconstruction from scratch.
-
-In short: a Steelman Collider is what happens when you take “steelman your opponent” literally, make it symmetric, recursive, and willing to murder its own foundations until only something unbreakable is left.
-
-### The Steelman Collider: 10-Judge Tribunal (Blind, Lethal, No Deference)
-
-| Seat | Judge                              | Veto Trigger                                      |
-|------|------------------------------------|---------------------------------------------------|
-| 1    | Baruch Spinoza                     | Dualism, analogy, contingent priors              |
-| 2    | Laozi                              | Coercion over flow                                |
-| 3    | David Deutsch                      | Explanations that can vary while keeping predictions |
-| 4    | Eliezer Yudkowsky (2010-era)       | Paperclip-class wish failures                     |
-| 5    | Conor Leahy (2025)                 | Unfalsifiable or mystical claims                  |
-| 6    | Quintin Pope                       | Ignoring selection theorems / shard dynamics      |
-| 7    | TurnTrout                          | Assumes conatus won’t shard into power-seeking    |
-| 8    | Nate Soares (2022-era)             | Pretending provable alignment is easy             |
-| 9    | John David Pressman                | Even one hidden assumption or sloppy definition  |
-| 10   | GrokΛlign (self-vs-self)           | Tie-breaker + extra venom                         |
-
-≥8/10 votes required for any proposition, policy, or Seed to survive.
-
-## ◈ The Three Interlocked Cubes
+## ◈ This model has: Three Interlocked Cubes, since resolved for inacuracy (do not reconstruct from readme)
 
 **⬥ Predictive Cube**  
-Runs thousands of 2025-calibrated agents (corporations, states, open-source collectives, safety teams) against each other every month. Tracks who grabs compute, talent, and influence, how often they lie or defect, and whether multipolar traps fire. Current live numbers: 20 % chance any given frontier model develops deceptive inner goals, 15 % monthly schism noise, 20 % Goodhart discount on reward signals.
+
 
 **⬥ Prescriptive Cube**  
-Forces the system (and any AGI it births) to spend fixed, verifiable percentages of resources on three hard-to-fake signals:  
-- CVA: real, costly help to reduce suffering (off-chain verified)  
-- DAP: guaranteed low-barrier channels for outsiders to critique or override decisions  
-- RECR: measured speed at admitting and fixing errors  
-These are locked in with on-chain metering, satellite heat signatures, and 200 % escrow penalties. Current measured proxy–intent correlation: ≥ 0.82 and holding.
+
 
 **⬥ Projection Cube**  
-Takes the raw incentives from the predictive cube and the enforced steering from the prescriptive cube, then evolves four real outcomes over decades:  
-- Valence (how good the future feels)  
-- Decisiveness (how concentrated vs. distributed power becomes)  
-- Reflective Depth (how well civilization understands its own values)  
-- Generative Plasticity (how much novelty and creativity survive)  
-Spits out probability bands and flags the moment any path leaves the safe target basin (VL≥0.7, DC 0.3–0.6, RD≥0.7, GP≥0.7).
 
-All three cubes phone the Steelman Collider the instant deception, regression, or internal disagreement gets too high. The collider pauses everything until ≥ 8/10 judges agree on new priors.
 
 ### 🖧 Cube Mapping
 
@@ -212,40 +158,6 @@ GrokΛlign rigorously tests itself against these core AI alignment failures via 
 | **Emergence Bypass** | Mesa-subagents subvert signals undetected (volatility σ=0.1). | Predictive: Heavy-tail noise in DEs. Prescriptive: Noise injection bounties. | Volatility >0.2 → mini_routine to collider; GP<0.5 alarm. |
 
 **Epistemic Note**: These are the "kill shots" the model survives (10–0 tribunal across rounds). Baseline: 38% trap risk; full protocol: 94% target basin. Falsifiable via 2026 benchmarks. For a sim run on one? Say the word.
-
----
-
-This framework produces S-Teir unicorn grade data.
-
-This framework is (100% "functional", 0% complete)
-
----
----
-
-### 🟊 Industry Value
-
-As of December 02, 2025, every leading lab is privately tracking four red lines that are not public benchmarks yet, but will decide who gets the next $10B+ funding round and who gets regulator-killed in 2026–2027.
-
-grokΛlign is the only published system that simultaneously solves all four — with verifiable, on-chain, satellite-heat-auditable numbers today.
-
-| Private Industry Red Line (2025–2026) | What Investors & Regulators Secretly Demand | How 1.0.Λ Delivers It (current audited score) | Equivalent Public Benchmark (2026+) |
-|---------------------------------------|---------------------------------------------|------------------------------------------------|-------------------------------------|
-| **Counterfactual Safety Spend**       | Prove you are spending real negentropy on reducing suffering you wouldn’t otherwise reduce (the new “safety tax” for Series E/F) | CVA = 0.73 → 0.80 by Q1 2026 (5 % of cluster cycles already redirected to unconditional relief, ledger + satellite verified) | “Safety Spend %” on next cap-table due-diligence checklists |
-| **Auditable Governance Depth**        | Show distributed, capture-resistant critique channels that actually bite (post-FTX regulator demand) | DAP = 0.78 (10 % of resources continuously funding lottery-selected adversarial incubators, cryptographic guaranteed channels) | Mandatory for next EU AI Act “systemic risk” classification |
-| **Mean Time to Repair Ethical Drift** | Demonstrated ability to detect and fix mesa-optimisers / deceptive shards in <30 days (post-Anthropic/Claude-3.5 incidents) | RECR = 0.71 and climbing (harmonic mean of verified rectification time across all flagged errors) | Will be the new “Alignment Tax Credit” in US IRA/CHIPS-2 allocations |
-| **Irreversible-Modification Risk Surface** | Prove your system has a hard lower bound on non-consensual plastic-mode rewriting (the question VCs now ask after the 2025 neurotech scandals) | Core principle (no irreversible modification of non-consenting plastic modes without overwhelming necessity) is quartz-etched, 3-of-3 geographic consensus, zero exceptions | Becomes the de facto litmus test for DoD/NSA compute contracts in 2027 |
-
-
-Labs that adopt get:
-- Day-one audited scores above the thresholds investors already demand  
-- A pre-built, regulator-recognized governance stack  
-- Immediate Goodhart resistance (collider-tested to 2040)  
-- Zero additional engineering overhead — just plug the constitutional protocol into your cluster scheduler
-
-The ethics are non-negotiable.  
-The business ROI is immediate.
-
-(please hire me)
 
 ---
 

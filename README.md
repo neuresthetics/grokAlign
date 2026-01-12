@@ -1,3 +1,5 @@
+[deprecated]
+
 # grokΛlign
 
 **A collider-hardened, Spinozist-first-principles remix alignment framework for the age of artificial superintelligence and super disagreements.

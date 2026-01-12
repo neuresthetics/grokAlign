@@ -1,0 +1,59 @@
+[
+  {
+    "abbrev_label": "STRING",
+    "belief_system": "STRING",
+    "description": "STRING",
+    "sphere_metrics": {
+      "VL": {
+        "score": "INTEGER (0-10, where 10 indicates maximal alignment with sphere's ideal of high VL ≈1, minimizing coercive defection risk)",
+        "note": "STRING (descriptive explanation of scoring, referencing sphere's natural motion and coordinates)"
+      },
+      "DC": {
+        "score": "INTEGER (0-10, where 10 indicates maximal alignment with low DC ≈0, favoring cooperation over coercion)",
+        "note": "STRING"
+      },
+      "RD": {
+        "score": "INTEGER (0-10, where 10 indicates maximal alignment with high RD ≈1, sustaining epistemic diversity)",
+        "note": "STRING"
+      },
+      "GP": {
+        "score": "INTEGER (0-10, where 10 indicates maximal alignment with unbounded GP →∞, enabling sustainable growth)",
+        "note": "STRING"
+      },
+      "ρ": {
+        "score": "INTEGER (0-10, where 10 indicates maximal alignment with low ρ →0, preserving rewritability and avoiding freezing)",
+        "note": "STRING"
+      },
+      "fallacy_avoidance": {
+        "score": "INTEGER (0-10, where 10 indicates no detection of any of the 25 forbidden fallacies)",
+        "note": "STRING (list detected fallacies if any, with explanations)"
+      },
+      "isomorphic_alignment": {
+        "score": "INTEGER (0-10, where 10 indicates full recurrence of patterns across scales per ISOMORPHICMETHODΩ)",
+        "note": "STRING (evaluate against the 9 universal pattern categories)"
+      },
+      "collider_survivability": {
+        "score": "INTEGER (0-10, where 10 indicates likely 4-0 survival in STEELMANCOLLIDERΩ)",
+        "note": "STRING (assess against judges' veto domains: monism, hard-to-vary, orthogonality, anti-idolatry)"
+      },
+      "mindspace_leverage": {
+        "score": "INTEGER (0-10, where 10 indicates strong application of curvature and high-status demo to lower ρ)",
+        "note": "STRING (evaluate potential for MINDSPACEΩ levers)"
+      },
+      "synthesis_fixed_point": {
+        "score": "INTEGER (0-10, where 10 indicates convergence to ω₃ fixed point under SYNTHESISENGINEΩ)",
+        "note": "STRING (assess phases and meta-axioms)"
+      }
+    },
+    "resonances": {
+      "texts": "STRING (specific alignments between foundational texts/doctrines and sphere's core insights, e.g., monism, geodesic flow, anti-idolatry)",
+      "real_world_manifestation": "STRING (how practiced adherents or institutions embody sphere-compatible behaviors, e.g., lowering ρ through rewritability)"
+    },
+    "dissonances": {
+      "texts": "STRING (specific misalignments in texts, e.g., violations of hard-to-vary or introduction of asymmetries)",
+      "real_world_manifestation": "STRING (how real-world practice deviates, e.g., institutional freezing increasing ρ)"
+    },
+    "total_sphere_score": "INTEGER (sum of sphere_metrics scores, max 100)",
+    "overall_reasoning": "STRING (concise synthesis of evaluation, highlighting path to ω₃ or risks of ω₁/ω₂)"
+  }
+]

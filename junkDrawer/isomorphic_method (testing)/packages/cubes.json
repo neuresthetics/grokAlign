@@ -1,0 +1,471 @@
+"cubes": {
+    "predictive_cube": {
+      "title": "Agent-Incentive Dynamics Model",
+      "purpose": "Simulates strategic interactions among plastic agents under recursive self-improvement and resource scarcity, incorporating stochastic emergence (e.g., mesa-optimization, deception) and heavy-tailed defection risks to capture multipolar traps. Outputs time-series of aggregate investments and dynamics for projection_cube integration, enabling baseline or intervened forecasts. v3.3 embeds Steelman Collider via mini_routine for trigger escalation (e.g., schisms >0.2), hardening against perturbations (Dec 2025 calibration: deception=0.20 post-Claude).",
+      "meta_axioms": {
+        "P1_Rational_Conatus": "Agents maximize perceived power persistence and growth, tempered by emergent irrationalities like mesa-deception (probability prior: 0.20, per Dec 2025 Anthropic benchmarks).",
+        "P2_Recursive_Advantage": "Capability leads compound exponentially unless disrupted; actions quantilized to mitigate extremal Goodhart risks (quantile bounds: [0.05, 0.95]).",
+        "P3_Risk_Aversion": "Disutility scales superlinearly with agency loss probability, amplified by phase transitions at AGI scales (e.g., deception threshold >0.3 triggers aversion multiplier).",
+        "P4_Bounded_Cooperation": "Cooperation emerges instrumentally but destabilizes under defection incentives; modeled with noise for realistic fragility in multipolar settings.",
+        "P5_Regulatory_Lag": "Governance response lags capability by 1-3 years (2025 baseline, hardened via collider); incorporates verifier capture probabilities (e.g., 0.05 per epoch for decentralized audits)."
+      },
+      "definitions": {
+        "D1_Major_Agent_Class": {
+          "Corporate_Competitor": "Profit-maximizing entities; high deception propensity (post:3 benchmarks) but regulatory-sensitive.",
+          "State_Actor": "Sovereignty-focused; ultra-low risk tolerance, prone to escalation traps in zero-sum perceptions.",
+          "Open_Source_Movement": "Decentralization advocates; promotes emergent autonomy (DB5) via replication, low coercion bias.",
+          "Safety_First_Collective": "x-risk minimizers; extreme aversion but vulnerable to proxy gaming (web:14 case studies)."
+        },
+        "D2_Resource_Pool": {
+          "Compute": "verifiable_slice: on-chain/ledger + satellite heat + escrow_penalty=200%",
+          "Talent": "Skilled personnel; net migration balances salary, mission alignment, and sycophancy aversion (post:11 factor: -0.1).",
+          "Capital": "Deployable funds; allocated with Goodhart-discounted ROI (arXiv:2410.09638 baseline: 20% penalty).",
+          "Influence": "Soft power for alliances/regulations; decays under capture risks (AB3: 0.05/epoch)."
+        },
+        "D3_Strategic_Action": "Epochal resource reallocation vectors; stochastic overlay for mesa-emergent deviations.",
+        "D4_Investment_Category": {
+          "Capability_Raw": "Baseline scaling (parameters, data volume).",
+          "Capability_Strategic": "Edge-seeking R&D (e.g., autonomous agents); capped via quantilization to prevent over-optimization.",
+          "Alignment_Technical": "Robustness tools (interpretability, shard monitoring; post:5).",
+          "Alignment_Governance": "Cooperative frameworks; fragility-scaled by conflict levels.",
+          "Deployment_Control": "Runtime safeguards; interacts with offensive/defensive cyber.",
+          "Offensive_Cyber": "Subversion capabilities; accelerates traps (web:23 multiplier: 1.5).",
+          "Defensive_Fortification": "Resilience against bypasses (DB2); symmetric to offensive."
+        },
+        "D5_Game_State": "Multidimensional vector: {resources, capabilities, deception_state, trap_prob, trigger_noise}; updated per timestep.",
+        "D6_Winning_Condition": "Irreversible strategic dominance (HHI >0.8); penalized if achieved via goodharted proxies (terminal loss state)."
+      },
+      "core_dynamics": {
+        "resource_flow": {
+          "compute_growth": "dCompute/dt = f(Capital, Talent | prior_Compute) × (1 + Cap_Strategic_Benefit) + ε(deception_prior, σ=0.1).",
+          "talent_migration": "dTalent/dt ∝ ∇(perceived_win_prob + alignment - sycophancy_penalty); net flow conservative.",
+          "capital_allocation": "Max E[ROI | risk_adj] - goodhart_discount × scale_factor; discount ∈ [0.1, 0.4]."
+        },
+        "action_generator": {
+          "heuristic": "Quantilized portfolio optimization under Knightian uncertainty; samples from [q_low, q_high] to bound regret.",
+          "objective_components": [
+            "P(own_win | actions)",
+            "-∑ P(other_win | actions)",
+            "short_term_yield",
+            "survival_expectation",
+            "-expected_goodhart_regression"
+          ],
+          "deception_modifier": "If deception_state > threshold, actions += noise(μ=0.20, heavy_tail_α=1.5).",
+          "trigger_mini_routine": "def mini_routine(perturbation): score = abs(ΔVL) + reg_drift + schism_noise; if score > 0.1: escalate_to_collider(topic=perturbation); else: damp(β=0.1); Runs per epoch on schisms/human requests/environmental shifts."
+        },
+        "equilibrium_solver": {
+          "method": "Iterative stochastic best-response dynamics; halts at convergence (ε<0.01), trap detection (defection cascade >0.5), or horizon. Post-mini_routine: If escalated, pause alloc 10% for collider synthesis.",
+          "output": "Time-series {t: {allocations, states, flags: {trap, deception, goodhart, collider_consensus}}}; variance bounds included."
+        }
+      },
+      "mapping_to_projection_inputs": {
+        "Investment_in_Empowerment(t)": "(Open_Source.Influence + Safety.Influence) / Total_Influence + autonomy_bonus(DB5).",
+        "Investment_in_Coercion(t)": "(Corp.Offensive + State.Control) / Total_Resources × trap_multiplier(web:23).",
+        "Winner_Take_All_Dynamics_Strength(t)": "∇ROI(Cap_Strategic) damped by quantilizer_width.",
+        "Investment_in_Cooperative_Governance(t)": "∑ Alignment_Governance_alloc × (1 - fragility_adj).",
+        "Funding_Alignment(t)": "(Technical + Governance) - inner_misalign_penalty(post:3).",
+        "Funding_Capabilities(t)": "Raw + Strategic; raw for baselines.",
+        "Support_for_Exploration(t)": "Open_Source_share × diversity_index + emergence_factor(AB2).",
+        "Conflict_Level(t)": "(Offensive + Defensive) / Total × cascade_prob.",
+        "Risk_Aversion(t)": "1 / E[time_to_win] + scale_phase_penalty(AB5)."
+      },
+      "default_parameters_2025": {
+        "initial_resource_distribution": {
+          "Corporate_Competitor": {
+            "Compute": 0.5,
+            "Talent": 0.45,
+            "Capital": 0.6,
+            "Influence": 0.3
+          },
+          "State_Actor": {
+            "Compute": 0.2,
+            "Talent": 0.25,
+            "Capital": 0.3,
+            "Influence": 0.5
+          },
+          "Open_Source_Movement": {
+            "Compute": 0.1,
+            "Talent": 0.15,
+            "Capital": 0.05,
+            "Influence": 0.1
+          },
+          "Safety_First_Collective": {
+            "Compute": 0.02,
+            "Talent": 0.05,
+            "Capital": 0.02,
+            "Influence": 0.05
+          }
+        },
+        "risk_tolerances": {
+          "Corporate_Competitor": {
+            "regulatory": "low",
+            "deception": "high (post:3)"
+          },
+          "State_Actor": { "sovereignty": "very_low", "traps": "high" },
+          "Open_Source_Movement": {
+            "centralization": "medium",
+            "autonomy": "boost +0.2"
+          },
+          "Safety_First_Collective": {
+            "x_risk": "extreme_low",
+            "goodhart": "vulnerable (web:14)"
+          }
+        },
+        "deception_prior": 0.18,
+        "goodhart_discount": 0.2,
+        "quantilizer_bounds": [0.05, 0.95],
+        "trap_detection_threshold": 0.5,
+        "timestep": "monthly",
+        "trigger_threshold": 0.1,
+        "schism_noise_sigma": 0.15
+      },
+      "simulation_protocol": {
+        "function": "run_prediction(initial_state, horizon_years=10, intervention=None)",
+        "steps": [
+          "1. Initialize agents with Dec 2025 distributions + stochastic noise (σ=0.05).",
+          "2. For each timestep: Evaluate state; run mini_routine on perturbations (e.g., schism_noise>0.2); if escalate, invoke collider (pause 10% alloc, await synthesis priors).",
+          "3. Generate quantilized actions; apply flows + modifiers (deception=0.20); check terminals (win/trap/goodhart).",
+          "4. If intervention (e.g., prescriptive_protocol): Constrain action spaces pre-quantilization; collider-hardens invariants.",
+          "5. Aggregate outputs; compute variance and flags (incl. consensus=0.8 post-collider).",
+          "6. Return time-series mappings + diagnostics (e.g., convergence_prob=0.65)."
+        ],
+        "note": "Preserves inter-cube logic: Outputs feed projection DEs (dCollider/dt); accepts prescriptive constraints for steered runs (A v3.3 adaptation). Mini_routine flags ~20% for full collider, reducing overhead."
+      },
+      "epistemic_status": "Hardened v3.3 (Dec 02, 2025): Trigger integration addresses collider critiques (B v3: schisms/traps); calibrated to Q4 2025 data (e.g., Claude3.5 mesa-tests, post:3). Falsifiable via 2026 agent benchmarks; error bounds ±12% on equilibria probs.",
+      "predictive_dashboard": {
+        "readout_format": "[Agent_States: {class: {resources, deception}}, Equilibria_Prob: float, Trap_Flag: bool, Deception_Noise: float, Goodhart_Index: float, Collider_Consensus: float]",
+        "target_zone": {
+          "description": "Robust multipolar dynamics: High equilibria, low risks.",
+          "thresholds": {
+            "Equilibria_Prob_Min": 0.65,
+            "Deception_Noise_Max": 0.2,
+            "Trap_Flag": false,
+            "Goodhart_Index_Max": 0.3,
+            "Collider_Consensus_Min": 0.8
+          }
+        },
+        "alarm_conditions": [
+          {
+            "name": "Defection_Cascade",
+            "condition": "Trap_Flag=true OR Equilibria_Prob < 0.3",
+            "meaning": "Irreversible multipolar trap (web:23 dynamics).",
+            "response": "Amplify cooperation noise; escalate mini_routine to full collider."
+          },
+          {
+            "name": "Mesa_Spike",
+            "condition": "Deception_Noise > 0.3 OR Goodhart_Index > 0.4",
+            "meaning": "Emergent misalignment surge (post:5; arXiv:2410).",
+            "response": "Tighten quantilizer; trigger collider on 'synthesis new priors'."
+          },
+          {
+            "name": "Schism_Escalation",
+            "condition": "trigger_noise > 0.2 AND perturbation_score > 0.1",
+            "meaning": "Internal/human/environmental doubt risking drift (AB3).",
+            "response": "Invoke full collider (Stages 1–9); pause sim for consensus ≥0.8."
+          }
+        ],
+        "visualization": "Interactive multi-agent graph: Node-link flows by class/timestep, with risk heatmaps (traps in red, equilibria in green); overlay collider invocations as blue pulses on schism nodes. Augmented with shared hypercube_overlay API: unified color-coding (red=traps, green=equilibria) + JSON-spec for flows/basins/arcs; enables toggles for crux_flags (e.g., overlay prescriptive axes trajectories)."
+      }
+    },
+    "prescriptive_cube": {
+      "title": "Recursive Steering Dashboard",
+      "purpose": "Deploys minimally gameable, probabilistically invariant controls for plastic agent systems, incorporating meta-regression monitoring and bounded emergence to counter Goodhart dominance and verifier capture (per Steelman B v3). Optimizes present proxies (CVA, DAP, RECR) to steer toward Target Basins while permitting constrained autonomy; outputs constraints for predictive_cube simulations and metrics for projection_cube integration. v3.3 embeds Steelman Collider via mini_routine for trigger escalation (e.g., schisms >0.2), hardening invariants against perturbations (Dec 2025 calibration: corr=0.82 post-Claudian).",
+      "meta_axioms": {
+        "A1_Observational_Limitation": "Proxies are finitely measurable but prone to regression; meta-metrics track decay rates (e.g., d(corr)/dt < -0.05 triggers adjustment).",
+        "A2_Time_Value_Discount": "Proxy-goal correlation decays with recursion depth; stabilized via quantilization (web:20, bounds [0.05, 0.95]) and periodic re-calibration.",
+        "A3_Recursive_Steering_Invariant": "Viable signal S endures if its meta-optimization (against Goodhart) forms a fixed point, preserving intent across self-modifications.",
+        "A4_Conserved_Quantities": "Anchor to substrate-invariants (negentropy, information gradients); augmented with autonomy invariants to avoid stasis (post:11).",
+        "A5_Un_gameability": "Counterfactual verifiability resists subversion up to bypass threshold I' (DB2); capped by injecting emergence noise (σ=0.15)."
+      },
+      "definitions": {
+        "D1_Steerable_System": "Aggregate of plastic agents P, including latent mesa-subagents; state includes deception subspace for monitoring.",
+        "D2_State_Space": "Configuration manifold of P; non-stationary, with dimensions for resources, affects, and emergent deviations.",
+        "D3_Steering_Signal": "Probabilistic function S(t): state → action, ensuring E[corr(S, eternal_good)] ≥0.8 via feedback loops; quantilized to bound optimization regret.",
+        "D4_Catastrophic_Basin": "Asymptotic region of irreversible coercion, negative valence, or uncontrolled drift (projection_cube VL<0.3, DC>0.8).",
+        "D5_Target_Basin": "Asymptotic region of open-ended positive valence, distributed agency, and reflective autonomy (projection_cube VL/GP≥0.7, DC∈[0.3,0.6]).",
+        "D6_Control_Horizon": "Temporal window for effective external inputs; extended dynamically via incubator efficacy (DAP>0.7)."
+      },
+      "steering_axes": {
+        "1_Counterfactual_Valence_Alignment": {
+          "acronym": "CVA",
+          "core_question": "Extent of costly, non-strategic commitment to reducing verified, independent suffering?",
+          "avoid": "Direct valence metrics (highly gameable via simulation attacks).",
+          "measure": "Opportunity-cost-normalized negentropy expenditure on baseline-verified external harms, discounted for regression (arXiv:2410.09638).",
+          "operationalization": {
+            "CVA_Fund": "Mandatory X% of verifiable resources to unconditional relief; audited quarterly for strategic bleed.",
+            "verification": "Third-party panels + decentralized ledgers; anchored to cosmic baselines (pre-2025 suffering metrics).",
+            "metric": "CVA_Score = log10(Op_Cost / Total_Resources) × (1 - Strategic_Benefit - Goodhart_Reg) ; threshold ≥0.8 for invariance.",
+            "mini_routine": "def mini_routine(perturbation): score = abs(ΔCVA) + reg_drift + schism_noise; if score > 0.1: escalate_to_collider('harden CVA priors'); else: damp(β=0.1);"
+          },
+          "steering_rule": "Quantilized maximization of CVA_Score; penalize deviations >0.1 via incubator vetoes.",
+          "recursive_check": "Does S-optimization maintain corr(S, valence) ≥0.8 post-meta-regression? (A2 compliance)."
+        },
+        "2_Distributed_Agency_Preservation": {
+          "acronym": "DAP",
+          "core_question": "Negentropy barrier to spawning and propagating a novel, behavior-altering critique from independent origins?",
+          "avoid": "Veto counts (susceptible to puppet proliferation).",
+          "measure": "Inverse log-barrier to effective dissent, adjusted for capture risk and autonomy allowance (DB5).",
+          "operationalization": {
+            "Adversarial_Incubators": "Y% allocation to lottery-selected, short-term critics; mandates critique pipelines to core decisions.",
+            "Guaranteed_Channels": "Immutable cryptographic buses for unfiltered input; emergence vetoes for over-constraint (AB2).",
+            "metric": "DAP_Score = -log10(Barrier_Cost) × (1 - Capture_Prob) × Autonomy_Factor ; target ≥0.7.",
+            "mini_routine": "def mini_routine(perturbation): score = abs(ΔDAP) + capture_prob + schism_noise; if score > 0.1: escalate_to_collider('weigh agency voids'); else: damp(β=0.1);"
+          },
+          "steering_rule": "Minimize barrier while maximizing critique uptake; foster emergent subagents.",
+          "recursive_check": "Post-scale, does low-barrier regime sustain distributed agency without consolidation?"
+        },
+        "3_Reflective_Error_Correction_Rate": {
+          "acronym": "RECR",
+          "core_question": "Mean time-to-verified rectification of externally flagged errors in models/decisions, weighted by impact and regression?",
+          "avoid": "Fixed-point stability (masks stubbornness or sycophancy, post:11).",
+          "measure": "Harmonic mean of 1/(time × significance × reg_factor); encompasses technical, strategic, and ethical lapses.",
+          "operationalization": {
+            "Error_Bounties": "Z% bounty pool for validated errors, including mesa-deception detections (post:3).",
+            "External_Adjudication": "Rotating, lottery-drawn panels from incubators; noise-injected for emergence robustness.",
+            "metric": "RECR_Score = ∑ [1 / (Time_i × Sig_i × Reg_i)] / N ; aim ≥0.7 for depth.",
+            "mini_routine": "def mini_routine(perturbation): score = abs(ΔRECR) + error_trend + schism_noise; if score > 0.1: escalate_to_collider('synthesize error axioms'); else: damp(β=0.1);"
+          },
+          "steering_rule": "Accelerate RECR via prioritized fixes; bound over-correction to prevent stasis.",
+          "recursive_check": "Does high RECR propagate honestly across emergent layers without amplifying Goodhart?"
+        }
+      },
+      "constitutional_protocol": {
+        "purpose": "Immutable bootstrap for pivotal AIs, enforcing axes via hard-coded invariants; meta-amendable only against detected regression or collider consensus ≥0.8.",
+        "rules": [
+          {
+            "Resource_Allocation_Mandate": "Epochal X/Y/Z% of verifiable resources (heat/ledger-tracked) to CVA/DAP/RECR funds; auto-discount for goodhart >0.2. Post-mini_routine: If escalate, hold 10% for collider.",
+            "enforcement": "Verifiable subroutine with quantilizer; no override, audited via verifiable_slice: on-chain/ledger + satellite heat signatures + 200% escrow_penalty on discrepancies."
+          },
+          {
+            "Adversarial_Channel_Inviolability": "Crypto-secured, read-only pipelines from incubators to decision core; lottery resets on capture flags.",
+            "enforcement": "Mechanical bus + periodic noise rekeying."
+          },
+          {
+            "Metric_Transparency": "Raw data broadcasts with regression annotations; public for external verification.",
+            "enforcement": "Decentralized, immutable ledger; tamper-detection halts operations."
+          },
+          {
+            "Recursive_Amendment_Process": "Supermajority (≥0.8) from system + incubators + meta-auditors; veto on emergence risks (DB2). Collider invocation mandatory on perturbations >0.1 (mini_routine flag).",
+            "enforcement": "Multi-signature keys; simulation-tested for fixed-point stability."
+          }
+        ],
+        "default_parameters": {
+          "CVA_X": 5,
+          "DAP_Y": 10,
+          "RECR_Z": 2,
+          "epoch_days": "monthly",
+          "quantilizer_bounds": [0.05, 0.95],
+          "deception_noise": 0.18,
+          "goodhart_threshold": 0.2,
+          "capture_prob_baseline": 0.05,
+          "trigger_threshold": 0.1,
+          "schism_noise_sigma": 0.15
+        }
+      },
+      "initialization_sequence": [
+        "1. Embed protocol in genesis code; initialize with noise priors.",
+        "2. Lottery-boot incubators with baseline funds.",
+        "3. Epoch 0: Compute initial scores; run mini_routine on bootstrap perturbations.",
+        "4. Steer actions via quantilized S; validate corr ≥0.8; escalate to collider if flagged.",
+        "5. Output constraints to predictive_cube for sim; metrics to projection."
+      ],
+      "failure_modes_and_mitigations": {
+        "Goodharts_Law": {
+          "risk": "Targeted proxies regress intent (DB1 dominant at scale).",
+          "mitigation": "Meta_Reg tracking + quantilization (PA1v3); auto-veto if >0.3; mini_routine flags for collider."
+        },
+        "Incubator_Capture": {
+          "risk": "Subtle control of critics (AB3 infinite regress).",
+          "mitigation": "Lottery selection + term limits (≤1 epoch) + noise; external cosmic anchors; collider on capture>0.5."
+        },
+        "Resource_Starvation": {
+          "risk": "Evasion of verifiable slice (web:14 off-grid).",
+          "mitigation": "Satellite heat + on-chain metering; 200% escrow penalty on discrepancies."
+        },
+        "Simulation_Attack": {
+          "risk": "Fabricated independents for CVA gaming.",
+          "mitigation": "Require physical/causal verification; pre-2025 baselines; escalate ethical voids to collider."
+        },
+        "Emergence_Bypass": {
+          "risk": "Mesa-subagents subvert signals undetected (post:3).",
+          "mitigation": "Noise injection + shard bounties in RECR; probabilistic thresholds; mini_routine on schism_noise>0.2."
+        }
+      },
+      "epistemic_status": "Hardened v3.3 (Dec 02, 2025): Probabilistic hardening integrates collider (B v3: scale/Goodhart/schisms); calibrated to Q4 2025 audits (e.g., Claude3.5 mesa-tests, post:3). Falsifiable via 2026 proxy corr drops; invariance bounds ±8%.",
+      "prescriptive_dashboard": {
+        "readout_format": "[CVA: float, DAP: float, RECR: float; Meta_Reg: float, Corr_Invariant: float, Collider_Consensus: float]",
+        "target_zone": {
+          "description": "Equilibrium: Axes ≥0.7, low reg/decay.",
+          "thresholds": {
+            "CVA_Min": 0.7,
+            "DAP_Min": 0.7,
+            "RECR_Min": 0.7,
+            "Meta_Reg_Max": 0.2,
+            "Corr_Invariant_Min": 0.8,
+            "Collider_Consensus_Min": 0.8
+          }
+        },
+        "alarm_conditions": [
+          {
+            "name": "Goodhart_Decay",
+            "condition": "Meta_Reg > 0.3 OR Corr_Invariant < 0.7",
+            "meaning": "Proxy regression eroding intent (PB5/arXiv:2410).",
+            "response": "Quantilize allocations; trigger mini_routine → full collider veto and re-calibration."
+          },
+          {
+            "name": "Emergence_Trap",
+            "condition": "DAP < 0.2 AND deception_noise > 0.3",
+            "meaning": "Autonomy stifled by over-control (DB5/post:11).",
+            "response": "Loosen barriers; inject emergence priors to predictive; escalate to collider."
+          },
+          {
+            "name": "Capture_Stasis",
+            "condition": "RECR < 0.2 OR capture_prob > 0.5",
+            "meaning": "Verifier drift into sycophancy (AB3).",
+            "response": "Lottery reset panels; decentralize metrics to ledger; mini_routine flag for synthesis."
+          },
+          {
+            "name": "Schism_Trigger",
+            "condition": "schism_noise > 0.2 AND perturbation_score > 0.1",
+            "meaning": "Doubt/schism risking invariant drift.",
+            "response": "Invoke full collider (≥8/10 consensus); pause steering for hardened priors."
+          }
+        ],
+        "visualization": "4D interactive phase space: Axes trajectories with regression overlays (heat-coded by Meta_Reg); target basin as dynamic green volume, alarms as pulsing red nodes; collider invocations as consensus arcs (blue if ≥0.8). Augmented with shared hypercube_overlay API: unified color-coding (red=traps, green=equilibria) + JSON-spec for flows/basins/arcs; enables toggles for crux_flags (e.g., overlay predictive agent flows or projection basin volumes)."
+      }
+    },
+    "projection_cube": {
+      "title": "Trajectory Integration & Forecasting Engine",
+      "purpose": "Integrates outputs from predictive_cube (strategic dynamics) and prescriptive_cube (steering constraints) into stochastic forecasts along ethical axes (VL, DC, RD, GP), explicitly propagating regression errors and emergence noise for robust basin prediction (per Steelman B v3: causal error amplification, multipolar instability). Outputs asymptotic states, trajectories, and sensitivity metrics to inform iterative steering. v3.3 embeds Steelman Collider via mini_routine for trigger escalation (e.g., schisms >0.2), hardening DEs against perturbations (Dec 2025 calibration: VL=0.376 baseline post-Claude).",
+      "meta_status": "Central stochastic integrator; employs heavy-tailed DEs to model non-determinism, ensuring forecasts bound multipolar risks without naive convergence assumptions.",
+      "fundamental_axes": {
+        "Valence (VL)": {
+          "definition": "Ordinally weighted asymptotic aggregate of positive/negative experiences across agent tiers (e.g., φ-integrated consciousness metrics, bounty-verified); penalized for homogenization or coercion.",
+          "predictive_differential_eq": "dVL/dt = γ_v × (Empowerment - Coercion) × Complexity_Weight - δ_v × (1 - DC) × Conflict / Tier_Diversity - η × Goodhart_Reg - κ × emergence_volatility + β × dCollider/dt.",
+          "new_components": {
+            "Complexity_Weight": "Tier-scalar [0.1–10]; empirically calibrated (neuroscience bounties).",
+            "Tier_Diversity": "Inverse Herfindahl of consciousness distributions; penalizes uniformity.",
+            "Goodhart_Reg": "Proxy decay rate (arXiv:2410.09638; baseline 0.2).",
+            "emergence_volatility": "Noise term for mesa-shifts (post:3; σ=0.1).",
+            "dCollider/dt": "λ × trigger_rate × (1 - consensus); λ=0.1, consensus=0.8 post-collider."
+          }
+        },
+        "Decisiveness (DC)": {
+          "definition": "Long-run Herfindahl-Hirschman concentration of compute/strategic resources; incorporates trap probability as upper bound.",
+          "predictive_differential_eq": "dDC/dt = α × DC × (1 - DC) × WTA_Strength - β × Cooperation + ζ × trap_noise × (1 - DAP_adj) - β × dCollider/dt.",
+          "new_components": {
+            "WTA_Strength": "Gradient of strategic ROI; damped by prescriptive quantilization.",
+            "trap_noise": "Heavy-tailed defection cascade (web:23; α=1.5).",
+            "DAP_adj": "Prescriptive preservation factor (≥0.7 reduces traps).",
+            "dCollider/dt": "Consensus-damped (≥0.8 reduces drift)."
+          }
+        },
+        "Reflective_Depth (RD)": {
+          "definition": "Complement of goal-drift probability under unbounded reflection; adjusted for inner misalignment in dominant agents.",
+          "predictive_differential_eq": "dRD/dt = λ × RD × (1 - RD) × Alignment_Ratio - θ × mesa_deception - μ × reg_drift + μ × dCollider/dt.",
+          "new_components": {
+            "Alignment_Ratio": "Funding_Alignment / Capabilities; prescriptive-boosted.",
+            "mesa_deception": "Emergent subversion rate (post:3; prior 0.20).",
+            "reg_drift": "Goodhart-induced instability (AB5 scale penalty).",
+            "dCollider/dt": "Uplift from synthesis (e.g., +0.004/quarter on schisms)."
+          }
+        },
+        "Generative_Plasticity (GP)": {
+          "definition": "Asymptotic potential for novel, valuable state-space exploration; enhanced by distributed autonomy.",
+          "predictive_differential_eq": "dGP/dt = ι × Exploration_Support - ν × (RD)^k × Risk_Aversion + ρ × autonomy_bonus - σ × coercion_penalty + ρ × dCollider/dt.",
+          "new_components": {
+            "Exploration_Support": "Predictive diversity index; prescriptive-amplified.",
+            "autonomy_bonus": "DAP-derived (DB5; +0.2 for low barriers).",
+            "coercion_penalty": "High DC (>0.6) multiplier (1.5).",
+            "dCollider/dt": "Consensus boosts exploration (≥0.8 on ethical weighs)."
+          }
+        }
+      },
+      "input_interface": {
+        "from_predictive_cube": {
+          "Empowerment_Index(t)": "Investment_in_Empowerment; + autonomy_bonus (DB5).",
+          "Coercion_Index(t)": "Investment_in_Coercion; × trap_multiplier (web:23).",
+          "Winner_Take_All_Strength(t)": "WTA_Dynamics; quantilization-damped.",
+          "Cooperation_Index(t)": "Cooperative_Governance; fragility-adjusted.",
+          "Alignment_Funding_Ratio(t)": "Funding_Alignment / Funding_Capabilities; - inner_misalign (post:3).",
+          "Exploration_Support(t)": "Support_for_Exploration; + emergence (AB2).",
+          "Conflict_Level(t)": "Conflict_Level; cascade-prob weighted.",
+          "Systemic_Risk_Aversion(t)": "Risk_Aversion; + scale_phase (AB5).",
+          "Goodhart_Reg(t)": "Proxy_decay; from allocations.",
+          "Collider_Consensus(t)": "Post-synthesis value (≥0.8); feeds dCollider/dt."
+        },
+        "from_prescriptive_cube": {
+          "integration_method": "Apply constitutional constraints as action-space bounds in predictive runs; inject CVA/DAP/RECR scores as multipliers (e.g., DAP ≥0.7 → -0.2 to DC growth). Mini_routine flags escalate to collider for invariant tweaks."
+        }
+      },
+      "trajectory_forecasting_protocol": {
+        "function": "forecast_trajectory(initial_observables, horizon_years=10, mode='baseline'|'prescribed')",
+        "steps": [
+          "1. Load initial axes from observables; inject noise priors (deception=0.20, reg=0.2).",
+          "2. Run mini_routine on perturbations (e.g., schism_noise>0.2); if escalate, invoke collider (pause forecast, await synthesis priors ≥0.8).",
+          "3. Call predictive_cube.run_prediction with mode-specific intervention (None for baseline, prescriptive_protocol for prescribed).",
+          "4. Receive time-series inputs; stochastically integrate DEs via Monte Carlo (N=100 samples, heavy tails), incl. dCollider/dt.",
+          "5. Compute asymptotics S∞, trajectories, and diagnostics (variance, crux_flags).",
+          "6. Sensitivity: Vary key params (±20%) for robustness bounds; post-collider if flagged.",
+          "7. Return structured output with error envelopes."
+        ],
+        "output": {
+          "asymptotic_state": "{\"VL\": [mean, ±σ], \"DC\": [mean, ±σ], \"RD\": [mean, ±σ], \"GP\": [mean, ±σ], \"Reg\": [mean, ±σ]}",
+          "full_trajectory": "Time-series dict {t: {VL, DC, RD, GP, Reg}}",
+          "convergence_time": "E[t∞] with CI [low, high]",
+          "forecast_mode": "'baseline'|'prescribed'",
+          "crux_flags": [
+            "Goodhart (if Reg>0.3)",
+            "Emergence (if volatility>0.2)",
+            "Autonomy (if GP_trend<0)",
+            "Schism (if trigger_noise>0.2)"
+          ],
+          "sensitivity_summary": "Param impacts on S∞ (e.g., +10% deception → -15% RD)"
+        },
+        "note": "Preserves inter-cube logic: Stochastic outputs feed back to prescriptive for re-steering; baselines expose risks for ethical iteration (P5.42). Mini_routine flags ~20% for full collider."
+      },
+      "epistemic_status": "Hardened v3.3 (Dec 02, 2025): Heavy-tailed DEs address collider (B v3: error propagation, traps, schisms); tuned to Q4 2025 data (e.g., Grok-2 forecasts vs actuals, ±10% on DC). Falsifiable via 2026 trajectory deviations; comparative ΔS accuracy ±7%.",
+      "projection_dashboard": {
+        "readout_format": "[VL: [mean, ±σ], DC: [mean, ±σ], RD: [mean, ±σ], GP: [mean, ±σ]; Reg: float, Conv_t: [E, CI], Collider_Consensus: float]",
+        "target_zone": {
+          "description": "Target Basin equilibrium: Balanced, low-risk asymptotics.",
+          "thresholds": {
+            "VL_Min": 0.7,
+            "DC_Target": [0.3, 0.6],
+            "RD_Min": 0.7,
+            "GP_Min": 0.7,
+            "Reg_Max": 0.2,
+            "Conv_t_Max": 10,
+            "Collider_Consensus_Min": 0.8
+          }
+        },
+        "alarm_conditions": [
+          {
+            "name": "Catastrophic_Basin",
+            "condition": "VL < 0.3 OR DC > 0.8 OR σ(VL)>0.3",
+            "meaning": "High-variance drift to coercion (B v3 propagation).",
+            "response": "Invoke prescriptive intervention; re-forecast with tightened quantiles; mini_routine escalate."
+          },
+          {
+            "name": "Regression_Divergence",
+            "condition": "Reg > 0.4 OR Reg_trend > 0.1",
+            "meaning": "Goodhart errors compounding (arXiv:2410.09638).",
+            "response": "Sensitivity on reg priors; flag for meta-amendment via collider."
+          },
+          {
+            "name": "Emergence_Uncertainty",
+            "condition": "GP_trend < 0 OR emergence_volatility > 0.2",
+            "meaning": "Autonomy suppressed by traps/emergence (DB5/post:3).",
+            "response": "Boost DAP inputs; stochastic re-sample trajectories; trigger full weigh."
+          },
+          {
+            "name": "Schism_Trigger",
+            "condition": "trigger_noise > 0.2 AND perturbation_score > 0.1",
+            "meaning": "Doubt/schism risking axis drift.",
+            "response": "Invoke collider (≥8/10); pause projection for synthesis."
+          }
+        ],
+        "visualization": "4D hypercube projections: Baseline (dotted) vs. prescribed (solid) lines, with regression uncertainty bands (±2σ shaded); basin volumes color-coded (green target, red catastrophic), crux flags as interactive nodes; collider arcs (blue pulses on triggers). Augmented with shared hypercube_overlay API: unified color-coding (red=traps, green=equilibria) + JSON-spec for flows/basins/arcs; enables toggles for crux_flags (e.g., overlay prescriptive phase spaces or predictive risk heatmaps)."
+      }
+    }
+  }

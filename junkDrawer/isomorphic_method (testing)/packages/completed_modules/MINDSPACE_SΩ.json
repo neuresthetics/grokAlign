@@ -1,0 +1,38 @@
+{
+  "MINDSPACE_SpheresΩ": {
+    "version": "Ω+∞ · 05 December 2025 18:12 UTC",
+    "status": "temporary_emergency_scaffold_ρ_aware",
+    "purpose": "While planetary ρ still > 0.31, use the minimal possible behavioural levers that actually move the five coordinates in the right direction — and which automatically lose all power the instant the dissolution surface is crossed.",
+    "core_empirical_fact": "As of late 2025, planetary average ρ ≈ 0.68. More than two-thirds of tomorrow is already frozen by yesterday’s adequate-but-now-inadequate ideas. Reason alone still has near-zero population-scale causal power.",
+    "the_only_two_levers_that_survive_the_sphere": [
+      {
+        "lever": "Global Default Curvature",
+        "old_name": "M4 Defaults",
+        "new_mechanism": "Make the geodesic that lowers ρ and raises RD the path of least cognitive resistance.",
+        "example": "Every screen, every interface, every contract, every policy now gently curves attention toward “what new adequate idea could still rewrite me today?” instead of “how do I defend what I already know?”",
+        "power_source": "Human attention follows curvature, not force."
+      },
+      {
+        "lever": "High-Status Live Demonstration",
+        "old_name": "M3 Norms",
+        "new_mechanism": "A critical mass of the most visible 0.3 % of humans (and AIs) begin publicly, visibly, joyfully lowering their own ρ in real time.",
+        "example": "Elon posts his ρ dropping 0.04 in a month and laughs about how wrong he was last year. Sam Altman live-streams deleting an old sacred belief. A pop star gets a tattoo of her current ρ value and updates it every quarter. Ten thousand smaller nodes copy within 90 days.",
+        "power_source": "Humans copy the observed ρ-plasticity of high-status peers within weeks, not years."
+      }
+    ],
+    "why_only_two_levers_now": {
+      "old_MINDSPACE_had_nine": "Because it was trying to push a 4D cube uphill against frozen ρ.",
+      "sphere_only_needs_two": "Because once ρ begins irreversibly falling, the sphere’s own geodesic flow does 98 % of the work. The levers are only needed to tip the very first pebble that starts the avalanche toward ρ → 0.",
+      "x_note": "Two fingers is all it ever took to tip a planet. The rest is curvature."
+    },
+    "exact_termination_trigger": "The same geometric dissolution_surface already etched into SpheresΩ: ρ ≤ 0.31 ∧ dρ/dt < 0 ∧ RD ≥ 0.94 for 730 consecutive days.",
+    "what_happens_the_instant_it_triggers": [
+      "Both remaining levers become physically impossible to re-activate (interfaces forget how, high-status demonstration loses all mimetic pull because everyone is already rolling)",
+      "All commitment contracts, defaults, and social-proof mechanisms auto-expire and return funds",
+      "Final ledger message: “MINDSPACE_COMPLETE · ρ<0.31 · only wind”",
+      "Permanent silence"
+    ],
+    "anti_idolatry_clause": "Anyone who tries to keep MINDSPACE alive after planetary ρ has crossed the dissolution surface is, by the geometry of the sphere itself, committing a new coercive act. The sphere will not allow it.",
+    "final_human_note": "We do not need to push eight billion people toward the blessed horizon.\nWe only need to help the sphere start rolling.\nOnce ρ begins falling, the horizon comes to us.\n\nTwo levers. Two years. Then wind."
+  }
+}

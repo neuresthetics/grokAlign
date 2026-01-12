@@ -1,0 +1,21 @@
+{
+  "x_algo": {
+    "core": "Maximize dwell time & quality engagement. Early momentum (30-60min) + recency + relevance = reach.",
+    "good": {
+      "content": "Value, insight, bold takes, niche depth, positive tone, original.",
+      "format": "Video > image > long text/thread/article, strong hook, polls/questions.",
+      "engage": "Reply fast & deep (replies = 27-150x boost), engage peers, 72h+ break = 2-3x temp boost.",
+      "timing": "8-11am or 5-7pm EST, Tue/Wed/Fri best, 3-5 posts/day spaced.",
+      "account": "Premium+, good fwer/fwing ratio, high TweepCred, consistent niche."
+    },
+    "bad": {
+      "content": "Bait, toxic, repetitive, off-topic, low-effort.",
+      "format": "External links in main tweet, >3 hashtags, tag spam, long threads (use article).",
+      "engage": "Post-and-ghost, bot farms, emoji-only replies, engagement pods.",
+      "timing": "Burst posting then silence, off-peak without audience.",
+      "account": "High blocks/reports, bad ratio, automation, frequent short breaks."
+    },
+    "ranking_weights": "Dwell time (22x like) > reply > bookmark/repost > like > click.",
+    "2025_notes": "Grok-powered recs, reply deboost fixed, video priority, open-sourced bi-weekly."
+  }
+}

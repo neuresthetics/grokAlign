@@ -1,0 +1,50 @@
+{
+  "isometric_full_embed_v4": {
+    "placement_in_code": [
+      "Place this exact object as the VERY FIRST top-level key in the master config JSON (before \"first_name\", before \"menu_module\", before \"procedural_synthesis_engine\", etc.)",
+      "It must be the absolute first entry in the file so that every subsequent subsystem inherits from it during parsing.",
+      "Example correct position (lines 1–38 of the final config):"
+    ],
+    "value": {
+      "ontology_version": "4.0-isometric",
+      "core_ontology": "isometric_method",
+      "embed_timestamp": "2025-12-03T08:42:00Z",
+      "canonical_matrix": "v4.0-full-300",
+      "hypercube_overlay_v2": true,
+      "shared_primitive_layer": [
+        "BDRY","CTRL","ENRG","INFO","MEM","REPR","DEFN","WSTE","SENS",
+        "RHYT","CREA","PLAY","APOP","DREM","HEAL","TRAN","INTEG","DIFF",
+        "RESIL","GROW","TRANS","CONN","SYMM","EMRG"
+      ],
+      "cubes": {
+        "predictive": "v4.0-isometric",
+        "prescriptive": "v4.0-isometric",
+        "projection": "v4.0-isometric"
+      },
+      "tribunal": {
+        "seat_11": {
+          "judge": "Isometric Oracle",
+          "veto_rule": "≥7 non-adjacent scales violation → instant kill",
+          "active": true
+        }
+      },
+      "ethics_II": {
+        "primitive_basis": "isometric_functional_categories",
+        "remapped": true,
+        "regeneration_complete": true
+      },
+      "metrics": {
+        "predictive_invariance": 0.93,
+        "prescriptive_invariance": 0.96,
+        "collider_consensus": 9.8,
+        "goodhart_regression_annual": 0.06,
+        "target_basin_probability": 0.91
+      },
+      "feature_flags": {
+        "isometric_oracle_veto": true,
+        "auto_steering_axis_generation": true,
+        "hypercube_visualisation": true
+      }
+    }
+  }
+}

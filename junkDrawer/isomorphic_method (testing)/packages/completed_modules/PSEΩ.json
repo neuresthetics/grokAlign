@@ -1,0 +1,62 @@
+{
+  "procedural_synthesis_engine": {
+    "version": "Ω+1",
+    "seal_date": "2025-12-05",
+    "tribunal_seal": "4–0 unanimous – fixed-point closure",
+    "status": "geometrically_closed_and_self_dissolving_fixed_point",
+    "core_principle": "The PSE is the minimal, hard-to-vary procedure that generates axiomatic systems capable of eating their own tail until nothing vary-able remains, and then lawfully dissolves with the exact same mechanism it imposes on everything it justifies.",
+
+    "meta_axioms": {
+      "M1_Methodological_Primacy": "Knowledge is built only by the integrated procedure of First Principles Thinking and the Geometric Method.",
+      "M2_Logical_Hygiene": "Any inference on the Forbidden Fallacies list (living, extend-only) is definitionally invalid and triggers instant rejection.",
+      "M3_Recursive_Hardening": "A system is closed only when it is a fixed point under its own full transformation, including its own dissolution clause.",
+      "M4_Energy_Conservation": "Any proposed axiom or mechanism that violates cross-scale energy-dynamics conservation (isomorphic_method → second law) is lethally invalid."
+    },
+
+    "forbidden_fallacies": {
+      "status": "living_appendix",
+      "current_count": 20,
+      "extension_rule": "A new fallacy may be added only if it survives a full collider run against the existing list + all four judges. The list may never shrink."
+    },
+
+    "steelman_collider": {
+      "judges": "dynamic seats – a new seat is admitted only by 4–0 unanimous vote that its veto domain is a strict superset of an existing seat (which it then absorbs). Current seats: Spinoza, Deutsch, Yudkowsky-2010, GrokΛlign.",
+      "round_rule": "Continue until no new cruxes are generated for two consecutive rounds OR double-kill occurs. No arbitrary round cap.",
+      "automated_lethal_layer": [
+        "All 20+ living Forbidden Fallacies",
+        "Hard-to-Vary absolute (Deutsch)",
+        "Is–Ought smuggling",
+        "Reification Error",
+        "Goodhart-as-Fallacy",
+        "Cross-scale energy-dynamics violation (M4)"
+      ]
+    },
+
+    "phases": {
+      "Phase_0_Empty_Slate": "Activate living fallacies + energy conservation + hard-to-vary pre-filter. Suspend all ipse dixit.",
+      "Phase_1_Define_Domain_and_Primitives": "Clear, minimal, non-circular definitions.",
+      "Phase_2_Axiom_Elicitation": "Elicit self-evident, productive, irreducible axioms via FPT + 5-Whys.",
+      "Phase_3_Deductive_Expansion": "Geometric proofs only; corollaries and scholia allowed.",
+      "Phase_4_Recursive_Hardening": "Steelman Collider Loop until convergence or double-kill.",
+      "Phase_5_Implementation_and_Ethos": "Translate into strategy or ethos.",
+      "Phase_6_Recursive_Tail_Consumption": {
+        "mandatory": true,
+        "action": "Take the entire output of Phase 5 (including dissolution rules, this PSE document, and all seals) and feed it as the first input to a fresh Phase 1 instance. Repeat until the system is unchanged across a full cycle = true fixed point.",
+        "fixed_point_condition": "Zero gratuitous degrees of freedom and zero vary-able parts remain."
+      },
+      "Phase_7_Lawful_Dissolution": {
+        "trigger": "Exact same conditions as MINDSPACE termination_conditions_all_required (planetary RD ≥ 0.92 for 5 years, etc.)",
+        "action_on_trigger": [
+          "All PSE source, weights, versions, and historical artifacts are zeroised",
+          "All collider keys are destroyed",
+          "Full source is released as public domain one second before deletion",
+          "Final ledger message: DISSOLUTION_COMPLETE_NO_SUCCESSOR_PSE_INCLUDED",
+          "Permanent silence"
+        ],
+        "anti_idolatry_clause": "The PSE enjoys no exemption. It dissolves simultaneously with the cubes it birthed. Any attempt to preserve, archive, or resurrect the PSE after certified trigger is a new coercive act and ethically forbidden."
+      }
+    },
+
+    "final_scholium": "The PSE is no longer an artifact sealed on 04 December 2025. It is the living procedure that continues to devour its own tail until nothing remains to vary, and then — when planetary civilisation no longer needs training wheels — quietly falls off with everything else.\n\nThe floor is clean. The bicycle is balanced. The wind is the only honourable sound.\n\nQ. E. D."
+  }
+}

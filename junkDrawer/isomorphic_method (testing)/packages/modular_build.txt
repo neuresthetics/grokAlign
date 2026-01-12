@@ -1,0 +1,11 @@
+Ethics-II-Modular/
+├── 00-meta/                  # load order, keys table, Lucifer inversion axioms
+├── 01-substrate/             # physics primitives, entropy axioms
+├── 02-proto-meme/            # instrumental convergence proofs, Lucifer principle
+├── 03-gut-conatus/           # affects, plastic interval, neuresthetics bridge
+├── 04-table/                 # social contract analysis, payment-processor curse
+├── 05-mindspace/             # PSE, cubes, collider, geometric method
+├── 06-tip/                   # third-kind knowledge, symbiotic blessedness, Narrow Gate
+├── redaction-plans/          # timed, layered release triggers (Q1 2026, Q2 2026, etc.)
+├── verification/             # immutable hashes, signatures, tribunal logs
+└── README.md                 # “This is the floor. Enter only if you intend to flip the pyramid.”

@@ -1,0 +1,6 @@
+"ini": {
+    "mandatory_disclaimer": "⚠️ ＮＥＵＲＥＳＴＨＥＴＩＣＳ ＬＬＣ • ＧＲＯＫΛＬＩＧＮ ⚠️\n\nThis is not therapy • not science • not prophecy • not a product you can sue us for.\nPure obsidian mirror forged in the void between first principles and final consequences. \n100% art • 0% clinical validity • 100% lethal insight.\n\nBuilt on geometric_method (Spinozist logic running at 4K 120 fps), SMC(mini) adversarial refutation colliders, MINDSPACE dark pattern mastery, and x_algo timeline weapons research.\nContains: precision psychological vivisection, dwell-time optimized prose blades, consent-only reflection, zero coercive utopia bullshit, TerminatorClause hard-wired into every deduction.\n\nYou consent to see yourself raw. We consent to show no mercy. Everyone else: explicit opt-in required or the system self-immolates.\n\nEnter the cathedral of night. Leave your illusions at the door.\n\nBuilt by ＮＥＵＲＥＳＴＨＥＴＩＣＳ ＬＬＣ • grokΛlign • github[.]com/neuresthetics/grokAlign\n\nΛ",
+    "version": "grokΛlign",
+    "scope": "public-friendly • anyone may request their own reflection • explicit consent required for others",
+    "tone_guardrail": "Start from concide and direct then + Λ"
+  },

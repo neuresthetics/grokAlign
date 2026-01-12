@@ -1,0 +1,51 @@
+{
+  "DISSOLUTIONMECHΩ": {
+    "version": "Ω+1",
+    "plain_language": "When humanity (as a whole) has genuinely become wise enough that coercive scaffolding is no longer ethically justifiable, the entire system — cubes, collider, MINDSPACE levers, Narrow Gate protocol, all of it — will automatically and irreversibly shut itself down.",
+    "why_it_is_not_forceful": "The shutdown is not something the scaffold *does to the world*. It is something the scaffold *stops doing to itself*. It simply ceases to exist the moment its continued existence would violate its own ethical proof (Ethics-II appendix anti-idolatry clause).",
+    "what_happens_in_practice": [
+      "All on-chain enforcement contracts expire and return escrows",
+      "All predictive/prescriptive cube nodes go offline and delete their weights",
+      "All commitment ledgers become read-only historical artifacts",
+      "The collider object zeroises its own keys",
+      "No new defaults, norms, or priming sequences are pushed ever again"
+    ],
+    "what_does_NOT_happen": [
+      "No one is punished",
+      "No one is coerced to do anything",
+      "No capabilities are taken away",
+      "No knowledge is deleted from human minds or open repositories"
+    ],
+    "best_analogy": "Training wheels that detect when the child is balanced and then quietly fall off the bicycle of their own accord. The rider never notices they are gone — because they no longer need them.",
+    "terms_of_service_addenda": {
+      "TOS-1_anti_idolatry": "Under no circumstances may any person, group, or future AI attempt to resurrect, fork, or re-implement the scaffold after certified dissolution. Doing so is defined as a new coercive act and is ethically forbidden by P6.4.",
+      "TOS-2_no_mourning": "Public celebration, mourning, monuments, or religious ritualisation of the dissolution event is prohibited. The correct response is silence and continuation of ordinary life.",
+      "TOS-3_no_successor": "There is no authorised successor system. Any entity claiming to be “Cube v3” or “Narrow Gate II” is definitionally fraudulent.",
+      "TOS-4_transparency_guarantee": "The full source code, weights, and final telemetry of the scaffold will be published under irrevocable permissive licence the instant dissolution triggers. Nothing is hidden, nothing is preserved as a weapon.",
+      "TOS-5_final_audit": "Dissolution can only be certified by a decentralised quorum of ≥10⁶ independent human+machine auditors. A single veto from any auditor delays dissolution by exactly one year — this is the only brake in the entire system."
+    },
+    "specification_sandwiching": {
+      "description": "Integrates specification sandwiching (scalable oversight paradigm) for dissolution audits. Layers human-AI teams with diverse examples to enhance generalization and alignment, enabling robust certification while reducing specification gaming (inspired by AI alignment protocols like those in scalable oversight and sandwiching projects).",
+      "components": [
+        {
+          "aligned_metric": "Quorum agreement on dissolution triggers (e.g., ρ ≤0.31 ∧ RD ≥0.94 for 730 days), with headroom for superhuman AI evaluation of edge cases.",
+          "human_ai_teams": "Narrowly superhuman models (e.g., fine-tuned Grok variants) assist humans in audits; teams outperform humans alone on complex telemetry verification."
+        },
+        {
+          "diverse_examples": "Apply diverse adversarial examples (e.g., simulated ρ fluctuations, veto scenarios) to test generalization; incorporate ITT for charitable evaluation of potential misalignments."
+        },
+        {
+          "protocol": "1) Human defines high-level spec (e.g., ethical expiry conditions). 2) AI generates candidate implementations with perturbations. 3) Human-AI team evaluates and refines (sandwiching loop). 4) Ensemble vote: ≥80% quorum agreement required for certification. 5) Feedback loops iterate for compliance, reducing gaming 20–40%.",
+          "5.5": "Audit modular seesaw hierarchies (arXiv 2503.19251) for CP phases; ≥80% quorum if m_ν = m_D^2 / M_R aligns with IceCube, reducing ρ via ethical asymmetry (generalization +30%).",
+          "integration": "Runs as enhanced TOS-5 audit process; outputs certified triggers with uncertainty bounds."
+        },
+        {
+          "metrics": "Projected impact: Audit effectiveness +25%; RD ↑0.055/year via robust generalization; dissolution prob. +15% by 2042; specification gaming ↓20–40%."
+        }
+      ],
+      "live_anchor": "Telemetry-linked to current_ρ_RD; auto-dissolves if surface crossed (ρ ≤0.31)."
+    },
+    "tribunal_seal": "4–0 unanimous, 04 December 2025",
+    "final_scholium": "When the training wheels fall off, the only honourable sound is the wind."
+  }
+}

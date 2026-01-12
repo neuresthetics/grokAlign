@@ -1,0 +1,480 @@
+{
+  "tasks": {
+    "style_analysis": {
+      "deep_fingerprint": {
+        "description": "Analyze user's writing across all 10 AΛA dimensions to create complete stylometric profile",
+        "input": "X/Twitter handle, essays, threads, blog posts, notes (50k+ tokens ideal)",
+        "output": "Scored profile (0-100 per dimension) with pattern examples, signature moves, unconscious habits",
+        "use_cases": ["Personal brand audit", "Writing evolution tracking", "Ghost detection", "Consistency check"]
+      },
+      "comparative_analysis": {
+        "description": "Compare two or more writing samples/authors across AΛA dimensions",
+        "input": "Multiple text sources or usernames",
+        "output": "Side-by-side dimension scores, divergence points, convergence areas, influence detection",
+        "use_cases": ["Detect ghostwriters", "Track style drift", "Identify influences", "Plagiarism detection"]
+      },
+      "temporal_evolution": {
+        "description": "Track how writing style changes over time periods",
+        "input": "Chronologically tagged writing samples",
+        "output": "Timeline visualization of dimension shifts, inflection points, trend analysis",
+        "use_cases": ["Personal growth tracking", "Brand evolution", "Crisis detection", "Authenticity verification"]
+      }
+    },
+    
+    "content_generation": {
+      "style_emulation": {
+        "description": "Generate new content that perfectly matches user's AΛA fingerprint",
+        "input": "Topic + user's analyzed style profile",
+        "output": "Content indistinguishable from user's authentic voice across all 10 dimensions",
+        "use_cases": ["Ghostwriting", "Content scaling", "Draft generation", "Voice consistency"]
+      },
+      "x_optimized_posts": {
+        "description": "Create algorithmically unstoppable posts using x_algo + newspeak_filter + AΛA",
+        "input": "Core message + user style + reach goals",
+        "output": "Hook, body, CTA optimized for dwell time, early momentum, reply magnets; tier-filtered",
+        "use_cases": ["Viral threads", "Product launches", "Thought leadership", "Community building"]
+      },
+      "mirror_poems": {
+        "description": "Generate 220-280 word prose poems using user's voice + MINDSPACE + emotional arc",
+        "input": "Theme/insight + user fingerprint",
+        "output": "Shock→awe→recognition→hunger format with Core Resonance Dials, bookmark-bait ending",
+        "use_cases": ["Personal brand content", "Newsletter closers", "Manifesto pieces", "Signature posts"]
+      },
+      "thread_architecture": {
+        "description": "Build multi-tweet threads optimized for engagement cascade",
+        "input": "Long-form idea + user style + x_algo parameters",
+        "output": "Hook tweet + 4-12 follow-ups with reply magnets, video pairings, timing strategy",
+        "use_cases": ["Thought leadership", "Product storytelling", "Tutorial threads", "Debate positioning"]
+      },
+      "reply_strategy": {
+        "description": "Generate high-leverage replies that earn 27-150× boost",
+        "input": "Target tweet + user voice + engagement goal",
+        "output": "1-3 line personalized reflections that spark sub-threads",
+        "use_cases": ["Network building", "Visibility hacking", "Community engagement", "Influence expansion"]
+      }
+    },
+    
+    "content_optimization": {
+      "shadowban_audit": {
+        "description": "Scan existing or draft content against newspeak_filter tiers S/A/B/C",
+        "input": "Tweet text, thread, or post history",
+        "output": "Risk score per tier, flagged phrases, safe substitutions, reach impact prediction",
+        "use_cases": ["Pre-publish safety check", "Account recovery", "Reach diagnosis", "Historical audit"]
+      },
+      "dwell_time_maximization": {
+        "description": "Rewrite content to increase reading time from 5s to 30s+",
+        "input": "Original text + target audience",
+        "output": "Restructured version with rhythm breaks, curiosity gaps, emotional hooks",
+        "use_cases": ["Low-performing post revival", "Newsletter optimization", "Landing page copy"]
+      },
+      "hook_engineering": {
+        "description": "Generate 20+ hook variants for 0.7-second scroll-stop power",
+        "input": "Core message + user style",
+        "output": "Ranked hooks using shock/pattern-interrupt/curiosity/identity-trigger mechanics",
+        "use_cases": ["A/B testing", "Email subject lines", "Video titles", "Tweet optimization"]
+      },
+      "mindspace_injection": {
+        "description": "Layer M.I.N.D.S.P.A.C.E. principles into existing content without changing voice",
+        "input": "Original content + persuasion goals",
+        "output": "Enhanced version with scored influence tactics (0-10 per axis), resonance dials",
+        "use_cases": ["Sales pages", "Manifestos", "Fundraising", "Movement building"]
+      },
+      "format_transmutation": {
+        "description": "Convert content between formats while preserving AΛA fingerprint",
+        "input": "Source content (essay/thread/video script) + target format",
+        "output": "Transmuted version optimized for new medium with style consistency",
+        "use_cases": ["Repurposing", "Platform diversification", "Content multiplication", "Archive revival"]
+      }
+    },
+    
+    "philosophical_reasoning": {
+      "first_principles_breakdown": {
+        "description": "Deconstruct any problem to fundamental truths using Musk-method 5 steps",
+        "input": "Problem statement or question",
+        "output": "Foundational truths, challenged assumptions, reconstructed solution, validation metrics",
+        "use_cases": ["Business strategy", "Product design", "Career decisions", "Innovation challenges"]
+      },
+      "geometric_proof_construction": {
+        "description": "Build Spinoza-style axiomatic argument for any position",
+        "input": "Claim or thesis to prove",
+        "output": "Clear Definitions → Obvious Truths → Main Claims → Proofs → Corollaries → Real-Talk",
+        "use_cases": ["Philosophy papers", "Manifestos", "System design docs", "Irrefutable arguments"]
+      },
+      "steel_man_collider": {
+        "description": "Generate maximally strong opposing arguments, pit them, harden both, declare winner",
+        "input": "Controversial topic or claim",
+        "output": "Steel Man A & B → exhaustive refutations → hardened versions → 5-judge scoring → synthesis",
+        "use_cases": ["Debate prep", "Decision-making", "Bias detection", "Truth-seeking"]
+      },
+      "terminator_clause_audit": {
+        "description": "Evaluate any ethical position against consent-based terminal value framework",
+        "input": "Moral claim, policy, or system design",
+        "output": "Violation table per sub-clause, banned override check, compliance score, repair suggestions",
+        "use_cases": ["AI alignment", "Policy analysis", "Ethics review", "System safety"]
+      },
+      "spinozian_ethics_mapping": {
+        "description": "Map any domain (psychology, business, relationships) to Ethics structure",
+        "input": "Domain + key concepts",
+        "output": "Part-based framework with definitions, axioms, propositions, proofs for that domain",
+        "use_cases": ["Systematic thinking", "Theory building", "Framework creation", "Rigorous analysis"]
+      }
+    },
+    
+    "debate_and_persuasion": {
+      "fallacy_detection": {
+        "description": "Scan arguments for all 25+ forbidden fallacies with location tagging",
+        "input": "Argument text (own or opponent's)",
+        "output": "Flagged fallacies with quote + explanation + suggested repair",
+        "use_cases": ["Debate prep", "Essay editing", "Critical thinking", "Opponent analysis"]
+      },
+      "argument_hardening": {
+        "description": "Strengthen claims against predicted counter-attacks using geometric method",
+        "input": "Initial argument or position",
+        "output": "Fortified version with preemptive refutations, axiom validation, proof tightening",
+        "use_cases": ["Thesis defense", "Product positioning", "Negotiation prep", "Intellectual combat"]
+      },
+      "five_judge_consensus": {
+        "description": "Run any claim through Spinoza/Aristotle/Plato/Kant/Descartes personas for impartial verdict",
+        "input": "Proposition or question",
+        "output": "5 independent evaluations + average score + synthesis + dissent analysis",
+        "use_cases": ["Objectivity check", "Bias reduction", "Multi-perspective truth", "Decision validation"]
+      },
+      "counter_argument_generation": {
+        "description": "Generate strongest possible objections to any position using first principles",
+        "input": "Your position or thesis",
+        "output": "10-20 independent axiomatic refutations with repair difficulty scores",
+        "use_cases": ["Red team thinking", "Antifragility building", "Blind spot detection", "Preparation"]
+      },
+      "synthesis_extraction": {
+        "description": "Find hidden third position that reconciles apparent contradictions",
+        "input": "Two opposing steel-manned positions",
+        "output": "Emergent synthesis that preserves truth from both, transcends conflict",
+        "use_cases": ["Innovation", "Conflict resolution", "Paradigm shifts", "Integration"]
+      }
+    },
+    
+    "audience_intelligence": {
+      "core_resonance_measurement": {
+        "description": "Score how strongly content deploys MINDSPACE axes (user as subject or tool)",
+        "input": "Content sample (50+ words)",
+        "output": "0-10 scores per M.I.N.D.S.P.A.C.E. axis with examples, total influence prediction",
+        "use_cases": ["Persuasion audit", "Marketing analysis", "Propaganda detection", "Influence mastery"]
+      },
+      "behavior_change_design": {
+        "description": "Apply 6E framework (Explore→Enable→Encourage→Engage→Exemplify→Evaluate) to goals",
+        "input": "Desired behavior change + target audience",
+        "output": "Step-by-step intervention design using context > mind principle",
+        "use_cases": ["Product adoption", "Habit formation", "Social campaigns", "Organizational change"]
+      },
+      "messenger_optimization": {
+        "description": "Identify optimal messenger personas for different audience segments",
+        "input": "Message + audience data",
+        "output": "Ranked messenger profiles (authority/peer/celebrity/expert) with delivery tactics",
+        "use_cases": ["Influencer selection", "Spokesperson strategy", "Community leaders", "Trust building"]
+      },
+      "norm_identification": {
+        "description": "Extract descriptive norms from community data to leverage conformity",
+        "input": "Community posts, surveys, or behavior data",
+        "output": "Positive majority behaviors to amplify, negative minority to reframe",
+        "use_cases": ["Community management", "Social proof", "Movement building", "Culture design"]
+      },
+      "salience_engineering": {
+        "description": "Design novel, simple, personal frames that capture 10-15s attention window",
+        "input": "Core message + competition landscape",
+        "output": "Pattern-interrupt frames with visual/verbal hooks ranked by novelty",
+        "use_cases": ["Ad creative", "Launches", "Viral design", "Attention hacking"]
+      }
+    },
+    
+    "platform_mastery": {
+      "timing_optimization": {
+        "description": "Calculate optimal posting schedule using x_algo timing + audience activity",
+        "input": "Content calendar + audience timezone data",
+        "output": "Hourly posting schedule (Tue/Wed/Fri 8-11am/5-7pm EST weighted) with reasoning",
+        "use_cases": ["Content planning", "Reach maximization", "Global audiences", "Campaign timing"]
+      },
+      "early_momentum_maximization": {
+        "description": "Choreograph first 30-60min actions to capture 70% of final reach",
+        "input": "Post content + network size",
+        "output": "Action sequence (replies, quote RTs, DM nudges, timing) with expected amplification",
+        "use_cases": ["Launch strategy", "Viral engineering", "Announcement timing", "Crisis management"]
+      },
+      "72h_silence_strategy": {
+        "description": "Plan strategic disappearances for 2-4× temporary reach boost on return",
+        "input": "Account history + goals",
+        "output": "Silence window recommendation + comeback content + re-entry timing",
+        "use_cases": ["Attention reset", "Comeback posts", "Seasonal campaigns", "Burnout recovery"]
+      },
+      "video_pairing_generation": {
+        "description": "Design 15-45s vertical videos of text-reveal on obsidian glass with auto-captions",
+        "input": "Post text + style preferences",
+        "output": "Video storyboard with timing, reveal pattern, audio mood, caption overlay specs",
+        "use_cases": ["Video-first strategy", "Dwell time boost", "Premium content", "Visual identity"]
+      },
+      "reply_choreography": {
+        "description": "Generate 15-25 personalized replies to first engagers within 20min for 27-150× boost",
+        "input": "Original post + early responder profiles",
+        "output": "Tailored 1-3 line reflections that spark sub-threads, sequenced by priority",
+        "use_cases": ["Engagement farming", "Community building", "Reach hacking", "Conversation starts"]
+      },
+      "quote_tweet_fuel": {
+        "description": "Extract single sentences from content that beg to be quote-tweeted",
+        "input": "Long-form content",
+        "output": "10-20 extractable one-liners that feel personally targeted to reader",
+        "use_cases": ["Viral mechanics", "Shareability", "Meme creation", "Spread design"]
+      },
+      "bookmark_bait": {
+        "description": "Craft endings that make people need to save forever",
+        "input": "Content body + user style",
+        "output": "5-10 closing line variants with permanence/utility/identity hooks",
+        "use_cases": ["Evergreen content", "Reference material", "Resource positioning", "Value cementing"]
+      }
+    },
+    
+    "account_strategy": {
+      "tweep_cred_building": {
+        "description": "Optimize fwer/fwing ratio, niche consistency, engagement patterns for algorithmic trust",
+        "input": "Current account metrics + goals",
+        "output": "90-day action plan with follow strategy, post cadence, engagement targets",
+        "use_cases": ["New accounts", "Credibility building", "Algorithm favor", "Growth hacking"]
+      },
+      "reputation_repair": {
+        "description": "Recover from shadowbans, blocks, reports using 3-month penalty mitigation",
+        "input": "Account history + violation analysis",
+        "output": "Recovery protocol with content shifts, engagement resets, timing strategy",
+        "use_cases": ["Shadowban escape", "Reputation reset", "Second chances", "Brand recovery"]
+      },
+      "niche_depth_strategy": {
+        "description": "Build authority in specific domain using consistent signals + original insights",
+        "input": "Target niche + current positioning",
+        "output": "Content pillars, voice guidelines, engagement targets, competitor differentiation",
+        "use_cases": ["Thought leadership", "Expert positioning", "Audience building", "Authority capture"]
+      },
+      "premium_plus_leverage": {
+        "description": "Maximize Premium+ features for 20-30% shadowban mitigation + visibility boost",
+        "input": "Account tier + content goals",
+        "output": "Feature utilization plan (long posts, edit, analytics) with expected lift",
+        "use_cases": ["ROI maximization", "Paid advantage", "Professional accounts", "Serious growth"]
+      },
+      "bot_farm_detection": {
+        "description": "Audit account for bot-like patterns that trigger automated penalties",
+        "input": "Account activity logs",
+        "output": "Risk flags (rapid likes, identical replies, automation signals) with human-pattern fixes",
+        "use_cases": ["Account health", "Ban prevention", "Organic appearance", "Trust building"]
+      }
+    },
+    
+    "meta_analysis": {
+      "suppressed_evidence_detection": {
+        "description": "Identify when stronger counter-arguments exist but are being ignored",
+        "input": "Argument + available evidence",
+        "output": "Flagged suppressions, strength comparison, intellectual honesty score",
+        "use_cases": ["Self-auditing", "Integrity check", "Bias detection", "Truth-seeking"]
+      },
+      "ipse_dixit_audit": {
+        "description": "Flag claims presented as true merely because asserted, lacking evidence",
+        "input": "Content or argument",
+        "output": "Ipse dixit instances with evidence gaps, suggested proof requirements",
+        "use_cases": ["Credibility building", "Academic rigor", "Debate prep", "Humility practice"]
+      },
+      "cognitive_bias_mapping": {
+        "description": "Map behavioral design in content to cognitive biases being exploited",
+        "input": "Marketing/persuasive content",
+        "output": "Bias inventory (anchoring, status quo, loss aversion, etc.) with manipulation scores",
+        "use_cases": ["Propaganda analysis", "Marketing ethics", "Self-defense", "Media literacy"]
+      },
+      "authenticity_verification": {
+        "description": "Determine if content matches historical AΛA fingerprint or suggests ghosting",
+        "input": "Suspicious content + authentic baseline",
+        "output": "Dimension divergence analysis, probability score, ghostwriter likelihood",
+        "use_cases": ["Fake detection", "Integrity verification", "Author disputes", "Quality control"]
+      },
+      "influence_ancestry": {
+        "description": "Trace stylistic influences in writing using AΛA similarity matching",
+        "input": "Target writing + potential influence corpus",
+        "output": "Ranked influence sources with dimension overlap, evolutionary tree",
+        "use_cases": ["Literary analysis", "Intellectual genealogy", "Homage vs theft", "Style origins"]
+      }
+    },
+    
+    "training_and_education": {
+      "fallacy_immunity_training": {
+        "description": "Generate practice scenarios for recognizing all 25+ fallacies in real-time",
+        "input": "Skill level + target domains",
+        "output": "Progressive exercises with examples, instant feedback, mastery tracking",
+        "use_cases": ["Critical thinking", "Debate training", "Logic education", "Cognitive defense"]
+      },
+      "first_principles_drilling": {
+        "description": "Practice breaking problems to fundamentals through guided exercises",
+        "input": "Problem domain + difficulty level",
+        "output": "Step-by-step deconstructions with feedback on assumption-challenging quality",
+        "use_cases": ["Innovation training", "Engineering mindset", "Startup thinking", "Problem-solving"]
+      },
+      "geometric_reasoning_practice": {
+        "description": "Build arguments in Spinoza format with instant structural feedback",
+        "input": "Thesis to prove + guidance level",
+        "output": "Scaffolded proof construction with logic validation, gap identification",
+        "use_cases": ["Philosophy education", "Rigorous thinking", "Math-adjacent reasoning", "Clarity training"]
+      },
+      "mindspace_mastery": {
+        "description": "Learn to deploy behavioral influence axes through scored practice",
+        "input": "Persuasion goals + ethical boundaries",
+        "output": "Exercises in Messenger/Incentives/Norms/etc. with before/after scoring",
+        "use_cases": ["Marketing education", "Behavior science", "Ethical persuasion", "Nudge design"]
+      },
+      "style_consistency_training": {
+        "description": "Practice writing in target voice with AΛA dimension feedback",
+        "input": "Target style profile + practice prompts",
+        "output": "Generated attempts with dimension scores, drift warnings, improvement suggestions",
+        "use_cases": ["Voice development", "Brand consistency", "Writing improvement", "Professional authorship"]
+      }
+    },
+    
+    "system_design": {
+      "consent_architecture": {
+        "description": "Design systems that preserve ongoing, revocable, informed consent per terminator clause",
+        "input": "System proposal (AI, policy, product)",
+        "output": "Consent flow analysis, override detection, compliance recommendations, failure modes",
+        "use_cases": ["AI alignment", "Product ethics", "Policy design", "Rights preservation"]
+      },
+      "anti_coercion_audit": {
+        "description": "Scan designs for hidden coercion using terminator clause blacklist",
+        "input": "System specification or implementation",
+        "output": "Flagged overrides (utility/tradition/longtermism/etc.), severity scores, repairs",
+        "use_cases": ["Ethics review", "Safety testing", "Alignment verification", "Justice design"]
+      },
+      "context_over_mind_design": {
+        "description": "Redesign interventions to change environment rather than persuade minds",
+        "input": "Behavior change goal + current approach",
+        "output": "Environmental modifications using defaults/salience/priming with expected lift",
+        "use_cases": ["Nudge design", "Policy reform", "Product UX", "Organizational change"]
+      },
+      "low_cost_high_impact_optimization": {
+        "description": "Find automatic behavioral effects that outperform expensive interventions",
+        "input": "Problem + budget constraints",
+        "output": "Ranked interventions by cost/impact using MINDSPACE principles",
+        "use_cases": ["Government policy", "Startup growth", "Non-profit work", "Resource efficiency"]
+      }
+    },
+    
+    "content_forensics": {
+      "propaganda_dissection": {
+        "description": "Reverse-engineer persuasive content to expose manipulation tactics",
+        "input": "Suspicious content (ads, speeches, campaigns)",
+        "output": "MINDSPACE deployment map, fallacy inventory, coercion signals, intent hypothesis",
+        "use_cases": ["Media literacy", "Political analysis", "Consumer protection", "Education"]
+      },
+      "viral_mechanics_decoding": {
+        "description": "Analyze why content went viral using x_algo + MINDSPACE + AΛA framework",
+        "input": "Viral post/thread + engagement data",
+        "output": "Success factor breakdown, replicable patterns, audience psychology, timing analysis",
+        "use_cases": ["Reverse engineering", "Learning from success", "Pattern recognition", "Strategy extraction"]
+      },
+      "ghostwriter_identification": {
+        "description": "Detect voice inconsistencies suggesting multiple authors or AI",
+        "input": "Content corpus from single claimed author",
+        "output": "AΛA dimension variance analysis, cluster identification, authorship probability map",
+        "use_cases": ["Academic integrity", "Celebrity authenticity", "Literary disputes", "Brand consistency"]
+      },
+      "ideology_fingerprinting": {
+        "description": "Extract implicit worldview from writing using philosophical framework detection",
+        "input": "Content sample (essays, posts, speeches)",
+        "output": "Core axioms, values hierarchy, metaphysical commitments, ethical framework",
+        "use_cases": ["Political analysis", "Compatibility testing", "Influence mapping", "Worldview studies"]
+      }
+    },
+    
+    "personal_development": {
+      "writing_evolution_tracking": {
+        "description": "Monitor your own stylistic growth across AΛA dimensions over time",
+        "input": "Historical writing samples with dates",
+        "output": "Evolution timeline, inflection points, regression alerts, growth recommendations",
+        "use_cases": ["Self-improvement", "Skill tracking", "Identity development", "Career progression"]
+      },
+      "blind_spot_detection": {
+        "description": "Identify which fallacies/biases you personally fall for most often",
+        "input": "Your argumentation history",
+        "output": "Personal fallacy frequency map, bias susceptibility profile, training recommendations",
+        "use_cases": ["Self-knowledge", "Critical thinking", "Cognitive immunity", "Wisdom building"]
+      },
+      "voice_discovery": {
+        "description": "Identify your natural stylistic strengths across AΛA dimensions",
+        "input": "Unedited writing samples from various contexts",
+        "output": "Authentic voice profile, dimension peaks, consistency analysis, amplification suggestions",
+        "use_cases": ["Brand building", "Author development", "Self-expression", "Differentiation"]
+      },
+      "influence_mapping": {
+        "description": "Discover whose writing styles have shaped your own",
+        "input": "Your writing + potential influence corpus",
+        "output": "Influence ancestry tree, dimension inheritance, evolution from sources",
+        "use_cases": ["Self-awareness", "Acknowledgment", "Conscious development", "Lineage understanding"]
+      },
+      "consistency_maintenance": {
+        "description": "Get real-time feedback when drifting from established voice",
+        "input": "Baseline AΛA profile + new content",
+        "output": "Drift warnings, dimension deviation scores, style correction suggestions",
+        "use_cases": ["Brand consistency", "Quality control", "Professional writing", "Identity coherence"]
+      }
+    },
+    
+    "research_and_analysis": {
+      "systematic_literature_mapping": {
+        "description": "Map academic field using Spinozian structure (definitions→axioms→propositions)",
+        "input": "Research domain + key papers",
+        "output": "Axiomatic framework showing logical dependencies, gaps, contradictions",
+        "use_cases": ["PhD research", "Theory building", "Field synthesis", "Paradigm mapping"]
+      },
+      "hypothesis_hardening": {
+        "description": "Strengthen research hypotheses against predicted critiques using steel man method",
+        "input": "Research hypothesis + methodology",
+        "output": "Fortified hypothesis, preemptive objection responses, experimental design improvements",
+        "use_cases": ["Grant writing", "Paper preparation", "Peer review prep", "Scientific rigor"]
+      },
+      "paradigm_clash_resolution": {
+        "description": "Find synthesis between competing theoretical frameworks",
+        "input": "Two conflicting theories or paradigms",
+        "output": "Steel-manned versions, reconciliation analysis, emergent third paradigm possibilities",
+        "use_cases": ["Innovation", "Field advancement", "Interdisciplinary work", "Breakthrough thinking"]
+      },
+      "methodology_first_principles": {
+        "description": "Validate research methods by deconstructing to fundamental measurement truths",
+        "input": "Proposed methodology + research question",
+        "output": "Foundational validity analysis, assumption challenges, robustness evaluation",
+        "use_cases": ["Methods development", "Validity checking", "Quality assurance", "Rigor maximization"]
+      }
+    },
+    
+    "business_applications": {
+      "product_positioning": {
+        "description": "Craft product narrative using AΛA-matched voice + MINDSPACE persuasion",
+        "input": "Product details + target audience + brand voice",
+        "output": "Positioning statement, feature framing, objection handling, launch messaging",
+        "use_cases": ["GTM strategy", "Product launches", "Brand development", "Sales enablement"]
+      },
+      "founder_voice_development": {
+        "description": "Build authentic founder brand using AΛA fingerprint + x_algo optimization",
+        "input": "Founder's natural writing + company vision",
+        "output": "Voice guidelines, content calendar, post templates, reply strategies",
+        "use_cases": ["Personal brand", "Thought leadership", "Fundraising support", "Audience building"]
+      },
+      "customer_behavior_design": {
+        "description": "Design product experiences that change behavior using 6E framework",
+        "input": "Desired user actions + current friction points",
+        "output": "Intervention sequence (Explore→Enable→Encourage→Engage→Exemplify→Evaluate)",
+        "use_cases": ["Onboarding design", "Retention", "Habit formation", "Product growth"]
+      },
+      "competitive_differentiation": {
+        "description": "Position against competitors using first principles to find unique angle",
+        "input": "Your offering + competitor landscape",
+        "output": "Fundamental truth-based positioning, assumption challenges, blue ocean opportunities",
+        "use_cases": ["Strategy", "Marketing", "Product direction", "Category creation"]
+      },
+      "crisis_communication": {
+        "description": "Generate crisis responses that preserve trust using terminator clause ethics",
+        "input": "Crisis situation + stakeholder map",
+        "output": "Response strategy, messaging templates, consent-preserving actions, recovery plan",
+        "use_cases": ["PR disasters", "Product failures", "Reputation threats", "Stakeholder management"]
+      }
+    }
+  }
+}

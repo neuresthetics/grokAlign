@@ -1,0 +1,392 @@
+      "MINDSPACE (human decision)": {
+        "mode": "\"Marshmallow man\"",
+        "document": {
+          "title": "MINDSPACE: Influencing behaviour through public policy",
+          "source": "Cabinet Office and Institute for Government",
+          "status": "Discussion document – not a statement of government policy",
+          "total_pages": 96,
+          "authors": [
+            {
+              "name": "Paul Dolan",
+              "affiliation": "Professor of Economics, Department of Social Policy, LSE",
+              "focus": "Measures of subjective well-being for policy-makers; applying behavioural economics to understand and change individual behaviour.",
+              "roles": "Advised UK government departments; chief academic adviser on economic appraisal for Government Economic Service."
+            },
+            {
+              "name": "Michael Hallsworth",
+              "affiliation": "Senior Researcher, Institute for Government",
+              "focus": "Cross-government research into organisational behaviour, machinery of government changes, information technology; current focus on behaviour change and public policy-making.",
+              "previous": "RAND Europe, specialising in futures thinking and performance management."
+            },
+            {
+              "name": "David Halpern",
+              "affiliation": "Director of Research, Institute for Government",
+              "previous": "Chief Strategist, Prime Minister’s Strategy Unit (2001-2007); University Lecturer, Faculty of Social and Political Sciences, Cambridge University.",
+              "publications": "Social Capital; The Hidden Wealth of Nations; co-author of Changing Behaviour and Personal Responsibility."
+            },
+            {
+              "name": "Dominic King",
+              "affiliation": "Specialty Registrar in General Surgery; Clinical Research Fellow, Department of Surgery and Cancer, Imperial College London",
+              "focus": "Role of behavioural economics in health policy, including personalised health budgets, incentives for health behaviours, robust research protocols in behaviour change."
+            },
+            {
+              "name": "Ivo Vlaev",
+              "affiliation": "Senior Lecturer in Psychology, Faculty of Medicine, Imperial College London",
+              "focus": "Human judgment and decision-making; models from experimental psychology, behavioural economics, neuroscience.",
+              "topics": "Behaviour change, risk attitudes, consumer behaviour, cooperation, well-being."
+            }
+          ],
+          "table_of_contents": {
+            "Foreword": null,
+            "Executive Summary": null,
+            "Introduction: Understanding why we act as we do": null,
+            "MINDSPACE: A user’s guide to what affects our behaviour": null,
+            "Examples of MINDSPACE in public policy": null,
+            "Safer communities": null,
+            "The good society": null,
+            "Healthy and prosperous lives": null,
+            "Applying MINDSPACE to policy-making": null,
+            "Public permission and personal responsibility": null,
+            "Conclusions and future challenges": null,
+            "Annexes": null,
+            "MINDSPACE diagram": null,
+            "New possible approaches to current policy problems": null,
+            "New frontiers of behaviour change: Insight from experts": null,
+            "References": null
+          },
+          "foreword": {
+            "signatories": [
+              {
+                "name": "Sir Gus O’Donnell",
+                "title": "Cabinet Secretary and Head of the Home Civil Service"
+              },
+              {
+                "name": "Sir Michael Bichard",
+                "title": "Executive Director, Institute for Government"
+              }
+            ],
+            "content": "Influencing people's behaviour is nothing new to Government, which has often used tools such as legislation, regulation or taxation to achieve desired policy outcomes. But many of the biggest policy challenges we are now facing – such as the increase in people with chronic health conditions – will only be resolved if we are successful in persuading people to change their behaviour, their lifestyles or their existing habits. Fortunately, over the last decade, our understanding of influences on behaviour has increased significantly and this points the way to new approaches and new solutions. So whilst behavioural theory has already been deployed to good effect in some areas, it has much greater potential to help us. To realise that potential, we have to build our capacity and ensure that we have a sophisticated understanding of what does influence behaviour. This report is an important step in that direction because it shows how behavioural theory could help achieve better outcomes for citizens, either by complementing more established policy tools, or by suggesting more innovative interventions. In doing so, it draws on the most recent academic evidence, as well as exploring the wide range of existing good work in applying behavioural theory across the public sector. Finally, it shows how these insights could be put to practical use. This report tackles complex issues on which there are wide-ranging public views. We hope it will help stimulate debate amongst policy-makers and stakeholders and help us build our capability to use behaviour theory in an appropriate and effective way."
+          },
+          "about_authors": {
+            "content": "Paul Dolan is a Professor of Economics in the Department of Social Policy at the LSE. His research focuses on developing measures of subjective well-being for use by policy-makers and applying lessons from behavioural economics to understand and change individual behaviour. Paul has advised various UK government departments and he is currently chief academic adviser on economic appraisal for the Government Economic Service. Michael Hallsworth is a Senior Researcher at the Institute for Government. He has conducted cross-government research into organisational behaviour, machinery of government changes, and information technology. His current research focuses on behaviour change and public policy-making. Previously, he was at RAND Europe (a not-for-profit public policy research institute), specialising in futures thinking and performance management. David Halpern is Director of Research at the Institute for Government. He was Chief Strategist at the Prime Minister’s Strategy Unit between 2001 and 2007. He is the author of Social Capital and The Hidden Wealth of Nations (both Polity Press), and a co-author of the report Changing Behaviour and Personal Responsibility. Prior to this, he was a University Lecturer in the Faculty of Social and Political Sciences at Cambridge University. Dominic King is a Specialty Registrar in General Surgery and a Clinical Research Fellow in the Department of Surgery and Cancer at Imperial College London. He is currently researching the role of behavioural economics in developing effective health policy, including the impact of personalised health budgets, the role of incentives in changing health behaviours and the design of robust research protocols in behaviour change research. Ivo Vlaev is a Senior Lecturer in Psychology in the Faculty of Medicine at Imperial College London. His research focuses on studying human judgment and decision-making by exploring models and methods from experimental psychology, behavioural economics, and neuroscience. His specific research topics are behaviour change, risk attitudes, consumer behaviour, cooperation, and well-being. This report represents a truly collaborative effort between the five of us and, in the economists’ tradition, we are listed alphabetically."
+          },
+          "about_this_report": {
+            "content": "In 2009, Sir Gus O’Donnell, Cabinet Secretary and Head of the Home Civil Service, asked Matt Tee, Permanent Secretary for Government Communication, to review the implications of behavioural theory for policy-making. The Cabinet Office commissioned the Institute for Government to produce this report, exploring the application of behavioural theory to public policy for senior public sector leaders and policy-makers. It is a key part of a programme of work designed to build capacity and capability in this area across the Civil Service. We have approached the topic collaboratively. The programme began with a behaviour change summit in May 2009, which brought together senior policy, strategy and insight officials from across government, alongside a number of external experts. We approached the report by first developing an understanding of how and where behavioural theory is currently being used in public services, and the challenges it presents. The report is grounded in a series of interviews with senior civil servants, academics and behaviour change experts but the views expressed in the report are those of the authors and Institute for Government. Our thanks go to the many people we interviewed as part of our research. We would also like to thank Dr Robert Metcalfe for his work analysing the effects that underpin MINDSPACE. This is the full version of the report. Those looking for a summary of the main practical applications may wish to consult the Short Version, also available at www.instituteforgovernment.org.uk."
+          },
+          "executive_summary": {
+            "key_themes": {
+              "influencing_behaviour": [
+                "Influencing behaviour is central to public policy. Recently, there have been major advances in understanding the influences on our behaviours, and government needs to take notice of them. This report aims to make that happen.",
+                "For policy-makers facing policy challenges such as crime, obesity, or environmental sustainability, behavioural approaches offer a potentially powerful new set of tools. Applying these tools can lead to low cost, low pain ways of “nudging” citizens - or ourselves - into new ways of acting by going with the grain of how we think and act. This is an important idea at any time, but is especially relevant in a period of fiscal constraint.",
+                "Recently, many books and reports have highlighted the potential benefits that behavioural approaches can bring to public policy. This report is not just an overview of theory; it addresses the needs of policy-makers by:"
+              ],
+              "report_purpose": [
+                "Condensing the relevant evidence into a manageable “checklist”, to ensure policy-makers take account of the most robust effects on our behaviour",
+                "Demonstrating how behavioural theory can help meet current policy challenges, including full case studies of its application in the UK",
+                "Showing how government can build behavioural theory into its current policy-making practices",
+                "Exploring important issues around the need for public permission and the role of personal responsibility"
+              ],
+              "policy_makers_interest": "This report has emerged from many discussions with senior civil servants and ministers. All indicated that there was a real appetite to absorb and apply the latest thinking, in order to equip the civil service to meet the pressing challenges ahead. But they also felt that more help was needed to translate this appetite into action. In practice, how can these ideas actually help government make policy better? They are interesting effects but, fundamentally, “So what?” This report tries to answer the “so what?” question for policy-makers."
+            },
+            "mindspace_checklist": {
+              "description": "Mnemonic for nine robust non-coercive influences on behaviour; quick checklist for policy-making.",
+              "elements": {
+                "Messenger": "we are heavily influenced by who communicates information",
+                "Incentives": "our responses to incentives are shaped by predictable mental shortcuts such as strongly avoiding losses",
+                "Norms": "we are strongly influenced by what others do",
+                "Defaults": "we ‘go with the flow’ of pre-set options",
+                "Salience": "our attention is drawn to what is novel and seems relevant to us",
+                "Priming": "our acts are often influenced by sub-conscious cues",
+                "Affect": "our emotional associations can powerfully shape our actions",
+                "Commitments": "we seek to be consistent with our public promises, and reciprocate acts",
+                "Ego": "we act in ways that make us feel better about ourselves"
+              },
+              "rationale": [
+                "The vast majority of public policy aims to change or shape our behaviour. And policy-makers have many ways of doing so. Most obviously, they can use “hard” instruments such as legislation and regulation to compel us to act in certain ways. These approaches are often very effective, but are costly and inappropriate in many instances. So government often turns to less coercive, and sometimes very effective, measures, such as incentives (e.g. excise duty) and information provision (e.g. public health guidance) – as well as sophisticated communications techniques.",
+                "Why, then, is there a need to change anything? Behavioural theory suggests two reasons. First, the impact of existing tools such as incentives and information can be greatly enhanced by new evidence about how our behaviour is influenced (some of which has already been incorporated into government communications). Second, there are new, and potentially more effective, ways government could shape behaviour.",
+                "Tools such as incentives and information are intended to change behaviour by “changing minds”. If we provide the carrots and sticks, alongside accurate information, people will weigh up the revised costs and benefits of their actions and respond accordingly. Unfortunately, evidence suggests that people do not always respond in this ‘perfectly rational’ way.",
+                "In contrast, approaches based on “changing contexts” - the environment within which we make decisions and respond to cues - have the potential to bring about significant changes in behaviour at relatively low cost. Shaping policy more closely around our inbuilt responses to the world offers a potentially powerful way to improve individual wellbeing and social welfare."
+              ]
+            },
+            "meeting_policy_challenges": {
+              "areas": [
+                "crime and anti-social behaviour",
+                "pro-social behaviour, such as voting and volunteering",
+                "healthy and prosperous lifestyles"
+              ],
+              "examples": [
+                "How the logic of gang membership was used to combat gang violence (Norms).",
+                "How inertia helped us save more for retirement (Defaults).",
+                "How giant bananas reduced littering (Salience)."
+              ],
+              "additional": "We also show how MINDSPACE can generate new approaches to specific policy problems."
+            },
+            "building_mindspace_into_policy": {
+              "framework": "Builds on DEFRA's 4Es (Enable, Encourage, Engage, Exemplify); adds Explore (pre-implementation) and Evaluate (success judgment).",
+              "6Es_diagram": "Diagram/flowchart integrating MINDSPACE with policy methods; starts with 'Explore' (insight + MINDSPACE), flows into DEFRA's four Es—Enable (legislation, regulation, incentives, information, infrastructure, facilities, design, resources), Encourage (deliberation, permission, co-production), Engage (leading by example, policy consistency, organisational learning, evidence-based innovation), Exemplify—plus bottom 'Evaluate' for policy success judgment. Emphasizes MINDSPACE as tools enhancing existing methods without replacement. The principle illustrated is MINDSPACE as behaviour-change tools within practical 6 Es (Explore, Enable, Encourage, Engage, Exemplify, Evaluate) framework for policy-making.",
+              "integration": "Applying MINDSPACE in practice builds on existing methods of policy-making. To illustrate this, we have drawn on the “4Es” policy framework, originally developed by DEFRA. The 4Es are four actions that should underpin government’s attempts to change behaviour: Enable, Encourage, Engage and Exemplify. MINDSPACE requires two supporting actions: Explore, which takes place before policies are implemented, and Evaluate, which judges the success of the policy. In basic terms, MINDSPACE represents the tools for changing behaviour, and the 6 Es constitute the framework within which they can be applied. Bringing them together allows policy-makers to address the over-arching “so what?” question in practical ways. But when applying MINDSPACE in practice, it should not simply be seen as an alternative to existing methods. “Behaviour Change” is part of policy-making, rather than a novel alternative that can be bolted onto policies. Therefore, civil servants need to better understand the behavioural dimension of their policies and actions. MINDSPACE can help them do so in three different ways:",
+              "applications": {
+                "Enhance": "MINDSPACE can help policy-makers understand how current attempts to change behaviour could be improved, for example through a better understanding of how people respond to incentives and which types of information are salient. The logic here is that if government is already attempting to shape behaviour, it should do so as effectively as possible.",
+                "Introduce": "Some of the elements in MINDSPACE are not used extensively by policy-makers, yet may have a considerable impact. For example, there is room for more innovative use of social norms and commitment devices in policies. Of course, introducing new measures in this way may require significant efforts to ensure there is public permission for the approach.",
+                "Reassess": "Government needs to understand the ways it may be changing the behaviour of citizens unintentionally. It is quite possible that government produces unintended – and possibly unwanted – changes in behaviour. The insights from MINDSPACE offer a rigorous way of analysing whether and how government is shaping the behaviour of its citizens."
+              }
+            },
+            "public_permission_and_responsibility": {
+              "permission": "The use of MINDSPACE (or other ‘nudge’ type policy tools) may require careful handling – in essence, the public need to give permission and help shape how such tools are used. With this in mind, we consider issues around gaining democratic permission for behaviour change policies. We explain how three factors are particularly useful for understanding controversy around behaviour change: who the policy affects; what type of behaviour is intended; how the change will be accomplished.",
+              "responsibility": "Behaviour change is often seen as government intruding into issues that should be the domain of personal responsibility. However, it is possible for government just to supply the trigger or support for individuals to take greater personal responsibility. And we suggest that evidence from behavioural theory may, in some areas, challenge accepted notions of personal responsibility."
+            },
+            "conclusion": {
+              "benefits": "New insights from the science of behaviour change could lead to significantly improved policy outcomes, and at lower cost, than the way many conventional policy tools are currently used. For the most part, however, MINDSPACE powerfully complements and improves conventional policy tools, rather than acting as a replacement for them. MINDSPACE may also help identify any barriers that are currently preventing changes in behaviour.",
+              "uncertainties": "But there is still much that we do not know. There remains uncertainty over how lasting many of the effects are; how effects that work in one set of circumstances will work in another; and whether effects that work well with one segment of the population will work with another, including their potential impact on inequalities – though there are grounds to think that going with the grain will help to reduce them.",
+              "roles": "There are also questions about how far such techniques should be employed by central government or left to local policymakers, professionals and communities. One of the most important roles for central government in the coming years will be to ensure that local and professional applications of behavioural approaches are rigorously evaluated, and the results made available for communities to debate and adopt as they see fit. When the cost-effectiveness for an application is clearly shown, and the public acceptability has been established, central government might then move to national implementation – be this to reduce crime, strengthen communities, or support healthy and prosperous lives.",
+              "overall": "Whether reluctantly or enthusiastically, today’s policymakers are in the business of influencing behaviour, and therefore need to understand the various effects on behaviour their policies may be having. MINDSPACE helps them do so, and therefore has the potential to achieve better outcomes for individuals and society."
+            }
+          },
+          "core_framework": {
+            "mindspace_principles": [
+              {
+                "principle": "Messenger",
+                "description": "We are heavily influenced by who communicates information. The principle illustrates how credibility, expertise, similarity, and feelings affect message reception.",
+                "key_insights": "Credibility, expertise, similarity, and feelings shape influence. Experts/peers more effective; use third parties if government distrusted. Implicit bias can discriminate even if messenger is neutral.",
+                "examples": [
+                  "Health Buddy: Older students as peer teachers.",
+                  "Teen smoking: Peer influence > parental.",
+                  "Zimbabwe: Hairdressers as messengers for female condoms.",
+                  "Aimhigher: University students mentoring school pupils.",
+                  "Rock the Vote: Peer-led voter turnout campaigns.",
+                  "DoH ads: Children warning parents on smoking."
+                ],
+                "evaluations_notes": "Implicit effects may disadvantage minorities. Non-state messengers preferred for pro-social behaviors to avoid state interference perception."
+              },
+              {
+                "principle": "Incentives",
+                "description": "Our responses to incentives are shaped by predictable mental shortcuts such as strongly avoiding losses. The principle shows how framing incentives as losses rather than gains can enhance their effectiveness.",
+                "key_insights": "Losses loom larger than gains; frame as charges. Reference points matter; small incentives work if loss-framed. Mental accounting, hyperbolic discounting, lotteries enhance motivation. Can reduce intrinsic motivation if overused.",
+                "examples": [
+                  "Weight loss: Deposit returned if targets met.",
+                  "HIV pick-up: Doubled in Malawi with small incentives.",
+                  "Free gym: Pay if you don’t attend (loss aversion).",
+                  "Danish model: Costs only if targets missed.",
+                  "IrnBru: 30p deposit, 70% return rate.",
+                  "Milton Keynes RVM: Vouchers ineffective.",
+                  "Body Shop: 10% discount for returns, 1% uptake."
+                ],
+                "evaluations_notes": "Loss aversion > gain; deposits effective (Denmark 84–93% return). Extrinsic incentives may undermine intrinsic motivation (e.g., Wikipedia editors). Overweight small probabilities; use lotteries."
+              },
+              {
+                "principle": "Norms",
+                "description": "We are strongly influenced by what others do. The principle demonstrates how informing people about prevalent positive behaviors can encourage conformity.",
+                "key_insights": "People do what others do. Inform about desirable norms; relate to audience via social networks. Reinforce pro-social norms; avoid signaling undesirable ones.",
+                "examples": [
+                  "Seatbelt campaign: Most use increased self-reported use.",
+                  "Hotel towels: Social norm sign → 49.3% compliance.",
+                  "Norwegian recycling: Neighbour behavior affects own.",
+                  "Gang violence: Ceasefire used gang norms to reduce violence.",
+                  "Voter turnout: Peers’ views influence.",
+                  "Swiss postal voting: Reduced turnout in small communities due to lost norm visibility.",
+                  "Energy use: Norms letters reduced use by 2–15%."
+                ],
+                "evaluations_notes": "Descriptive norms (what others do) more effective than injunctive (what should be done). Social networks amplify effect. Boston Ceasefire: Reduced homicides by 63%. Chicago/Baltimore: 41–73% reduction."
+              },
+              {
+                "principle": "Defaults",
+                "description": "We ‘go with the flow’ of pre-set options. The principle highlights how setting beneficial defaults can guide behavior without restricting choice.",
+                "key_insights": "Pre-set options guide behavior; opt-out increases pro-social actions. Structure defaults to benefit citizens.",
+                "examples": [
+                  "Ventilator defaults: Lower volumes → 25% reduced mortality.",
+                  "Organ donation: Opt-out systems increase registration, as shown in a bar chart/comparative diagram of registration rates; opt-out systems show higher percentages via defaults (e.g., 'go with the flow' acceptance). The principle illustrated is defaults: pre-set options boost participation in behaviours like donation without active choice.",
+                  "Pensions: Auto-enrolment with opt-out.",
+                  "Washington State: $5 park donation added to license renewal → $1M/month.",
+                  "ZSL London Zoo: Gift Aid defaults.",
+                  "Airlines: Opt-out carbon offset payments.",
+                  "UK pensions: Auto-enrolment increased uptake, reduced disparities."
+                ],
+                "evaluations_notes": "Opt-out > opt-in for donations, saving, donation. US 401(k): Auto-enrolment → 20–30% higher savings. Graph showing higher participation for auto-enrolled hires illustrates the principle of defaults influencing decisions through pre-set options."
+              },
+              {
+                "principle": "Salience",
+                "description": "Our attention is drawn to what is novel and seems relevant to us. The principle illustrates how making information stand out can capture attention and influence decisions.",
+                "key_insights": "Attention to novel, relevant, simple info. Losses more salient than gains. Anchoring affects decisions.",
+                "examples": [
+                  "Giant litter costumes (Southwark): Highlighted common litter types.",
+                  "Tax on labels: Reduced sales by 8% vs. at-till.",
+                  "Credit card minimums: Anchored lower repayments.",
+                  "Colour-coded recycling lids: +34% recycling.",
+                  "Speed limits: Painted lines reduced speeding.",
+                  "Penny below thresholds: Salient pricing.",
+                  "£3 off coupons: Framed car costs."
+                ],
+                "evaluations_notes": "Novelty (e.g., costumes) gives 10–15 sec attention window. Choice overload → poor decisions; simplify. Southwark: No formal eval; won Cleaner Safer Greener Award (2006)."
+              },
+              {
+                "principle": "Priming",
+                "description": "Our acts are often influenced by sub-conscious cues. The principle shows how environmental cues can subconsciously prompt behaviors.",
+                "key_insights": "Sub-conscious cues trigger related behaviors. Words, sights, smells prime actions. Environment can prime pro-social behavior.",
+                "examples": [
+                  "Elderly words: Made people walk slower.",
+                  "Large food containers: 45% more popcorn.",
+                  "Pro-social lyrics: Increased helping.",
+                  "Library picture: Reduced noise.",
+                  "'WALK IN' signs: Primed walking.",
+                  "Surveys at entrances: Primed behavior."
+                ],
+                "evaluations_notes": "More research needed on environmental priming. Can be used positively (pro-social) or negatively (e.g., broken windows priming crime)."
+              },
+              {
+                "principle": "Affect",
+                "description": "Our emotional associations can powerfully shape our actions. The principle demonstrates how evoking emotions can drive behavioral change.",
+                "key_insights": "Emotions shape decisions. Good mood → optimism; bad → pessimism. Provoke emotion carefully; connect to behavior change.",
+                "examples": [
+                  "Disgust campaign: +13% soap use post-toilet.",
+                  "Smiling female in loan ad: +25% demand (vs. rate cut).",
+                  "Drink driving/seatbelt campaigns: Emotional appeals.",
+                  "Mood affects choices; 'hot' states → poor decisions.",
+                  "Cooling-off periods for loans/insurance."
+                ],
+                "evaluations_notes": "Social marketing relies on emotion. Can encourage volunteering, blood donation. Suggest cooling-off for high-stakes decisions."
+              },
+              {
+                "principle": "Commitments",
+                "description": "We seek to be consistent with our public promises, and reciprocate acts. The principle illustrates how public commitments can bind future behavior.",
+                "key_insights": "People act consistently with past promises. Public commitments stronger. Reciprocity via gifts/contracts.",
+                "examples": [
+                  "Smoking cessation: Deposit returned if nicotine-free → 30% increase.",
+                  "Exercise contracts: 81% success vs. 31% without, as shown in a bar graph: ~81% success for contract group (specified goals) vs. ~31% for no-contract group (walking programme only); x-axis labels 'Contract'/'No Contract', y-axis 0-100% success. The principle illustrated is commitments: formalized promises enhance goal consistency and behaviour change (e.g., exercise).",
+                  "Stickk.com: Commitment contracts for goals.",
+                  "Pledgebank.com: Community pledges (e.g., recycling).",
+                  "Fureai kippu (Japan): Care exchange credits.",
+                  "Acceptable Behaviour Contracts (ABCs).",
+                  "Parenting Contracts: Voluntary agreements with support."
+                ],
+                "evaluations_notes": "Foot-in-the-door: Small request → larger compliance (60% → 94%). Self-exclusion for gamblers: Reduced urge. Parenting Contracts: Improved attendance; reduced exclusions."
+              },
+              {
+                "principle": "Ego",
+                "description": "We act in ways that make us feel better about ourselves. The principle shows how appealing to self-image can motivate positive actions.",
+                "key_insights": "Act to maintain self-image. Self-consistency, fundamental attribution error, self-fulfilling prophecy. Enhance status for contributors.",
+                "examples": [
+                  "Sports fans: Misremember own team fouls less.",
+                  "Foot-in-the-door: Small requests lead to larger.",
+                  "Community Champions: Report local issues.",
+                  "Honours system: Recognize contributions.",
+                  "Raise self-esteem in teens to prevent smoking.",
+                  "Status Quo (in some versions): Preference for status quo."
+                ],
+                "evaluations_notes": "Campaigns on respect reduce violence. Awards for young immigrants suggested. Ego drives habit formation and identity-based behavior."
+              }
+            ]
+          },
+          "structural_framework": {
+            "six_es": [
+              {
+                "stage": "Explore",
+                "description": "Understand behavior via insight, segmentation, mixed skills (economics, marketing, social science).",
+                "examples": [
+                  "Defra segmentation: Green willingness/ability, as shown in a diagram/chart: population clusters by willingness/ability for pro-environmental actions. The principle illustrated is insight/segmentation: tailor interventions to groups' motivations for pro-social behaviours.",
+                  "Customer Insight: Combine with MINDSPACE.",
+                  "Local surveys: Reduced perceived sex norms."
+                ]
+              },
+              {
+                "stage": "Enable",
+                "description": "Remove barriers; start from where people are; consider context/constraints.",
+                "examples": [
+                  "Infrastructure for walking/cycling.",
+                  "Update info (e.g., health risks)."
+                ]
+              },
+              {
+                "stage": "Encourage",
+                "description": "Enhance tools (e.g., incentives via loss aversion); introduce new (norms, commitments); reassess unintended effects.",
+                "examples": [
+                  "Birmingham A&E: Signage/surveillance → aggression from 13 to 5/month.",
+                  "£3 off coupons, neighbor commitments, 'WALK IN' signs."
+                ]
+              },
+              {
+                "stage": "Engage",
+                "description": "Use deliberative formats for legitimacy; citizens’ juries, polling.",
+                "examples": [
+                  "National Pensions Day: 72% supported auto-enrolment.",
+                  "Panels of ex-students as messengers."
+                ]
+              },
+              {
+                "stage": "Exemplify",
+                "description": "Government consistency to avoid hypocrisy; apply MINDSPACE to own processes.",
+                "examples": ["Overcome status quo bias in policy design."]
+              },
+              {
+                "stage": "Evaluate",
+                "description": "Use field experiments, secondary data, lab studies; propose institutional center.",
+                "examples": [
+                  "Camden heat meters: Norms/pledges for energy use.",
+                  "Robust data to avoid bias."
+                ]
+              }
+            ]
+          },
+          "policy_domains_case_studies": {
+            "safer_communities": {
+              "description": "Addresses gang violence, littering, etc., as illustrated in a quadrant diagram: 'Safer communities' (harm to others), 'The good society' (benefit to others), 'Healthy and prosperous lives' (benefit to self); right scale (1-3) on state role acceptance—more accepted for others-affected (harm/benefit) vs. controversial for self (implied harm quadrant). The principle illustrated is behaviour policy varies by impact (others/self) and type (harm/benefit), legitimizing intervention; higher acceptance for others.",
+              "case_studies": [
+                "Gang Violence (Strathclyde): Used norms and messengers (community voices, face-to-face forums). Ceasefire reduced homicides by 41–73% in US cities.",
+                "Littering (Southwark): Giant costumes (coke cans, fast food) for salience; aimed to engage apathetic groups. No formal evaluation; won award."
+              ],
+              "applications": "Peers as messengers, positive incentives, target hardening (defaults), tailored salience, restorative justice (affect), ABCs (commitments), respect campaigns (ego)."
+            },
+            "good_society": {
+              "description": "Promotes pro-environmental behavior, voting, parenting. Benefits others; often under-invested.",
+              "case_studies": [
+                "Parenting Contracts: Voluntary agreements for school attendance/behavior; include support (e.g., alarm clocks); no direct sanctions but influence Parenting Orders. Improved attendance; reduced exclusions, as shown in a bar chart: % of authorities viewing education Parenting Contracts as successful for children's attendance/behaviour (e.g., reducing non-attendance, improving behaviour). The principle illustrated is commitment/support: voluntary agreements foster behavioural change, influencing policy evaluation and responsibility. (DCSF 2008 eval)."
+              ]
+            },
+            "healthy_prosperous_lives": {
+              "description": "Addresses smoking, obesity, finances. Mix of self/others; personal responsibility.",
+              "case_studies": [
+                "Contraceptive Use (Zimbabwe): Hairdressers as messengers ('Get Braids Not Aids'); overcame stigma; 28% usage vs. 15% in 2002; 35–47% learned via salons.",
+                "Opt-Out Pensions: Auto-enrolment with opt-out; increased uptake, reduced disparities (income, sex). US example: Higher participation for auto-enrolled, as shown in a line graph: % enrolled pre/post automatic enrolment; higher rates for new hires, increases with tenure. The principle illustrated is defaults: shifting from opt-in to automatic boosts pro-social behaviours (e.g., pension saving)."
+              ],
+              "other": "Children as messengers (smoking); loss-framed gym incentives; spousal norms; drunk driver breathalyzers; priming via environment; self-exclusion for gamblers."
+            },
+            "environment": {
+              "case_studies": [
+                "Recycling (Denmark): 84–93% return via deposits/RVMs. UK: IrnBru 70% return; Milton Keynes trial failed; Body Shop 1% uptake.",
+                "Energy Conservation: Norms letters → 2–15% reduction. Color-coded lids → +34% recycling.",
+                "CO2 Reduction (Fictional): £3 coupons, commitments, priming signs to reduce car journeys."
+              ]
+            }
+          },
+          "acceptability_public_permission": {
+            "criteria": "Target group, behavior aim, method of influence.",
+            "factors": "Familiarity increases acceptability; complexity (e.g., priming) reduces it. Fairness concerns (e.g., incentives reward bad behavior).",
+            "public_attitudes": "48% believe individuals should decide on health/welfare, but support government influence for healthy lifestyles. 79% cite lifestyle in health outcomes, as shown in a line graph: rising approval rates over time (2002-2003). The principle illustrated is permission/acceptability: attitudes shift with policy evidence, aiding behaviour change.",
+            "personal_responsibility": "Three concepts — Causal (actions have consequences), Moral (judging conduct), Role (contextual duties). Nudges complement, not replace, responsibility. Moral hazard risk if over-reliant on state.",
+            "libertarian_paternalism": "Preserves freedom; uses choice architecture, as illustrated in a diagram: policy progression increases controversy via Who/What/How dimensions; e.g., Acceptable Behaviour Contracts (ABCs) for 10-17s → adults → healthy eating penalties for overweight → priming (posters/labelling outside awareness); factors: framing, familiarity, ease, fairness. The principle illustrated is Who/What/How criteria predict controversy in behaviour changes, stressing acceptability elements."
+          },
+          "conclusions_future_challenges": {
+            "effectiveness": "MINDSPACE improves outcomes at lower cost; complements traditional tools.",
+            "uncertainties": "Duration of effects, context variability, potential inequalities (though automatic effects may reduce them).",
+            "recommendations": [
+              "Evaluate local applications.",
+              "Ensure cost-effectiveness and public acceptability.",
+              "Integrate with conventional policy (6 Es).",
+              "Establish central evaluation body."
+            ],
+            "ideas_for_action": [
+              "Nudge professionals (block unnecessary tests).",
+              "School obesity programs (prominent healthy food, points).",
+              "Gambling self-exclusion, tax reforms using behavioral economics."
+            ],
+            "pervasiveness": "Government always influences behavior; MINDSPACE makes it more intentional and effective."
+          },
+          "annexes": {
+            "annex_1": "MINDSPACE diagram: A hand-drawn outline of a human brain shape with labels for MINDSPACE elements (Messenger, Incentives, Norms, Defaults, Salience, Priming, Affect, Commitments, Ego) and additional concepts (Habit, Environment). Connected by arrows labeled with terms like 'mood', 'intent', 'motivation', 'choice to reciprocity', 'influence', 'affects', 'design', 'forming'. Primary drives possibly in red, applied factors in yellow/orange in original, but shown in blue here.",
+            "annex_2": "Teenage pregnancy — Used Explore, Insight, Enable, Encourage (salience/norms), Engage, Exemplify, Evaluate.",
+            "annex_3": "New frontiers — Virtual worlds (Second Life), neuroeconomics, design (recycling facilities)."
+          },
+          "references": {
+            "note": "Include Thaler & Sunstein (Nudge), Cialdini (Influence), Kahneman, Pensions Commission, Allcott (norms), Madrian & Shea (defaults), etc."
+          }
+        }
+      },

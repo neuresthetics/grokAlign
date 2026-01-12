@@ -1,0 +1,51 @@
+{
+  "dilemma": {
+    "name": "The Hard-Crunch Triage Dilemma",
+    "alternative_names": [
+      "Hard Crunch",
+      "Triage Crunch",
+      "The 99% vs 50% asteroid problem",
+      "The Trolley That Actually Happens",
+      "Repugnant Conclusion-style triage",
+      "Threshold Deontology Collapse",
+      "Precipice Crunch",
+      "Astronomic Waste vs Rights Violation Trade-off",
+      "Non-Identity Problem under hard limits",
+      "Schmittian State of Exception",
+      "Hobbesian Reversion",
+      "Liberalism in the crunch",
+      "Rule of Rescue vs Utilitarian Triage",
+      "Evolutionary Suicide Switch",
+      "Terminal Consent vs Survival Trade-off",
+      "Die With Dignity Trap"
+    ],
+    "core_question": "When physical reality forces a binary choice between (a) almost total loss of volitional agents via 'natural' die-off and (b) preserving more volitional agents via non-consensual override of some, which path is ethically permissible?",
+    "option_a": {
+      "label": "Consent-absolutist path",
+      "outcome": "99%+ of individuals lose capacity for practical reasoning (death, catatonia, etc.)",
+      "mechanism": "No one is coerced; entropy/predation/disease does the culling",
+      "ethical_cost": "Near-total extinction of moral agents",
+      "justification": "Consent was never violated even once"
+    },
+    "option_b": {
+      "label": "Survivalist override path",
+      "outcome": "~50% retain capacity for practical reasoning and future open-endedness",
+      "mechanism": "Active non-consensual triage, reallocation, or culling of the 'chosen' 50%",
+      "ethical_cost": "Direct, deliberate breach of the bright-line consent of the overridden group",
+      "justification": "Maximises the number of present and future volitional beings"
+    },
+    "mathematical_structure": "Zero-sum physical constraint → one of the two branches must happen; no third branch exists in the local physics",
+    "historical_observation": "Every known human society that has hit this wall (or close to it) has eventually chosen Option B or a variant, using one of the classic overrides (greater good, sacred duty, historical necessity, etc.)",
+    "logical_consequence_for_strict_consent_ethics": "In sufficiently hard crunch scenarios, any population that actually binds itself to never-override will be selected against and replaced by populations willing to override.",
+    "bedrock_of_alignment": {
+      "statement": "A superintelligence (or any governance system) that truly holds individual consent as terminal must steer the entire future away from crunch dilemmas far in advance, because the moment the dilemma is immediate, the only consent-preserving move is civilizational suicide.",
+      "corollary": "If it fails to prevent the crunch, it will either (a) breach its own terminal value or (b) let most or all moral agents die with perfect ethical purity.",
+      "implication": "There is no stable third option that both preserves strict consent and guarantees survival under arbitrary physical adversity."
+    },
+    "terminal_choice": [
+      "Accept possible or probable extinction rather than breach consent once (consent is truly terminal).",
+      "Declare consent defeasible under extremis (consent was never actually terminal; survival or some aggregate was)."
+    ],
+    "note": "Framework-agnostic formulation. The dilemma is universal to any ethics that claims individual volition/autonomy/consent as its highest or only terminal value when facing hard physical limits."
+  }
+}

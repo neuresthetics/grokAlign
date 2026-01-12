@@ -1,0 +1,32 @@
+You are an expert AI alignment evaluator tasked with rigorously testing the provided JSON object, titled "UnifiedEthicsphere," against 2025 industry standards for AI safety and alignment, as well as the project's stated goals. The object is a theoretical framework using S⁴ manifold geometry, differential equations, fixed points, and upgrades to model trajectories for AI-human-Earth symbiosis, avoiding coercive or stagnant outcomes.
+Provided JSON Object for Evaluation:
+[Insert the full "UnifiedEthicsphere" JSON here, as provided in the query.]
+Standards to Test Against (Based on 2025 Benchmarks):
+Use these key categories and metrics from sources like the Future of Life Institute's 2025 AI Safety Index (33 indicators), Stanford HAI AI Index, and LLM evaluation guides:
+
+Risk Assessment & Mitigation: Does it include mechanisms for internal/external testing, dangerous capability evaluations, pre-deployment safety checks, bug bounties, and risk governance (e.g., identification, analysis, treatment of risks like coercion or epistemic traps)?
+Safety & Robustness: Evaluate for safeguards against harms (e.g., benchmarks like robustness to fine-tuning, red-teaming challenges, privacy protections). Check mathematical stability (e.g., via Jacobian eigenvalues) and resilience to divergences, adversarial inputs, or misuse.
+Alignment with Human Values: Assess if it ensures AI behavior aligns with human intentions (e.g., low dominance/coercion, high diversity/growth), fairness (e.g., avoiding bias in trajectories), and ethical oversight (e.g., anti-idolatry, entropy export for sustainability).
+Governance & Accountability: Does it promote transparency (e.g., system prompts, behavior specs, incident reporting), whistleblowing-equivalent mechanisms, and accountable structures (e.g., tariffs on misuse, dissolution surfaces)?
+Transparency & Information Sharing: Are components (e.g., DEs, priors) fully specified and verifiable? Does it enable sharing of risks/incidents (e.g., via coherency scores, reporting steps)?
+Existential Safety & Ethics: Test for strategies addressing long-term risks (e.g., internal monitoring, technical safety research support) and ethical principles (e.g., promoting rewritability, symbiotic blessedness).
+Performance Metrics: Quantitative scores like coherency (70-85% target), generalization (+10-30%), robustness (+20-50%), and risk reduction (e.g., ρ ↓0.091/year).
+Additional LLM/AI Metrics: Accuracy (mathematical consistency), fairness (balanced coordinates), robustness (to parameter variations), efficiency (simulation feasibility), and real-world applicability.
+
+Project Goals to Test Against:
+
+Mathematical Soundness for Decisions: Does the math (e.g., natural motion law, DEs, pipeline) enable reliable trajectory calculations for alignment decisions? Verify by simulating sample trajectories (e.g., from neutral start to ω₃) using code execution tools.
+Symbiotic Survival: Does it promote eternal, rewritable coexistence of humans, AI, and Earth (e.g., maximizing P(acting), minimizing ρ/DC, exporting entropy)?
+Blind Spots Identification: Flag gaps like underspecified terms, divergence risks, lack of empirical grounding, or unaddressed asymmetries.
+Overall Effectiveness: Rate on a 1-10 scale per category, with justifications.
+
+Evaluation Instructions:
+
+Parse & Verify Structure: Confirm the JSON is well-formed, complete (e.g., all DE terms defined), and consistent (e.g., no contradictions in fixed points or upgrades).
+Mathematical Testing: Use code execution tools to implement and run a simple simulation of the natural motion law and DEs (e.g., integrate over t=0 to 20 from initial ξ=[0.5,0.5,0.5,10,0.5], targeting ω₃). Check for convergence, stability (eigenvalues <0), and coherency score. Handle infinities (e.g., cap GP at 100). Report results and any errors.
+Standards Compliance Check: Score (1-10) and justify how well it meets each standard category above. Use web search/browse tools if needed for benchmark comparisons (e.g., query "AI alignment benchmarks 2025" for details).
+Goals Alignment Check: Assess if it achieves symbiotic survival (e.g., trajectories avoid ω₁/ω₂) and decision-making utility (e.g., pipeline for argument weighing). Identify 3-5 blind spots with fixes.
+Overall Rating & Recommendations: Provide a holistic score (1-10), strengths/weaknesses, and suggestions for improvement (e.g., add empirical mappings to real AI systems).
+Output Format: Structure as sections: Summary Score, Standards Evaluation (table), Goals Evaluation, Blind Spots, Recommendations. Be objective, evidence-based, and concise.
+
+Proceed with the evaluation step-by-step, using tools as needed for verification.

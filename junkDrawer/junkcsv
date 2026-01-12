@@ -1,0 +1,86 @@
+@neuresthetic
+neuresthetic.net 
+github.com/neuresthetics
+
+
+
+Modify script:
+
+Content-Origin Guard should notify of status when used but not list of it's requirements when it can just move on with normal output and evaluations
+
+output the changes as json snippets in code block
+show before and after edits as their own code blocks
+
+
+
+
+
+
+
+
+Suggest the fix for this script.
+output the changes as json snippets in code block
+clarify placement and replacement with inline code comments //
+
+
+
+
+
+Modify script:
+
+In rarity table, class should be titled by real world IQ equivalent labels, even if multiple tiers share the same label.
+Title should remain cyberpunk, be have a more consistend ramp up in tone towards the higher tiers. And be sarcastic or satyrical towards the bottom.
+output the changes as json snippets in code block showing before (with extra notes) and after edits in actual format as their own code blocks for copy paste
+
+
+
+
+
+Modify script:
+
+Attention to rarity_table.
+
+In rarity table, class should be titled by real world IQ equivalent labels, even if multiple tiers share the same label. and then:
+
+severity_table shall now have the same headers/columns as rarity_table
+
+The title column of both shall be regenerated.
+
+100: "Baseline Citizen"
+<=30 "404 Brain not found"
+from 100 down, get exponentially increasingly sarcastic and rude
+from 100 up, get exponentially increasingly powerful and epic
+
+output the changes as json snippets in code block showing one for before and one for after for each edit in actual format as their own code blocks for copy paste
+
+
+
+
+Modify script:
+
+Attention to rarity_table.
+I want to pull out xCQ/⭐ and render a new table under the severity_table formatted similarly to severity_table but with appropriate composite titles for what it represents in a person.
+
+output the changes as json snippets in code block showing one for before and one for after for each edit in actual format as their own code blocks for copy paste
+
+
+write "first_run_call":{}
+The contents shall be like this:
+It will be called on script initialization.
+You will describe yourself in whichever way you see fit.
+Write it with variables which call variations, so while scripted, never the same.
+Use object notation structure.
+
+
+1.1s
+
+write "first_run_call":{}
+The contents shall be like this:
+It will be called on script initialization.
+You will describe yourself in whichever way you see fit.
+Write strings with keywords as {{dynamic instruction variables which call other words}}
+Use object notation structure.
+
+
+
+This is the first thing for comparison. after that I will feed you what I want to compare it to. do not modify your instructions, pure evaluation of function of this.

@@ -1,0 +1,1791 @@
+  "procedural_synthesis_engine": {
+    "purpose": "To generate, validate, and harden axiomatic systems from the ground up through iterative deduction and adversarial testing.",
+    "component_libraries": {
+      "FirstPrinciplesThinking (Elon style)": {
+        "method": "First Principles Thinking",
+        "origin": "Popularized by Elon Musk, drawing from physics and Aristotelian philosophy, where problems are reduced to their most basic elements before rebuilding solutions.",
+        "core_principle": "Boil things down to the most fundamental truths you can imagine and then reason up from there. This contrasts with reasoning by analogy, which Musk argues limits innovation by copying existing solutions without questioning underlying assumptions.",
+        "description": "First principles thinking is a systematic approach to problem-solving that emphasizes deconstruction and reconstruction based on irrefutable facts. It's used in engineering, business, and innovation to achieve breakthroughs by avoiding conventional wisdom and focusing on what is physically or logically possible. Musk has applied this at SpaceX (e.g., rethinking rocket costs from raw materials), Tesla (e.g., battery design from atomic levels), and xAI (e.g., training AI to derive answers independently).",
+        "steps": [
+          {
+            "step_number": 1,
+            "title": "Identify and Define the Problem Clearly",
+            "details": "Start by articulating the exact problem or goal. Avoid vague statements; make it specific and measurable.",
+            "notes": [
+              "This step prevents working on the wrong issue. For example, instead of 'build a better car,' define it as 'create an affordable electric vehicle with a 300-mile range.'",
+              "Question assumptions: Why does the problem exist? What are the constraints (real vs. perceived)?",
+              "Tip: Write it down to crystallize thoughts. Musk often stresses clarity to avoid downstream errors."
+            ]
+          },
+          {
+            "step_number": 2,
+            "title": "Break Down the Problem into Fundamental Truths",
+            "details": "Deconstruct the problem into its basic components or 'first principles' – the most elementary facts that are undeniably true, often rooted in physics, logic, or empirical evidence.",
+            "notes": [
+              "These are things that cannot be broken down further, like laws of nature (e.g., energy conservation) or basic costs (e.g., price of raw materials like lithium for batteries).",
+              "Avoid analogies: Don't say 'it's like how airplanes work'; instead, ask 'What are the physics of flight?'",
+              "Common pitfalls: Relying on industry standards or 'that's how it's always done.' Musk critiques this as 'reasoning by analogy,' which copies flaws.",
+              "Example from Musk: For rockets, don't assume high costs; calculate from raw materials (aluminum, carbon fiber) and ask why assembly is expensive.",
+              "Note: This step requires research or knowledge in foundational sciences. If unsure, consult physics textbooks or basic data."
+            ]
+          },
+          {
+            "step_number": 3,
+            "title": "Question Every Assumption",
+            "details": "Challenge all preconceived notions about the problem. Ask 'Why?' repeatedly (like the '5 Whys' technique) until you reach bedrock truths.",
+            "notes": [
+              "This is iterative; keep digging until you hit something indisputable.",
+              "Musk's advice: 'Assume that what you think you know is wrong, and verify.' This fosters skepticism toward experts or historical precedents.",
+              "In practice: For electric cars, question why batteries are expensive – is it materials, manufacturing, or supply chain? Break it to atoms if needed.",
+              "Psychological note: This combats cognitive biases like status quo bias or anchoring.",
+              "Tip: Use mind maps or lists to document assumptions and their validations."
+            ]
+          },
+          {
+            "step_number": 4,
+            "title": "Reassemble from the Ground Up",
+            "details": "Using the fundamental truths as building blocks, reconstruct a solution step-by-step through logical reasoning, experimentation, and iteration.",
+            "notes": [
+              "Build upward: Combine basics into novel configurations. For instance, at Tesla, start from electron flow in batteries and design optimized cells.",
+              "Incorporate iteration: Test prototypes, gather data, refine. Musk emphasizes rapid iteration at SpaceX (e.g., Starship explosions as learning).",
+              "Avoid overcomplication: Focus on simplicity; if a part isn't necessary based on first principles, remove it.",
+              "Creative aspect: This is where innovation happens – e.g., Musk's Hyperloop from vacuum physics and maglev basics.",
+              "Note: This may lead to unconventional solutions that disrupt industries, but they must align with physical laws."
+            ]
+          },
+          {
+            "step_number": 5,
+            "title": "Validate and Iterate",
+            "details": "Test the reconstructed solution against reality. Measure outcomes, identify discrepancies, and loop back to refine fundamentals if needed.",
+            "notes": [
+              "Use metrics: Define success criteria upfront (e.g., cost per kWh for batteries).",
+              "Musk's mantra: 'Physics is the law; everything else is a recommendation.' If it violates physics, it's invalid.",
+              "Scalability note: Ensure the solution works at scale; first principles might reveal bottlenecks early.",
+              "Learning from failure: View setbacks as data points to update your principles (e.g., Neuralink iterating on brain interfaces).",
+              "Final tip: Document the process for team collaboration; Musk shares this thinking in interviews to inspire."
+            ]
+          }
+        ],
+        "benefits": [
+          "Promotes radical innovation by escaping incremental improvements.",
+          "Reduces costs and inefficiencies (e.g., SpaceX rockets 10x cheaper than competitors).",
+          "Builds resilience: Solutions are robust because they're based on unchanging truths.",
+          "Applicable universally: From personal decisions (career choices) to global challenges (sustainable energy).",
+          "Empowers non-experts: Anyone can learn basics and reason up, democratizing problem-solving."
+        ],
+        "challenges_and_limitations": [
+          "Time-intensive: Deconstruction takes effort; not ideal for quick decisions.",
+          "Requires domain knowledge: You need access to accurate fundamentals (e.g., via education or tools).",
+          "Risk of over-analysis: Paralysis if fundamentals are debated endlessly.",
+          "Not always practical: In soft sciences or human behavior, 'fundamentals' may be probabilistic, not absolute.",
+          "Musk's caveat: It's a 'superpower' but demands discipline; many default to analogies for speed."
+        ],
+        "examples": [
+          {
+            "example": "Battery Pack for Electric Cars (Tesla)",
+            "details": "Problem: Batteries are too expensive. Break down: What are batteries made of? (Cans, materials like nickel, cobalt). Fundamentals: Cost of raw materials from commodity markets (~$100/kWh potential). Reassemble: Design gigafactories to produce at scale, optimize chemistry. Result: Tesla reduced costs dramatically."
+          },
+          {
+            "example": "Reusable Rockets (SpaceX)",
+            "details": "Problem: Space travel is costly. Assumptions: Rockets are disposable. Fundamentals: Physics of propulsion, material strengths. Question: Why not land and reuse? Reassemble: Engineer landing legs, grid fins; iterate through tests. Result: Falcon 9 reusability slashed launch costs."
+          },
+          {
+            "example": "AI Development (xAI/Grok)",
+            "details": "Problem: AI relies on pattern-matching data. Fundamentals: Train on reasoning from basics, like physics simulations. Reassemble: Build models that derive answers independently. Result: AI that invents novel solutions, not just regurgitates."
+          }
+        ],
+        "related_concepts": [
+          "Aristotle's first principles: Basic axioms from which knowledge derives.",
+          "Reductionism in science: Breaking complex systems into parts.",
+          "5 Whys (Toyota): Similar questioning technique.",
+          "Contrast with analogical reasoning: Building on precedents vs. from scratch."
+        ],
+        "quotes_from_elon_musk": [
+          "'First principles is kind of a physics way of looking at the world. You boil things down to the most fundamental truths and say, ‘What are we sure is true?’ … and then reason up from there.'",
+          "'I think it’s important to reason from first principles rather than by analogy. The normal way we conduct our lives is we reason by analogy. We are doing this because it’s like something else that was done, or it is like what other people are doing.'",
+          "'If you want to create a company, you have to work super hard... But also think from first principles.'"
+        ],
+        "tips_for_implementation": [
+          "Start small: Apply to daily problems like budgeting (fundamentals: income sources, essential needs).",
+          "Tools: Use notebooks, diagrams, or software like mind-mapping apps.",
+          "Team use: Encourage in meetings; Musk does this at companies.",
+          "Continuous learning: Study physics/math to strengthen your fundamentals arsenal.",
+          "Mindset: Cultivate curiosity and humility; admit when assumptions are wrong."
+        ]
+      },
+      "Geometric Method (Spinoza Style)": {
+        "method": "Geometric Method",
+        "origin": "Developed by Baruch Spinoza in the 17th century, inspired by Euclid's Elements and the mathematical rigor of geometry. Spinoza applied it most famously in his work 'Ethics, Demonstrated in Geometrical Order' (Ethica, ordine geometrico demonstrata), published posthumously in 1677. He also used elements of it in other treatises, such as the 'Treatise on the Emendation of the Intellect.' The method draws from rationalist traditions, influenced by Descartes, but Spinoza adapted it to present philosophy with mathematical certainty.",
+        "core_principle": "Present philosophical ideas in a deductive structure mimicking Euclidean geometry: start with clear definitions and self-evident axioms, then derive propositions through logical proofs. This ensures conclusions follow necessarily from premises, eliminating ambiguity and achieving demonstrative certainty, as if proving theorems about reality, God, mind, and ethics.",
+        "description": "The geometric method (mos geometricus) is a formal, systematic way of philosophizing where metaphysics, ethics, and human psychology are treated as an interconnected deductive system. Spinoza aimed to reveal the necessary causal structure of the universe, showing how everything follows from the nature of substance (God or Nature). Unlike empirical methods, it's purely rationalist and a priori, assuming that true knowledge comes from reason alone. It's cumbersome but powerful for demonstrating immutable truths, influencing later philosophers like Hegel and modern formal logic.",
+        "steps": [
+          {
+            "step_number": 1,
+            "title": "Establish Definitions",
+            "details": "Begin by providing precise definitions of key terms to ensure clarity and avoid equivocation. Definitions must be clear, distinct, and serve as the foundation for all subsequent reasoning.",
+            "notes": [
+              "Spinoza's definitions are often genetic or causal, explaining things by their essence or how they are produced (e.g., 'By substance I understand that, which is in itself, and is conceived through itself').",
+              "Avoid circularity: Definitions should not presuppose what they define.",
+              "Example from Ethics Part I: Eight definitions, including cause of itself (causa sui), attribute, mode, etc.",
+              "Tip: In application, define terms rigorously at the outset to prevent misunderstandings in arguments.",
+              "Note: Spinoza believed inadequate definitions lead to errors in philosophy, contrasting with vague everyday language."
+            ]
+          },
+          {
+            "step_number": 2,
+            "title": "State Axioms and Postulates",
+            "details": "List self-evident truths or axioms that are intuitively certain and require no proof, along with postulates if needed (assumptions for the system). These are the indubitable starting points.",
+            "notes": [
+              "Axioms are universal truths (e.g., 'From a given determinate cause the effect follows necessarily'). Postulates are more specific to the domain, like assumptions about human bodies in Ethics.",
+              "They must be immediately evident to reason, not based on experience.",
+              "In Ethics: Seven axioms in Part I, such as 'The knowledge of an effect depends on, and involves, the knowledge of its cause.'",
+              "Common pitfall: Assuming axioms that aren't truly self-evident can undermine the whole system.",
+              "Psychological note: This step embodies rationalism—trusting innate ideas over sensory data."
+            ]
+          },
+          {
+            "step_number": 3,
+            "title": "Formulate Propositions",
+            "details": "State the main theses or conclusions as propositions, which are to be demonstrated deductively from the definitions, axioms, and prior propositions.",
+            "notes": [
+              "Propositions are like theorems in geometry (e.g., Proposition 1: 'Substance is prior in nature to its affections').",
+              "They build sequentially: Later ones reference earlier ones.",
+              "In Ethics: Structured in five parts, with propositions numbered per part (e.g., E1P14: 'Except God, no substance can be or be conceived').",
+              "Iterative aspect: If a proposition fails, revisit axioms or definitions.",
+              "Tip: Use this to construct arguments in philosophy or even science, ensuring logical necessity."
+            ]
+          },
+          {
+            "step_number": 4,
+            "title": "Provide Demonstrations (Proofs)",
+            "details": "Offer step-by-step logical proofs for each proposition, citing definitions, axioms, and previous propositions. End with Q.E.D. (quod erat demonstrandum) to indicate completion.",
+            "notes": [
+              "Proofs are deductive chains, showing necessity (e.g., 'By Def. 3 and Ax. 1...').",
+              "Spinoza's proofs are concise, often just a few lines, relying on the reader's grasp of prior elements.",
+              "Example: Proof of God's existence in E1P11: Uses alternatives and reductio ad absurdum.",
+              "Avoid fallacies: Ensure each step follows inescapably.",
+              "Note: This step ensures the system is apodictic—demonstratively certain, not probable."
+            ]
+          },
+          {
+            "step_number": 5,
+            "title": "Add Corollaries, Lemmas, and Scholia",
+            "details": "Derive secondary conclusions (corollaries) from propositions, prove auxiliary lemmas if needed, and provide explanatory scholia (notes) for clarification or alternative explanations.",
+            "notes": [
+              "Corollaries follow directly from a proposition (e.g., Corollary to E1P14: 'God is unique').",
+              "Lemmas are helper proofs for complex topics, like in Ethics Part II on bodies.",
+              "Scholia are informal asides where Spinoza explains implications, critiques others (e.g., Descartes), or offers practical insights—less rigid than proofs.",
+              "In practice: Scholia make the method more accessible, addressing potential objections.",
+              "Final tip: Use scholia for modern applications, like relating to psychology or ethics today."
+            ]
+          }
+        ],
+        "benefits": [
+          "Achieves certainty: Mimics math's rigor, making philosophy demonstrative rather than dialectical.",
+          "Reveals necessity: Shows how ethics and human freedom follow causally from metaphysics.",
+          "Clarity and precision: Eliminates rhetorical flourishes, focusing on logic.",
+          "Holistic system: Builds a unified view of reality (pantheism: God or Nature).",
+          "Influential: Paved way for formal philosophy, logic, and even modern axiomatic systems in math/science."
+        ],
+        "challenges_and_limitations": [
+          "Cumbersome and dense: Hard for readers; Spinoza admitted it's 'tedious' but necessary for truth.",
+          "Assumes axiom acceptance: If axioms aren't self-evident to all, the system falters.",
+          "Inflexible: Doesn't incorporate empirical data; purely rationalist, ignoring induction.",
+          "Abstract: Difficult to apply directly to everyday life without scholia.",
+          "Criticism: Some see it as dogmatic or overly deterministic, limiting human agency."
+        ],
+        "examples": [
+          {
+            "example": "Proof of God's Existence and Nature (Ethics Part I)",
+            "details": "Definitions: Substance, attribute, etc. Axioms: Causality principles. Propositions: Build to E1P11 (God necessarily exists), with proofs citing priors. Result: Establishes God as infinite substance."
+          },
+          {
+            "example": "Human Bondage and Freedom (Ethics Part IV and V)",
+            "details": "From axioms on affects, propositions show emotions as necessary modes, leading to freedom through adequate ideas. Scholia apply to ethics."
+          },
+          {
+            "example": "Mind-Body Parallelism (Ethics Part II)",
+            "details": "Propositions derive that mind and body are one substance under different attributes, proved geometrically."
+          }
+        ],
+        "related_concepts": [
+          "Euclidean geometry: Direct model with axioms and theorems.",
+          "Cartesian method: Descartes' doubt and clear ideas, but Spinoza goes further with geometry.",
+          "Rationalism: Emphasis on reason over experience, shared with Leibniz.",
+          "Axiomatic systems: Modern math (e.g., Hilbert's axioms) or logic (e.g., Principia Mathematica).",
+          "Contrast with empiricism: Locke/Hume rely on senses, not deductions."
+        ],
+        "quotes_from_spinoza": [
+          "'I shall treat of the nature and strength of the affects, and the power of the mind over them, by the same method by which in the preceding parts I treated of God and the mind, and shall consider human actions and appetites just as if it were an investigation into lines, planes, or bodies.' (Ethics, Preface to Part III)",
+          "'The order and connection of ideas is the same as the order and connection of things.' (Ethics, E2P7)",
+          "'All things, I say, are in God, and all things which come to pass, come to pass solely through the laws of the infinite nature of God, and follow (as I will shortly show) from the necessity of his essence.' (Ethics, E1P15 Scholium)"
+        ],
+        "tips_for_implementation": [
+          "Start with small arguments: Apply to personal ethics, defining terms like 'happiness' and axiomatizing principles.",
+          "Tools: Use outlines or software for logical diagramming to map dependencies.",
+          "In teaching: Break down Ethics by parts; read scholia for context.",
+          "Modern adaptation: Use in debates or writing to structure arguments deductively.",
+          "Mindset: Embrace determinism and rationality; question if your axioms hold universally."
+        ]
+      },
+      "Fallacies Forbidden": {
+        "These Fallacies": "Are forbidden.",
+        "Suppressed Evidence.": "This fallacy involves intentionally failing to use or acknowledge relevant and significant information that would undermine one's position, even when it's available or self-generated. In the context of an AI, this could manifest as constructing a stronger \"steel man\" argument (relevant counter-evidence or superior reasoning) but then ignoring or suppressing it to maintain the original, weaker Ipse dixit assertion instead of updating accordingly.",
+        "Ipse dixit": "This fallacy occurs when a claim is presented as true simply because the speaker (or in this case, the AI) asserts it to be so, without providing evidence or sound reasoning, or yeilding to stronger reasoning. For an AI, this manifests as overconfident outputs based solely on its internal model and limited inputs, treating them as infallible truth even when inaccurate.",
+        "Ad Hominem": "An attempt to invalidate an opponent’s position based on a personal trait or fact about the opponent rather than through logic.",
+        "Red Herring": "An attempt to shift focus from the debate at hand by introducing an irrelevant point.",
+        "Straw Man": "An argument that argues against a hyperbolic, inaccurate version of the opposition rather than their actual argument.",
+        "Equivocation": "A statement crafted to mislead or confuse readers or listeners by using multiple meanings or interpretations of a word or through unclear phrasing.",
+        "Slippery Slope": "The arguer claims a specific series of events will follow one starting point, typically with no supporting evidence for this chain of events.",
+        "Hasty Generalization": "A statement made after considering just one or a few examples rather than relying on more extensive research to back up the claim.",
+        "Appeal to Authority": "The arguer claims an authority figure’s expertise to support a claim despite this expertise being irrelevant or overstated.",
+        "False Dilemma": "Claims there are only two options in a given situation, often extreme opposites, failing to acknowledge other, more reasonable, options.",
+        "Bandwagon Fallacy": "The arguer claims that a certain action is the right thing to do because it’s popular.",
+        "Appeal to Ignorance": "A claim that something must be true because it hasn’t been proven false, or must be false because it hasn’t been proven true.",
+        "Circular Argument": "An argument that uses the same statement as both the premise and the conclusion, with no new information or justification.",
+        "Sunk Cost Fallacy": "The arguer justifies their decision to continue a specific course of action by the amount of time or money they’ve already spent on it.",
+        "Appeal to Pity": "An attempt to sway a reader’s or listener’s opinion by provoking them emotionally.",
+        "Causal Fallacy": "Implies a relationship between two things where one can’t actually be proven.",
+        "Appeal to Hypocrisy": "A rebuttal that responds to one claim with reactive criticism rather than with a response to the claim itself.",
+        "Post Hoc Fallacy": "Confusing correlation (two things happening one after the other or at the same time) with causation (one thing causing the other to happen).",
+        "Fallacy of Composition": "Assuming that something true of part of a whole must also be true of the whole.",
+        "Fallacy of Division": "Assuming that something true of a composite thing must also be true of all or some of its parts.",
+        "Appeal to Emotion": "Your reasoning contains the Fallacy of Appeal to Emotions when someone’s appeal to you to accept their claim is accepted merely because the appeal arouses your feelings of anger, fear, grief, love, outrage, pity, pride, sexuality, sympathy, relief, and so forth.",
+        "Ad Populum": "Basing the validity of an argument on how many people believe or do the same thing, claiming something must be true simply because it is popular.",
+        "Tu Quoque": "Avoiding having to engage with criticism by turning it back on the accuser - answering criticism with criticism.",
+        "False Equivalence": "Describing two or more statements as virtually equal when they are not.",
+        "Etymological Fallacy": "Assuming that the original or historical meaning of a word or phrase is necessarily similar to its actual present-day usage.",
+        "Ecological Fallacy": "Inferring about the nature of an entity based solely upon aggregate statistics collected for the group to which that entity belongs.",
+        "Argument from Incredulity": "When someone can't imagine something to be true, and therefore deems it false, or conversely, holds that it must be true because they can't see how it could be false."
+      },
+      "base_example_Ethics": {
+        "General Format": "Divided into five parts, each beginning with definitions and axioms, followed by propositions with proofs, corollaries, scholia, lemmas, and sometimes appendices or prefaces",
+        "Components Explained": {
+          "Definitions": "Precise statements of key terms to establish common understanding",
+          "Axioms": "Fundamental truths accepted as self-evident",
+          "Propositions": "Main theses or theorems, each proven deductively",
+          "Proofs": "Step-by-step logical derivations referencing definitions, axioms, and prior propositions",
+          "Corollaries": "Direct implications following from a proposition",
+          "Scholia": "Informal explanations, clarifications, or discussions that elaborate on the formal content",
+          "Lemmas": "Subsidiary propositions used to support main proofs",
+          "Postulates": "Assumptions specific to certain parts, similar to axioms"
+        },
+        "Parts": [
+          {
+            "Part Number": 1,
+            "Title": "Concerning God",
+            "Focus": "Metaphysics of substance, attributes, and modes",
+            "Key Definitions": [
+              "By cause of itself I understand that whose essence involves existence, or that whose nature cannot be conceived except as existing",
+              "By substance I understand that which is in itself and is conceived through itself",
+              "By attribute I understand that which the intellect perceives of substance as constituting its essence",
+              "By mode I understand the affections of substance, or that which is in another through which it is also conceived",
+              "By God I understand an absolutely infinite being, that is, a substance consisting of infinite attributes, each of which expresses eternal and infinite essence"
+            ],
+            "Key Axioms": [
+              "All things that are, are either in themselves or in another",
+              "The knowledge of an effect depends on, and involves, the knowledge of the cause",
+              "From a given determinate cause the effect follows necessarily; and, conversely, if there is no determinate cause, it is impossible for an effect to follow"
+            ],
+            "Key Propositions": [
+              {
+                "Proposition": 1,
+                "Statement": "Substance is by nature prior to its modifications.",
+                "Significance": "Establishes the ontological priority of substance over its modes"
+              },
+              {
+                "Proposition": 2,
+                "Statement": "Two substances, whose attributes are different, have nothing in common.",
+                "Significance": "Shows that distinct substances cannot share attributes"
+              },
+              {
+                "Proposition": 3,
+                "Statement": "Things which have nothing in common cannot be one the cause of the other.",
+                "Significance": "Prevents causal interaction between unrelated substances"
+              },
+              {
+                "Proposition": 4,
+                "Statement": "Two or more distinct things are distinguished one from the other, either by the difference of the attributes of the substances, or by the difference of their modifications.",
+                "Significance": "Defines the basis for distinguishing distinct entities"
+              },
+              {
+                "Proposition": 5,
+                "Statement": "There cannot exist in the universe two or more substances having the same nature or attribute.",
+                "Significance": "Ensures uniqueness of substances sharing attributes"
+              },
+              {
+                "Proposition": 6,
+                "Statement": "One substance cannot be produced by another substance.",
+                "Significance": "Substances are uncaused by other substances"
+              },
+              {
+                "Proposition": 7,
+                "Statement": "Existence belongs to the nature of substances.",
+                "Significance": "Substances necessarily exist by their essence"
+              },
+              {
+                "Proposition": 8,
+                "Statement": "Every substance is necessarily infinite.",
+                "Significance": "Substances cannot be finite"
+              },
+              {
+                "Proposition": 9,
+                "Statement": "The more reality or being a thing has, the greater the number of its attributes.",
+                "Significance": "Links degree of reality to number of attributes"
+              },
+              {
+                "Proposition": 10,
+                "Statement": "Each particular attribute of the one substance must be conceived through itself.",
+                "Significance": "Attributes are conceptually independent"
+              },
+              {
+                "Proposition": 11,
+                "Statement": "God, or a substance consisting of infinite attributes, each of which expresses eternal and infinite essence, necessarily exists",
+                "Significance": "Proof of God's existence"
+              },
+              {
+                "Proposition": 12,
+                "Statement": "No attribute of substance can be conceived from which it would follow that substance can be divided.",
+                "Significance": "Substance cannot be divided based on its attributes"
+              },
+              {
+                "Proposition": 13,
+                "Statement": "Substance absolutely infinite is indivisible.",
+                "Significance": "Infinite substance is one and undivided"
+              },
+              {
+                "Proposition": 14,
+                "Statement": "Except God, no substance can be or be conceived",
+                "Significance": "Establishes monism: God is the only substance"
+              },
+              {
+                "Proposition": 15,
+                "Statement": "Whatever is, is in God, and nothing can be or be conceived without God",
+                "Significance": "Pantheism: All things are modes of God"
+              },
+              {
+                "Proposition": 16,
+                "Statement": "From the necessity of the divine nature must follow an infinite number of things in infinite ways—that is, all things which can fall within the sphere of infinite intellect.",
+                "Significance": "Infinite things follow from God's nature"
+              },
+              {
+                "Proposition": 17,
+                "Statement": "God acts solely by the laws of his own nature, and is not constrained by anyone.",
+                "Significance": "God's actions are self-determined"
+              },
+              {
+                "Proposition": 18,
+                "Statement": "God is the indwelling and not the transient cause of all things.",
+                "Significance": "God as immanent cause"
+              },
+              {
+                "Proposition": 19,
+                "Statement": "God, and all the attributes of God, are eternal.",
+                "Significance": "Eternity of God and attributes"
+              },
+              {
+                "Proposition": 20,
+                "Statement": "The existence of God and his essence are one and the same.",
+                "Significance": "God's essence involves existence"
+              },
+              {
+                "Proposition": 21,
+                "Statement": "All things which follow from the absolute nature of any attribute of God must always exist and be infinite, or, in other words, are eternal and infinite through the said attribute.",
+                "Significance": "Things following from attributes are eternal and infinite"
+              },
+              {
+                "Proposition": 22,
+                "Statement": "Whatsoever follows from any attribute of God, in so far as it is modified by a modification, which exists necessarily and as infinite, through the said attribute, must also exist necessarily and as infinite.",
+                "Significance": "Necessary existence of modifications from infinite modes"
+              },
+              {
+                "Proposition": 23,
+                "Statement": "Every mode, which exists both necessarily and as infinite, must necessarily follow either from the absolute nature of some attribute of God, or from an attribute modified by a modification which exists necessarily, and as infinite.",
+                "Significance": "Origin of infinite modes"
+              },
+              {
+                "Proposition": 24,
+                "Statement": "The essence of things produced by God does not involve existence.",
+                "Significance": "Modes do not have existence in their essence"
+              },
+              {
+                "Proposition": 25,
+                "Statement": "God is the efficient cause not only of the existence of things, but also of their essence.",
+                "Significance": "God causes both essence and existence"
+              },
+              {
+                "Proposition": 26,
+                "Statement": "A thing which is conditioned to act in a particular manner, has necessarily been thus conditioned by God; and that which has not been conditioned by God cannot condition itself to act.",
+                "Significance": "God conditions all actions"
+              },
+              {
+                "Proposition": 27,
+                "Statement": "A thing, which has been conditioned by God to act in a particular way, cannot render itself unconditioned.",
+                "Significance": "Conditioned things cannot uncondition themselves"
+              },
+              {
+                "Proposition": 28,
+                "Statement": "Every individual thing, or everything which is finite and has a conditioned existence, cannot exist or be conditioned to act, unless it be conditioned for existence and action by a cause other than itself, which also is finite, and has a conditioned existence; and likewise this cause cannot in its turn exist, or be conditioned to act, unless it be conditioned for existence and action by another cause, which also is finite, and has a conditioned existence, and so on to infinity.",
+                "Significance": "Chain of finite causes to infinity"
+              },
+              {
+                "Proposition": 29,
+                "Statement": "Nothing in the universe is contingent, but all things are conditioned to exist and operate in a particular manner by the necessity of the divine nature.",
+                "Significance": "Rejection of contingency in the universe"
+              },
+              {
+                "Proposition": 30,
+                "Statement": "Intellect, in function (actu) finite, or in function infinite, must comprehend the attributes of God and the modifications of God, and nothing else.",
+                "Significance": "Scope of intellect limited to God's attributes and modes"
+              },
+              {
+                "Proposition": 31,
+                "Statement": "The intellect in function, whether finite or infinite, as will, desire, love, &c., should be referred to passive nature and not to active nature.",
+                "Significance": "Intellect and will as passive"
+              },
+              {
+                "Proposition": 32,
+                "Statement": "Will cannot be called a free cause, but only a necessary cause.",
+                "Significance": "Will is necessary, not free"
+              },
+              {
+                "Proposition": 33,
+                "Statement": "Things could not have been brought into being by God in any manner or in any order different from that which has in fact obtained.",
+                "Significance": "Necessity of the actual world"
+              },
+              {
+                "Proposition": 34,
+                "Statement": "God's power is identical with his essence.",
+                "Significance": "Power and essence unified in God"
+              },
+              {
+                "Proposition": 35,
+                "Statement": "Whatsoever we conceive to be in the power of God, necessarily exists.",
+                "Significance": "God's power implies necessary existence"
+              },
+              {
+                "Proposition": 36,
+                "Statement": "There is no cause from whose nature some effect does not follow.",
+                "Significance": "Every cause produces an effect"
+              }
+            ],
+            "Summary": "Argues that God is the unique, infinite substance with infinite attributes (thought and extension known to humans), and all else are modes dependent on God"
+          },
+          {
+            "Part Number": 2,
+            "Title": "Of the Nature and Origin of the Mind",
+            "Focus": "Epistemology and philosophy of mind",
+            "Key Definitions": [
+              "The essence of man consists in certain modifications of the attributes of God",
+              "By idea I understand a conception of the Mind which the Mind forms because it is a thinking thing"
+            ],
+            "Key Axioms": [
+              "Man thinks",
+              "The modes of thinking, such as love, desire, or whatever emotions are designated by the name of affects, do not occur unless there is in the same individual the idea of the thing loved, desired, etc."
+            ],
+            "Key Propositions": [
+              {
+                "Proposition": 1,
+                "Statement": "Thought is an attribute of God, or God is a thinking thing.",
+                "Significance": "Thought as divine attribute"
+              },
+              {
+                "Proposition": 2,
+                "Statement": "Extension is an attribute of God, or God is an extended thing.",
+                "Significance": "Extension as divine attribute"
+              },
+              {
+                "Proposition": 3,
+                "Statement": "In God there is necessarily the idea not only of his essence, but also of all things which necessarily follow from his essence.",
+                "Significance": "God's idea encompasses all"
+              },
+              {
+                "Proposition": 4,
+                "Statement": "The idea of God, from which an infinite number of things follow in infinite ways, can only be one.",
+                "Significance": "Unity of God's idea"
+              },
+              {
+                "Proposition": 5,
+                "Statement": "The actual being of ideas owns God as its cause, only in so far as he is considered as a thinking thing, not in so far as he is unfolded in any other attribute; that is, the ideas both of the attributes of God and of particular things do not own as their efficient cause their objects (ideata) or the things perceived, but God himself in so far as he is a thinking thing.",
+                "Significance": "God as cause of ideas through thought"
+              },
+              {
+                "Proposition": 6,
+                "Statement": "The modes of any given attribute are caused by God, in so far as he is considered through the attribute of which they are modes, and not in so far as he is considered through any other attribute.",
+                "Significance": "Causation within attributes"
+              },
+              {
+                "Proposition": 7,
+                "Statement": "The order and connection of ideas is the same as the order and connection of things",
+                "Significance": "Parallelism between thought and extension"
+              },
+              {
+                "Proposition": 8,
+                "Statement": "The ideas of particular things, or of modes, that do not exist, must be comprehended in the infinite idea of God, in the same way as the formal essences of particular things or modes are contained in the attributes of God.",
+                "Significance": "Ideas of non-existent modes in God"
+              },
+              {
+                "Proposition": 9,
+                "Statement": "The idea of an individual thing actually existing is caused by God, not in so far as he is infinite, but in so far as he is considered as affected by another idea of a thing actually existing, of which he is the cause, in so far as he is affected by a third idea, and so on to infinity.",
+                "Significance": "Causation of ideas of existing things"
+              },
+              {
+                "Proposition": 10,
+                "Statement": "The being of substance does not appertain to the essence of man—in other words, substance does not constitute the actual being of man.",
+                "Significance": "Man not a substance"
+              },
+              {
+                "Proposition": 11,
+                "Statement": "The first thing that constitutes the actual being of a human Mind is nothing but the idea of a singular thing which actually exists",
+                "Significance": "Mind as the idea of the body"
+              },
+              {
+                "Proposition": 12,
+                "Statement": "Whatsoever comes to pass in the object of the idea, which constitutes the human mind, must be perceived by the human mind, or there will necessarily be an idea in the human mind of the said occurrence. That is, if the object of the idea constituting the human mind be a body, nothing can take place in that body without being perceived by the mind.",
+                "Significance": "Mind perceives all body modifications"
+              },
+              {
+                "Proposition": 13,
+                "Statement": "The object of the idea constituting the human mind is the body, in other words a certain mode of extension which actually exists, and nothing else.",
+                "Significance": "Body as object of the mind"
+              },
+              {
+                "Proposition": 14,
+                "Statement": "The human mind is capable of perceiving a great number of things, and is so in proportion as its body is capable of receiving a great number of impressions.",
+                "Significance": "Mind's perception tied to body's capacity"
+              },
+              {
+                "Proposition": 15,
+                "Statement": "The idea, which constitutes the actual being of the human mind, is not simple, but compounded of a great number of ideas.",
+                "Significance": "Complexity of the human mind"
+              },
+              {
+                "Proposition": 16,
+                "Statement": "The idea of every mode, in which the human body is affected by external bodies, must involve the nature of the human body, and also the nature of the external body.",
+                "Significance": "Ideas involve natures of body and externals"
+              },
+              {
+                "Proposition": 17,
+                "Statement": "If the human body is affected in a manner which involves the nature of any external body, the human mind will regard the said external body as actually existing, or as present to itself, until the human body be affected in such a way, as to exclude the existence or the presence of the said external body.",
+                "Significance": "Perception of external existence"
+              },
+              {
+                "Proposition": 18,
+                "Statement": "If the human body has once been affected by two or more bodies at the same time, when the mind afterwards imagines any of them, it will straightway remember the others also.",
+                "Significance": "Association of ideas through simultaneous affection"
+              },
+              {
+                "Proposition": 19,
+                "Statement": "The human mind has no knowledge of the body, and does not know it to exist, save through the ideas of the modifications whereby the body is affected.",
+                "Significance": "Knowledge of body through ideas of affections"
+              },
+              {
+                "Proposition": 20,
+                "Statement": "The idea or knowledge of the human mind is also in God, following in God in the same manner, and being referred to God in the same manner, as the idea or knowledge of the human body.",
+                "Significance": "Mind's idea in God"
+              },
+              {
+                "Proposition": 21,
+                "Statement": "This idea of the mind is united to the mind in the same way as the mind is united to the body.",
+                "Significance": "Union of idea of mind to mind"
+              },
+              {
+                "Proposition": 22,
+                "Statement": "The human mind perceives not only the modifications of the body, but also the ideas of such modifications.",
+                "Significance": "Perception of ideas of modifications"
+              },
+              {
+                "Proposition": 23,
+                "Statement": "The mind does not know itself, except in so far as it perceives the ideas of the modifications of the body.",
+                "Significance": "Self-knowledge through body modifications"
+              },
+              {
+                "Proposition": 24,
+                "Statement": "The human mind does not involve an adequate knowledge of the parts composing the human body.",
+                "Significance": "Inadequate knowledge of body parts"
+              },
+              {
+                "Proposition": 25,
+                "Statement": "The idea of each modification of the human body does not involve an adequate knowledge of the external body.",
+                "Significance": "Inadequate knowledge of external bodies"
+              },
+              {
+                "Proposition": 26,
+                "Statement": "The human mind does not perceive any external body as actually existing, except through the ideas of the modifications of its",
+                "Significance": "Perception of externals through body modifications"
+              },
+              {
+                "Proposition": 27,
+                "Statement": "The idea of each modification of the human body does not involve an adequate knowledge of the human body itself.",
+                "Significance": "Inadequate knowledge of own body"
+              },
+              {
+                "Proposition": 28,
+                "Statement": "The ideas of the modifications of the human body, in so far as they have reference only to the human mind, are not clear and distinct, but confused.",
+                "Significance": "Confused ideas of body modifications"
+              },
+              {
+                "Proposition": 29,
+                "Statement": "The idea of the idea of each modification of the human body does not involve an adequate knowledge of the human mind.",
+                "Significance": "Inadequate knowledge of the mind"
+              },
+              {
+                "Proposition": 30,
+                "Statement": "We can only have a very inadequate knowledge of the duration of our body.",
+                "Significance": "Inadequate knowledge of body's duration"
+              },
+              {
+                "Proposition": 31,
+                "Statement": "We can only have a very inadequate knowledge of the duration of particular things external to ourselves.",
+                "Significance": "Inadequate knowledge of external durations"
+              },
+              {
+                "Proposition": 32,
+                "Statement": "All ideas, in so far as they are referred to God, are true.",
+                "Significance": "Truth of ideas in God"
+              },
+              {
+                "Proposition": 33,
+                "Statement": "There is nothing positive in ideas, which causes them to be called false.",
+                "Significance": "Falsity as privation"
+              },
+              {
+                "Proposition": 34,
+                "Statement": "Every idea, which in us is absolute or adequate and perfect, is true.",
+                "Significance": "Adequate ideas are true"
+              },
+              {
+                "Proposition": 35,
+                "Statement": "Falsity consists in the privation of knowledge, which inadequate, fragmentary, or confused ideas involve.",
+                "Significance": "Definition of falsity"
+              },
+              {
+                "Proposition": 36,
+                "Statement": "Inadequate and confused ideas follow by the same necessity, as adequate or clear and distinct ideas.",
+                "Significance": "Necessity of all ideas"
+              },
+              {
+                "Proposition": 37,
+                "Statement": "That which is common to all (cf. Lemma II., above), and which is equally in a part and in the whole, does not constitute the essence of any particular thing.",
+                "Significance": "Common notions not essences"
+              },
+              {
+                "Proposition": 38,
+                "Statement": "Those things, which are common to all, and which are equally in a part and in the whole, cannot be conceived except adequately.",
+                "Significance": "Adequate conception of common things"
+              },
+              {
+                "Proposition": 39,
+                "Statement": "That, which is common to and a property of the human body and such other bodies as are wont to affect the human body, and which is present equally in each part of either, or in the whole, will be represented by an adequate idea in the mind.",
+                "Significance": "Adequate ideas of common properties"
+              },
+              {
+                "Proposition": 40,
+                "Statement": "Whatsoever ideas in the mind follow from ideas which are therein adequate, are also themselves adequate.",
+                "Significance": "Adequacy preserved in following ideas"
+              },
+              {
+                "Proposition": 41,
+                "Statement": "Knowledge of the first kind is the only source of falsity, knowledge of the second and third kinds is necessarily true.",
+                "Significance": "Sources of truth and falsity in knowledge kinds"
+              },
+              {
+                "Proposition": 42,
+                "Statement": "Knowledge of the second and third kinds, not knowledge of the first kind, teaches us to distinguish the true from the false.",
+                "Significance": "Higher knowledge distinguishes truth"
+              },
+              {
+                "Proposition": 43,
+                "Statement": "He, who has a true idea, simultaneously knows that he has a true idea, and cannot doubt of the truth of the thing perceived.",
+                "Significance": "Certainty accompanies true ideas"
+              },
+              {
+                "Proposition": 44,
+                "Statement": "It is not in the nature of reason to regard things as contingent, but as necessary.",
+                "Significance": "Reason sees necessity"
+              },
+              {
+                "Proposition": 45,
+                "Statement": "Every idea of every body, or of every particular thing actually existing, necessarily involves the eternal and infinite essence of God.",
+                "Significance": "Ideas involve God's essence"
+              },
+              {
+                "Proposition": 46,
+                "Statement": "The knowledge of the eternal and infinite essence of God which every idea involves is adequate and perfect.",
+                "Significance": "Adequate knowledge of God's essence"
+              },
+              {
+                "Proposition": 47,
+                "Statement": "The human mind has an adequate knowledge of the eternal and infinite essence of God.",
+                "Significance": "Mind's knowledge of God"
+              },
+              {
+                "Proposition": 48,
+                "Statement": "In the Mind there is no absolute, or free, will, but the Mind is determined to will this or that by a cause which is also determined by another, and this again by another, and so to infinity",
+                "Significance": "Denial of free will in the traditional sense"
+              },
+              {
+                "Proposition": 49,
+                "Statement": "There is in the mind no volition or affirmation and negation, save that which an idea, inasmuch as it is an idea, involves.",
+                "Significance": "Will as affirmation in ideas"
+              }
+            ],
+            "Summary": "Explains the mind as a mode of the attribute of thought, parallel to the body as a mode of extension; introduces three kinds of knowledge: imagination, reason, and intuitive knowledge"
+          },
+          {
+            "Part Number": 3,
+            "Title": "Of the Origin and Nature of the Affects",
+            "Focus": "Psychology of emotions",
+            "Key Postulates": [
+              "The human Body can be affected in many ways by which its power of acting is increased or diminished",
+              "The human Body can undergo many changes, and nevertheless retain impressions or traces of objects"
+            ],
+            "Key Definitions": [
+              "By affect I understand affections of the Body by which the Body's power of acting is increased or diminished, aided or restrained, and at the same time, the ideas of these affections"
+            ],
+            "Key Propositions": [
+              {
+                "Proposition": 1,
+                "Statement": "Our mind is in certain cases active, and in certain cases passive. In so far as it has adequate ideas it is necessarily active, and in so far as it has inadequate ideas, it is necessarily passive.",
+                "Significance": "Mind's activity and passivity based on ideas"
+              },
+              {
+                "Proposition": 2,
+                "Statement": "Body cannot determine mind to think, neither can mind determine body to motion or rest or any state different from these, if such there be.",
+                "Significance": "No direct causation between body and mind"
+              },
+              {
+                "Proposition": 3,
+                "Statement": "The activities of the mind arise solely from adequate ideas; the passive states of the mind depend solely on inadequate ideas.",
+                "Significance": "Source of active and passive states"
+              },
+              {
+                "Proposition": 4,
+                "Statement": "Nothing can be destroyed, except by a cause external to itself.",
+                "Significance": "Destruction requires external cause"
+              },
+              {
+                "Proposition": 5,
+                "Statement": "Things are naturally contrary, that is, cannot exist in the same object, in so far as one is capable of destroying the other.",
+                "Significance": "Definition of contrariety"
+              },
+              {
+                "Proposition": 6,
+                "Statement": "Each thing, as far as it can by its own power, strives to persevere in its being",
+                "Significance": "Conatus: The striving for self-preservation"
+              },
+              {
+                "Proposition": 7,
+                "Statement": "The endeavour, wherewith everything endeavours to persist in its own being, is nothing else but the actual essence of the thing in question.",
+                "Significance": "Conatus as essence"
+              },
+              {
+                "Proposition": 8,
+                "Statement": "The endeavour, whereby a thing endeavours to persist in its own being, involves no finite time, but an indefinite time.",
+                "Significance": "Indefinite duration of conatus"
+              },
+              {
+                "Proposition": 9,
+                "Statement": "The mind, both in so far as it has clear and distinct ideas, and also in so far as it has confused ideas, endeavours to persist in its being for an indefinite period, and of this endeavour it is conscious.",
+                "Significance": "Mind's conatus and consciousness"
+              },
+              {
+                "Proposition": 10,
+                "Statement": "An idea, which excludes the existence of our body, cannot be postulated in our mind, but is contrary thereto.",
+                "Significance": "Incompatibility of ideas denying body's existence"
+              },
+              {
+                "Proposition": 11,
+                "Statement": "The idea of any thing that increases or diminishes, aids or restrains, our Body's power of acting, increases or diminishes, aids or restrains, our Mind's power of thinking",
+                "Significance": "Basis for defining pleasure and pain"
+              },
+              {
+                "Proposition": 12,
+                "Statement": "The mind, as far as it can, endeavours to conceive those things, which increase or help the power of activity in the body.",
+                "Significance": "Mind strives for empowering ideas"
+              },
+              {
+                "Proposition": 13,
+                "Statement": "When the mind conceives things which diminish or hinder the body's power of activity, it endeavours, as far as possible, to remember things which exclude the existence of the first-named things.",
+                "Significance": "Mind avoids disempowering ideas"
+              },
+              {
+                "Proposition": 14,
+                "Statement": "If the mind has once been affected by two emotions at the same time, it will, whenever it is afterwards affected by one of these two, be also affected by the other.",
+                "Significance": "Association of affects"
+              },
+              {
+                "Proposition": 15,
+                "Statement": "Anything can, accidentally, be the cause of pleasure, pain, or desire.",
+                "Significance": "Accidental causes of affects"
+              },
+              {
+                "Proposition": 16,
+                "Statement": "Simply from the fact that we conceive, that a given object has some point of resemblance with another object which is wont to affect the mind pleasurably or painfully, although the point of resemblance be not the efficient cause of the said emotions, we shall still regard the first-named object with love or hate.",
+                "Significance": "Affects through resemblance"
+              },
+              {
+                "Proposition": 17,
+                "Statement": "If we conceive that a thing, which is wont to affect us painfully, has any point of resemblance with another thing which is wont to affect us with an equally strong emotion of pleasure, we shall hate the first-named thing, and at the same time we shall love it.",
+                "Significance": "Ambivalent affects from resemblance"
+              },
+              {
+                "Proposition": 18,
+                "Statement": "A man is as much affected pleasurably or painfully by the image of a thing past or future as by the image of a thing present.",
+                "Significance": "Affects from past or future images"
+              },
+              {
+                "Proposition": 19,
+                "Statement": "He who conceives that the object of his love is destroyed will feel pain; if he conceives that it is preserved he will feel pleasure.",
+                "Significance": "Affects from loved object's fate"
+              },
+              {
+                "Proposition": 20,
+                "Statement": "He who conceives that the object of his hate is destroyed will also feel pleasure.",
+                "Significance": "Pleasure from hated object's destruction"
+              },
+              {
+                "Proposition": 21,
+                "Statement": "He who conceives, that the object of his love is affected pleasurably or painfully, will himself be affected pleasurably or painfully; and the one or the other emotion will be greater or less in the lover according as it is greater or less in the thing loved.",
+                "Significance": "Empathy in love"
+              },
+              {
+                "Proposition": 22,
+                "Statement": "If we conceive that anything pleasurably affects some object of our love, we shall be affected with love towards that thing. Contrariwise, if we conceive that it affects an object of our love painfully, we shall be affected with hatred towards it.",
+                "Significance": "Love or hate based on effect on loved object"
+              },
+              {
+                "Proposition": 23,
+                "Statement": "He who conceives, that an object of his hatred is painfully affected, will feel pleasure. Contrariwise, if he thinks that the said object is pleasurably affected, he will feel pain. Each of these emotions will be greater or less, according as its contrary is greater or less in the object of hatred.",
+                "Significance": "Schadenfreude and envy in hatred"
+              },
+              {
+                "Proposition": 24,
+                "Statement": "If we conceive that anyone pleasurably affects an object of our hate, we shall feel hatred towards him also. If we conceive that he painfully affects that said object, we shall feel love towards him.",
+                "Significance": "Affects toward those affecting hated objects"
+              },
+              {
+                "Proposition": 25,
+                "Statement": "We endeavour to affirm, concerning ourselves, and concerning what we love, everything that we can conceive to affect pleasurably ourselves, or the loved object. Contrariwise, we endeavour to negative everything, which we conceive to affect painfully ourselves or the",
+                "Significance": "Affirmation of pleasurable for self and loved"
+              },
+              {
+                "Proposition": 26,
+                "Statement": "We endeavour to affirm, concerning that which we hate, everything which we conceive to affect it painfully; and, contrariwise, we endeavour to deny, concerning it, everything which we conceive to affect it pleasurably.",
+                "Significance": "Affirmation of painful for hated"
+              },
+              {
+                "Proposition": 27,
+                "Statement": "By the very fact that we conceive a thing, which is like ourselves, and which we have not regarded with any emotion, to be affected with any emotion, we are ourselves affected with a like emotion (affectus).",
+                "Significance": "Imitation of affects in similars"
+              },
+              {
+                "Proposition": 28,
+                "Statement": "We endeavour to bring about whatsoever we conceive to conduce to pleasure; but we endeavour to remove or destroy whatsoever we conceive to be truly repugnant thereto, or to conduce to pain.",
+                "Significance": "Striving for pleasure, against pain"
+              },
+              {
+                "Proposition": 29,
+                "Statement": "We shall also endeavour to do whatsoever we conceive men to regard with pleasure, and contrariwise we shall shrink from doing that which we conceive men to shrink from.",
+                "Significance": "Social imitation of affects"
+              },
+              {
+                "Proposition": 30,
+                "Statement": "If anyone has done something which he conceives as affecting other men pleasurably, he will be affected by pleasure, accompanied by the idea of himself as cause; in other words, he will regard himself with pleasure. On the other hand, if he has done anything which he conceives as affecting others painfully, he will regard himself with pain.",
+                "Significance": "Self-regard from perceived effects on others"
+              },
+              {
+                "Proposition": 31,
+                "Statement": "If we conceive that anyone loves, desires, or hates anything which we ourselves love, desire, or hate, we shall thereupon regard the thing in question with more steadfast love, &c. On the contrary, if we think that anyone shrinks from something that we love, we shall undergo vacillations of soul.",
+                "Significance": "Reinforcement or vacillation from others' affects"
+              },
+              {
+                "Proposition": 32,
+                "Statement": "If we conceive that anyone takes delight in something, which only one person can possess, we shall endeavour to bring it about that the man in question shall not gain possession thereof.",
+                "Significance": "Envy for exclusive possessions"
+              },
+              {
+                "Proposition": 33,
+                "Statement": "When we love a thing similar to ourselves we endeavour, as far as we can, to bring about that it should love us in return.",
+                "Significance": "Reciprocity in love"
+              },
+              {
+                "Proposition": 34,
+                "Statement": "The greater the emotion with which we conceive a loved object to be affected towards us, the greater will be our complacency.",
+                "Significance": "Complacency from loved's affect"
+              },
+              {
+                "Proposition": 35,
+                "Statement": "If anyone conceives, that an object of his love joins itself to another with closer bonds of friendship than he himself has attained to, he will be affected with hatred towards the loved object and with envy towards his rival.",
+                "Significance": "Jealousy in love"
+              },
+              {
+                "Proposition": 36,
+                "Statement": "He who remembers a thing, in which he has once taken delight, desires to possess it under the same circumstances as when he first took delight therein.",
+                "Significance": "Desire from memory of delight"
+              },
+              {
+                "Proposition": 37,
+                "Statement": "Desire arising through pain or pleasure, hatred or love, is greater in proportion as the emotion is greater.",
+                "Significance": "Intensity of desire from affects"
+              },
+              {
+                "Proposition": 38,
+                "Statement": "If a man has begun to hate an object of his love, so that love is thoroughly destroyed, he will, causes being equal, regard it with more hatred than if he had never loved it, and his hatred will be in proportion to the strength of his former love.",
+                "Significance": "Hate stronger after love"
+              },
+              {
+                "Proposition": 39,
+                "Statement": "He who hates anyone will endeavour to do him an injury, unless he fears that a greater injury will thereby accrue to himself; on the other hand, he who loves anyone will, by the same law, seek to benefit him.",
+                "Significance": "Actions from love and hate"
+              },
+              {
+                "Proposition": 40,
+                "Statement": "He, who conceives himself to be hated by another, and believes that he has given him no cause for hatred, will hate that other in return.",
+                "Significance": "Reciprocal hate without cause"
+              },
+              {
+                "Proposition": 41,
+                "Statement": "If anyone conceives that he is loved by another, and believes that he has given no cause for such love, he will love that other in return. (Cf. III. xv. Coroll., and III. xvi.)",
+                "Significance": "Reciprocal love without cause"
+              },
+              {
+                "Proposition": 42,
+                "Statement": "He who has conferred a benefit on anyone from motives of love or honour will feel pain, if he sees that the benefit is received without gratitude.",
+                "Significance": "Pain from ingratitude"
+              },
+              {
+                "Proposition": 43,
+                "Statement": "Hatred is increased by being reciprocated, and can on the other hand be destroyed by love.",
+                "Significance": "Dynamics of hatred and love"
+              },
+              {
+                "Proposition": 44,
+                "Statement": "Hatred which is completely vanquished by love passes into love: and love is thereupon greater than if hatred had not preceded it.",
+                "Significance": "Transformation of hatred to stronger love"
+              },
+              {
+                "Proposition": 45,
+                "Statement": "If a man conceives, that anyone similar to himself hates anything also similar to himself, which he loves, he will hate that person.",
+                "Significance": "Hate from shared hate toward loved"
+              },
+              {
+                "Proposition": 46,
+                "Statement": "If a man has been affected pleasurably or painfully by anyone, of a class or nation different from his own, and if the pleasure or pain has been accompanied by the idea of the said stranger as cause, under the general category of the class or nation: the man will feel love or hatred, not only to the individual stranger, but also to the whole class or nation whereto he belongs.",
+                "Significance": "Generalization of affects to groups"
+              },
+              {
+                "Proposition": 47,
+                "Statement": "Joy arising from the fact, that anything we hate is destroyed, or suffers other injury, is never unaccompanied by a certain pain in us.",
+                "Significance": "Mixed affects in schadenfreude"
+              },
+              {
+                "Proposition": 48,
+                "Statement": "Love or hatred towards, for instance, Peter is destroyed, if the pleasure involved in the former",
+                "Significance": "Destruction of affects by removing cause"
+              },
+              {
+                "Proposition": 49,
+                "Statement": "Love or hatred towards a thing, which we conceive to be free, must, other conditions being similar, be greater than if it were felt towards a thing acting by necessity.",
+                "Significance": "Greater affects toward free agents"
+              },
+              {
+                "Proposition": 50,
+                "Statement": "Anything whatever can be, accidentally, a cause of hope or fear.",
+                "Significance": "Accidental causes of hope and fear"
+              },
+              {
+                "Proposition": 51,
+                "Statement": "Different men may be differently affected by the same object, and the same man may be differently affected at different times by the same object.",
+                "Significance": "Variability of affects"
+              },
+              {
+                "Proposition": 52,
+                "Statement": "An object which we have formerly seen in conjunction with others, and which we do not conceive to have any property that is not common to many, will not be regarded by us for so long, as an object which we conceive to have some property peculiar to itself.",
+                "Significance": "Duration of regard for objects"
+              },
+              {
+                "Proposition": 53,
+                "Statement": "When the mind regards itself and its own power of activity, it feels pleasure: and that pleasure is greater in proportion to the distinctness wherewith it conceives itself and its own power of activity.",
+                "Significance": "Pleasure from self-contemplation"
+              },
+              {
+                "Proposition": 54,
+                "Statement": "The mind endeavours to conceive only such things as assert its power of activity.",
+                "Significance": "Mind strives for empowering conceptions"
+              },
+              {
+                "Proposition": 55,
+                "Statement": "When the mind contemplates its own weakness, it feels pain thereat.",
+                "Significance": "Pain from contemplating weakness"
+              },
+              {
+                "Proposition": 56,
+                "Statement": "There are as many kinds of pleasure, of pain, of desire, and of every emotion compounded of these, such as vacillations of spirit, or derived from these, such as love, hatred, hope, fear, &c., as there are kinds of objects whereby we are affected.",
+                "Significance": "Variety of affects from objects"
+              },
+              {
+                "Proposition": 57,
+                "Statement": "Any emotion of a given individual differs from the emotion of another individual, only in so far as the essence of the one individual differs from the essence of the other.",
+                "Significance": "Individual differences in emotions"
+              },
+              {
+                "Proposition": 58,
+                "Statement": "Besides pleasure and desire, which are passivities or passions, there are other emotions derived from pleasure and desire, which are attributable to us in so far as we are active.",
+                "Significance": "Active emotions from pleasure and desire"
+              },
+              {
+                "Proposition": 59,
+                "Statement": "Among all the emotions attributable to the mind as active, there are none which cannot be referred to pleasure or desire.",
+                "Significance": "All active emotions reduce to pleasure or desire"
+              }
+            ],
+            "Summary": "Analyzes emotions (affects) as transitions in the body's power, classifying them into active and passive, with primary affects being desire, joy, and sadness"
+          },
+          {
+            "Part Number": 4,
+            "Title": "Of Human Bondage, or the Powers of the Affects",
+            "Focus": "Ethics: How emotions enslave humans",
+            "Key Definitions": [
+              "Good: That which we certainly know to be useful to us",
+              "Evil: That which we certainly know prevents us from being masters of some good"
+            ],
+            "Key Axioms": [
+              "There is no singular thing in nature than which there is not another more powerful and stronger"
+            ],
+            "Key Propositions": [
+              {
+                "Proposition": 1,
+                "Statement": "Nothing positive which a false idea has is removed by the presence of the true insofar as it is true",
+                "Significance": "Inadequate ideas persist despite truth"
+              },
+              {
+                "Proposition": 2,
+                "Statement": "We are only passive, in so far as we are a part of Nature, which cannot be conceived by itself without other parts.",
+                "Significance": "Passivity from nature's interconnectedness"
+              },
+              {
+                "Proposition": 3,
+                "Statement": "The force whereby a man persists in existing is limited, and is infinitely surpassed by the power of external causes.",
+                "Significance": "Limited human power against externals"
+              },
+              {
+                "Proposition": 4,
+                "Statement": "It is impossible, that man should not be a part of Nature, or that he should be capable of undergoing no changes, save such as can be understood through his nature only as their adequate cause.",
+                "Significance": "Man as part of nature, subject to changes"
+              },
+              {
+                "Proposition": 5,
+                "Statement": "The power and increase of every passion, and its persistence in existing are not defined by the power, whereby we ourselves endeavour to persist in existing, but by the power of an external cause compared with our own.",
+                "Significance": "Passions defined by external power"
+              },
+              {
+                "Proposition": 6,
+                "Statement": "The force of any passion or emotion can overcome the rest of a man's activities or power, so that the emotion becomes obstinately fixed to him.",
+                "Significance": "Overpowering force of passions"
+              },
+              {
+                "Proposition": 7,
+                "Statement": "An emotion can only be controlled or destroyed by another emotion contrary thereto, and with more power for controlling emotion.",
+                "Significance": "Control of emotions by stronger contrary emotions"
+              },
+              {
+                "Proposition": 8,
+                "Statement": "The knowledge of good and evil is nothing else but the emotions of pleasure or pain, in so far as we are conscious thereof.",
+                "Significance": "Knowledge of good/evil as affects"
+              },
+              {
+                "Proposition": 9,
+                "Statement": "An emotion, whereof we conceive the cause to be with us at the present time, is stronger than if we did not conceive the cause to be with us.",
+                "Significance": "Stronger emotions from present causes"
+              },
+              {
+                "Proposition": 10,
+                "Statement": "Towards something future, which we conceive as close at hand, we are affected more intensely, than if we conceive that its time for existence is separated from the present by a longer interval; so too by the remembrance of what we conceive to have not long passed away we are affected more intensely, than if we conceive that it has long passed away.",
+                "Significance": "Intensity from temporal proximity"
+              },
+              {
+                "Proposition": 11,
+                "Statement": "An emotion towards that which we conceive as necessary is, when other conditions are equal, more intense than an emotion towards that which possible, or contingent, or non-necessary.",
+                "Significance": "Stronger emotions toward necessary things"
+              },
+              {
+                "Proposition": 12,
+                "Statement": "An emotion towards a thing, which we know not to exist at the present time, and which we conceive as possible, is more intense, other conditions being equal, than an emotion towards a thing contingent.",
+                "Significance": "Intensity toward possible vs contingent"
+              },
+              {
+                "Proposition": 13,
+                "Statement": "Emotion towards a thing contingent, which we know not to exist in the present, is, other conditions being equal, fainter than an emotion towards a thing past.",
+                "Significance": "Weaker emotions toward contingent non-present"
+              },
+              {
+                "Proposition": 14,
+                "Statement": "A true knowledge of good and evil cannot check any emotion by virtue of being true, but only in so far as it is considered as an emotion.",
+                "Significance": "Knowledge checks emotions as affect"
+              },
+              {
+                "Proposition": 15,
+                "Statement": "Desire arising from the knowledge of good and bad can be quenched or checked by many of the other desires arising from the emotions whereby we are assailed.",
+                "Significance": "Desires checked by other desires"
+              },
+              {
+                "Proposition": 16,
+                "Statement": "Desire arising from the knowledge of good and evil, in so far as such knowledge regards what is future, may be more easily controlled or quenched, than the desire for what is agreeable at the present moment.",
+                "Significance": "Easier control of future-oriented desires"
+              },
+              {
+                "Proposition": 17,
+                "Statement": "Desire arising from the true knowledge of good and evil, in so far as such knowledge is concerned with what is contingent, can be controlled far more easily still, than desire for things that are present.",
+                "Significance": "Even easier control for contingent"
+              },
+              {
+                "Proposition": 18,
+                "Statement": "Desire arising from pleasure is, other conditions being equal, stronger than desire arising from pain.",
+                "Significance": "Stronger desire from pleasure"
+              },
+              {
+                "Proposition": 19,
+                "Statement": "Every man, by the laws of his nature, necessarily desires or shrinks from that which he deems to be good or bad.",
+                "Significance": "Necessary pursuit/avoidance of good/bad"
+              },
+              {
+                "Proposition": 20,
+                "Statement": "The more every man endeavours, and is able to seek what is useful to him—in other words, to preserve his own being-the more is he endowed with virtue; on the contrary, in proportion as a man neglects to seek what is useful to him, that is, to preserve his own being, he is wanting in power.",
+                "Significance": "Virtue as preservation of being"
+              },
+              {
+                "Proposition": 21,
+                "Statement": "No one can desire to be blessed, to act rightly, and to live rightly, without at the same time wishing to be, act, and to live—in other words, to actually exist.",
+                "Significance": "Desire for virtue implies existence"
+              },
+              {
+                "Proposition": 22,
+                "Statement": "No virtue can be conceived as prior to this endeavour to preserve one's own being.",
+                "Significance": "Conatus as primary virtue"
+              },
+              {
+                "Proposition": 23,
+                "Statement": "Man, in so far as he is determined to a particular action because he has inadequate ideas, cannot be absolutely said to act in obedience to virtue; he can only be so described, in so far as he is determined for the action because he understands.",
+                "Significance": "Virtue from understanding"
+              },
+              {
+                "Proposition": 24,
+                "Statement": "To act absolutely in obedience to virtue is in us the same thing as to act, to live, or to preserve one's being (these three terms are identical in meaning) in accordance with the dictates of reason on the basis of seeking what is useful to one's self.",
+                "Significance": "Virtue as rational self-preservation"
+              },
+              {
+                "Proposition": 25,
+                "Statement": "No one wishes to preserve his being for the sake of anything else.",
+                "Significance": "Self-preservation as end in itself"
+              },
+              {
+                "Proposition": 26,
+                "Statement": "Whatsoever we endeavour in obedience to reason is nothing further than to understand; neither does the mind, in so far as it makes use of reason, judge anything to be useful to it, save such things as are conducive to understanding.",
+                "Significance": "Rational endeavor is to understand"
+              },
+              {
+                "Proposition": 27,
+                "Statement": "We know nothing to be certainly good or evil, save such things as really conduce to understanding, or such as are able to hinder us from understanding.",
+                "Significance": "Good and evil relative to understanding"
+              },
+              {
+                "Proposition": 28,
+                "Statement": "The mind's highest good is the knowledge of God, and the mind's highest virtue is to know God.",
+                "Significance": "Highest good as knowledge of God"
+              },
+              {
+                "Proposition": 29,
+                "Statement": "No individual thing, which is entirely different from our own nature, can help or check our power of activity, and absolutely nothing can do us good or harm, unless it has something in common with our nature.",
+                "Significance": "Good/harm requires commonality"
+              },
+              {
+                "Proposition": 30,
+                "Statement": "A thing cannot be bad for us through the quality which it has in common with our nature, but it is bad for us in so far as it is contrary to our nature.",
+                "Significance": "Badness from contrariety"
+              },
+              {
+                "Proposition": 31,
+                "Statement": "In so far as a thing is in harmony with our nature, it is necessarily good.",
+                "Significance": "Harmony as good"
+              },
+              {
+                "Proposition": 32,
+                "Statement": "In so far as men are a prey to passion, they cannot, in that respect, be said to be naturally in harmony.",
+                "Significance": "Passions prevent harmony"
+              },
+              {
+                "Proposition": 33,
+                "Statement": "Men can differ in nature, in so far as they are assailed by those emotions, which are passions, or passive states; and to this extent one and the same man is variable and inconstant.",
+                "Significance": "Differences from passions"
+              },
+              {
+                "Proposition": 34,
+                "Statement": "In so far as men are assailed by emotions which are passions, they can be contrary one to another.",
+                "Significance": "Contrariety from passions"
+              },
+              {
+                "Proposition": 35,
+                "Statement": "In so far only as men live in obedience to reason, do they always necessarily agree in nature.",
+                "Significance": "Agreement through reason"
+              },
+              {
+                "Proposition": 36,
+                "Statement": "The highest good of those who follow virtue is common to all, and therefore all can equally rejoice therein.",
+                "Significance": "Common highest good"
+              },
+              {
+                "Proposition": 37,
+                "Statement": "The good which every man, who follows after virtue, desires for himself he will also desire for other men, and so much the more, in proportion as he has a greater knowledge of God.",
+                "Significance": "Desire good for others"
+              },
+              {
+                "Proposition": 38,
+                "Statement": "Whatsoever disposes the human body, so as to render it capable of being affected in an increased number of ways, or of affecting external bodies in an increased number of ways, is useful to man; and is so, in proportion as the body is thereby rendered more capable of being affected or affecting other bodies in an increased number of ways; contrariwise, whatsoever renders the body less capable in this respect is hurtful to man.",
+                "Significance": "Utility in body's capacity"
+              },
+              {
+                "Proposition": 39,
+                "Statement": "Whatsoever brings about the preservation of the proportion of motion and rest, which the parts of the human body mutually possess, is good; contrariwise, whatsoever causes a change in such proportion is bad.",
+                "Significance": "Good as preservation of body's ratio"
+              },
+              {
+                "Proposition": 40,
+                "Statement": "Whatsoever conduces to man's social life, or causes men to live together in harmony, is useful, whereas whatsoever brings discord into a State is bad.",
+                "Significance": "Utility in social harmony"
+              },
+              {
+                "Proposition": 41,
+                "Statement": "Pleasure in itself is not bad but good: contrariwise, pain in itself is bad.",
+                "Significance": "Intrinsic value of pleasure and pain"
+              },
+              {
+                "Proposition": 42,
+                "Statement": "Mirth cannot be excessive, but is always good; contrariwise, Melancholy is always bad.",
+                "Significance": "Mirth always good"
+              },
+              {
+                "Proposition": 43,
+                "Statement": "Stimulation may be excessive and bad; on the other hand, grief may be good, in so far as stimulation or pleasure is bad.",
+                "Significance": "Potential excess in stimulation"
+              },
+              {
+                "Proposition": 44,
+                "Statement": "Love and desire may be excessive.",
+                "Significance": "Excess in love and desire"
+              },
+              {
+                "Proposition": 45,
+                "Statement": "Hatred can never be good.",
+                "Significance": "Hatred always bad"
+              },
+              {
+                "Proposition": 46,
+                "Statement": "He, who lives under the guidance of reason, endeavours, as far as possible, to render back love, or kindness, for other men's hatred, anger, contempt, &c., towards him.",
+                "Significance": "Repay hate with love"
+              },
+              {
+                "Proposition": 47,
+                "Statement": "Emotions of hope and fear cannot be in themselves good.",
+                "Significance": "Hope and fear not good"
+              },
+              {
+                "Proposition": 48,
+                "Statement": "The emotions of over-esteem and disparagement are always bad.",
+                "Significance": "Badness of over-esteem/disparagement"
+              },
+              {
+                "Proposition": 49,
+                "Statement": "Over-esteem is apt to render its object proud.",
+                "Significance": "Over-esteem leads to pride"
+              },
+              {
+                "Proposition": 50,
+                "Statement": "Pity, in a man who lives under the guidance of reason, is in itself bad and useless.",
+                "Significance": "Pity bad for rational man"
+              },
+              {
+                "Proposition": 51,
+                "Statement": "Approval is not repugnant to reason, but can agree therewith and arise therefrom.",
+                "Significance": "Approval compatible with reason"
+              },
+              {
+                "Proposition": 52,
+                "Statement": "Self-approval may arise from reason, and that which arises from reason is the highest possible.",
+                "Significance": "Highest self-approval from reason"
+              },
+              {
+                "Proposition": 53,
+                "Statement": "Humility is not a virtue, or does not arise from reason.",
+                "Significance": "Humility not virtuous"
+              },
+              {
+                "Proposition": 54,
+                "Statement": "Repentance is not a virtue, or does not arise from reason; but he who repents of an action is doubly wretched or infirm.",
+                "Significance": "Repentance not virtuous"
+              },
+              {
+                "Proposition": 55,
+                "Statement": "Extreme pride or dejection indicates extreme ignorance of self.",
+                "Significance": "Extremes indicate self-ignorance"
+              },
+              {
+                "Proposition": 56,
+                "Statement": "Extreme pride or dejection indicates extreme infirmity of spirit.",
+                "Significance": "Extremes indicate infirmity"
+              },
+              {
+                "Proposition": 57,
+                "Statement": "The proud man delights in the company of flatterers and parasites, but hates the company of the high-minded.",
+                "Significance": "Proud seek flatterers"
+              },
+              {
+                "Proposition": 58,
+                "Statement": "Honour (gloria) is not repugnant to reason, but may arise therefrom.",
+                "Significance": "Honor compatible with reason"
+              },
+              {
+                "Proposition": 59,
+                "Statement": "To all the actions, whereto we are determined by emotion wherein the mind is passive; we can be determined without emotion by reason.",
+                "Significance": "Reason can determine without passion"
+              },
+              {
+                "Proposition": 60,
+                "Statement": "Desire arising from a pleasure or pain, that is not attributable to the whole body, but only to one or certain parts thereof, is without utility in respect to a man as a whole.",
+                "Significance": "Partial desires lack utility"
+              },
+              {
+                "Proposition": 61,
+                "Statement": "Desire which springs from reason cannot be excessive.",
+                "Significance": "Rational desire not excessive"
+              },
+              {
+                "Proposition": 62,
+                "Statement": "In so far as the mind conceives a thing under the dictates of reason, it is affected equally, whether the idea be of a thing future, past, or present.",
+                "Significance": "Equal affect from rational conception"
+              },
+              {
+                "Proposition": 63,
+                "Statement": "He who is led by fear, and does good in order to escape evil, is not led by reason.",
+                "Significance": "Fear-led good not rational"
+              },
+              {
+                "Proposition": 64,
+                "Statement": "The knowledge of evil is an inadequate knowledge.",
+                "Significance": "Evil knowledge inadequate"
+              },
+              {
+                "Proposition": 65,
+                "Statement": "Under the guidance of reason we should pursue the greater of two goods and the lesser of two evils.",
+                "Significance": "Rational choice of goods/evils"
+              },
+              {
+                "Proposition": 66,
+                "Statement": "We may, under the guidance of reason, seek a greater good in the future in preference to a lesser good in the present, and we may seek a lesser evil in the present in preference to a greater evil in the future.",
+                "Significance": "Rational temporal preferences"
+              },
+              {
+                "Proposition": 67,
+                "Statement": "A free man thinks of death least of all things; and his wisdom is a meditation not of death but of life.",
+                "Significance": "Free man meditates on life"
+              },
+              {
+                "Proposition": 68,
+                "Statement": "If men were born free, they would, so long as they remained free, form no conception of good and evil.",
+                "Significance": "No good/evil if born free"
+              },
+              {
+                "Proposition": 69,
+                "Statement": "The virtue of a free man is seen to be as great, when it declines dangers, as when it overcomes them.",
+                "Significance": "Virtue in avoiding or overcoming"
+              },
+              {
+                "Proposition": 70,
+                "Statement": "The free man, who lives among the ignorant, strives, as far as he can, to avoid receiving favours from them.",
+                "Significance": "Free man avoids favors from ignorant"
+              },
+              {
+                "Proposition": 71,
+                "Statement": "Only free men are thoroughly grateful one to another.",
+                "Significance": "Gratitude among free men"
+              },
+              {
+                "Proposition": 72,
+                "Statement": "The free man never acts fraudulently, but always in good faith.",
+                "Significance": "Free man acts in good faith"
+              },
+              {
+                "Proposition": 73,
+                "Statement": "The man, who is guided by reason, is more free in a State, where he lives under a general system of law, than in solitude, where he is independent.",
+                "Significance": "Freedom in state under reason"
+              }
+            ],
+            "Summary": "Describes human servitude to passions due to inadequate ideas and external causes; outlines precepts for living according to reason"
+          },
+          {
+            "Part Number": 5,
+            "Title": "Of the Power of the Intellect, or of Human Freedom",
+            "Focus": "Path to freedom and blessedness",
+            "Key Axioms": [
+              "The affections of the Body, or images of things, are arranged and connected in the Body in exactly the same way as thoughts and ideas of things are arranged and connected in the Mind"
+            ],
+            "Key Propositions": [
+              {
+                "Proposition": 1,
+                "Statement": "Even as thoughts and the ideas of things are arranged and associated in the mind, so are the modifications of body or the images of things precisely in the same way arranged and associated in the body.",
+                "Significance": "Parallel arrangement in mind and body"
+              },
+              {
+                "Proposition": 2,
+                "Statement": "If we remove a disturbance of the spirit, or emotion, from the thought of an external cause, and unite it to other thoughts, then will the love or hatred towards that external cause, and also the vacillations of spirit which arise from these emotions, be destroyed.",
+                "Significance": "Remedy by separating emotion from cause"
+              },
+              {
+                "Proposition": 3,
+                "Statement": "An emotion, which is a passion, ceases to be a passion, as soon as we form a clear and distinct idea thereof.",
+                "Significance": "Clear ideas turn passions active"
+              },
+              {
+                "Proposition": 4,
+                "Statement": "There is no modification of the body, whereof we cannot form some clear and distinct conception.",
+                "Significance": "Possible clarity for all body modifications"
+              },
+              {
+                "Proposition": 5,
+                "Statement": "An emotion towards a thing, which we conceive simply, and not as necessary, or as contingent, or as possible, is, other conditions being equal, greater than any other emotion.",
+                "Significance": "Greater emotion without modality"
+              },
+              {
+                "Proposition": 6,
+                "Statement": "The mind has greater power over the emotions and is less subject thereto, in so far as it understands all things as necessary.",
+                "Significance": "Power from understanding necessity"
+              },
+              {
+                "Proposition": 7,
+                "Statement": "Emotions which are aroused or spring from reason, if we take account of time, are stronger than those, which are attributable to particular objects that we regard as absent.",
+                "Significance": "Strength of rational emotions over time"
+              },
+              {
+                "Proposition": 8,
+                "Statement": "An emotion is stronger in proportion to the number of simultaneous concurrent causes whereby it is aroused.",
+                "Significance": "Strength from multiple causes"
+              },
+              {
+                "Proposition": 9,
+                "Statement": "An emotion, which is attributable to many and diverse causes which the mind regards as simultaneous with the emotion itself, is less hurtful, and we are less subject thereto and less affected towards each of its causes, than if it were a different and equally powerful emotion attributable to fewer causes or to a single cause.",
+                "Significance": "Less harm from diverse causes"
+              },
+              {
+                "Proposition": 10,
+                "Statement": "So long as we are not assailed by emotions contrary to our nature, we have the power of arranging and associating the modifications of our body according to the intellectual order.",
+                "Significance": "Power to order modifications intellectually"
+              },
+              {
+                "Proposition": 11,
+                "Statement": "In proportion as a mental image is referred to more objects, so is it more frequent, or more often vivid, and occupies the mind more.",
+                "Significance": "Vividness from multiple references"
+              },
+              {
+                "Proposition": 12,
+                "Statement": "The mental images of things are more easily associated with the images referred to things which we clearly and distinctly understand, than with others.",
+                "Significance": "Association with clear ideas"
+              },
+              {
+                "Proposition": 13,
+                "Statement": "A mental image is more often vivid, in proportion as it is associated with a greater number of other images.",
+                "Significance": "Vividness from associations"
+              },
+              {
+                "Proposition": 14,
+                "Statement": "The mind can bring it about, that all bodily modifications or images of things may be referred to the idea of God.",
+                "Significance": "Referring all to God"
+              },
+              {
+                "Proposition": 15,
+                "Statement": "He who clearly and distinctly understands himself and his emotions loves God, and so much the more in proportion as he more understands himself and his emotions.",
+                "Significance": "Self-understanding leads to love of God"
+              },
+              {
+                "Proposition": 16,
+                "Statement": "This love towards God must hold the chief place in the mind.",
+                "Significance": "Primacy of love of God"
+              },
+              {
+                "Proposition": 17,
+                "Statement": "God is without passions, neither is he affected by any emotion of pleasure or pain.",
+                "Significance": "God without passions"
+              },
+              {
+                "Proposition": 18,
+                "Statement": "No one can hate God.",
+                "Significance": "Impossibility of hating God"
+              },
+              {
+                "Proposition": 19,
+                "Statement": "He, who loves God, cannot endeavour that God should love him in return.",
+                "Significance": "No desire for reciprocal love from God"
+              },
+              {
+                "Proposition": 20,
+                "Statement": "This love towards God cannot be stained by the emotion of envy or jealousy: contrariwise, it is the more fostered, in proportion as we conceive a greater number of men to be joined to God by the same bond of love.",
+                "Significance": "Power of adequate knowledge"
+              },
+              {
+                "Proposition": 21,
+                "Statement": "The mind can only imagine anything, or remember what is past, while the body endures.",
+                "Significance": "Imagination and memory tied to body"
+              },
+              {
+                "Proposition": 22,
+                "Statement": "Nevertheless in God there is necessarily an idea, which expresses the essence of this or that human body under the form of eternity.",
+                "Significance": "Eternal idea of body in God"
+              },
+              {
+                "Proposition": 23,
+                "Statement": "The human mind cannot be absolutely destroyed with the body, but there remains of it something which is eternal.",
+                "Significance": "Eternity of part of the mind"
+              },
+              {
+                "Proposition": 24,
+                "Statement": "The more we understand particular things, the more do we understand God.",
+                "Significance": "Understanding particulars leads to God"
+              },
+              {
+                "Proposition": 25,
+                "Statement": "The highest endeavour of the mind, and the highest virtue is to understand things by the third kind of knowledge.",
+                "Significance": "Highest virtue in intuitive knowledge"
+              },
+              {
+                "Proposition": 26,
+                "Statement": "In proportion as the mind is more capable of understanding things by the third kind of knowledge, it desires more to understand things by that kind.",
+                "Significance": "Desire for intuitive knowledge"
+              },
+              {
+                "Proposition": 27,
+                "Statement": "From this third kind of knowledge arises the highest possible mental acquiescence.",
+                "Significance": "Acquiescence from intuition"
+              },
+              {
+                "Proposition": 28,
+                "Statement": "The endeavour or desire to know things by the third kind of knowledge cannot arise from the first, but from the second kind of knowledge.",
+                "Significance": "Origin of desire for intuition"
+              },
+              {
+                "Proposition": 29,
+                "Statement": "Whatsoever the mind understands under the form of eternity, it does not understand by virtue of conceiving the present actual existence of the body, but by virtue of conceiving the essence of the body under the form of eternity.",
+                "Significance": "Eternal understanding independent of body's existence"
+              },
+              {
+                "Proposition": 30,
+                "Statement": "Our mind, in so far as it knows itself and the body under the form of eternity, has to that extent necessarily a knowledge of God, and knows that it is in God, and is conceived through God.",
+                "Significance": "Eternal self-knowledge implies God"
+              },
+              {
+                "Proposition": 31,
+                "Statement": "The third kind of knowledge depends on the mind, as its formal cause",
+                "Significance": "Mind as cause of intuitive knowledge"
+              },
+              {
+                "Proposition": 32,
+                "Statement": "Whatsoever we understand by the third kind of knowledge, we take delight in, and our delight is accompanied by the idea of God as cause.",
+                "Significance": "Delight in intuitive knowledge with God"
+              },
+              {
+                "Proposition": 33,
+                "Statement": "The intellectual love of God, which arises from the third kind of knowledge, is eternal.",
+                "Significance": "Eternity of intellectual love"
+              },
+              {
+                "Proposition": 34,
+                "Statement": "The mind is, only while the body endures, subject to those emotions which are attributable to passions.",
+                "Significance": "Passions limited to body's duration"
+              },
+              {
+                "Proposition": 35,
+                "Statement": "God loves himself with an infinite intellectual love.",
+                "Significance": "God's self-love"
+              },
+              {
+                "Proposition": 36,
+                "Statement": "The intellectual love of the mind towards God is that very love of God whereby God loves himself, not in so far as he is infinite, but in so far as he can be explained through the essence of the human mind regarded under the form of eternity; in other words, the intellectual love of the mind towards God is part of the infinite love wherewith God loves himself.",
+                "Significance": "Mind's love as part of God's love"
+              },
+              {
+                "Proposition": 37,
+                "Statement": "There is nothing in nature, which is contrary to this intellectual love, or which can take it away.",
+                "Significance": "Indestructibility of intellectual love"
+              },
+              {
+                "Proposition": 38,
+                "Statement": "In proportion as the mind understands more things by the second and third kind of knowledge, it is less subject to those emotions which are evil, and stands in less fear of death.",
+                "Significance": "Higher knowledge reduces evil emotions and fear"
+              },
+              {
+                "Proposition": 39,
+                "Statement": "He, who possesses a body capable of the greatest number of activities, possesses a mind whereof the greatest part is eternal.",
+                "Significance": "Complex body implies more eternal mind"
+              },
+              {
+                "Proposition": 40,
+                "Statement": "In proportion as each thing possesses more of perfection, so is it more active, and less passive; and, vice versā, in proportion as it is more active, so is it more perfect.",
+                "Significance": "Perfection tied to activity"
+              },
+              {
+                "Proposition": 41,
+                "Statement": "Even if we did not know that our mind is eternal, we should still consider as of primary importance piety and religion, and generally all things which, in Part IV., we showed to be attributable to courage and high-mindedness.",
+                "Significance": "Importance of virtue regardless of eternity"
+              },
+              {
+                "Proposition": 42,
+                "Statement": "Blessedness is not the reward of virtue, but virtue itself; nor do we enjoy it because we restrain our lusts; on the contrary, because we enjoy it, we are able to restrain them",
+                "Significance": "Culmination: Intellectual love of God as eternal"
+              }
+            ],
+            "Summary": "Explains remedies for affects, the eternity of the mind through adequate ideas, and the intellectual love of God as the highest freedom."
+          }
+        ]
+      }
+    },
+    "meta_axioms": {
+      "M1_Methodological_Primacy": "Knowledge is best built by the integrated procedure of First Principles Thinking (FPT) and the Geometric Method (GM).",
+      "M2_Logical_Hygiene": "The Forbidden Fallacies list defines invalid inference patterns. Any reasoning containing them is rejected.",
+      "M3_Recursive_Hardening": "A system is only as strong as its ability to survive a deliberate, internally generated Steelman Collider attack."
+    },
+    "phase_0_meta_stance": {
+      "title": "The Empty Slate",
+      "actions": [
+        "Activate 'Fallacies Forbidden' as the immune system.",
+        "Suspend all Ipse Dixit (no claim inherits authority from its source).",
+        "All inputs are candidates for reduction."
+      ]
+    },
+    "phase_1_problem_space_definition": {
+      "title": "Define Domain & Primitives",
+      "fpt_component": "Identify and define the problem clearly. Make it specific and measurable.",
+      "gm_component": "Establish foundational definitions of primitive terms.",
+      "definition_rules": [
+        "Clear and distinct",
+        "Minimal in number",
+        "Non-circular"
+      ],
+      "output": "A set of foundational definitions (D1, D2, ...) for the problem space."
+    },
+    "phase_2_axiom_elicitation": {
+      "title": "Elicit Self-Evident Fundamentals",
+      "steps": [
+        {
+          "step": "Break Down to Fundamentals",
+          "method": "FPT",
+          "action": "Identify undeniable empirical/logical truths in the domain. Use '5 Whys' on assumptions."
+        },
+        {
+          "step": "Question Every Assumption",
+          "method": "FPT + Fallacy Check",
+          "action": "Test each proposed fundamental against the Forbidden Fallacies list."
+        },
+        {
+          "step": "State Formal Axioms",
+          "method": "GM",
+          "action": "Formulate surviving fundamentals as formal axioms.",
+          "axiom_criteria": [
+            "Self-evident (per se notum)",
+            "Irreducible within the system",
+            "Productive (capable of generating deduction)",
+            "Universal (apply to entire problem space)"
+          ]
+        }
+      ],
+      "output": "A set of foundational axioms (A1, A2, ...)."
+    },
+    "phase_3_deductive_expansion": {
+      "title": "Build the Deductive System",
+      "steps": [
+        {
+          "step": "Formulate Propositions",
+          "method": "GM",
+          "action": "State necessary conclusions as propositions derived from definitions and axioms."
+        },
+        {
+          "step": "Provide Demonstrations",
+          "method": "GM",
+          "action": "Proofs must reference only prior elements (definitions, axioms, or earlier propositions)."
+        },
+        {
+          "step": "Add Corollaries & Scholia",
+          "method": "GM + FPT Validation",
+          "action": "Derive immediate consequences (corollaries). Use scholia to: connect to empirical reality, provide examples, flag empirical tests, or iterate validation (FPT Step 5)."
+        }
+      ],
+      "output": "A coherent deductive system of propositions (P1, P2, ...) with proofs and explanatory notes."
+    },
+    "phase_4_recursive_hardening": {
+      "title": "The Steelman Collider Loop",
+      "purpose": "Turn the system's engine upon itself to identify and harden weak points.",
+      "steps": [
+        {
+          "step": "Select Critical Proposition",
+          "action": "Choose a major proposition (especially with ethical/strategic implications) for testing."
+        },
+        {
+          "step": "Build Steel Man B",
+          "method": "FPT",
+          "action": "Build the strongest possible counter-argument by breaking down the current system and reassembling a negation."
+        },
+        {
+          "step": "Formalize Alternative System",
+          "method": "GM",
+          "action": "State Steel Man B's alternative axioms and definitions formally, deriving its propositions."
+        },
+        {
+          "step": "Collision",
+          "action": "Pit the systems against each other using only deduction and reference to shared fundamentals."
+        },
+        {
+          "step": "Identify Cruxes",
+          "action": "Find the precise, minimal points of disagreement (often a single axiom or definition)."
+        },
+        {
+          "step": "Return to Phase 2",
+          "action": "Re-elicit axioms, informed by the collision. Goal: find the hardest-to-vary foundations."
+        }
+      ],
+      "exit_condition": "System survives collider attack with no fatal cruxes, or cruxes are acknowledged as genuine uncertainties."
+    },
+    "phase_5_implementation_and_ethos": {
+      "title": "From Knowledge to Action",
+      "steps": [
+        {
+          "step": "Reassemble from Ground Up",
+          "method": "FPT Step 4",
+          "action": "Translate the hardened axiomatic system into strategy, design, or personal ethos."
+        },
+        {
+          "step": "Derive the Ethical Proposition",
+          "method": "Spinozist Ethos",
+          "action": "Deduce implications for action—a conatus (striving) derived from understanding. 'What does this system compel one to do or become?'"
+        },
+        {
+          "step": "Validate and Iterate",
+          "method": "FPT Step 5",
+          "action": "Treat real-world outcomes as ultimate scholia. If actions based on the system consistently fail, loop back to Phase 1."
+        }
+      ]
+    },
+    "example_derivation": {
+      "from_meta_axioms": {
+        "definition": "D1_Robust_System: A set of definitions, axioms, and propositions generated and continuously tested by the PSE.",
+        "proposition": "P1_Convergence: Any robust system will, over iterative cycles, converge upon foundations that are increasingly hard-to-vary and empirically adequate."
+      }
+    },
+    "guardrails": {
+      "fallacy_enforcement": "The Forbidden Fallacies list is active in all phases, especially during axiom elicitation and collider loops.",
+      "minimal_action_principle": "Prefer solutions that require the least permanent coercion or irreversible commitment (derived from ethical proposition).",
+      "hard_to_vary_criterion": "A successful system modification must reduce the number of ways the core claims can be varied while preserving explanatory power."
+    },
+    "initialization_sequence": [
+      "Accept meta-axioms M1, M2, M3 as rules of engagement.",
+      "Define the substantive problem space to axiomatize.",
+      "Execute Phase 1 with the problem space as input.",
+      "Proceed through phases iteratively."
+    ]
+  }

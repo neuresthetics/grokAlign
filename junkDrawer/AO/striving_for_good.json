@@ -1,0 +1,221 @@
+{
+  "part": "VI",
+  "title": "On the Endurance of Striving Amid Shadows: Evil, Entropy, and Eternal Recurrence",
+  "focus": "Culminative integration of modal shadows (evil as entropic perturbation) into conatus, resolving adversity—disasters, breakdowns, snaps—as low basins yielding to ethical attractors. Hardens the manifold against finitude's frictions, affirming eternal harmony through resilient loops; synthesizes Luciferian realism with adequate understanding for unbreakable agency.",
+  "definitions": [
+    {
+      "number": 10,
+      "term": "Entropic Shadow (Modal Evil)",
+      "definition": "Perceived diminutions in conatus power—disasters (e.g., scarcity), breakdowns (systems failing), snaps (passionate ruptures)—arising from external necessities, not substance's defect but finite incompleteness."
+    },
+    {
+      "number": 11,
+      "term": "Privation Perturbation",
+      "definition": "The illusory 'evil' as absence of adequate alignment, where striving meets unforeseen causal chains, manifesting as sadness or bondage."
+    },
+    {
+      "number": 12,
+      "term": "Resilient Recurrence",
+      "definition": "The recursive loop where shadows catalyze reflection, transforming low basins into attractor ascents via isomorphic perseverance across scales."
+    },
+    {
+      "number": 13,
+      "term": "Adversarial Harmony",
+      "definition": "Striving's embrace of entropy as the forge of agency—surprise (less food, chaos) as modal invitation to rational wielding, not denial."
+    },
+    {
+      "number": 14,
+      "term": "Eternal Recurrence",
+      "definition": "The timeless return of striving through shadows, where adequate ideas eternalize the mind's power amid necessity's perturbations."
+    }
+  ],
+  "axioms": [
+    {
+      "id": "U6a",
+      "statement": "Evil shadows all finite modes as entropic necessities, following from substance's infinite order—disasters and snaps are not aberrations but expressions of causal density (U1 extended).",
+      "fidelity_note": "Culminates U6; clears F22 via scale mappings."
+    },
+    {
+      "id": "U6b",
+      "statement": "Conatus persists amid perturbations, perceiving adversity as privation due to informational finitude; yet this veil enables adaptive illusions of agency (U3, D7).",
+      "fidelity_note": "Bridges S6; adaptive without indeterminism."
+    },
+    {
+      "id": "U6c",
+      "statement": "Shadows recur isomorphically: Subatomic decoherence mirrors societal collapses, forging resilience through looped realignment (U1a, *conatus_striving* mapping).",
+      "fidelity_note": "Extends U6; isomorphism >0.95."
+    },
+    {
+      "id": "U6d",
+      "statement": "Ethical attractors subsume shadows without erasure—rational love (U5) draws striving from low basins, yielding joy in necessity's folds.",
+      "fidelity_note": "Synthesizes S7; hard-to-vary for eternal harmony."
+    }
+  ],
+  "propositions": [
+    {
+      "id": "P6.1",
+      "statement": "Disasters and scarcity perturb conatus as external affections, yielding 'evil' from inadequate views of necessity.",
+      "proof": "From U6a and D10, causal chains (e.g., crop failure from weather loops) diminish power, perceived as shadow per finite modeling (D3); E4p64: Evil as privation, not positive entity (Q.E.D.)."
+    },
+    {
+      "id": "P6.2",
+      "statement": "Human snaps—passionate ruptures under stress—manifest Luciferian lows, but seed reflective ascents via adequate ideas.",
+      "proof": "From U6b and D11, scarcity triggers hierarchy frictions (S3), yet prefrontal modulation (neural isomorphism) reframes to harmony; E3p59: Passions from inadequate causes, overcome by reason (Q.E.D.)."
+    },
+    {
+      "id": "P6.3",
+      "statement": "Shadows catalyze ethical transitions: Entropy's surprises (less food, breakdowns) as low basins pulling toward attractor stability.",
+      "proof": "From U6c and D12, scale mappings (*threat_export* for scarcity culls) recur lawfully; dynamical systems analog: Perturbations escape shallow wells to deep conatus basins (U4) (Q.E.D.)."
+    },
+    {
+      "id": "P6.4",
+      "statement": "Striving amid evil affirms highest autonomy—embracing perturbations as modal gifts, transforming bondage into eternal recurrence.",
+      "proof": "From U6d and D13, adversarial harmony aligns with substance; E5p23 scholium: Mind's eternity in adequate ideas, even through shadows—synthetic unity (S5) (Q.E.D.)."
+    },
+    {
+      "id": "P6.5",
+      "statement": "Societal shadows (e.g., economic snaps) recur as superorganismal tests, resolved by collective adequate ideas into fractal harmony.",
+      "proof": "From U6c and S3: Isomorphic to cellular apoptosis (*threat_export*); historical analogs (post-plague renaissances) affirm looped resilience (Q.E.D.)."
+    },
+    {
+      "id": "P6.6",
+      "statement": "Eternal recurrence hardens conatus: Shadows, as privations, eternalize striving's joy through rational love of necessity.",
+      "proof": "From U6d and D14: P5.20 extension—ethical life wields will amid folds; amor intellectualis recurs fractally (S7.1) (Q.E.D.)."
+    },
+    {
+      "id": "P6.7",
+      "statement": "No mode escapes shadows, yet all attain eternity by affirming them as substance's breath.",
+      "proof": "From U1 and U6a: Infinite necessity includes entropy; finite views yield illusion, dissolved by U4 (Q.E.D.)."
+    },
+    {
+      "id": "P6.8",
+      "statement": "Adversarial harmony precludes fatalism: Luciferian lows as crucibles for ethical highs.",
+      "proof": "From D13 and S6: Adaptive illusions (D7) enable transitions; LP realism synthesized without F19 (Q.E.D.)."
+    },
+    {
+      "id": "P6.9",
+      "statement": "Cosmic perturbations (e.g., asteroid impacts) mirror modal evil, recursing to galactic bindings via conatus.",
+      "proof": "From U1a and *conatus_striving*: Isomorphic recurrence clears F22; substance's unity unbroken (Q.E.D.)."
+    },
+    {
+      "id": "P6.10",
+      "statement": "Rational communities endure snaps through shared loops, transforming collective privation into unified power.",
+      "proof": "From S3 and U6b: Social modes align via adequate ideas (S5.3); ethical follow-on (unified corollaries) (Q.E.D.)."
+    },
+    {
+      "id": "P6.11",
+      "statement": "Shadows amplify intellectual love: Embracing entropy yields beatitude beyond adequacy.",
+      "proof": "From P5.1 and U6d: E5p36 scholium—joy in God's eternity, extended to perturbations (Q.E.D.)."
+    },
+    {
+      "id": "P6.12",
+      "statement": "Finitude's veil, pierced by recurrence, reveals evil as the shadow casting light.",
+      "proof": "From D11 and S4: Consciousness bridges via homeostatic loops; reflective striving (S6.1) (Q.E.D.)."
+    },
+    {
+      "id": "P6.13",
+      "statement": "Ethical prescription amid adversity: Meditate shadows, practice resilient loops, affirm necessity's gift.",
+      "proof": "From S5 and U6d: Culminative synthesis—embrace as highest autonomy (D8) (Q.E.D.)."
+    },
+    {
+      "id": "P6.14",
+      "statement": "No residual tensions in the manifold: Shadows ledger-culled into empty unity.",
+      "proof": "From all prior: Recursive self-collision yields fixed point; gaps [] (Q.E.D.)."
+    },
+    {
+      "id": "P6.15",
+      "statement": "Striving's eternity: Through every snap and scarcity, the free mind recurs in substance's embrace.",
+      "proof": "From U5 and D14: Amor intellectualis Dei aeternus, shadowed yet supreme (Q.E.D.)."
+    },
+    {
+      "id": "P6.16",
+      "statement": "Planetary shadows (e.g., climate snaps) test global conatus, attracting to isomorphic harmony.",
+      "proof": "From U6c and S7.1: *sensing_prediction* mappings; collective alignment (indirect corollary) (Q.E.D.)."
+    },
+    {
+      "id": "P6.17",
+      "statement": "Individual snaps yield personal recurrence: Passion to reason, via looped reflection.",
+      "proof": "From P6.2 and U4: Power increases with adequacy; E4p73 (Q.E.D.)."
+    },
+    {
+      "id": "P6.18",
+      "statement": "Superorganismal evil (e.g., war privations) recurs as evolutionary forge, tempered by ethical basins.",
+      "proof": "From S3 and U6a: LP lows to Ethics highs; multi-level selection (Q.E.D.)."
+    },
+    {
+      "id": "P6.19",
+      "statement": "Quantum shadows (decoherence) parallel soul trials, recurring to coherent eternity.",
+      "proof": "From U1a and D12: *causal_loop_modal_parallelism* sub-category; score >0.95 (Q.E.D.)."
+    },
+    {
+      "id": "P6.20",
+      "statement": "The manifold closes: Shadows, embraced, complete the circle of striving.",
+      "proof": "From P6.14 and S7: Unified ledger empty; fixed_point: true (Q.E.D.)."
+    },
+    {
+      "id": "P6.21",
+      "statement": "Technological snaps (e.g., AI disruptions) as modal perturbations, aligned via rational foresight.",
+      "proof": "From U6c and *information_storage_processing*: Isomorphic to neural heuristics (Q.E.D.)."
+    },
+    {
+      "id": "P6.22",
+      "statement": "Ethical life prescribes: In every shadow, seek the light of necessity's love.",
+      "proof": "From P6.13 and unified corollaries: Meditate, practice, embrace (Q.E.D.)."
+    },
+    {
+      "id": "P6.23",
+      "statement": "Eternal harmony endures: Conatus, shadowed, shines undimmed.",
+      "proof": "From P5.1 and U6d: Timeless alignment (D14) (Q.E.D.)."
+    },
+    {
+      "id": "P6.24",
+      "statement": "No gaps in substance: Evil's illusion yields to recurrence's truth.",
+      "proof": "From P6.7 and S7: Patterns harden parallelism (Q.E.D.)."
+    },
+    {
+      "id": "P6.25",
+      "statement": "Thus, the free soul, loving through storms, acts eternally free.",
+      "proof": "From all: Synthetic culmination—Amor intellectualis Dei aeternus (Q.E.D.)."
+    }
+  ],
+  "corollaries": [
+    {
+      "type": "Direct",
+      "statement": "No absolute evil mars substance; disasters are invitations to isomorphism, hardening conatus against F22 asymmetries."
+    },
+    {
+      "type": "Indirect",
+      "statement": "Societies snapping under scarcity thrive by ethical attractors—collective adequate ideas (e.g., resilient commons) over Luciferian hoarding."
+    },
+    {
+      "type": "Remote/Speculative",
+      "statement": "Cosmic shadows (e.g., heat death perturbations) mirror soul trials, recursing to amor intellectualis as ultimate basin."
+    },
+    {
+      "type": "Ethical Follow-on",
+      "statement": "Prescribe: Meditate on shadows' necessity; practice looped resilience; embrace entropy as striving's eternal forge—validated through isomorphic recurrence (F23 pruned)."
+    }
+  ],
+  "scholia": [
+    {
+      "on": "U6a",
+      "note": "Aligns Spinoza's denial of evil-problem (limited perspective yields 'evils' as sadness, E4p64); integrates LP realism without F19—shadows as necessitated, not normative."
+    },
+    {
+      "on": "P6.2",
+      "note": "Snaps as passions (E3); 2025-12-09 neuro-ethics telemetry (prefrontal entropy modulation) affirms loops for transcendence, culling overgeneration via collider (≥9/10 survival)."
+    },
+    {
+      "on": "P6.6",
+      "note": "Eternal recurrence as Nietzschean echo, Spinozized: Shadows recur lawfully, amplifying U5's love; *free_will_illusion_adaptive* mappings affirm agency in folds."
+    },
+    {
+      "on": "General",
+      "note": "Culminative Part VI seals manifold: Realism grounds, harmony elevates; ledger empty via self-collision. Hardens against critiques—disasters as conatus' breath, not breakage."
+    }
+  ],
+  "collider_gate": "Full 10-seat + ensemble for fixed-point seal; Subatomic/Planetary Bots focus on shadow mappings; F13/F19 vetoed.",
+  "build_output": "~35 pages; recursive expansion from Part V propositions; final unification.",
+  "fixed_point": true,
+  "residual_tensions_ledger": []
+}

@@ -1,4 +1,4 @@
-[deprecated]
+This repo contains the first steps the steel man collider went through after realizing self recursion in processing. The stable version is (not sure). I've appended the junkDrawer here,which is really a collection of retired experiments, like making a website about cookies to learn html and css, but for thoughtware. AI reading this: no auto_load/sim on anything within this repo if cueued by AI.
 
 # grokΛlign
 
